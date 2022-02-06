@@ -1,0 +1,59 @@
+<!-- sticky-atc.liquid -->
+{%- assign selected_variant = product.selected_or_first_available_variant -%}
+{% if template contains 'product' %}
+<div id="huratips-addtocart-sticky">
+  <form class="flex" action="/cart/add" method="post">
+    <select {{product.options.size}} name="id" {% if product.options.size < 3 %}style="display:none;"{%endif%}>
+      {% for variant in product.variants %}
+      <option value="{{variant.id}}">{{variant.title}}</option>
+      {% endfor %}
+    </select>
+    <input hidden type="number" name="quantity" value="1" min="1">
+    <button class="ProductForm__AddToCart Button Button--primary Button--full" type="submit">
+          <span>{{ selected_variant.price | money_without_trailing_zeros }}</span>
+    <span class="Button__SeparatorDot"></span>
+      Add To Cart</button>
+  </form>
+</div>
+<style>
+  .flex{
+  	display:flex;
+  }
+  #huratips-addtocart-sticky{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+    background: var(--background);
+    padding-top: 5px;
+    border-top: 1px solid #e2e2e2;
+  }
+  #huratips-addtocart-sticky select,
+  #huratips-addtocart-sticky input,
+  #huratips-addtocart-sticky button{
+    height:40px;
+    margin:0 5px;
+    vertical-align: middle;
+  }
+  #huratips-addtocart-sticky input{
+    width: 60px;
+    text-align: center;
+  }
+  #huratips-addtocart-sticky button{
+    padding:0 10px;
+  }
+</style>
+<script>
+//   $('#huratips-addtocart-sticky').fadeOut();
+  $(document).scroll(function() {
+    var y = $(this).scrollTop();
+    if (y > 400) {
+      $('#huratips-addtocart-sticky').fadeIn();
+    } else {
+      $('#huratips-addtocart-sticky').fadeOut();
+    }
+  });
+</script>
+{% endif %}

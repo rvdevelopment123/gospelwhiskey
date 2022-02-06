@@ -1,0 +1,95 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    .icon_collection{
+        background: var(--header-background) !important;
+        color : white;
+        font-size:20px;
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+
+    .topnav #myLinks {
+        display: none;
+    }
+
+    .topnav a {
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        font-family: var(--text-font-family);
+    }
+
+    .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    #myLinks{
+        flex-direction: column;
+    }
+    #myLinks li{
+        background: #e6d6b9;
+    }
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+
+    @media only screen and(max-width: 700px)
+    {
+        .Blog__TagList .HorizontalList__Item {
+            margin: 0px;
+        }
+        
+        .HorizontalList__Item{
+            margin: 0;
+        }
+
+    #section-template--15241642639551__main > div > div > header{
+            margin: 0;
+        }
+    .no_marker::before{
+        
+    }
+    
+    
+    }
+
+</style>
+{% assign current_blog_title = blog.title %}
+<!-- Top Navigation Menu -->
+<div class="topnav">
+    <a href="/blogs/" class="active">{{ current_tags.first | default: current_blog_title }}</a>
+    <div id="myLinks">
+        {%- for tag in blog.all_tags -%}
+            <li class="no_marker">
+                <a href="/blogs/{{ blog.handle }}/tagged/{{ tag | handle }}" class="Heading Link Link--primary Text--subdued u-h8 {% if current_tags contains tag %}is-active{% endif %}" id="Sub__Heading">{{ tag }}</a>
+            </li>
+        {%- endfor -%}
+    </div>
+    <a href="javascript:void(0);" class="icon icon_collection" onclick="myFunction()">
+        <i><svg class="Icon Icon--nav" role="presentation" viewBox="0 0 20 14" style="color:white;">
+                <path d="M0 14v-1h20v1H0zm0-7.5h20v1H0v-1zM0 0h20v1H0V0z" fill="currentColor"></path>
+            </svg></i>
+    </a>
+</div>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "flex") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "flex";
+        }
+    }
+</script>

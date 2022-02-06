@@ -1,0 +1,17 @@
+{
+    "name": "Product",
+    "sections": {
+      "main": {
+        "type": "collection-template"
+      },
+      "recentlyviewedproducts": {
+        "type": "recently-viewed-products"
+      },
+      "collectionfooter": {
+        "type": "collection-footer"
+      }
+    },
+    "order": [
+      "main","recentlyviewedproducts","collectionfooter"
+    ]
+  }

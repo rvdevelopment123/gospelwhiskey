@@ -1,0 +1,17 @@
+{
+  "name": "Product",
+  "sections": {
+    "main": {
+      "type": "main-product"
+    },
+    "productrecommendations": {
+      "type": "product-recommendations"
+    },
+    "recentlyviewedproducts": {
+      "type": "search-recently-viewed-products"
+    }
+  },
+  "order": [
+    "main","productrecommendations","recentlyviewedproducts"
+  ]
+}

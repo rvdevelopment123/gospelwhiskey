@@ -1,0 +1,392 @@
+<section id="section-{{ section.id }}">
+  <div class="row no-gutters">
+    <div class="col-md-6">
+  		<div class="FlexboxIeFix">
+          <div class="ImageHero {% if section.settings.section_size != 'normal' %}ImageHero--{{ section.settings.section_size }}{% endif %}" {% if section.settings.col_one_image %}style="background: url({{ section.settings.col_one_image | img_url: '1x1' }})"{% endif %}>
+            <!--   Start of Image   -->
+            {%- capture mobile_size -%}750x{% if section.settings.col_one_image.height >= 960 %}960{% else %}{{ section.settings.col_one_image.height }}{% endif %}{%- endcapture -%}
+            <div class="ImageHero__ImageWrapper">
+              <div class="ImageHero__Image {% if section.settings.col_one_overlay_opacity > 0 %}ImageHero__ImageWrapper--hasOverlay col_one_hasOverlay{% endif %} Image--lazyLoad Image--zoomOut"
+                   data-optimumx="1.4"
+                   data-expand="-150"
+                   {% if section.settings.col_one_image %}data-bgset="{{ section.settings.col_one_image | img_url: mobile_size, crop: 'center' }} 750w, {{ section.settings.col_one_image | img_url: '1000x' }} 1000w, {{ section.settings.col_one_image | img_url: '1500x' }} 1500w"{% endif %}>
+              </div>
+              <noscript>
+                <div class="ImageHero__Image" style="background-image: url({{ section.settings.col_one_image | img_url: '1000x' }})"></div>
+              </noscript>
+
+              {%- unless section.settings.col_one_image != blank -%}
+              <div class="PlaceholderBackground PlaceholderBackground--Dark">
+                {{ 'lifestyle-1' | placeholder_svg_tag: 'PlaceholderBackground__Svg' }}
+              </div>
+              {%- endunless -%}
+            </div>
+            <!--   End of Image   -->
+
+            <!--   Start of Text Overplay     -->
+            <div class="textOverlay-wrapper">
+
+              <header class="textOverlay-padding-col-one text-{{section.settings.text_alignment}}">
+                {%- if section.settings.col_one_title != blank -%}
+                <h2 class="Heading" id="Mobile__Heading">{{ section.settings.col_one_title }}</h2>
+                {%- endif -%}
+
+                {%- if section.settings.col_one_content != blank -%}
+                <div class="Text-Description">
+                  {{ section.settings.col_one_content }}
+                </div>
+                {%- endif -%}
+
+
+                {%- if section.settings.button_first_column_text != blank -%}
+                <div class="SectionHeader__ButtonWrapper">
+                  <div class="ButtonGroup ButtonGroup--spacingSmall" style="justify-content: {{section.settings.text_alignment}};">
+                    <a href="{{ section.settings.button_first_column_link }}" class="ButtonGroup__Item Button " id="Button--howItsMade">{{ section.settings.button_first_column_text }}</a>
+                  </div>
+                </div>
+                {%- endif -%}
+              </header>
+
+            </div>
+            <!--   End of Text Overplay     -->
+
+          </div>
+      	</div>
+    </div>
+    <div class="col-md-6">
+  		<div class="FlexboxIeFix">
+          <div class="ImageHero {% if section.settings.section_size != 'normal' %}ImageHero--{{ section.settings.section_size }}{% endif %}" {% if section.settings.col_two_image %}style="background: url({{ section.settings.col_two_image | img_url: '1x1' }})"{% endif %}>
+            <!--   Start of Image   -->
+            {%- capture mobile_size -%}750x{% if section.settings.col_two_image.height >= 960 %}960{% else %}{{ section.settings.col_two_image.height }}{% endif %}{%- endcapture -%}
+            <div class="ImageHero__ImageWrapper">
+              <div class="ImageHero__Image {% if section.settings.col_two_overlay_opacity > 0 %}ImageHero__ImageWrapper--hasOverlay col_two_hasOverlay{% endif %} Image--lazyLoad Image--zoomOut"
+                   data-optimumx="1.4"
+                   data-expand="-150"
+                   {% if section.settings.col_two_image %}data-bgset="{{ section.settings.col_two_image | img_url: mobile_size, crop: 'center' }} 750w, {{ section.settings.col_two_image | img_url: '1000x' }} 1000w, {{ section.settings.col_two_image | img_url: '1500x' }} 1500w"{% endif %}>
+              </div>
+              <noscript>
+                <div class="ImageHero__Image" style="background-image: url({{ section.settings.col_two_image | img_url: '1000x' }})"></div>
+              </noscript>
+
+              {%- unless section.settings.col_two_image != blank -%}
+              <div class="PlaceholderBackground PlaceholderBackground--Dark">
+                {{ 'lifestyle-1' | placeholder_svg_tag: 'PlaceholderBackground__Svg' }}
+              </div>
+              {%- endunless -%}
+            </div>
+            <!--   End of Image   -->
+
+            <!--   Start of Text Overplay     -->
+            <div class="textOverlay-wrapper">
+
+              <header class="textOverlay-padding-col-two text-{{section.settings.text_alignment}}">
+                {%- if section.settings.col_two_title != blank -%}
+                <h2 class="Heading" id="Mobile__Heading">{{ section.settings.col_two_title }}</h2>
+                {%- endif -%}
+
+                {%- if section.settings.col_two_content != blank -%}
+                <div class="Text-Description">
+                  {{ section.settings.col_two_content }}
+                </div>
+                {%- endif -%}
+
+
+                {%- if section.settings.button_second_column_text != blank -%}
+                <div class="SectionHeader__ButtonWrapper">
+                  <div class="ButtonGroup ButtonGroup--spacingSmall" style="justify-content: {{section.settings.text_alignment}};">
+                    <a href="{{ section.settings.button_second_column_link }}" class="ButtonGroup__Item Button " id="Button--howItsMade">{{ section.settings.button_second_column_text }}</a>
+                  </div>
+                </div>
+                {%- endif -%}
+              </header>
+
+            </div>
+            <!--   End of Text Overplay     -->
+
+          </div>
+      	</div>
+    </div>
+  </div>
+  
+</section>
+
+<style>
+  #section-{{ section.id }} > div > div > div.ImageHero__ContentOverlay{
+  flex-basis: unset !important;    
+  }
+  #section-{{ section.id }},
+  #section-{{ section.id }} .Heading {
+    color: {{ section.settings.text_color }};
+  }
+  #section-{{ section.id }} .Heading {
+    font-size: {{section.settings.title_text}}px ;
+  }
+  #section-{{ section.id }} .Text-Description {
+    font-size: {{section.settings.description_text}}px ;
+  }
+  #section-{{ section.id }} .col_one_hasOverlay::before {
+    {%- assign col_one_overlay_opacity = section.settings.col_one_overlay_opacity | divided_by: 100.0 -%}
+    background-color: {{ section.settings.col_one_overlay_color | color_modify: 'alpha', col_one_overlay_opacity }};
+  }
+  #section-{{ section.id }} .col_two_hasOverlay::before {
+    {%- assign col_one_overlay_opacity = section.settings.col_one_overlay_opacity | divided_by: 100.0 -%}
+    background-color: {{ section.settings.col_two_overlay_color | color_modify: 'alpha', col_two_overlay_opacity }};
+  }
+  #section-{{ section.id }} .textOverlay-padding-col-one {
+    padding: {{section.settings.padding_top_col_one}}px {{section.settings.padding_right_col_one}}px {{section.settings.padding_bottom_col_one}}px {{section.settings.padding_left_col_one}}px
+  }
+  #section-{{ section.id }} .textOverlay-padding-col-two {
+    padding: {{section.settings.padding_top_col_two}}px {{section.settings.padding_right_col_two}}px {{section.settings.padding_bottom_col_two}}px {{section.settings.padding_left_col_two}}px
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Columns w/ Images Overlay",
+  "settings": [
+    {
+      "type": "header",
+      "content": "General Setting"
+    },
+    {
+      "type": "select",
+      "id": "section_size",
+      "label": "Section size",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "large"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text Alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "min": 20,
+      "max": 120,
+      "id": "title_text",
+      "label": "Header Size",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "min": 20,
+      "max": 120,
+      "id": "description_text",
+      "label": "Description Size",
+      "default": 21
+    },
+    {
+      "type": "header",
+      "content": "First Column Setting"
+    },
+    {
+      "type": "image_picker",
+      "id": "col_one_image",
+      "label": "First Column Image",
+      "info": "1500px x 800px .jpg recommended"
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Overlay",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "col_one_overlay_opacity",
+      "label": "First Column Overlay opacity",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 30
+    },
+    {
+      "type": "header",
+      "content": "First Column Padding Setting"
+    },
+    {
+      "type": "number",
+      "id": "padding_top_col_one",
+      "label": "Padding Top",
+      "default": 20
+    },
+    {
+      "type": "number",
+      "id": "padding_right_col_one",
+      "label": "Padding Rigth",
+      "default": 20
+    },
+    {
+      "type": "number",
+      "id": "padding_bottom_col_one",
+      "label": "Padding Bottom",
+      "default": 20
+    },
+    {
+      "type": "number",
+      "id": "padding_left_col_one",
+      "label": "Padding Left",
+      "default": 20
+    },
+    {
+    "type": "header",
+    "content": "Second Column Text Setting"
+    },
+    {
+      "type": "text",
+      "id": "col_one_title",
+      "label": "Heading",
+      "default": "Tell your story"
+    },
+    {
+      "type": "richtext",
+      "id": "col_one_content",
+      "label": "Text",
+      "default": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+    },
+    {
+    "type": "header",
+    "content": "First Column Button"
+    },
+    {
+    "type": "text",
+    "id": "button_first_column_text",
+    "label": "Text",
+	"default": "Learn More"
+    },
+    {
+    "type": "url",
+    "id": "button_first_column_link",
+    "label": "Link"
+    },
+    {
+      "type": "header",
+      "content": "First Column Setting"
+    },
+    {
+      "type": "image_picker",
+      "id": "col_two_image",
+      "label": "First Column Image",
+      "info": "1500px x 800px .jpg recommended"
+    },
+    {
+      "type": "color",
+      "id": "col_two_overlay_color",
+      "label": "Overlay",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "col_two_overlay_opacity",
+      "label": "First Column Overlay opacity",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 30
+    },
+    {
+      "type": "header",
+      "content": "Second Column Padding Setting"
+    },
+    {
+      "type": "number",
+      "id": "padding_top_col_two",
+      "label": "Padding Top",
+      "default": 20
+    },
+    {
+      "type": "number",
+      "id": "padding_right_col_two",
+      "label": "Padding Rigth",
+      "default": 20
+    },
+    {
+      "type": "number",
+      "id": "padding_bottom_col_two",
+      "label": "Padding Bottom",
+      "default": 20
+    },
+    {
+      "type": "number",
+      "id": "padding_left_col_two",
+      "label": "Padding Left",
+      "default": 20
+    },
+    {
+    "type": "header",
+    "content": "Second Column Text Setting"
+    },
+    {
+      "type": "text",
+      "id": "col_two_title",
+      "label": "Heading",
+      "default": "Tell your story"
+    },
+    {
+      "type": "richtext",
+      "id": "col_two_content",
+      "label": "Text",
+      "default": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+    },
+    {
+    "type": "header",
+    "content": "First Column Button"
+    },
+    {
+    "type": "text",
+    "id": "button_second_column_text",
+    "label": "Text",
+	"default": "Learn More"
+    },
+    {
+    "type": "url",
+    "id": "button_second_column_link",
+    "label": "Link"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Image",
+      "name": "Columns w/ Images Overlay",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

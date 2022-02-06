@@ -1,0 +1,40 @@
+{%- capture flickity_config -%}
+{
+"prevNextButtons": true,
+"pageDots": false,
+"wrapAround": true,
+"cellAlign": "left",
+"groupCells": true,
+"arrowShape": {"x0": 20, "x1": 60, "y1": 40, "x2": 60, "y2": 35, "x3": 25}
+}
+{%- endcapture -%}
+
+{% assign html_string = article.content %}
+
+{% assign pieces = html_string | split: '/products/' %}
+{% assign extracted_urls = '' %}
+
+{% for piece in pieces %}
+{% unless forloop.first %}
+{% assign extracted_url = piece | replace_first: '"', ' ' | truncatewords: 1 | remove_first: '...' %}
+{% assign extracted_urls = extracted_urls | append: ', ' | append: extracted_url %}
+{% endunless %}
+{% endfor %}
+{% assign extracted_urls = extracted_urls | remove_first: ', ' | split: ', ' %}
+<div class="Container Container--narrow" style="padding-top: 50px; margin-top: 20px">
+    <div class="Panel Panel--flush Panel--withArrows" style="border: unset">
+        <h2 class="Panel__Title Heading u-h2">The Gospel Shop</h2>
+        <div class="Panel__Content">
+            <div class="ProductList ProductList--shopNow" data-desktop-count="3"
+                data-flickity-config='{{ flickity_config }}'>
+                {% for extracted_url in extracted_urls %}
+                {% assign product = all_products[extracted_url] %}
+                <div class="Carousel__Cell">
+                    {{related_collection}}
+                    {% render 'product-item', product: product, show_product_info:true, show_labels: true %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+
+<div class="gift-wrapper">
+    Make it a gift?
+    <span id="add-gift-wrap" onclick="addGift()" class="gift-selector">[Yes]</span>
+</div>
+<div class="wrapper-message">
+    <h2>Add a message</h2>
+    <textarea name="gift-message" rows="5"></textarea>
+    <span onclick="addMessage()" id="add-gift-message-wrap">[Add Message]</span>
+</div>
+<div class="gift-input-options"></div>
+<script>
+    function addGift() {
+        $('.wrapper-message').show('slow');
+    }
+    function addMessage() {
+        var message = $('textarea[name="gift-message"]').val();
+        $('.gift-input-options').append('<input type="hidden" name="gift-message" value="' + message + '">');
+        $('.wrapper-message').hide('slow');
+        CartJS.addItem(40958112694463, 1, {
+            "Message": message
+        });
+        window.location.reload();
+    }
+</script>
+<style>
+    #add-gift-message-wrap{
+        width: 100%;
+        cursor:pointer;
+        display:block;
+    }
+    .wrapper-message {
+        margin-top:10px;
+        padding: 5px;
+        display: none;
+        border: 1px solid;
+        text-align: center;
+    }
+    .gift-wrapper {
+        width:100%;
+    }
+    .gift-selector {
+        float:right;
+        cursor:pointer;
+    }
+</style>

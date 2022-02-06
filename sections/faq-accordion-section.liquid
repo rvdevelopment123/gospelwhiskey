@@ -1,0 +1,92 @@
+<section id="faq-bg">
+  <div id="app" data-aos="fade-up">
+    <div class="faq-container" id="accordion" style="margin-bottom: {{section.settings.margin_bottom}}px">
+      {%- if section.settings.sec_title != blank -%}
+      	<div class="faq-section-title">{{section.settings.sec_title}}</div>
+      {%- endif -%}
+
+      {% for block in section.blocks %}
+      {% assign min = 1 %}
+	  {% assign max = 99999 %}
+	  {% assign diff = max | minus: min %}
+      {% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
+      
+	<!--  Start of Accordion  -->
+      <div data-faq="{{forloop.index}}heading{{ randomNumber }}" class="faq-card">
+        <button class="faq-card-header collapsed" id="{{forloop.index}}heading{{ randomNumber }}" data-toggle="collapse" data-target="#{{forloop.index}}collapse{{ randomNumber }}" aria-expanded="true" aria-controls="{{forloop.index}}collapse{{ randomNumber }}">
+          <div data-id="{{forloop.index}}heading{{ randomNumber }}" class="ms-0 ms-md-5 mysearchTitle">{{ block.settings.title }}</div>
+          <div class="custom-arrow"></div>
+        </button>
+
+        <div id="{{forloop.index}}collapse{{ randomNumber }}" class="collapse" aria-labelledby="{{forloop.index}}heading{{ randomNumber }}" data-parent="#accordion">
+          <div class="faq-card-body mysearchDesc">
+            {{ block.settings.content }}
+          </div>
+        </div>
+      </div>
+    <!--  End of Accordion  -->
+  	{% endfor %}  
+    </div>
+  </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "FAQ Accordion Section",
+    "settings": [	
+					{
+						"type" : "text",
+						"label" : "Section Title",
+						"id" : "sec_title",
+						"default" : "Section Title"
+					},
+                    {
+                      "id": "active",
+                      "type": "checkbox",
+                      "label": "Active Section Title",
+                      "default": true
+                    },
+					{
+						"type" : "number",
+						"label" : "Margin Bottom",
+						"id" : "margin_bottom",
+						"default" : 0
+					}
+				],
+  
+  "blocks": [
+        {
+           "type": "block",
+           "name": "Accordion",
+           "settings": [
+              {
+                 "type": "text",
+                 "id": "title",
+                 "label": "Accordion title",
+                 "default" : "Title"
+              },
+              {
+                 "type": "richtext",
+                 "id": "content",
+                 "label": "Accordion content",
+				 "default" : "<p>Content</p>"
+              }
+           ]
+        }
+     ],
+  
+			"presets": [
+				{
+					"category" : "image",
+					"name" : "FAQ Accordion Section"
+				}
+			]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

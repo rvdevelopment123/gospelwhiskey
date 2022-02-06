@@ -1,0 +1,40 @@
+<div class="link-list-bg" >
+{% for block in section.blocks  %}
+	<a class="HorizontalList__Item Heading Link Link--primary Text--subdued {% if block.settings.active %}active-link{% endif %}"
+       href="{{block.settings.collection}}"><p>{{block.settings.title}}</p></a>
+{% endfor %}
+</div>
+{% schema %}
+{
+  "name": "Link List",
+  "class": "shopify-section--bordered",
+  "max_blocks": 5,
+  "settings": [
+  ],
+  "blocks": [
+    {
+      "type": "link",
+      "name": "Link",
+      "settings": [
+        {
+          "type": "url",
+          "id": "collection",
+          "label": "Link/Collection"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "info": "If none is set, collection title is used."
+        },
+        {
+          "id": "active",
+          "type": "checkbox",
+          "label": "Active Link",
+          "default": false
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,130 @@
+{%- capture flickity_options -%}
+  {
+    // options
+    //Setup
+    //cellSelector: undefined,
+    "initialIndex": 0,
+    "accessibility": true,
+    "setGallerySize": true,
+    "resize": true,
+
+    //Cell Position
+    "cellAlign": left,
+    "contain": true,
+    "imagesLoaded": false,
+    "percentPosition": true,
+    "rightToLeft": false,
+
+    //Behavior
+    "draggable": true,
+    "dragThreshold": 25,
+    "selectedAttraction": 0.1,
+    "friction": 0.5,
+    "freeScroll": true,
+    "freeScrollFriction": 0.1,
+    "wrapAround": false,
+    "groupCells": false,
+    "lazyLoad": false,
+    "bgLazyLoad": false,
+    "autoPlay": false,
+    "adaptiveHeight": false,
+    "watchCSS": true,
+    "asNavFor": false,
+
+    //UI
+    "prevNextButtons": true,
+    "pageDots": false,
+    "arrowShape": {
+    x0: 10,
+    x1: 60, y1: 50,
+    x2: 70, y2: 40,
+    x3: 30
+    }
+  }
+{%- endcapture -%}
+<!-- Flickity HTML init -->
+<div class="carousel-container carousle--responsive" data-flickity-config='{{ flickity_options }}'>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+</div>
+<style>
+  .carousel-container {
+    background: #FAFAFA;
+  }
+
+  .carousel-cell {
+    width: 235px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+
+
+  /* cell number */
+
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(carousel-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+
+  .carousel-container:after {
+    content: 'flickity';
+    display: none;
+    /* hide :after */
+  }
+
+  @media screen and ( min-width: 768px) {
+    .carousel-container.no-scroll-lg:after {
+      content: '';
+    }
+  }
+</style>
+<script>
+// external jQuery CDN
+// external js: flickity.pkgd.js
+// 
+
+// counts if a flickity carousel 
+// has more than x cells
+// then adds a class to use with 
+// watchCss option
+$('.carousle--responsive').each( function() {
+	var count = $(this).children('.carousel-cell').length;
+	if (count <= 4) {
+		$(this).addClass('no-scroll-lg');
+		console.log( "blocked because it counts", count );
+	} else {
+		$(this).removeClass('no-scroll-lg');
+		console.log( "not blocked because it counts", count );
+	}
+});
+
+// Initialize Flickity
+$('.carousel-container').flickity({
+});
+</script>
+{% schema %}
+    {
+      "name": "Reviews Section",
+      "settings": [ 
+      ],
+      "blocks": [
+      ],
+      "presets": [
+        {
+        "name": "Reviews Section",
+        "category": "Section"
+        }
+      ]
+    }
+      
+{% endschema %}

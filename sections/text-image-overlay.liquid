@@ -1,0 +1,361 @@
+{%  if section.settings.section_link %}
+<a href="{{ section.settings.section.section_link}}">
+{%  endif %}
+  
+<section id="section-{{ section.id }}">
+  <div class="FlexboxIeFix">
+    
+    <div class="ImageHero {% if section.settings.section_size != 'normal' %}ImageHero--{{ section.settings.section_size }}{% endif %}" {% if section.settings.image %}style="background: url({{ section.settings.image | img_url: '1x1' }})"{% endif %}>
+
+<!--   Start of Image   -->
+      {%- capture mobile_size -%}750x{% if section.settings.image.height >= 960 %}960{% else %}{{ section.settings.image.height }}{% endif %}{%- endcapture -%}
+      <div class="ImageHero__ImageWrapper">
+        <div class="ImageHero__Image {% if section.settings.overlay_opacity > 0 %}ImageHero__ImageWrapper--hasOverlay{% endif %} Image--lazyLoad Image--zoomOut"
+             data-optimumx="1.4"
+             data-expand="-150"
+             {% if section.settings.image %}data-bgset="{{ section.settings.image | img_url: mobile_size, crop: 'center' }} 750w, {{ section.settings.image | img_url: '1000x' }} 1000w, {{ section.settings.image | img_url: '1500x' }} 1500w"{% endif %}>
+        </div>
+        <noscript>
+          <div class="ImageHero__Image" style="background-image: url({{ section.settings.image | img_url: '1000x' }})"></div>
+        </noscript>
+
+        {%- unless section.settings.image != blank -%}
+          <div class="PlaceholderBackground PlaceholderBackground--Dark">
+            {{ 'lifestyle-1' | placeholder_svg_tag: 'PlaceholderBackground__Svg' }}
+          </div>
+        {%- endunless -%}
+      </div>
+<!--   End of Image   -->
+      
+<!--   Start of Text Overplay     -->
+      <div class="textOverlay-wrapper">
+
+        <header class="textOverlay-padding text-{{section.settings.text_alignment}}">
+          {%- if section.settings.subheading != blank -%}
+          <h3 class="Sub-Heading">{{ section.settings.subheading | escape }}</h3>
+          {%- endif -%}
+
+          {%- if section.settings.title != blank -%}
+          <h2 class="Heading" id="Mobile__Heading">{{ section.settings.title | escape | replace: '%%blog.title%%', blog.title }}</h2>
+          {%- endif -%}
+
+          {%- if section.settings.content != blank -%}
+          <div class="Text-Description">
+            {{ section.settings.content }}
+          </div>
+          {%- endif -%}
+
+
+          {%- if section.settings.button_1_text != blank and section.settings.button_2_text != blank -%}
+          {%- assign has_two_buttons = true -%}
+          {%- else -%}
+          {%- assign has_two_buttons = false -%}
+          {%- endif -%}
+          
+          {%- if section.settings.button_1_text != blank or section.settings.button_2_text != blank -%}
+          <div class="SectionHeader__ButtonWrapper">
+            <div class="ButtonGroup ButtonGroup--spacingSmall {% if has_two_buttons %}ButtonGroup--sameSize{% endif %}" style="justify-content: {{section.settings.text_alignment}};">
+              {%- if section.settings.button_1_text != blank -%}
+              <a href="{{ section.settings.button_1_link }}" class="ButtonGroup__Item Button " id="Button--howItsMade">{{ section.settings.button_1_text }}</a>
+              {%- endif -%}
+
+              {%- if section.settings.button_2_text != blank -%}
+              <a href="{{ section.settings.button_2_link }}" class="ButtonGroup__Item Button" id="Button--howItsMade">{{ section.settings.button_2_text }}</a>
+              {%- endif -%}
+            </div>
+          </div>
+          {%- endif -%}
+          
+          {%- if section.settings.info_one != blank or section.settings.info_two != blank or section.settings.info_three != blank or section.settings.info_four != blank -%}
+            <div class="container d-none d-sm-block" style="font-size: {{section.settings.additional_text}}px; padding-top: {{section.settings.spacing_top}}px">
+              <div class="row justify-content-center text-center">
+                {%- if section.settings.info_one != blank -%}
+                <div class="col-6 col-lg-3">
+                  {{ section.settings.info_one }}
+                </div>
+                {%- endif -%}
+                {%- if section.settings.info_two != blank -%}
+                <div class="col-6 col-lg-3">
+                  {{ section.settings.info_two }}
+                </div>
+                {%- endif -%}
+                {%- if section.settings.info_three != blank -%}
+                <div class="col-6 col-lg-3">
+                  {{ section.settings.info_three }}
+                </div>
+                {%- endif -%}
+                {%- if section.settings.info_four != blank -%}
+                <div class="col-6 col-lg-3">
+                  {{ section.settings.info_four }}
+                </div>
+                {%- endif -%}
+              </div>
+            </div>
+          {%- endif -%}
+          
+        </header>
+
+      </div>
+<!--   End of Text Overplay     -->
+      
+    </div>
+  </div>
+  
+</section>
+  
+{%  if section.settings.section_link %}
+</a>
+{%  endif %}
+<style>
+  #section-{{ section.id }} > div > div > div.ImageHero__ContentOverlay{
+  flex-basis: unset !important;    
+  }
+  #section-{{ section.id }},
+  #section-{{ section.id }} .Heading {
+    color: {{ section.settings.text_color }};
+  }
+  #section-{{ section.id }} .Heading {
+    font-size: {{section.settings.title_text}}px ;
+  }
+  #section-{{ section.id }} .Sub-Heading {
+    font-size: {{section.settings.sub_text}}px ;
+  }
+  #section-{{ section.id }} .Text-Description {
+    font-size: {{section.settings.description_text}}px ;
+  }
+  #section-{{ section.id }} .ImageHero__ImageWrapper--hasOverlay::before {
+    {%- assign overlay_opacity = section.settings.overlay_opacity | divided_by: 100.0 -%}
+    background-color: {{ section.settings.overlay_color | color_modify: 'alpha', overlay_opacity }};
+  }
+  #section-{{ section.id }} .textOverlay-padding {
+    padding: {{section.settings.padding_top}}px {{section.settings.padding_right}}px {{section.settings.padding_bottom}}px {{section.settings.padding_left}}px
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Text with Images Overlay",
+  "settings": [
+    {
+    "type": "url",
+    "id": "section_link",
+    "label": "Section Link"
+    },
+    {
+      "type": "select",
+      "id": "section_size",
+      "label": "Section size",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "large"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "1500 x 800px .jpg recommended"
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Overlay",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "label": "Overlay opacity",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 30
+    },
+    {
+      "type": "header",
+      "content": "Padding Setting"
+    },
+    {
+      "type": "number",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "default": 20
+    },
+    {
+      "type": "number",
+      "id": "padding_right",
+      "label": "Padding Rigth",
+      "default": 20
+    },
+    {
+      "type": "number",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "default": 20
+    },
+    {
+      "type": "number",
+      "id": "padding_left",
+      "label": "Padding Left",
+      "default": 20
+    },
+    {
+    "type": "header",
+    "content": "Text Setting"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text Alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "min": 20,
+      "max": 120,
+      "id": "sub_text",
+      "label": "Sub Header Size",
+      "default": 28
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Sub-heading"
+    },
+    {
+      "type": "range",
+      "min": 20,
+      "max": 120,
+      "id": "title_text",
+      "label": "Header Size",
+      "default": 40
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Tell your story"
+    },
+    {
+      "type": "range",
+      "min": 20,
+      "max": 120,
+      "id": "description_text",
+      "label": "Description Size",
+      "default": 21
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Text",
+      "default": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+    },
+    {
+    "type": "header",
+    "content": "Button 1"
+    },
+    {
+    "type": "text",
+    "id": "button_1_text",
+    "label": "Text",
+	"default": "Button 1"
+    },
+    {
+    "type": "url",
+    "id": "button_1_link",
+    "label": "Link"
+    },
+    {
+    "type": "header",
+    "content": "Button 2"
+    },
+    {
+    "type": "text",
+    "id": "button_2_text",
+    "label": "Text"
+    },
+    {
+    "type": "url",
+    "id": "button_2_link",
+    "label": "Link"
+    },
+    {
+    "type": "header",
+    "content": "Additional Info Setting"
+    },
+    {
+      "type": "number",
+      "id": "spacing_top",
+      "label": "Spacing Above",
+      "default": 45
+    },
+    {
+      "type": "range",
+      "min": 20,
+      "max": 120,
+      "id": "additional_text",
+      "label": "Additional Info Size",
+      "default": 20
+    },
+    {
+      "type": "text",
+      "id": "info_one",
+      "label": "Infor One"
+    },
+    {
+      "type": "text",
+      "id": "info_two",
+      "label": "Infor Two"
+    },
+    {
+      "type": "text",
+      "id": "info_three",
+      "label": "Infor Three"
+    },
+    {
+      "type": "text",
+      "id": "info_four",
+      "label": "Infor Four"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Image",
+      "name": "Text with Images Overlay",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

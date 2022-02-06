@@ -1,0 +1,42 @@
+{% if template.name == 'collection' %}
+<script>
+  $("button").filter(function(){
+    return this.attributes[0].value == window.location.pathname;
+  }).addClass("active");
+</script>
+{% endif %}
+{% if settings.custom_padding %}
+<style>
+
+  .Footer__Inner {
+    padding: 0 20px;
+  }
+
+  .Footer__Inner + .Footer__Aside {
+    padding: 0 40px;
+  }
+
+  #SectionHeader-AlignBottomLeft {
+    padding: 40px;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .shopify-section--bordered {
+      padding: 0 25px;
+    }
+
+    .shopify-section--bordered {
+      padding: 0 25px;
+    }
+    #shopify-section-16269378793cc5438e{
+      padding-bottom: 25px;
+    }
+    
+  }
+  .section-footer {
+    padding: 2.5em;
+  }
+
+
+</style>
+{% endif %}

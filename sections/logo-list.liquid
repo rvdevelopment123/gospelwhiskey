@@ -1,0 +1,184 @@
+<section class="Section Section--spacingNormal" id="section-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="grid-images">
+
+      <div class="FeatureText__ContentWrapper">
+        {%- if section.settings.subheading != blank or section.settings.title != blank -%}
+          <header class="SectionHeader" style="text-align:center; margin-bottom:10px;">
+            {%- if section.settings.subheading != blank -%}
+              <h3 class="SectionHeader__SubHeading Heading u-h6">{{ section.settings.subheading | escape }}</h3>
+            {%- endif -%}
+
+            {%- if section.settings.title != blank -%}
+              <h2 class="SectionHeader__Heading Heading u-h1">{{ section.settings.title | escape }}</h2>
+            {%- endif -%}
+
+            {%- if section.settings.content != blank -%}
+              <div class="Rte">
+                {{ section.settings.content }}
+              </div>
+            {%- endif -%}
+
+            {%- if section.settings.link_text != blank -%}
+              <a href="{{ section.settings.link_url }}" class="Link Link--underline" >{{ section.settings.link_text | escape }}</a>
+            {%- endif -%}
+          </header>
+        {%- endif -%}
+      </div>
+  
+<div class="grid2x">
+      {%- for block in section.blocks -%}
+  <div class="item-pic-{{ section.id }}">
+    {% if block.settings.review_stars == '0' %}
+    <img src="{{ block.settings.image | img_url: 'master' }}" alt="Gospel Whiskey"/>
+    {% elsif block.settings.review_stars == '4' %}
+    <span class="spr-starratings spr-review-header-starratings" id="Sub__Heading Mobile__Carousel" aria-label="4 of 5 stars" role="img"><i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"style=" color: var(--background); text-shadow: 0px 0px 1px #000000; "></i></span>
+    {% elsif block.settings.review_stars =='5'%}
+    <span class="spr-starratings spr-review-header-starratings" id="Sub__Heading Mobile__Carousel" aria-label="5 of 5 stars" role="img"><i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i></span>
+    {% endif %}
+    {% if block.settings.title != blank %}
+    <h2 id="Sub__Heading">{{ block.settings.title }}</h2>
+    {% endif %}
+    {{ block.settings.quote}}
+  </div>
+    {%- endfor -%}
+</div>
+  </section>
+<style>
+    .grid2x{
+      place-content: center;
+      min-height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      padding: 0px 20px;
+    }
+  .item-pic-{{ section.id }}{
+    max-width: {{section.settings.size}};
+  display: flex;
+  flex-basis: calc(50% - 40px);
+  justify-content: center;
+  flex-direction: column;
+    text-align: center;
+    margin-right: {{section.settings.spacing}};
+    margin-bottom: 1px;
+    flex: 1;
+}
+  @media only screen and (max-width: 600px) {
+    .item-pic-{{ section.id }}{
+        margin-right: 0;
+  display: flex;
+  flex-basis: calc(50% - 40px);
+  justify-content: center;
+  flex-direction: column;
+    font-size: 12px;
+}
+}
+</style>
+{% schema %}
+{
+  "name": "Logo List",
+  "max_blocks": 6,
+  "settings": [
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Sub-heading",
+      "default": "Sub-heading"
+    },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Heading"
+        },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Text",
+      "default": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link text"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link URL"
+    },
+        {
+        "type": "text",
+        "id": "size",
+        "label": "Size",
+        "default": "200px"
+        },
+        {
+        "type": "text",
+        "id": "size_m",
+        "label": "Size (Mobile)",
+        "default": "100px"
+        },
+        {
+        "type": "text",
+        "id": "spacing",
+        "label": "Spacing",
+        "default": "60px"
+        }
+  ],
+  "blocks": [
+    {
+      "type": "Image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "image"
+        },
+        {
+        "type": "select",
+        "id": "review_stars",
+        "label": "Review Stars",
+        "options": [
+		{
+		"value":"0",
+		"label":"Select"
+		},
+        {
+        "value": "4",
+        "label": "4 Stars"
+        },
+        {
+        "value": "5",
+        "label": "5 Stars"
+        }
+        ],
+        "default": "0"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "quote",
+          "label": "Quote",
+          "default": "<p>Share what your customers are saying about your products, your company...</p>",
+          "info": "For best results, keep the word count consistent in each quote."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Image",
+      "name": "Grid-Images",
+      "settings": {},
+      "blocks": [
+      
+      ]
+    }
+  ]
+}
+{% endschema %}

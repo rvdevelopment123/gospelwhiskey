@@ -1,0 +1,49 @@
+<section id="faq-bg-header">
+  <div class="faq-container">
+    <div class="faq-header">
+      <div>
+        {{section.settings.pageTitle}}
+      </div>
+      <input class="faq-search" placeholder="{{section.settings.inputTitle}}" type="text" id="site-search" name="q">
+    </div>
+    <div class="mb-2">{{section.settings.content}}</div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "FAQ Header Section",
+    "settings": [	
+					{
+						"type" : "text",
+						"label" : "Title",
+						"id" : "pageTitle",
+						"default" : "FAQ"
+					},
+					{
+						"type" : "text",
+						"label" : "Search Placeholder",
+						"id" : "inputTitle",
+						"default" : "Search"
+					},
+					{
+						"type" : "richtext",
+						"label" : "Content",
+						"id" : "content"
+					}
+				],
+  
+			"presets": [
+				{
+					"category" : "image",
+					"name" : "FAQ Header Section"
+				}
+			]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

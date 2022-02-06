@@ -1,0 +1,53 @@
+{
+    "sections": {
+        "main": {
+            "type": "article-template",
+            "settings": {
+                "show_article_image": true,
+                "show_date": true,
+                "show_category": false,
+                "show_author": true,
+                "show_share_buttons": false
+            }
+        },
+        "1633564089d4c383ab": {
+            "type": "blog-posts",
+            "blocks": {
+                "1633564089d4c383ab-0": {
+                    "type": "blog",
+                    "settings": {
+                        "blog": "journal"
+                    }
+                }
+            },
+            "block_order": [
+                "1633564089d4c383ab-0"
+            ],
+            "settings": {
+                "subheading": "",
+                "title": "Explore the journal",
+                "show_category": false,
+                "button_link": "",
+                "button_text": "View all articles"
+            }
+        },
+        "recommendations": {
+            "type": "shop-now",
+            "settings": {
+                "show_section": true,
+                "put_link": "shopify://collections/all",
+                "title": "You Might Like",
+                "collection": "cocktails",
+                "grid_items_count": 3,
+                "show_product_info": true,
+                "show_vendor": false,
+                "show_color_swatch": false
+            }
+        }
+    },
+    "order": [
+        "main",
+        "1633564089d4c383ab",
+        "recommendations"
+    ]
+}

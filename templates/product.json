@@ -1,0 +1,215 @@
+{
+    "sections": {
+        "main": {
+            "type": "product-template",
+            "settings": {
+                "show_share_buttons": true,
+                "show_vendor": false,
+                "show_sku": false,
+                "show_taxes_included": false,
+                "description_below_add_to_cart": true,
+                "selector_mode": "block",
+                "show_color_swatch": false,
+                "show_color_carousel": false,
+                "show_quantity_selector": true,
+                "show_inventory_quantity": false,
+                "inventory_quantity_threshold": 0,
+                "show_price_in_button": true,
+                "show_payment_button": false,
+                "show_pickup_availability": false,
+                "image_size": "large",
+                "stack_images": false,
+                "show_thumbnails": false,
+                "enable_image_zoom": false,
+                "enable_video_looping": true,
+                "tab_page_1_handle": "",
+                "tab_page_2_handle": "",
+                "reviews_enabled": false,
+                "featured_image_size": "large"
+            }
+        },
+        "163030369682d90ced": {
+            "type": "custom-html",
+            "disabled": true,
+            "settings": {
+                "subheading": "",
+                "title": "",
+                "html": ""
+            }
+        },
+        "1626942575f63d10a9": {
+            "type": "text-with-image",
+            "disabled": true,
+            "settings": {
+                "subheading": "",
+                "title": "{{ product.metafields.my_fields.first_heading.value }}",
+                "image": "{{ product.metafields.my_fields.first_image.value }}",
+                "image_position": "right",
+                "bg_colour": "rgba(0,0,0,0)",
+                "content": "<p>{{ product.metafields.my_fields.first_text | metafield_tag }}</p>",
+                "title2": "",
+                "link_text": "",
+                "link_url": "",
+                "enable_email": false
+            }
+        },
+        "16303037048b9b5a53": {
+            "type": "custom-html",
+            "disabled": true,
+            "settings": {
+                "subheading": "",
+                "title": "",
+                "html": ""
+            }
+        },
+        "1626942613e434b0c5": {
+            "type": "text-with-image",
+            "disabled": true,
+            "settings": {
+                "subheading": "",
+                "title": "{{ product.metafields.my_fields.second_heading.value }}",
+                "image": "{{ product.metafields.my_fields.second_image.value }}",
+                "image_position": "left",
+                "bg_colour": "rgba(0,0,0,0)",
+                "content": "<p>{{ product.metafields.my_fields.second_text | metafield_tag }}</p>",
+                "title2": "",
+                "link_text": "",
+                "link_url": "",
+                "enable_email": false
+            }
+        },
+        "1630303716d76f2f6d": {
+            "type": "custom-html",
+            "disabled": true,
+            "settings": {
+                "subheading": "",
+                "title": "",
+                "html": ""
+            }
+        },
+        "16269426449d737beb": {
+            "type": "text-with-image",
+            "disabled": true,
+            "settings": {
+                "subheading": "",
+                "title": "{{ product.metafields.my_fields.third_heading.value }}",
+                "image": "{{ product.metafields.my_fields.third_image.value }}",
+                "image_position": "right",
+                "bg_colour": "rgba(0,0,0,0)",
+                "content": "<p>{{ product.metafields.my_fields.third_text | metafield_tag }}</p>",
+                "title2": "",
+                "link_text": "",
+                "link_url": "",
+                "enable_email": false
+            }
+        },
+        "1630303724839a8b57": {
+            "type": "custom-html",
+            "disabled": true,
+            "settings": {
+                "subheading": "",
+                "title": "",
+                "html": ""
+            }
+        },
+        "1626942680f0721c7f": {
+            "type": "text-with-image",
+            "disabled": true,
+            "settings": {
+                "subheading": "",
+                "title": "{{ product.metafields.my_fields.fourth_heading.value }}",
+                "image": "{{ product.metafields.my_fields.fourth_image.value }}",
+                "image_position": "left",
+                "bg_colour": "rgba(0,0,0,0)",
+                "content": "<p>{{ product.metafields.my_fields.fourth_text | metafield_tag }}</p>",
+                "title2": "",
+                "link_text": "learn more",
+                "link_url": "https://www.thegospelwhiskey.com/archive/what-is-the-solera-system",
+                "enable_email": false
+            }
+        },
+        "1626942682506b4197": {
+            "type": "custom-html",
+            "settings": {
+                "subheading": "",
+                "title": "",
+                "html": "<div id=\"shopify-product-reviews\" data-id=\"{{product.id}}\">{{ product.metafields.spr.reviews }}</div>"
+            }
+        },
+        "16300245211dcbbf77": {
+            "type": "image-with-text-overlay",
+            "settings": {
+                "center_all": true,
+                "section_link": "shopify://blogs/cocktail-recipes",
+                "section_size": "large",
+                "image": "shopify://shop_images/Cocktails.jpg",
+                "video": "",
+                "text_color": "#ffffff",
+                "overlay_color": "#000000",
+                "overlay_opacity": 30,
+                "text_size": 26,
+                "subheading": "",
+                "title": "Manhattan",
+                "content": "<p>---------------------------------<br/>INGREDIENTS<br/>---------------------------------<br/><br/>50mL Gospel Solera Rye<br/>25mL Sweet Vermouth (we prefer Maidenii Classic)<br/>1 x Dash of dry Curaçao<br/>2 x Dashes Angostura Bitter<br/><br/>---------------------------------<br/>METHOD<br/>---------------------------------<br/><br/>Build all ingredients in a mixing glass, stir down with ice to the desired dilution and strain into a chilled coupe glass. Garnish with a cherry or orange peel.</p>",
+                "button_1_text": "",
+                "button_1_link": "",
+                "button_2_text": "",
+                "button_2_link": ""
+            }
+        },
+        "recommendations": {
+            "type": "product-recommendations",
+            "settings": {
+                "show_product_recommendations": true,
+                "heading": "You might also like",
+                "show_product_info": true,
+                "show_vendor": false,
+                "show_color_swatch": false
+            }
+        },
+        "16269461684dda0ade": {
+            "type": "featured-collections",
+            "disabled": true,
+            "blocks": {
+                "16269461684dda0ade-0": {
+                    "type": "collection",
+                    "settings": {
+                        "collection": "frontpage",
+                        "title": "You may also like",
+                        "grid_items_count": 4,
+                        "button_text": ""
+                    }
+                }
+            },
+            "block_order": [
+                "16269461684dda0ade-0"
+            ],
+            "settings": {
+                "title": "",
+                "button_text": "View all products",
+                "button_link": "",
+                "layout_mode": "grid",
+                "show_product_info": true,
+                "show_vendor": false,
+                "show_color_swatch": false,
+                "grid_mobile_items_per_row": "2",
+                "grid_desktop_items_per_row": 4
+            }
+        }
+    },
+    "order": [
+        "main",
+        "163030369682d90ced",
+        "1626942575f63d10a9",
+        "16303037048b9b5a53",
+        "1626942613e434b0c5",
+        "1630303716d76f2f6d",
+        "16269426449d737beb",
+        "1630303724839a8b57",
+        "1626942680f0721c7f",
+        "1626942682506b4197",
+        "16300245211dcbbf77",
+        "recommendations",
+        "16269461684dda0ade"
+    ]
+}

@@ -1,0 +1,54 @@
+<section class="general-form-section">
+  <form>
+    <h1 class="form-title">Title Here</h1>
+    <p class="form-description">Description Here</p>
+    <div class="row mb-3">
+      <div class="col-12 main-label">Name</div>
+      <div class="col-md-6">
+        <input type="text">
+        <div class="sub-label">First</div>
+      </div>
+      <div class="col-md-6">
+        <input type="text">
+        <div class="sub-label">Last</div>
+      </div>
+    </div>
+    <div class="row mb-3">
+      <div class="col-12 main-label">
+        Email<span class="required">*</span>
+      </div>
+      <div class="col-12">
+        <input type="text" id="fname">
+      </div>
+    </div>
+    <button class="trapezoid-btn">SUBMIT</button>
+  </form>
+</section>
+<style>
+</style>
+{% schema %}
+{
+  "name": "General Form Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "form_title",
+      "label": "Form  Title",
+      "default": "Title Here"
+    },
+    {
+      "type": "textarea",
+      "id": "form_description",
+      "label": "Form Description",
+      "default": "Description Here"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Image",
+      "name": "General Form Section",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

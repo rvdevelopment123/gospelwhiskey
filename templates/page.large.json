@@ -1,0 +1,11 @@
+{
+  "name": "Page Large",
+  "sections": {
+    "main": {
+      "type": "main-page-large"
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
