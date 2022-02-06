@@ -9,7 +9,62 @@
     <div class="mb-2">{{section.settings.content}}</div>
   </div>
 </section>
+<script type="text/javascript">
+	$(document).ready(function(){
+		//Search Page for FAQ
+		setTimeout(initSearch, 3000)
+                  function initSearch() {
+                   
+					  var arrData = []
+                      var mySearchesDesc = document.getElementsByClassName('mysearchDesc')
+					  var mySearches = document.getElementsByClassName('mysearchTitle')
+					  Array.prototype.forEach.call(mySearchesDesc, function(item, i) {
+						var title = mySearches[i].innerHTML;
+						var desc = mySearchesDesc[i].children[0].innerHTML;
+						var arrObject = {
+                              'title': title,
+							  'desc': desc,
+							  'mydiv': mySearches[i].parentElement.parentElement
+                          }
+						  console.info(arrObject)
+                          arrData.push(arrObject)
+					  })
+                    
+                  
 
+                      $("#site-search").keyup(function() {
+                          console.log('Start Searching')
+                          var searchText = $("#site-search").val()
+                          var nextFiltered = arrData.filter(function(elem) {
+                              return (elem.title.toLowerCase().includes(searchText.toLowerCase()) || elem.desc.toLowerCase().includes(searchText.toLowerCase()))
+                          });
+						  console.log('Show This')
+						  console.info(nextFiltered)
+                          $(".faq-card").hide()
+                          for (var i = 0; i <= nextFiltered.length - 1; i++) {
+                            //   var myDataId = $(nextFiltered[i].mydiv).attr('data-id')
+                            //   $("*[data-faq='" + myDataId + "']").show()
+							console.info($(nextFiltered[i].mydiv))
+							$(nextFiltered[i].mydiv).show()
+                          }
+
+                          if (nextFiltered.length >= arrData.length) {
+                          console.log('Show Cards')  
+                              $(".faq-card").show()
+                          }
+
+                          //text.match(/ain/gi);
+
+                      });
+                    
+                      $("#site-search").click(function() {
+	                        console.log('Clicked')
+							          $("#site-search").keyup()
+	                    })
+
+                  }
+	});
+	</script>
 {% schema %}
   {
     "name": "FAQ Header Section",
@@ -46,4 +101,5 @@
 {% endstylesheet %}
 
 {% javascript %}
+
 {% endjavascript %}

@@ -1,1 +1,11 @@
-{% section 'list-collections-template' %}
+{
+    "name": "Collection List",
+    "sections": {
+      "main": {
+        "type": "main-list-collections"
+      }
+    },
+    "order": [
+      "main"
+    ]
+  }
