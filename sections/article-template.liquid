@@ -80,7 +80,7 @@
 
       {%- capture article_footer -%}
         {%- if section.settings.show_author -%}
-          <span class="Article__Author Heading Text--subdued u-h6" id="Sub__Heading">{{ 'blog.article.written_by' | t: author: article.author }}</span>
+          <span class="Article__Author Heading Text--subdued u-h6 customAuthor" id="Sub__Heading"></span>
         {%- endif -%}
 
         {%- if section.settings.show_share_buttons -%}
@@ -220,7 +220,11 @@
   {%- endif -%}
   {% endcomment %}
 </article>
-
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(".customAuthor").html('Written By '+ $("#myauthor").val())
+  });
+  </script>
 {% schema %}
 {
   "name": "Article post page",

@@ -5,7 +5,7 @@
         "type": "main-cart"
       },
       "recentlyviewed": {
-          "type": "recently-viewed-products"
+          "type": "search-recently-viewed-products"
       }
 
     },

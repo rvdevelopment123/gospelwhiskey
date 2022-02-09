@@ -5,7 +5,7 @@
         "type": "collection-template"
       },
       "recentlyviewedproducts": {
-        "type": "recently-viewed-products"
+        "type": "search-recently-viewed-products"
       },
       "collectionfooter": {
         "type": "collection-footer"
