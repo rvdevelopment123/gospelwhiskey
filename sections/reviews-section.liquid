@@ -1,130 +1,111 @@
-{%- capture flickity_options -%}
-  {
-    // options
-    //Setup
-    //cellSelector: undefined,
-    "initialIndex": 0,
-    "accessibility": true,
-    "setGallerySize": true,
-    "resize": true,
-
-    //Cell Position
-    "cellAlign": left,
-    "contain": true,
-    "imagesLoaded": false,
-    "percentPosition": true,
-    "rightToLeft": false,
-
-    //Behavior
-    "draggable": true,
-    "dragThreshold": 25,
-    "selectedAttraction": 0.1,
-    "friction": 0.5,
-    "freeScroll": true,
-    "freeScrollFriction": 0.1,
-    "wrapAround": false,
-    "groupCells": false,
-    "lazyLoad": false,
-    "bgLazyLoad": false,
-    "autoPlay": false,
-    "adaptiveHeight": false,
-    "watchCSS": true,
-    "asNavFor": false,
-
-    //UI
-    "prevNextButtons": true,
-    "pageDots": false,
-    "arrowShape": {
-    x0: 10,
-    x1: 60, y1: 50,
-    x2: 70, y2: 40,
-    x3: 30
-    }
-  }
-{%- endcapture -%}
-<!-- Flickity HTML init -->
-<div class="carousel-container carousle--responsive" data-flickity-config='{{ flickity_options }}'>
-  <div class="carousel-cell"></div>
-  <div class="carousel-cell"></div>
-  <div class="carousel-cell"></div>
-  <div class="carousel-cell"></div>
-</div>
+<section id="section-{{ section.id }}" data-section-id="{{ section.id }}">
+  <div class="container">
+    <div id="owl-example" class="owl-carousel">
+      {%- for block in section.blocks -%}
+        <div class="reviews-container"> 
+          <span class="spr-starratings spr-review-header-starratings"><i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i></span>
+          <h2 class="mb-2">{{ block.settings.text_name }}</h2>
+          {{ block.settings.text_info }}
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
 <style>
-  .carousel-container {
-    background: #FAFAFA;
+  #section-{{ section.id }} {
+    padding: 80px 0px;
   }
-
-  .carousel-cell {
-    width: 235px;
-    height: 200px;
-    float: left;
-    margin-right: 10px;
-    background: #8C8;
-    border-radius: 5px;
-    counter-increment: carousel-cell;
-  }
-
-
-  /* cell number */
-
-  .carousel-cell:before {
-    display: block;
+  #section-{{ section.id }} .reviews-container {
+    padding: 10px;
     text-align: center;
-    content: counter(carousel-cell);
-    line-height: 200px;
-    font-size: 80px;
-    color: white;
+    max-width: 220px;
+    margin: auto;
+  }
+  #section-{{ section.id }} .owl-item.active{
+    background-color: transparent!important;
+  }
+  #section-{{ section.id }} .owl-nav{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px;
   }
 
-  .carousel-container:after {
-    content: 'flickity';
-    display: none;
-    /* hide :after */
-  }
-
-  @media screen and ( min-width: 768px) {
-    .carousel-container.no-scroll-lg:after {
-      content: '';
-    }
-  }
 </style>
 <script>
-// external jQuery CDN
-// external js: flickity.pkgd.js
-// 
+  var colums = {{ section.settings.column }}
+  $(document).ready(function () {
 
-// counts if a flickity carousel 
-// has more than x cells
-// then adds a class to use with 
-// watchCss option
-$('.carousle--responsive').each( function() {
-	var count = $(this).children('.carousel-cell').length;
-	if (count <= 4) {
-		$(this).addClass('no-scroll-lg');
-		console.log( "blocked because it counts", count );
-	} else {
-		$(this).removeClass('no-scroll-lg');
-		console.log( "not blocked because it counts", count );
-	}
-});
+    $("#owl-example").owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      navText: [
+        "<span class='material-icons'>chevron_left</span>",
+        "<span class='material-icons'>chevron_right</span>"
+      ],
+      autoplay: false,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: colums
+        }
+      }
+    }
+    );
 
-// Initialize Flickity
-$('.carousel-container').flickity({
-});
+  });
 </script>
 {% schema %}
+{
+  "name": "Reviews Section",
+  "settings": [
     {
-      "name": "Reviews Section",
-      "settings": [ 
-      ],
-      "blocks": [
-      ],
-      "presets": [
+      "type": "range",
+      "id": "column",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "unit": "px",
+      "label": "Columns",
+      "default": 1
+    }
+  ],
+  "blocks": [
+    {
+      "type": "Text",
+      "name": "Reviews",
+      "settings": [
         {
-        "name": "Reviews Section",
-        "category": "Section"
+          "type": "text",
+          "id": "text_name",
+          "label": "Full Name",
+          "default": "Title Here"
+        },
+        {
+          "type": "richtext",
+          "id": "text_info",
+          "label": "Info",
+          "default": "<p>Info Here</p>"
         }
       ]
     }
-      
+  ],
+  "presets": [
+    {
+    "name": "Reviews Section",
+    "category": "Section"
+    }
+  ]
+}
+
 {% endschema %}

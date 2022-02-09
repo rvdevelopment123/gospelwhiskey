@@ -732,7 +732,8 @@
 /* 2022 Css */
 input.Search__Input.Heading {
     font-family: MagdaRegular;
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: 300!important;
 }
 
 h1.SectionHeader__Heading.Heading.u-h1 {
@@ -1181,11 +1182,16 @@ input.spr-button.spr-button-primary.button.button-primary.btn.btn-primary:hover 
 
 @media screen and (max-width: 1500px) {
     .link-list-bg {
-        top: 97px;
+        top: 58px;
     }
 }
 
-@media screen and (max-width: 1141px) {
+@media screen and (max-width: 1223px) {
+    .link-list-bg {
+        top: 97px;
+    }
+}
+@media screen and (max-width: 1139px) {
     .link-list-bg {
         top: 57px;
     }
