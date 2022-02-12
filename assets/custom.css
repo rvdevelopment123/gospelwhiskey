@@ -826,7 +826,7 @@ a.icon.icon_collection svg {
     left: 0;
     right: 0;
     width: 100%;
-    z-index: 9999;
+    z-index: 9;
     background: var(--background);
     padding-top: 5px;
     border-top: 1px solid #e2e2e2;
@@ -928,7 +928,7 @@ article .ProductList.ProductList--shopNow {
 .faq-header {
     display: flex;
     justify-content: space-between;
-    font-size: 40px;
+    font-size: 22px;
     font-family: 'MagdaRegular';
     font-weight: 700;
     align-items: center;
@@ -951,20 +951,25 @@ input#site-search {
     align-items: center;
     width: 100%;
     padding: 15px 0;
-    font-weight: 600;
-    position: relative
+    font-weight: 300;
+    position: relative;
+    font-family: 'MagdaRegular';
+    font-size: 22px;
 }
 
 .faq-card-body {
-    padding: 15px 0px;
+    padding: 15px 0;
     border-bottom: solid 1px;
+    font-size: 1rem;
+    font-family: 'MagdaRegular';
 }
 
 .faq-section-title {
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 700;
     border-bottom: solid 1px;
-    padding: 15px 0px;
+    padding: 15px 0;
+    font-family: MagdaRegular;
 }
 
 .custom-arrow {
@@ -1040,7 +1045,7 @@ a:hover {
 .general-form-section {
     max-width: 850px;
     margin: auto;
-    padding: 20px;
+    padding: 60px 20px;
 }
 
 .general-form-section input {
@@ -1051,11 +1056,13 @@ a:hover {
 }
 
 .general-form-section .form-title {
-    font-size: 28px;
+    font-size: 22px;
+    font-family: var(--heading-font-family);
 }
 
 .general-form-section .form-description {
-    font-size: 24px;
+    font-size: 1rem;
+    font-family: var(--text-font-family) !important;
 }
 
 .general-form-section .main-label {
@@ -1197,6 +1204,12 @@ input.spr-button.spr-button-primary.button.button-primary.btn.btn-primary:hover 
     }
 }
 
+@media screen and (max-width: 767px) {
+    #shopify-product-reviews {
+        padding: 0px 20px;
+    }
+}
+
 @media screen and (max-width: 738px) {
 
     /* product button */
@@ -1225,6 +1238,7 @@ input.spr-button.spr-button-primary.button.button-primary.btn.btn-primary:hover 
         background: inherit;
         color: inherit;
         cursor: pointer;
+        width: 100%;
     }
 
     .quick-add-form button#ad_to_cart:hover {
@@ -1232,14 +1246,18 @@ input.spr-button.spr-button-primary.button.button-primary.btn.btn-primary:hover 
         cursor: pointer;
     }
 
-    #shopify-product-reviews {
-        padding: 0px 25px;
-    }
-
     .quick-add-form button#ad_to_cart:hover,
     .quick-add-form .Button:hover {
         background: black !important;
         color: white
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .productDetails__Content {
+        max-width: 100%;
+        margin: auto;
+        padding: 20px 0px;
     }
 }
 
@@ -1294,6 +1312,9 @@ input.spr-button.spr-button-primary.button.button-primary.btn.btn-primary:hover 
     .age-button.age-yes {
         margin-right: 25px !important;
     }
+    .faq-container {
+        padding: 0 20px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -1328,6 +1349,12 @@ input.spr-button.spr-button-primary.button.button-primary.btn.btn-primary:hover 
     }
 
     .productDetails__Content {
-        padding: 20px 0px !important;
+        padding: 20px 0px!important;
+    }
+    #shopify-product-reviews {
+        padding: 0px;
+    }
+    .ProductList--carousel .Carousel__Cell {
+        padding: 0px!important;
     }
 }
