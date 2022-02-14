@@ -39,9 +39,7 @@
               {%- endif -%}
             </p>
           {%- endif -%}
-          <div style="max-width: 330px;margin: auto;text-align: left;">
-            {% render 'gift-wrap' %}
-          </div>
+      
         </div>
         
       </header>
@@ -54,8 +52,11 @@
           <footer class="Cart__Footer">
             {%- if settings.cart_enable_charity -%}
           <div class="donation-wrapper">
+            <div style="max-width: 530px;margin: auto;text-align: left;margin-bottom: 20px;">
+              {% render 'gift-wrap' %}
+            </div>
               <label for="charity">Choose a charity:</label>
-              <select name="attributes[charity]" id="charity">
+              <select name="attributes[charity]" id="charity" style="margin-bottom: 20px">
                 <option value="Common Ground" SELECTED>Common Ground </option>
                 <option value="WIRE ">WIRE </option>
                 <option value="SmartMeals ">SmartMeals </option>
@@ -93,7 +94,7 @@
         {%- if section.settings.show_shipping_estimator -%}
           <div class="Section Section--spacingExtraLarge">
             <div class="Panel">
-              <h2 class="Panel__Title Heading u-h2">{{ 'cart.shipping_estimator.title' | t }}</h2>
+              <h2 class="Panel__Title Heading u-h4">{{ 'cart.shipping_estimator.title' | t }}</h2>
 
               <div class="Panel__Content">
                 <div class="ShippingEstimator">

@@ -3,6 +3,13 @@
     src: url('MagdaPro.otf');
 }
 
+.form-title{
+    font-family: 'MagdaRegular';
+}
+.form-description{
+    font-family: 'MagdaRegular';
+}
+
 .result_hover>.quick-add-form {
     opacity: 1;
     transition: opacity .3s;
@@ -91,6 +98,7 @@
 }
 
 .Form__Input {
+    font-family: 'MagdaRegular';
     border-color: rgba(var(--text-color-rgb), .8);
     /*text-align: center;*/
 }
@@ -209,6 +217,7 @@
     }
 
     .Newsletter .Form__Input {
+        font-family: 'MagdaRegular';
         min-width: 370px;
     }
 
@@ -742,7 +751,7 @@ h1.SectionHeader__Heading.Heading.u-h1 {
 }
 
 a.Drawer__Title.Heading.u-h4 {
-    font-family: MagdaRegular;
+    font-family: 'MagdaRegular';
 }
 
 .PageHeader--withBackground h1.SectionHeader__Heading.Heading.u-h1 {
@@ -884,7 +893,9 @@ article .ProductList.ProductList--shopNow {
 }
 
 .donation-wrapper {
-    padding: 10px 30px
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 0px;
 }
 
 .donation-wrapper select {
@@ -936,7 +947,7 @@ article .ProductList.ProductList--shopNow {
 }
 
 input#site-search {
-    font-size: 22px;
+    font-size: 20px;
     background: transparent;
     padding: 8px 10px;
     width: 230px;
@@ -951,16 +962,15 @@ input#site-search {
     align-items: center;
     width: 100%;
     padding: 15px 0;
-    font-weight: 300;
+    font-weight: 600;
     position: relative;
     font-family: 'MagdaRegular';
-    font-size: 22px;
+    
 }
 
 .faq-card-body {
     padding: 15px 0;
     border-bottom: solid 1px;
-    font-size: 1rem;
     font-family: 'MagdaRegular';
 }
 
@@ -968,8 +978,8 @@ input#site-search {
     font-size: 22px;
     font-weight: 700;
     border-bottom: solid 1px;
-    padding: 15px 0;
-    font-family: MagdaRegular;
+    padding: 15px 0px;
+    font-family: 'MagdaRegular';
 }
 
 .custom-arrow {

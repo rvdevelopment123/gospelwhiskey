@@ -17,7 +17,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'MagdaRegular';
   -webkit-text-size-adjust: 100%;
      -moz-text-size-adjust: 100%;
           text-size-adjust: 100%;
@@ -141,7 +141,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: 'MagdaRegular';
   font-size: 16px;
 }
 
@@ -1210,11 +1210,13 @@ body {
 .features--heading-small .u-h4,
 .features--heading-small .Rte h4 {
   font-size: 15px;
+  font-family: 'MagdaRegular';
 }
 
 .features--heading-small .u-h5,
 .features--heading-small .Rte h5 {
   font-size: 13px;
+  font-family: 'MagdaRegular';
 }
 
 .features--heading-small .u-h6,
@@ -1248,11 +1250,13 @@ body {
 .features--heading-normal .u-h4,
 .features--heading-normal .Rte h4 {
   font-size: 16px;
+  font-family: 'MagdaRegular';
 }
 
 .features--heading-normal .u-h5,
 .features--heading-normal .Rte h5 {
   font-size: 14px;
+  font-family: 'MagdaRegular';
 }
 
 .features--heading-normal .u-h6,
@@ -1286,11 +1290,13 @@ body {
 .features--heading-large .u-h4,
 .features--heading-large .Rte h4 {
   font-size: 18px;
+  font-family: 'MagdaRegular';
 }
 
 .features--heading-large .u-h5,
 .features--heading-large .Rte h5 {
   font-size: 16px;
+  font-family: 'MagdaRegular';
 }
 
 .features--heading-large .u-h6,
@@ -1325,11 +1331,13 @@ body {
   .features--heading-small .u-h4,
   .features--heading-small .Rte h4 {
     font-size: 16px;
+    font-family: 'MagdaRegular';
   }
 
   .features--heading-small .u-h5,
   .features--heading-small .Rte h5 {
     font-size: 13px;
+    font-family: 'MagdaRegular';
   }
 
   .features--heading-small .u-h6,
@@ -1363,11 +1371,13 @@ body {
   .features--heading-normal .u-h4,
   .features--heading-normal .Rte h4 {
     font-size: 17px;
+    font-family: 'MagdaRegular';
   }
 
   .features--heading-normal .u-h5,
   .features--heading-normal .Rte h5 {
     font-size: 14px;
+    font-family: 'MagdaRegular';
   }
 
   .features--heading-normal .u-h6,
@@ -1401,11 +1411,13 @@ body {
   .features--heading-large .u-h4,
   .features--heading-large .Rte h4 {
     font-size: 19px;
+    font-family: 'MagdaRegular';
   }
 
   .features--heading-large .u-h5,
   .features--heading-large .Rte h5 {
     font-size: 16px;
+    font-family: 'MagdaRegular';
   }
 
   .features--heading-large .u-h6,
@@ -2573,6 +2585,7 @@ body:not(.is-tabbing) .flickity-enabled:focus {
 .spr-form-input-text,
 .spr-form-input-email,
 .spr-form-input-textarea {
+  font-family: 'MagdaRegular';
   -webkit-appearance: none;
   display: block;
   padding: 12px 14px;
@@ -2793,6 +2806,7 @@ select::-ms-expand {
 
 .Select select {
   /* Disable built-in styles */
+  font-family: 'MagdaRegular';
   -webkit-appearance: none;
   -moz-appearance: none;
   display: inline-block;
@@ -2803,6 +2817,7 @@ select::-ms-expand {
 }
 
 .Select select:focus::-ms-value {
+  font-family: 'MagdaRegular';
   background: var(--background);
   color: var(--text-color);
 }
@@ -4903,7 +4918,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 @media screen and (min-width: 641px) {
   .Panel {
-    padding-left: 50px;
+    padding-left: 0px;
     padding-right: 50px;
   }
 
@@ -9718,6 +9733,7 @@ shopify-payment-terms {
 .shopify-payment-button__more-options:hover:not([disabled]) {
   text-decoration: none;
 }
+
 @charset "UTF-8";
 /**
  * ----------------------------------------------------------------------------
@@ -10886,6 +10902,9 @@ shopify-payment-terms {
   letter-spacing: 0.2em;
   color: var(--text-color-light);
   background: var(--light-background);
+}
+.Button {
+  font-family: 'MagdaRegular';
 }
 
 .Timeline__NavWrapper {
