@@ -3,7 +3,12 @@
     <div id="owl-example" class="owl-carousel">
       {%- for block in section.blocks -%}
         <div class="reviews-container"> 
+          {% if block.settings.review_stars == '5' %}
           <span class="spr-starratings spr-review-header-starratings"><i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i></span>
+          {% elsif block.settings.review_stars =='4'%}
+          <span class="spr-starratings spr-review-header-starratings"><i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i><i style=" color: var(--background); text-shadow: 0px 0px 1px #000000; " class="spr-icon spr-icon-star"></i></span>
+          {% endif %}
+          
           <h2 class="mb-2">{{ block.settings.text_name }}</h2>
           {{ block.settings.text_info }}
         </div>
@@ -40,9 +45,8 @@
   $(document).ready(function () {
 
     $("#owl-example").owlCarousel({
-      loop: true,
+      loop: false,
       margin: 10,
-      nav: true,
       navText: [
         "<span class='material-icons'>chevron_left</span>",
         "<span class='material-icons'>chevron_right</span>"
@@ -51,13 +55,16 @@
       autoplayHoverPause: true,
       responsive: {
         0: {
-          items: 1
+          items: 1,
+          nav: true
         },
         600: {
-          items: 3
+          items: 3,
+          nav: true
         },
         1000: {
-          items: colums
+          items: colums,
+          nav: false
         }
       }
     }
@@ -77,7 +84,7 @@
       "step": 1,
       "unit": "px",
       "label": "Columns",
-      "default": 1
+      "default": 4
     }
   ],
   "blocks": [
@@ -85,6 +92,22 @@
       "type": "Text",
       "name": "Reviews",
       "settings": [
+        {
+          "type": "select",
+          "id": "review_stars",
+          "label": "Stars of Review",
+          "options": [
+            {
+              "value": "5",
+              "label": "5 Stars"
+            },
+            {
+              "value": "4",
+              "label": "4 Stars"
+            }
+          ],
+          "default": "5"
+        },
         {
           "type": "text",
           "id": "text_name",

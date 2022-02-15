@@ -144,7 +144,7 @@
 
 #Sub__Heading {
     font-size: 16px;
-    font-family: var(--text-font-family);
+    font-family: 'MagdaRegular';
 }
 
 #Discover_Links {
@@ -741,13 +741,11 @@
 /* 2022 Css */
 input.Search__Input.Heading {
     font-family: MagdaRegular;
-    font-size: 20px;
     font-weight: 300!important;
 }
 
 h1.SectionHeader__Heading.Heading.u-h1 {
     font-family: MagdaRegular;
-    font-size: 22px;
 }
 
 a.Drawer__Title.Heading.u-h4 {
@@ -772,8 +770,9 @@ label.spr-form-label {
     font-family: MagdaRegular;
 }
 
-h3.spr-review-header-title {
+h3.spr-review-header-title, h3.spr-review-header-title {
     font-family: MagdaRegular;
+    font-size: 19px;
 }
 
 .FlexboxIeFix .ImageHero {
@@ -1197,13 +1196,26 @@ input.spr-button.spr-button-primary.button.button-primary.btn.btn-primary:hover 
     transition: all .4s ease;
 }
 
+.u-h4 {
+  font-size: 19px;
+  font-family: 'MagdaRegular';
+}
+
+.ArticleToolbar .Text--subdued {
+    font-family: 'MagdaRegular';
+}
+
+.ArticleToolbar .Text--subdued {
+    font-family: 'MagdaRegular';
+}
+
 @media screen and (max-width: 1500px) {
     .link-list-bg {
         top: 58px;
     }
 }
 
-@media screen and (max-width: 1223px) {
+@media screen and (max-width: 1298px) {
     .link-list-bg {
         top: 97px;
     }
