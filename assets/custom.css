@@ -1,6 +1,10 @@
 @font-face {
     font-family: MagdaRegular;
-    src: url('MagdaPro.otf');
+    src: url('https://cdn.shopify.com/s/files/1/0428/4556/9187/files/MagdaPro.otf?v=1644407802');
+}
+@font-face {
+    font-family: MagdaLight;
+    src: url('https://cdn.shopify.com/s/files/1/0428/4556/9187/files/MagdaPro-Light.otf?v=1644407802');
 }
 
 @font-face {
@@ -56,7 +60,7 @@
 }
 
 .ProductItem__Price.Price.Text--subdued {
-    font-family: var(--text-font-family) !important;
+    font-family: MagdaRegular!important;
     margin-bottom: 4px;
     font-size: 16px;
 }
@@ -450,8 +454,6 @@
         width: 100px;
     }
 
-    .ProductItem__Price.Price.Text--subdued {}
-
     .age-verification-main {}
 
     .ProductItem__Info.ProductItem__Info--left {
@@ -784,6 +786,7 @@ span.Heading.Text--subdued.u-h8.hidden-tablet {
 
 h3.spr-form-title {
     font-family: MagdaRegular;
+    font-size: 16px;
 }
 
 label.spr-form-label {
@@ -792,7 +795,7 @@ label.spr-form-label {
 
 h3.spr-review-header-title, h3.spr-review-header-title {
     font-family: MagdaRegular;
-    font-size: 19px;
+    font-size: 16px;
 }
 
 .FlexboxIeFix .ImageHero {
@@ -1204,6 +1207,7 @@ input.spr-button.spr-button-primary.button.button-primary.btn.btn-primary:hover 
 
 .topnav a {
     text-transform: uppercase;
+    font-family: MagdaRegular!important;
 }
 
 .collection-padding {
@@ -1241,7 +1245,26 @@ input.spr-button.spr-button-primary.button.button-primary.btn.btn-primary:hover 
 .ArticleToolbar .Text--subdued {
     font-family: 'MagdaRegular';
 }
-
+#shopify-product-reviews a.spr-summary-actions-newreview {
+    font-family: MagdaRegular;
+}
+#shopify-product-reviews input.spr-button.spr-button-primary.button.button-primary.btn.btn-primary {
+    font-family: MagdaRegular;
+}
+a.Drawer__Title.Heading.u-h4 {
+    font-family: 'MagdaRegular';
+    font-weight: 800;
+}
+.magda-bold {
+    font-family: 'MagdaRegular'!important;
+    font-weight: 800;
+}
+.Article__Body.Rte p {
+    font-family: 'MagdaLight'!important;
+}
+.magda-light {
+    font-family: 'MagdaLight'!important;
+}
 @media screen and (max-width: 1500px) {
     .link-list-bg {
         top: 58px;
@@ -1256,6 +1279,15 @@ input.spr-button.spr-button-primary.button.button-primary.btn.btn-primary:hover 
 @media screen and (max-width: 1139px) {
     .link-list-bg {
         top: 57px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    #Sub__Heading {
+        font-size: 16px;
+        font-family: MagdaRegular;
+        font-weight: 400!important;
     }
 }
 
