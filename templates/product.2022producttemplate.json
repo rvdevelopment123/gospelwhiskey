@@ -1,7 +1,7 @@
 {
     "sections": {
         "main": {
-            "type": "product-template",
+            "type": "main-product",
             "disabled": true,
             "settings": {
                 "show_share_buttons": false,

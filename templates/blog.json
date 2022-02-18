@@ -29,23 +29,10 @@
                 "show_featured_article": false,
                 "show_category": false
             }
-        },
-        "recommendations": {
-            "type": "shop-now",
-            "settings": {
-                "show_section": false,
-                "title": "Shop now",
-                "collection": "",
-                "grid_items_count": 6,
-                "show_product_info": true,
-                "show_vendor": false,
-                "show_color_swatch": false
-            }
         }
     },
     "order": [
         "16292213225539598e",
-        "main",
-        "recommendations"
+        "main"
     ]
 }

@@ -64,15 +64,18 @@ function simulateClick(elem) {
 $(".AspectRatio.AspectRatio--withFallback").hover(function () {
     $(this).toggleClass("result_hover");
  });
-$('.ad_to_cart_coll').click(function(){    
-  var $this = $(this);
-  var ID = $(this).attr("data-var_id");
-  addItemToCart( ID, 1);    // paste your id product number
-  $("#cart_a").removeAttr("href");
-  simulateClick(document.querySelector("#cart_a"));
-  $this.text('Added!');
-});
+
+ function addToCart(me) {
+   var $this = $(me);
+   var ID = $(me).attr("data-var_id");
+   addItemToCart( ID, 1);    // paste your id product number
+   $("#cart_a").removeAttr("href");
+   simulateClick(document.querySelector("#cart_a"));
+   $this.text('Added!');
+ }
+
 function addItemToCart(variant_id, qty) {
+  
   data = {
     "id": variant_id,
     "quantity": qty

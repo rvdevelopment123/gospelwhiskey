@@ -62,7 +62,7 @@
         {% if product.available %}
             {% if product.variants.size < 2 %}
                 {%- assign selected_variant = product.selected_or_first_available_variant -%}
-                <button data-action="open-drawer" data-drawer-id="sidebar-cart" quantity=1 type="submit" name="add" aria-label="Add to cart" class="ad_to_cart_coll Button Button--primary" id="ad_to_cart" aria-haspopup="dialog" data-add-to-cart="{{ product.variants.first.id }}" data-var_id="{{ product.variants.first.id }}">
+                <button onclick="addToCart(this)" data-action="open-drawer" data-drawer-id="sidebar-cart" quantity=1 type="submit" name="add" aria-label="Add to cart" class="ad_to_cart_coll Button Button--primary" id="ad_to_cart" aria-haspopup="dialog" data-add-to-cart="{{ product.variants.first.id }}" data-var_id="{{ product.variants.first.id }}">
                 Add to cart</button>
             {%  else %}
                 <a {{ product.variants.size }} href="{{ product.url | within: collection }}" class="Button Button--primary">Choose Options</a>
@@ -228,3 +228,4 @@
     <a href="{{ product.url }}" class="ProductItem__ViewButton Button Button--secondary hidden-pocket">{{ 'collection.product.view_product' | t }}</a>
   {%- endif -%}
 </div>
+

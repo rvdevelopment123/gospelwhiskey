@@ -46,7 +46,7 @@
                 {%- assign related_product = all_products[product.metafields.sf_related_products[related_product_option]] -%}
 
                 {%- unless related_product.empty? -%}
-                  <div class="Carousel__Cell">
+                  <div class="Carousel__Cell" id="22222">
                     {% render 'product-item', product: related_product, show_product_info: section.settings.show_product_info, show_vendor: section.settings.show_vendor, show_color_swatch: section.settings.show_color_swatch, show_labels: true %}
                   </div>
                 {%- endunless -%}
@@ -55,17 +55,17 @@
               {%- for product in recommendations.products -%}
             {% if product.id == 5664532693155 %}
             {% else %}
-                <div class="Carousel__Cell">
+                <div class="Carousel__Cell" id="333333">
                   {% render 'product-item', product: product, show_product_info: section.settings.show_product_info, show_vendor: section.settings.show_vendor, show_color_swatch: section.settings.show_color_swatch, show_labels: true %}
                 </div>
               {%- else -%}
                 {%- comment -%}Hide the section if there is no recommendations to show{%- endcomment -%}
                 <style>
                   #shopify-section-{{ section.id }} {
-                    display: none;
+                    display : none;
                   }
                 </style>
-            {% endif %}
+              {% endif %}
               {%- endfor -%}
             {%- endif -%}
           </div>
@@ -73,6 +73,7 @@
       {%- endif -%}
     </div>
   </section>
+  
 {%- endif -%}
 
 {% schema %}

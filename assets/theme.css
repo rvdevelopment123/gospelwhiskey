@@ -1070,7 +1070,7 @@ html {
 }
 
 body {
-  font-family: var(--text-font-family);
+  font-family: 'MagdaRegular';  
   font-weight: var(--text-font-weight);
   font-style: var(--text-font-style);
   color: var(--text-color);
@@ -1250,7 +1250,6 @@ body {
 .features--heading-normal .u-h4,
 .features--heading-normal .Rte h4 {
   font-size: 16px;
-  font-family: 'MagdaRegular';
 }
 
 .features--heading-normal .u-h5,
@@ -1371,7 +1370,6 @@ body {
   .features--heading-normal .u-h4,
   .features--heading-normal .Rte h4 {
     font-size: 17px;
-    font-family: 'MagdaRegular';
   }
 
   .features--heading-normal .u-h5,
@@ -4109,7 +4107,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   color: inherit;
   margin: 0;
   font-weight: bold;
-  font-family: var(--text-font-family);
+  font-family: 'MagdaRegular';
   text-transform: capitalize;
 }
 
@@ -6002,6 +6000,8 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 
 .ArticleItem__Excerpt {
   margin-bottom: 20px;
+  font-family: 'MagdaRegular';
+  
 }
 
 @media screen and (min-width: 641px) {
@@ -7665,6 +7665,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .Header .Link--secondary,
 .Header .Link--primary:hover {
   color: var(--header-heading-color);
+  
 }
 
 .Header .Text--subdued,
@@ -10304,6 +10305,9 @@ shopify-payment-terms {
   color: var(--navigation-text-color);
 }
 
+.SectionHeader__Heading.SectionHeader__Heading, .SectionHeader__SubHeading.SectionHeader__SubHeading{
+  font-family: 'Montserrat';
+}
 .SidebarMenu .Text--subdued {
   color: var(--navigation-text-color-light);
 }
@@ -10986,3 +10990,23 @@ shopify-payment-terms {
     margin-top: 65px;
   }
 }
+.mt-3 .my-3 {
+  font-family: 'MagdaRegular';
+}
+p {
+  font-family: 'MagdaRegular';
+}
+
+.SectionHeader__Heading {
+  font-family: 'MagdaRegular';
+}
+.EmptyState__Title{
+  font-family: 'MagdaRegular' !important;
+}
+
+.features--heading-uppercase .Heading{
+  font-family: 'Montserrat';
+}
+
+
+

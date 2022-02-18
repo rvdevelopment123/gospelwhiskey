@@ -3,6 +3,14 @@
     src: url('MagdaPro.otf');
 }
 
+@font-face {
+    font-family: 'Montserrat';
+    src: url('{{'GPOHeadline-Semibold.woff' | asset_url }}') format('woff');
+    font-display: fallback;
+    font-weight: 500;
+    font-style: normal;
+  }
+
 .form-title{
     font-family: 'MagdaRegular';
 }
@@ -59,7 +67,7 @@
 }
 
 #section-header>div>div>nav>ul>li>a {
-    font-family: var(--text-font-family);
+    font-family: 'MagdaRegular';
     font-size: 100%;
     bottom: 3px;
 
@@ -134,7 +142,7 @@
 #FreeShippingBanner.AnnouncementBar__Content.Heading {
     text-transform: capitalize;
     font-weight: bold;
-    font-family: var(--text-font-family);
+    font-family: 'MagdaRegular';
     color: #F2EEE6;
 }
 
@@ -164,7 +172,7 @@
 }
 
 .Heading {
-    font-family: var(--heading-font-family);
+    font-family: 'MagdaRegular';  
     font-weight: bold;
     font-style: var(--heading-font-style);
     color: var(--heading-color);
@@ -233,6 +241,11 @@
     text-align: left;
     /*table-layout: fixed;*/
     table-layout: auto;
+    font-family: 'MagdaRegular' !important;
+}
+
+.gw-feature-about-text-container p{
+    font-family: 'MagdaRegular';  
 }
 
 /* Footer */
@@ -262,7 +275,7 @@
 .Footer_Newsletter {}
 
 .SectionHeader__SubHeading.u-h6 {
-    font-family: var(--text-font-family);
+    font-family: 'MagdaRegular';  
     font-size: 16px;
 }
 
@@ -274,6 +287,7 @@
 
 .ArticleToolbar__ArticleTitle.Heading.u-h7 {
     color: unset;
+    font-family: 'MagdaRegular';
 }
 
 #Button--howItsMade:hover {
@@ -301,7 +315,7 @@
 .gw-terms-title,
 .gw-terms-text h1 {
     font-size: 16px !important;
-    font-family: var(--text-font-family) !important;
+    font-family: 'MagdaRegular' !important;
 }
 
 #homepage__video {
@@ -400,8 +414,13 @@
         width: 100%;
     }
 
+    .spr-summary{
+        text-align: left !important;
+    }
+
     .spr-summary-actions-newreview {
         margin-top: 10px;
+        width: 100%;
     }
 
     #SectionHeader-AlignBottomLeft {
@@ -632,9 +651,13 @@
     .spr-icon {
         font-size: 60% !important;
     }
+    #section-slideshow .Heading {
+        font-family: 'Montserrat' !important;
+    }
 
     #section-slideshow .Heading .u-h1 {
         font-size: 22px;
+        
     }
 
     #section-slideshow .Heading.u-h6 {
@@ -748,9 +771,6 @@ h1.SectionHeader__Heading.Heading.u-h1 {
     font-family: MagdaRegular;
 }
 
-a.Drawer__Title.Heading.u-h4 {
-    font-family: 'MagdaRegular';
-}
 
 .PageHeader--withBackground h1.SectionHeader__Heading.Heading.u-h1 {
     font-family: var(--heading-font-family);
@@ -897,7 +917,21 @@ article .ProductList.ProductList--shopNow {
     padding-left: 0px;
 }
 
+
+.donation-wrapper-2nd {
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
 .donation-wrapper select {
+    background-color: unset;
+    width: 100%;
+    padding: 8px 3px;
+}
+
+.donation-wrapper-2nd select {
     background-color: unset;
     width: 100%;
     padding: 8px 3px;
@@ -1198,7 +1232,6 @@ input.spr-button.spr-button-primary.button.button-primary.btn.btn-primary:hover 
 
 .u-h4 {
   font-size: 19px;
-  font-family: 'MagdaRegular';
 }
 
 .ArticleToolbar .Text--subdued {

@@ -17,6 +17,20 @@
   </div>
 </section>
 <style>
+  #section-{{ section.id }} .owl-nav{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 8px;
+  }
+  @media screen and (max-width: 600px) {
+    #section-{{ section.id }} .owl-nav{
+      display: flex;
+    }
+  }
+
   #section-{{ section.id }} {
     padding: 80px 0px;
   }
@@ -34,7 +48,7 @@
     transform: translateY(-50%);
     top: 50%;
     width: 100%;
-    display: flex;
+    
     justify-content: space-between;
     padding: 0px 8px;
   }
@@ -45,7 +59,7 @@
   $(document).ready(function () {
 
     $("#owl-example").owlCarousel({
-      loop: false,
+      loop: true,
       margin: 10,
       navText: [
         "<span class='material-icons'>chevron_left</span>",
@@ -60,10 +74,10 @@
         },
         600: {
           items: 3,
-          nav: true
+          nav: false
         },
         1000: {
-          items: colums,
+          items: 4,
           nav: false
         }
       }

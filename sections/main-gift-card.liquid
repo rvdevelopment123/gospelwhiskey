@@ -23,7 +23,7 @@
         {%- if gift_card.enabled and gift_card.expired == false -%}
           <div class="Alert Alert--success">
             {%- assign formatted_initial_value = gift_card.initial_value | money_without_trailing_zeros: gift_card.currency -%}
-            <p>{{ 'gift_card.issued.initial_amount_html' | t: initial_amount: formatted_initial_value }}</p>
+            <p>{{ 'gift_card.issued.initial_amount_html'| t: initial_amount: formatted_initial_value }}</p>
 
             {%- if gift_card.balance != gift_card.initial_value -%}
               {%- assign formatted_balance = gift_card.balance | money_without_trailing_zeros: gift_card.currency -%}

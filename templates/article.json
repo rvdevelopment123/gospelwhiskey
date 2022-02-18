@@ -30,24 +30,10 @@
                 "button_link": "",
                 "button_text": "View all articles"
             }
-        },
-        "recommendations": {
-            "type": "shop-now",
-            "settings": {
-                "show_section": true,
-                "put_link": "shopify://collections/all",
-                "title": "You Might Like",
-                "collection": "cocktails",
-                "grid_items_count": 3,
-                "show_product_info": true,
-                "show_vendor": false,
-                "show_color_swatch": false
-            }
         }
     },
     "order": [
         "main",
-        "1633564089d4c383ab",
-        "recommendations"
+        "1633564089d4c383ab"
     ]
 }

@@ -3777,13 +3777,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             return response.text();
           })).then(function (contents) {
             // If we have only one content then we only have product, otherwise we have products and articles
-            if (window.theme.searchMode === 'product') {
-              _this25.searchResultsElement.innerHTML = contents[0];
-            } else {
-              _this25.searchResultsElement.innerHTML = '<div class="PageLayout PageLayout--breakLap">\n              <div class="PageLayout__Section">' + contents[0] + '</div>\n              <div class="PageLayout__Section PageLayout__Section--secondary">' + contents[1] + '</div>\n            </div>';
-            }
+            // TODO. Quick Search - Turn this back when you want Quick Search
+            // if (window.theme.searchMode === 'product') {
+            //   _this25.searchResultsElement.innerHTML = contents[0];
+            // } else {
+            //   _this25.searchResultsElement.innerHTML = '<div class="PageLayout PageLayout--breakLap">\n              <div class="PageLayout__Section">' + contents[0] + '</div>\n              <div class="PageLayout__Section PageLayout__Section--secondary">' + contents[1] + '</div>\n            </div>';
+            // }
 
-            _this25.searchResultsElement.setAttribute('aria-hidden', 'false');
+            // _this25.searchResultsElement.setAttribute('aria-hidden', 'false');
           });
 
           document.dispatchEvent(new CustomEvent('theme:loading:end'));

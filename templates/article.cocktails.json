@@ -1,1 +1,18 @@
-{"sections":{"main":{"type":"cocktail-article-template","settings":{"show_article_image":false,"show_date":false,"show_products":true,"show_category":false,"show_author":false,"show_share_buttons":false}},"recommendations":{"type":"shop-now","settings":{"show_section":false,"title":"The Gospel Shop","collection":"frontpage","grid_items_count":6,"show_product_info":true,"show_vendor":false,"show_color_swatch":false}}},"order":["main","recommendations"]}
+{
+    "sections": {
+        "main": {
+            "type": "cocktail-article-template",
+            "settings": {
+                "show_article_image": false,
+                "show_date": false,
+                "show_products": true,
+                "show_category": false,
+                "show_author": false,
+                "show_share_buttons": false
+            }
+        }
+    },
+    "order": [
+        "main"
+    ]
+}

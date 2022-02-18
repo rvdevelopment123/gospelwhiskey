@@ -10,18 +10,27 @@
 </div>
 <div class="gift-input-options"></div>
 <script>
-    function addGift() {
+    jQuery(function() {
+        addGift = function () {
         $('.wrapper-message').show('slow');
     }
-    function addMessage() {
+    addMessage = function () {
+        alert('Add Message')
         var message = $('textarea[name="gift-message"]').val();
         $('.gift-input-options').append('<input type="hidden" name="gift-message" value="' + message + '">');
         $('.wrapper-message').hide('slow');
         CartJS.addItem(40958112694463, 1, {
             "Message": message
         });
-        window.location.reload();
+        setTimeout(myFunction, 1000)
+              function myFunction() {
+                location.reload(true);
+				}
+        
+
     }
+      });
+   
 </script>
 <style>
     #add-gift-message-wrap{

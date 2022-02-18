@@ -59,6 +59,72 @@
   </section>
 {%- endif -%}
 
+<section id="talkToUs-bg">
+   {%- assign formId = 'ContactForm' -%}
+                {% form 'contact', id: formId %}
+                 
+  <div class="form-container">
+    <div class="row">
+      <div class="col-md-6">
+        <input class="bdc-custom-input" id="{{ formId }}-name" name="contact[{{ 'contact.form.name' | t }}]" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="{{section.settings.name}}">
+      </div>
+      <div class="col-md-6">
+        <input class="bdc-custom-input"
+               type="email"
+               id="{{ formId }}-email"
+               name="contact[email]"
+               autocorrect="off"
+               autocapitalize="off"
+               value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+               aria-required="true"
+               {%- if form.errors contains 'email' -%}
+               class="input--error"
+               aria-invalid="true"
+               aria-describedby="{{ formId }}-email-error"
+               {%- endif -%} placeholder="{{section.settings.email}}">
+        {%- if form.errors contains 'email' -%}
+                          <span id="{{ formId}}-email-error" class="input-error-message">
+                            <span class="visually-hidden">{{ 'general.accessibility.error' | t }} </span>
+                            {% include 'icon-error' %}
+                            <span>{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.</span>
+                          </span>
+                        {%- endif -%}
+      </div>
+      <div class="col-md-4 d-none">
+        <div class="bdc-custom-select">
+              <select>
+                  <option selected> Subject </option>
+                  <option>Option 1</option>
+                  <option>Option 2</option>
+                  <option>Last long option</option>
+              </select>
+        </div>
+      </div>
+    </div>
+  
+    <div>
+      <textarea class="bdc-custom-input" id="{{ formId }}-message" name="contact[{{ 'contact.form.message' | t }}]" rows="5" placeholder="{{section.settings.message}}">{% if form.body %}{{ form.body }}{% endif %}</textarea>
+    </div>
+    <div class="d-flex flex-column flex-sm-row flex-nowrap justify-content-between align-items-center">
+     <div class="d-flex align-items-center px-5 px-sm-0">
+      <input type="checkbox" id="{{ formId }}-newsletter" name="contact[newsletter]">
+      <label class="ms-3 ms-sm-2" for="agree"> {{section.settings.letmeknow}}</label>
+     </div>
+      <div id="form-submit-btn" class="mt-5 mt-sm-0">
+        <button type="submit" id="custom-button" style=" border: unset;">
+          {{section.settings.send}}
+          <div class="button-hover">
+          {{section.settings.send}}
+          </div>
+        </button>
+
+      </div>
+    </div>
+  </div>
+    {% endform %}
+</section>
+
+
 {% schema %}
 {
   "name": "Shop now",
@@ -135,117 +201,6 @@
     }
   ]
 }
-{% endschema %}
-
-<section id="talkToUs-bg">
-   {%- assign formId = 'ContactForm' -%}
-                {% form 'contact', id: formId %}
-                  {% include 'form-status', form: form, form_id: formId %}
-  <div class="form-container">
-    <div class="row">
-      <div class="col-md-6">
-        <input class="bdc-custom-input" id="{{ formId }}-name" name="contact[{{ 'contact.form.name' | t }}]" value="{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="{{section.settings.name}}">
-      </div>
-      <div class="col-md-6">
-        <input class="bdc-custom-input"
-               type="email"
-               id="{{ formId }}-email"
-               name="contact[email]"
-               autocorrect="off"
-               autocapitalize="off"
-               value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
-               aria-required="true"
-               {%- if form.errors contains 'email' -%}
-               class="input--error"
-               aria-invalid="true"
-               aria-describedby="{{ formId }}-email-error"
-               {%- endif -%} placeholder="{{section.settings.email}}">
-        {%- if form.errors contains 'email' -%}
-                          <span id="{{ formId}}-email-error" class="input-error-message">
-                            <span class="visually-hidden">{{ 'general.accessibility.error' | t }} </span>
-                            {% include 'icon-error' %}
-                            <span>{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.</span>
-                          </span>
-                        {%- endif -%}
-      </div>
-      <div class="col-md-4 d-none">
-        <div class="bdc-custom-select">
-              <select>
-                  <option selected> Subject </option>
-                  <option>Option 1</option>
-                  <option>Option 2</option>
-                  <option>Last long option</option>
-              </select>
-        </div>
-      </div>
-    </div>
-  
-    <div>
-      <textarea class="bdc-custom-input" id="{{ formId }}-message" name="contact[{{ 'contact.form.message' | t }}]" rows="5" placeholder="{{section.settings.message}}">{% if form.body %}{{ form.body }}{% endif %}</textarea>
-    </div>
-    <div class="d-flex flex-column flex-sm-row flex-nowrap justify-content-between align-items-center">
-     <div class="d-flex align-items-center px-5 px-sm-0">
-      <input type="checkbox" id="{{ formId }}-newsletter" name="contact[newsletter]">
-      <label class="ms-3 ms-sm-2" for="agree"> {{section.settings.letmeknow}}</label>
-     </div>
-      <div id="form-submit-btn" class="mt-5 mt-sm-0">
-        <button type="submit" id="custom-button" style=" border: unset;">
-          {{section.settings.send}}
-          <div class="button-hover">
-          {{section.settings.send}}
-          </div>
-        </button>
-
-      </div>
-    </div>
-  </div>
-    {% endform %}
-</section>
-
-
-{% schema %}
-  {
-    "name": "BDC Talk to Us Section",
-    "settings": [	
-					{
-						"type" : "text",
-						"label" : "Name Placeholder",
-						"id" : "name",
-						"default" : "Name"
-					},
-					{
-						"type" : "text",
-						"label" : "Email Placeholder",
-						"id" : "email",
-						"default" : "Email"
-					},
-					{
-						"type" : "text",
-						"label" : "Message Placeholder",
-						"id" : "message",
-						"default" : "Msg"
-					},
-					{
-						"type" : "text",
-						"label" : "Checkbox Let me know",
-						"id" : "letmeknow",
-						"default" : "Let me know some news about Baby Doge Card "
-					},
-					{
-						"type" : "text",
-						"label" : "Send Label",
-						"id" : "send",
-						"default" : "SEND"
-					}
-					 
-				],
-			"presets": [
-				{
-					"category" : "image",
-					"name" : "BDC Talk to Us Section"
-				}
-			]
-  }
 {% endschema %}
 
 {% stylesheet %}
