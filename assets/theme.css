@@ -1234,7 +1234,7 @@ body {
 
 .features--heading-normal .u-h1,
 .features--heading-normal .Rte h1 {
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .features--heading-normal .u-h2,
@@ -1354,7 +1354,7 @@ body {
 
   .features--heading-normal .u-h1,
   .features--heading-normal .Rte h1 {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .features--heading-normal .u-h2,
@@ -1364,7 +1364,7 @@ body {
 
   .features--heading-normal .u-h3,
   .features--heading-normal .Rte h3 {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .features--heading-normal .u-h4,
@@ -2694,6 +2694,9 @@ body:not(.is-tabbing) .flickity-enabled:focus {
   margin-bottom: 20px;
 }
 
+.CartPanelTitle{
+  font-family: 'MagdaRegularPro' !important;
+}
 
 .Form__Label,
 .spr-form-label {
@@ -6066,7 +6069,10 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   border-right: 2px solid var(--border-color);
   letter-spacing: 1.8px;
   text-transform: uppercase;
-  font-weight: bold;
+}
+
+.spr-summary-actions-togglereviews {
+  font-size: 16px;
 }
 
 .Blog__TagList .Link.is-active::after {
@@ -11008,5 +11014,7 @@ p {
   font-family: 'Montserrat';
 }
 
-
-
+.CartSectionHeading {
+  font-family: 'Montserrat' !important;
+  font-size: 24px !important;
+}

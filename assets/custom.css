@@ -1,6 +1,11 @@
 @font-face {
-    font-family: MagdaRegular;
+    font-family: MagdaRegularPro;
     src: url('https://cdn.shopify.com/s/files/1/0428/4556/9187/files/MagdaPro.otf?v=1644407802');
+}
+
+@font-face {
+    font-family: MagdaRegular;
+    src: url('https://cdn.shopify.com/s/files/1/0428/4556/9187/files/MagdaPro-Light.otf?v=1644407802');
 }
 @font-face {
     font-family: MagdaLight;
@@ -163,7 +168,7 @@
     font-size: 24px;
     font-family: var(--text-font-family);
     width: 50%;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: var(--heading-color);
 }
 
@@ -177,7 +182,6 @@
 
 .Heading {
     font-family: 'MagdaRegular';  
-    font-weight: bold;
     font-style: var(--heading-font-style);
     color: var(--heading-color);
     transition: color 0.2s ease-in-out;
@@ -815,6 +819,15 @@ h3.spr-review-header-title, h3.spr-review-header-title {
     /* Firefox */
 }
 
+.spr-form-label {
+    font-size: 16px !important;
+    line-height: normal !important;
+}
+.spr-review-content-body {
+    font-size: 16px !important;
+    line-height: normal !important;
+}
+
 .ProductListWrapper {
     overflow: unset !important;
 }
@@ -977,7 +990,6 @@ article .ProductList.ProductList--shopNow {
     justify-content: space-between;
     font-size: 22px;
     font-family: 'MagdaRegular';
-    font-weight: 700;
     align-items: center;
     margin: 20px 0px
 }
@@ -1012,7 +1024,6 @@ input#site-search {
 
 .faq-section-title {
     font-size: 22px;
-    font-weight: 700;
     border-bottom: solid 1px;
     padding: 15px 0px;
     font-family: 'MagdaRegular';
@@ -1108,7 +1119,7 @@ a:hover {
 
 .general-form-section .form-description {
     font-size: 1rem;
-    font-family: var(--text-font-family) !important;
+    font-family: 'MagdaLight';
 }
 
 .general-form-section .main-label {
