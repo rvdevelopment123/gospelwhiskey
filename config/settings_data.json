@@ -1,1 +1,787 @@
-{"current":{"heading_color":"#1c1b1b","text_color":"#1c1b1b","text_light_color":"#6a6a6a","link_color":"#6a6a6a","background":"#f2eee6","light_background":"#ffffff","product_on_sale_color":"#f94c43","button_background":"rgba(0,0,0,0)","button_text_color":"#000000","header_background":"#5a5b30","header_heading_color":"#f2eee6","header_light_color":"#ffffff","footer_background":"#ece2d2","footer_heading_color":"#1c1b1b","footer_text_color":"#6a6a6a","navigation_background":"#1c1b1b","navigation_text_color":"#f2eee6","newsletter_popup_background":"#1c1b1b","newsletter_popup_text_color":"#f2eee6","secondary_elements_background":"#1c1b1b","secondary_elements_text_color":"#f2eee6","heading_font":"montserrat_n5","heading_size":"normal","uppercase_heading":true,"text_font":"nunito_sans_n4","base_text_font_size":16,"show_page_transition":false,"show_button_transition":true,"search_mode":"product","product_show_price_on_hover":false,"product_show_secondary_image":false,"product_info_alignment":"left","product_image_size":"natural","product_list_horizontal_spacing":"medium","product_list_vertical_spacing":"small","cart_type":"drawer","cart_enable_notes":true,"cart_show_free_shipping_threshold":true,"cart_free_shipping_threshold":"100","social_facebook":"https:\/\/www.facebook.com\/thegospelwhiskey","social_instagram":"https:\/\/instagram.com\/thegospelwhiskey","favicon":"shopify:\/\/shop_images\/gospel-favicon_c4fba387-a769-47e5-b6cb-0f57c520ace6.png","checkout_logo_position":"center","checkout_logo_size":"small","checkout_body_background_color":"#ffffff","checkout_input_background_color_mode":"white","checkout_sidebar_background_color":"#efefef","checkout_accent_color":"#1c1b1b","checkout_button_color":"#1c1b1b","sections":{"sidebar-menu":{"type":"sidebar-menu","settings":{"primary_menu":"navigation-menu","secondary_menu":"footer","show_social_media":true}},"announcement":{"type":"announcement","settings":{"enable_bar":true,"home_page_only":true,"background":"#5a5b30","text_color":"#ffffff","content":"FREE SHIPPING FOR ALL ORDERS OVER $100","link":""}},"header":{"type":"header","settings":{"use_sticky_header":true,"logo_max_width":300,"mobile_logo_max_width":90,"show_currency_selector":false,"show_locale_selector":false,"navigation_menu":"navigation-menu","navigation_style":"inline","show_icons":false,"enable_transparent_header":true,"enable_transparent_header_collection":false,"show_transparent_header_border":false,"transparent_text_color":"#ffffff"}},"footer":{"type":"footer","blocks":{"footer-2":{"type":"newsletter","settings":{"title":"Newsletter","content":"<p>Subscribe to receive news about our limited releases and general musings by The Gospel staff.<\/p>"}},"96224069-af55-4ac7-80c8-693cb7abba82":{"type":"text","settings":{"title":"Acknowledgement","content":"<p>We acknowledge the Wurundjeri people of the Kulin Nation, the Traditional Custodians of the land on which The Gospel stands. We pay our respects to their Elders past, present and emerging.<\/p>","show_social_media":true}},"cdd654b9-3ae4-43e4-b033-a148579a636f":{"type":"links","settings":{"menu":"new-menu"}},"d1dd1bbc-a963-4864-803d-5feedbc50c47":{"type":"text","disabled":true,"settings":{"title":"","content":"","show_social_media":true}}},"block_order":["footer-2","96224069-af55-4ac7-80c8-693cb7abba82","cdd654b9-3ae4-43e4-b033-a148579a636f","d1dd1bbc-a963-4864-803d-5feedbc50c47"],"settings":{"show_payment_methods":true,"show_currency_selector":true,"show_locale_selector":true}},"slideshow":{"type":"slideshow","blocks":{"slide-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/main_static_banner.jpg","desktop_video":"","mobile_video":"","apply_overlay":false,"content_position":"middleCenter","subheading":"","title":"<div class=\"gw-splash-logo\">         <svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewbox=\"0 0 718 66\" style=\"enable-background:new 0 0 718 66;\" xml:space=\"preserve\">           <path class=\"st0\" d=\"M36.5,1.3H0.4v14h0.5l7.2-2.1c2.1-0.6,3.8-0.8,6.2-0.8h4.8v41.7c0,1.2-0.2,2-0.6,2.9l-3.6,8.4V66h22.2v-0.8           \tl-3.6-8.4c-0.4-0.9-0.6-1.7-0.6-2.9V12.3h4.8c2.4,0,4,0.2,6.2,0.8l7.2,2.1h0.5v-15C46.2,1,41.1,1.3,36.5,1.3z M130.5,10.5l3.6-8.4           \tV1.3h-22.2V2l3.6,8.4c0.4,0.9,0.6,1.7,0.6,2.9v14.4H90.6V13.4c0-1.2,0.2-2,0.6-2.9L94.8,2V1.3H72.7V2l3.6,8.4           \tc0.4,0.9,0.6,1.7,0.6,2.9v40.6c0,1.2-0.2,2-0.6,2.9l-3.6,8.4V66h22.2v-0.8l-3.6-8.4c-0.4-0.9-0.6-1.7-0.6-2.9V38.7h25.5v15.2           \tc0,1.2-0.2,2-0.6,2.9l-3.6,8.4V66h22.2v-0.8l-3.6-8.4c-0.4-0.9-0.6-1.7-0.6-2.9V13.4C129.9,12.1,130.1,11.4,130.5,10.5z M204,51.1           \tl-7.2,2.9c-2.1,0.8-3.8,1-6.2,1h-16.3V38.5h9.8c2.4,0,4,0.1,6.2,0.5l6.8,1.3h0.5V25.8H197l-6.8,1.3c-2.1,0.4-3.8,0.5-6.2,0.5h-9.8           \tV12.3h15.3c2.4,0,4,0.2,6.2,0.8l7.2,2.1h0.5v-15C198,1,192.9,1.3,188.4,1.3h-32.1V2l3.6,8.4c0.4,0.9,0.6,1.7,0.6,2.9v40.6           \tc0,1.2-0.2,2-0.6,2.9l-3.6,8.4V66h48.2V51.1H204z M311.4,66h29.3c6.4,0,9.6-3.6,9.6-9v-23H332v0.8l4.8,8.4c0.5,0.9,0.6,1.7,0.6,2.9           \tV55h-21.9V12.3h21.1v10.7l0.3,0.3l13.3-3.4v-9.6c0-5.4-3.2-9-9.6-9h-29.3c-6.4,0-9.6,3.6-9.6,9V57C301.8,62.4,305,66,311.4,66z           \t M386.8,66h30.1c6.4,0,9.6-3.6,9.6-9V10.2c0-5.4-3.2-9-9.6-9h-30.1c-6.4,0-9.6,3.6-9.6,9V57C377.2,62.4,380.4,66,386.8,66z           \t M390.9,55V12.3h21.9V55H390.9z M463,66h28.8c6.4,0,9.6-3.6,9.6-9V44.5c0-7.2-1.6-9.8-9.5-12.6L467.4,23V12.3h20.4v10.7l0.3,0.3           \tl13.3-3.4v-9.6c0-5.4-3.2-9-9.6-9h-28.5c-6.4,0-9.6,3.6-9.6,9V22c0,7.2,1.6,9.8,9.2,12.5l24.8,9V55h-20.6V44.3l-0.3-0.3l-13.3,3.4           \tV57C453.4,62.4,456.6,66,463,66z M567.1,1.3H526V2l3.6,8.4c0.4,0.9,0.6,1.7,0.6,2.9v40.6c0,1.2-0.2,2-0.6,2.9l-3.6,8.4V66h22.2v-0.8           \tl-3.6-8.4c-0.4-0.9-0.6-1.7-0.6-2.9V43.5h23.2c6.4,0,9.6-3.6,9.6-9V10.2C576.7,4.8,573.5,1.3,567.1,1.3z M563,32.6h-19.1V12.3H563           \tV32.6z M648.2,51.1L641,54c-2.1,0.8-3.8,1-6.2,1h-16.3V38.5h9.8c2.4,0,4,0.1,6.2,0.5l6.8,1.3h0.5V25.8h-0.5l-6.8,1.3           \tc-2.1,0.4-3.8,0.5-6.2,0.5h-9.8V12.3h15.3c2.4,0,4,0.2,6.2,0.8l7.2,2.1h0.5v-15c-5.4,0.8-10.5,1.1-15.1,1.1h-32.1V2l3.6,8.4           \tc0.4,0.9,0.6,1.7,0.6,2.9v40.6c0,1.2-0.2,2-0.6,2.9l-3.6,8.4V66h48.2V51.1H648.2z M717.3,51.1l-7.2,2.9c-2.1,0.8-3.8,1-6.2,1h-14           \tV13.4c0-1.2,0.2-2,0.6-2.9l3.6-8.4V1.3H672V2l3.6,8.4c0.4,0.9,0.6,1.7,0.6,2.9v40.6c0,1.2-0.2,2-0.6,2.9l-3.6,8.4V66h45.9V51.1           \tH717.3z\"><\/path>         <\/svg>       <\/div>","title_mobile":"<div class=\"gw-splash-logo\">         <svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewbox=\"0 0 584 213\" style=\"enable-background:new 0 0 584 213;\" xml:space=\"preserve\">         <path class=\"st0\" d=\"M191.5,2h-40.8v15.8h0.6l8.1-2.4c2.4-0.7,4.3-0.9,7-0.9h5.4v47c0,1.4-0.3,2.2-0.7,3.3l-4,9.5V75h25v-0.9l-4-9.5         \tc-0.4-1-0.7-1.9-0.7-3.3v-47h5.5c2.7,0,4.5,0.2,7,0.9l8.1,2.4h0.6V0.8C202.4,1.7,196.6,2,191.5,2z M320.4,12.3l4-9.5V2h-25v0.9         \tl4,9.5c0.4,1,0.7,1.9,0.7,3.3v16.2h-28.8V15.6c0-1.4,0.3-2.2,0.7-3.3l4-9.5V2h-25v0.9l4,9.5c0.4,1,0.7,1.9,0.7,3.3v45.8         \tc0,1.4-0.3,2.2-0.7,3.3l-4,9.5V75h25v-0.9l-4-9.5c-0.4-1-0.7-1.9-0.7-3.3V44.2h28.8v17.1c0,1.4-0.3,2.2-0.7,3.3l-4,9.5V75h25v-0.9         \tl-4-9.5c-0.4-1-0.7-1.9-0.7-3.3V15.6C319.7,14.2,320,13.4,320.4,12.3z M426.2,58.1l-8.1,3.3c-2.3,0.9-4.3,1.1-7,1.1h-18.4V43.9h11         \tc2.7,0,4.5,0.1,7,0.6l7.7,1.5h0.6V29.6h-0.6l-7.7,1.5c-2.4,0.5-4.3,0.6-7,0.6h-11V14.4h17.2c2.7,0,4.5,0.2,7,0.9l8.1,2.4h0.6V0.8         \tc-6.1,0.9-11.9,1.2-17,1.2h-36.2v0.9l4,9.5c0.4,1,0.7,1.9,0.7,3.3v45.8c0,1.4-0.3,2.2-0.7,3.3l-4,9.5V75h54.4V58.1H426.2z M11.1,213         \th33c7.2,0,10.8-4,10.8-10.1V177H34.3v0.9l5.4,9.5c0.5,1,0.7,1.9,0.7,3.3v10H15.7v-48.2h23.8v12.1l0.4,0.4l15-3.9v-10.8         \tc0-6.1-3.6-10.1-10.8-10.1h-33c-7.2,0-10.8,4-10.8,10.1v52.8C0.2,209,3.8,213,11.1,213z M119,213h34c7.2,0,10.8-4,10.8-10.1v-52.8         \tc0-6.1-3.6-10.1-10.8-10.1h-34c-7.2,0-10.8,4-10.8,10.1v52.8C108.2,209,111.8,213,119,213z M123.7,200.6v-48.2h24.7v48.2H123.7z         \t M227.9,213h32.5c7.2,0,10.8-4,10.8-10.1v-14.2c0-8.1-1.8-11-10.7-14.3l-27.6-10v-12.1h23v12.1l0.4,0.4l15-3.9v-10.8         \tc0-6.1-3.6-10.1-10.8-10.1h-32.2c-7.2,0-10.8,4-10.8,10.1v13.3c0,8.1,1.8,11,10.3,14.1l28,10.2v12.9h-23.2v-12.1l-0.4-0.4l-15,3.9         \tv10.8C217.1,209,220.7,213,227.9,213z M368.2,140h-46.5v0.9l4,9.5c0.4,1,0.7,1.9,0.7,3.3v45.8c0,1.4-0.3,2.2-0.7,3.3l-4,9.5v0.9h25         \tv-0.9l-4-9.5c-0.4-1-0.7-1.9-0.7-3.3v-11.8h26.2c7.2,0,10.8-4,10.8-10.1v-27.4C379,144,375.4,140,368.2,140z M363.6,175.3H342v-23         \th21.6V175.3z M482.5,196.1l-8.1,3.3c-2.3,0.9-4.3,1.1-7,1.1H449v-18.7h11c2.7,0,4.5,0.1,7,0.6l7.7,1.5h0.6v-16.5h-0.6l-7.7,1.5         \tc-2.4,0.5-4.3,0.6-7,0.6h-11v-17.3h17.2c2.7,0,4.5,0.2,7,0.9l8.1,2.4h0.6v-16.9c-6.1,0.9-11.9,1.2-17,1.2h-36.2v0.9l4,9.5         \tc0.4,1,0.7,1.9,0.7,3.3v45.8c0,1.4-0.3,2.2-0.7,3.3l-4,9.5v0.9h54.4v-16.9H482.5z M583.4,196.1l-8.1,3.3c-2.3,0.9-4.3,1.1-7,1.1         \th-15.8v-47c0-1.4,0.3-2.2,0.7-3.3l4-9.5V140h-25v0.9l4,9.5c0.4,1,0.7,1.9,0.7,3.3v45.8c0,1.4-0.3,2.2-0.7,3.3l-4,9.5v0.9H584v-16.9         \tH583.4z\"><\/path>         <\/svg>       <\/div>","content":"","button_1_text":"","button_1_link":"","button_2_text":"","button_2_link":""}},"15d796c6-19d7-4aeb-945b-c316d1fbc765":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/lemon_liqueur_1558x1200_b6af9c8b-86d4-4f32-ade1-97c926fec7d8.jpg","desktop_video":"","mobile_video":"","apply_overlay":true,"content_position":"bottomLeft","subheading":"","title":"Yumbo Lemoncello","title_mobile":"","content":"<p><em>Yumbo Lemoncello <\/em>is a full-bodied, whiskey-based lemon liqueur made in collaboration with local lemonade pioneers, <em>Yumbo Soda Co. <\/em>A riff on traditional limoncello with a local Victorian twist, <em>Yumbo Lemoncello <\/em> steeps hand-peeled lemon zest, sourced as a by-product of <em>Yumbo’s<\/em> lemonade, in our <em>Solera Rye<\/em> until the oils are released. The citrus notes of the lemon peel blend seamlessly with the cinnamon spice of the rye, creating a unique lemon liqueur with a strong lemon, zesty flavour and a spicy rye kick.<br\/><br\/><em>Yumbo Lemoncello<\/em> was blended with the intention of being sipped as a digestivo with friends at the end of a hearty meal, or consumed on hot summer days as a refreshing spritz, making it perfect all-year round.<\/p>","button_1_text":"Buy now","button_1_link":"shopify:\/\/products\/yumbo-lemoncello","button_2_text":"","button_2_link":""}}},"block_order":["slide-1","15d796c6-19d7-4aeb-945b-c316d1fbc765"],"settings":{"show_fullscreen":true,"show_arrow":false,"autoplay":true,"cycle_speed":5,"text_color":"#ffffff","text_size":78,"button_color":"#ffffff","button_background":"rgba(0,0,0,0)"}},"featured-collections":{"type":"featured-collections","blocks":{"featured-collection-0":{"type":"collection","settings":{"collection":"frontpage","title":"OUR WHISKEY","grid_items_count":9,"button_text":""}}},"block_order":["featured-collection-0"],"settings":{"title":"Locally made whiskey that are made for your mouth and not your display cabinet.","button_text":"View all products","button_link":"shopify:\/\/collections\/all","layout_mode":"carousel","show_product_info":true,"show_vendor":false,"show_color_swatch":false,"grid_mobile_items_per_row":"2","grid_desktop_items_per_row":3}},"collection-list":{"type":"collection-list","blocks":{"collection-0":{"type":"collection","settings":{"collection":"","image_alignment":"center center","content_position":"bottomLeft","subheading":"Sub-heading","title":"Collection name","button_text":"View products","button_link":"","apply_overlay":true}},"collection-1":{"type":"collection","settings":{"collection":"","image_alignment":"center center","content_position":"bottomLeft","subheading":"Sub-heading","title":"Collection name","button_text":"View products","button_link":"","apply_overlay":true}},"collection-2":{"type":"collection","settings":{"collection":"","image_alignment":"center center","content_position":"bottomLeft","subheading":"Sub-heading","title":"Collection name","button_text":"View products","button_link":"","apply_overlay":true}}},"block_order":["collection-0","collection-1","collection-2"],"settings":{"image_size":"normal","add_spacing":true,"expand_collection":false,"stack_on_mobile":true,"text_color":"#ffffff","button_color":"#363636"}},"featured-product":{"type":"featured-product","settings":{"subheading":"","title":"Featured product","show_headings_on_mobile":true,"product":"","show_vendor":true,"show_sku":false,"show_description":true,"description_below_add_to_cart":false,"selector_mode":"dropdown","show_color_swatch":false,"show_color_carousel":false,"show_quantity_selector":true,"show_inventory_quantity":false,"inventory_quantity_threshold":3,"show_price_in_button":false,"show_payment_button":true,"show_pickup_availability":false}},"timeline":{"type":"timeline","blocks":{"item-0":{"type":"item","settings":{"apply_overlay":true,"title":"2000","subheading":"Sub-heading","heading":"Heading","content":"<p>Add your own custom content to give more information about your store, availability details...<\/p>"}},"item-1":{"type":"item","settings":{"apply_overlay":true,"title":"2001","subheading":"Sub-heading","heading":"Heading","content":"<p>Add your own custom content to give more information about your store, availability details...<\/p>"}},"item-2":{"type":"item","settings":{"apply_overlay":true,"title":"2002","subheading":"Sub-heading","heading":"Heading","content":"<p>Add your own custom content to give more information about your store, availability details...<\/p>"}}},"block_order":["item-0","item-1","item-2"],"settings":{"text_color":"#ffffff"}},"blog-posts":{"type":"blog-posts","blocks":{"blog-0":{"type":"blog","settings":{"blog":"journal"}}},"block_order":["blog-0"],"settings":{"subheading":"","title":"Featured article","show_category":false,"button_link":"","button_text":"View all articles"}},"shop-the-look":{"type":"shop-the-look","blocks":{"look-0":{"type":"look","settings":{"dot_style":"light","product_1":"","product_1_horizontal_position":30,"product_1_vertical_position":40,"product_2":"","product_2_horizontal_position":45,"product_2_vertical_position":65,"product_3":"","product_3_horizontal_position":70,"product_3_vertical_position":50}},"look-1":{"type":"look","settings":{"dot_style":"light","product_1":"","product_1_horizontal_position":25,"product_1_vertical_position":45,"product_2":"","product_2_horizontal_position":55,"product_2_vertical_position":30,"product_3":"","product_3_horizontal_position":65,"product_3_vertical_position":60}}},"block_order":["look-0","look-1"],"settings":{"subheading":"Shop","title":"Our looks","show_mobile_product_info":false}},"collection-template":{"type":"collection-template","blocks":{"c351d72f-26bb-449f-9819-35f7fa4268bf":{"type":"collection","settings":{"collection":"shopify:\/\/collections\/all","title":"All"}},"2a0eec9d-264e-494b-95d8-d63505269a06":{"type":"collection","settings":{"collection":"shopify:\/\/collections\/whiskey","title":"Whiskey"}},"b2a09ce6-2eb2-4d42-8d48-61b4c8e746ef":{"type":"collection","settings":{"collection":"shopify:\/\/collections\/the-dispensary","title":"The Dispensary"}},"a64d6d6d-16a9-4b58-8ffc-ec136868f8d4":{"type":"collection","settings":{"collection":"shopify:\/\/collections\/cocktails-1","title":"Cocktails"}},"fd930b2b-9363-49e1-8976-56fdf5c1baa7":{"type":"collection","settings":{"collection":"shopify:\/\/collections\/made-from-whiskey","title":"Made From Whiskey"}},"7d3aff30-6514-490c-baec-9afec3c47e45":{"type":"collection","settings":{"collection":"shopify:\/\/collections\/merch","title":"Merch"}}},"block_order":["c351d72f-26bb-449f-9819-35f7fa4268bf","2a0eec9d-264e-494b-95d8-d63505269a06","b2a09ce6-2eb2-4d42-8d48-61b4c8e746ef","a64d6d6d-16a9-4b58-8ffc-ec136868f8d4","fd930b2b-9363-49e1-8976-56fdf5c1baa7","7d3aff30-6514-490c-baec-9afec3c47e45"],"settings":{"show_collection_info":true,"show_collection_image":true,"apply_overlay":true,"show_color_swatch":false,"show_vendor":false,"collection_image_size":"small","show_sort_by":true,"show_layout_switch":false,"toolbar_position":"top","filter_position":"drawer","filter_mode":"hidden","show_filter_color_swatch":false,"filter_menu":"","grid_items_per_page":16,"grid_mobile_items_per_row":"2","grid_desktop_items_per_row":4}},"recently-viewed-products":{"type":"recently-viewed-products","settings":{"show_section":true,"title":"Recently viewed","show_product_info":true,"show_vendor":false,"show_color_swatch":false}},"collection-footer":{"type":"collection-footer","settings":{"show_section":true,"image":"shopify:\/\/shop_images\/Cocktails.jpg","text_color":"#ffffff","apply_overlay":true,"title":"GOSPEL RECIPES","content":"<p>Try our whiskey in one of these delicious recipes.  <\/p>"}},"product-template":{"type":"product-template","settings":{"show_share_buttons":true,"show_vendor":true,"show_color_swatch":false,"show_color_carousel":false,"show_quantity_selector":true,"show_inventory_quantity":false,"inventory_quantity_threshold":3,"image_size":"large","stack_images":true,"show_thumbnails":false,"enable_image_zoom":true,"reviews_enabled":false}},"product-recommendations":{"type":"product-recommendations","settings":{"show_product_recommendations":true,"show_product_info":true}},"popup":{"type":"popup","settings":{"show_popup":false,"show_only_on_index":true,"show_only_for_visitors":true,"show_only_once":true,"title":"Popup","content":"<p>You can use this popup to display some useful information to your customers.<\/p>","show_newsletter":true,"apparition_delay":5}},"162693642824a2a9c7":{"type":"logo-list","blocks":{"180c03ed-fc79-49c2-9ad1-5d2b26eabd1d":{"type":"Image","settings":{"image":"shopify:\/\/shop_images\/New-York-Times-Logo_cae8e271-df2b-40a4-a6ff-5eee80c0b6ce.png","review_stars":"0","title":"","quote":""}},"d382a821-6554-4c48-a663-044c71779366":{"type":"Image","settings":{"image":"shopify:\/\/shop_images\/Financial-Times-London-UK-Logo.png","review_stars":"0","title":"","quote":""}},"902521cc-4d59-434e-8215-ac72101db92b":{"type":"Image","settings":{"image":"shopify:\/\/shop_images\/Good-Food-Magazine-Newspaper-Logo_f1643152-c48d-432b-b2d5-37f343ce6ae3.png","review_stars":"0","title":"","quote":""}},"8b512563-8df5-4c87-b91f-89b479eddc36":{"type":"Image","settings":{"image":"shopify:\/\/shop_images\/The-Age-Newspaper-Logo_0699e2eb-6052-43ca-9e42-3b1e1545cd1c.png","review_stars":"0","title":"","quote":""}}},"block_order":["180c03ed-fc79-49c2-9ad1-5d2b26eabd1d","d382a821-6554-4c48-a663-044c71779366","902521cc-4d59-434e-8215-ac72101db92b","8b512563-8df5-4c87-b91f-89b479eddc36"],"settings":{"subheading":"","title":"","content":"","link_text":"","link_url":"","size":"200px","size_m":"150px","spacing":"10px"}},"1626936490f7ac1d6c":{"type":"image-with-text-overlay","settings":{"center_all":true,"section_link":"","section_size":"large","image":"shopify:\/\/shop_images\/Journal_Rye_Production_BW.jpg","video":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":10,"text_size":40,"subheading":"","title":"MADE WITH 100% AUSTRALIAN RYE","content":"","button_1_text":"How its made","button_1_link":"shopify:\/\/blogs\/journal","button_2_text":"","button_2_link":""}},"16269374621f9d3b31":{"type":"custom-html","disabled":true,"settings":{"subheading":"","title":"THE RYE REVOLUTION","html":"<style>\n#shopify-section-16269374621f9d3b31{\nbackground:#5A5B30;\ncolor:white;\n}\n#section-16269374621f9d3b31{\npadding:30px !important;\nmargin:0;\n}\n#section-16269374621f9d3b31 > div > header{\nmargin:0;\n}\n#section-16269374621f9d3b31 > div > header > h2{\ncolor:white;\n}\n<\/style>"}},"1626937808dbbd053f":{"type":"logo-list","blocks":{"d0394b29-247d-4b33-8c9a-82644c866845":{"type":"Image","settings":{"review_stars":"5","title":"HUGH ROBERTSON","quote":"<p>The Solera Rye is superb. Truly one of the most beautiful things I have ever had. <\/p>"}},"5c59ff63-4c52-411c-99da-d5d22f2ee198":{"type":"Image","settings":{"review_stars":"5","title":"CAM BROWN","quote":"<p>The Gospel is so unique. Both Solera Rye and Straight Rye Whiskey taste like nothing else available.<\/p>"}},"43c5b32f-13a5-498b-8e1a-de9b99fc1278":{"type":"Image","settings":{"review_stars":"5","title":"DEAN SMITH","quote":"<p>The exceptional quality of the product is what will keep me coming back again and again.<\/p>"}},"049a0674-9fb3-4ebe-80b4-5992d08ec496":{"type":"Image","settings":{"review_stars":"4","title":"SHIRLEY MOORE","quote":"<p>A smooth home grown whiskey.<\/p>"}}},"block_order":["d0394b29-247d-4b33-8c9a-82644c866845","5c59ff63-4c52-411c-99da-d5d22f2ee198","43c5b32f-13a5-498b-8e1a-de9b99fc1278","049a0674-9fb3-4ebe-80b4-5992d08ec496"],"settings":{"subheading":"","title":"","content":"","link_text":"","link_url":"","size":"200px","size_m":"120px","spacing":"60px"}},"16269378793cc5438e":{"type":"text-with-image","settings":{"subheading":"","title":"The good word","image":"shopify:\/\/shop_images\/sazerac_cocktail-1280x975.jpg","image_position":"right","bg_colour":"#fde9cf","content":"<p>Sign up to The Gospel newsletter and follow us into the light.<\/p>","title2":"","link_text":"","link_url":"","enable_email":true}},"1626938031535fb114":{"type":"blog-posts","blocks":{"1626938031535fb114-0":{"type":"blog","settings":{"blog":"journal"}}},"block_order":["1626938031535fb114-0"],"settings":{"subheading":"Exploring whiskey, culture, fanatics, and obsession.","title":"Journal","show_category":false,"button_link":"","button_text":""}},"blog-template":{"type":"blog-template","settings":{"show_rss":false,"show_tags":true,"show_featured_article":false,"show_category":false}},"shop-now":{"type":"shop-now","settings":{"show_section":false,"title":"Shop now","collection":"","grid_items_count":6,"show_product_info":true,"show_vendor":false,"show_color_swatch":false}},"article-template":{"type":"article-template","settings":{"show_article_image":true,"show_date":false,"show_category":false,"show_author":true,"show_share_buttons":true}},"age-gate":{"type":"age-gate","settings":{"title":"YOU MUST BE OF LEGAL DRINKING AGE TO ENTER THIS SITE","body":"ARE YOU OF LEGAL DRINKING AGE?","license":"32809785","exit_link":""}},"list-collections-template":{"type":"list-collections-template","settings":{"collections_to_show":"all","image_size":"normal","add_spacing":true,"expand_collection":false,"apply_overlay":true,"text_color":"#ffffff","button_color":"#363636"}},"1629179219e5d85c88":{"type":"about-us","settings":{"subheading":"RYE IS THE GOSPEL","title":"WHISKEY IS RELIGION","html":"<p>It is widely believed that whiskey was first distilled for medicinal use by monks and apothecaries in Scotland and Ireland. The distillation of whiskey evolved as it moved from monastic to secular, as it did with the path of migration over hundreds of years. Early Scotch-Irish settlers in the USA used rye to make whiskey because barley didn’t adapt to the North American climate. These conditions are also true for the dry climate of Australia, where we set out to reimagine this original American spirit using 100% Australian rye.<\/p>"}},"cart-template":{"type":"cart-template","settings":{"show_shipping_estimator":false,"shipping_estimator_default_country":"Australia"}},"1635680933a4492f11":{"type":"image-with-text-overlay","disabled":true,"settings":{"center_all":true,"section_link":"","section_size":"large","video":"","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30,"text_size":40,"subheading":"","title":"Tell your story","content":"<p>Add your own custom content to give more information about your store, availability details...<\/p>","button_1_text":"","button_1_link":"","button_2_text":"","button_2_link":""}}},"content_for_index":["slideshow","1629179219e5d85c88","featured-collections","162693642824a2a9c7","1626936490f7ac1d6c","1635680933a4492f11","16269374621f9d3b31","1626937808dbbd053f","1626938031535fb114","16269378793cc5438e"]}}
+{
+  "current": {
+    "heading_color": "#1c1b1b",
+    "text_color": "#1c1b1b",
+    "text_light_color": "#6a6a6a",
+    "link_color": "#6a6a6a",
+    "background": "#f2eee6",
+    "light_background": "#ffffff",
+    "product_on_sale_color": "#f94c43",
+    "button_background": "rgba(0,0,0,0)",
+    "button_text_color": "#000000",
+    "header_background": "#5a5b30",
+    "header_heading_color": "#f2eee6",
+    "header_light_color": "#ffffff",
+    "footer_background": "#ece2d2",
+    "footer_heading_color": "#1c1b1b",
+    "footer_text_color": "#6a6a6a",
+    "navigation_background": "#1c1b1b",
+    "navigation_text_color": "#f2eee6",
+    "newsletter_popup_background": "#1c1b1b",
+    "newsletter_popup_text_color": "#f2eee6",
+    "secondary_elements_background": "#1c1b1b",
+    "secondary_elements_text_color": "#f2eee6",
+    "heading_font": "montserrat_n5",
+    "heading_size": "normal",
+    "uppercase_heading": true,
+    "text_font": "nunito_sans_n4",
+    "base_text_font_size": 16,
+    "show_page_transition": false,
+    "show_button_transition": true,
+    "search_mode": "product",
+    "product_show_price_on_hover": false,
+    "product_show_secondary_image": false,
+    "product_info_alignment": "left",
+    "product_image_size": "natural",
+    "product_list_horizontal_spacing": "medium",
+    "product_list_vertical_spacing": "small",
+    "cart_type": "drawer",
+    "cart_enable_notes": true,
+    "cart_show_free_shipping_threshold": true,
+    "cart_free_shipping_threshold": "100",
+    "social_facebook": "https:\/\/www.facebook.com\/thegospelwhiskey",
+    "social_instagram": "https:\/\/instagram.com\/thegospelwhiskey",
+    "favicon": "shopify:\/\/shop_images\/gospel-favicon_c4fba387-a769-47e5-b6cb-0f57c520ace6.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "small",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#efefef",
+    "checkout_accent_color": "#1c1b1b",
+    "checkout_button_color": "#1c1b1b",
+    "sections": {
+      "sidebar-menu": {
+        "type": "sidebar-menu",
+        "settings": {
+          "primary_menu": "navigation-menu",
+          "secondary_menu": "footer",
+          "show_social_media": true
+        }
+      },
+      "announcement": {
+        "type": "announcement",
+        "settings": {
+          "enable_bar": true,
+          "home_page_only": true,
+          "background": "#5a5b30",
+          "text_color": "#ffffff",
+          "content": "FREE SHIPPING FOR ALL ORDERS OVER $100",
+          "link": ""
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "use_sticky_header": true,
+          "logo_max_width": 300,
+          "mobile_logo_max_width": 90,
+          "show_currency_selector": false,
+          "show_locale_selector": false,
+          "navigation_menu": "navigation-menu",
+          "navigation_style": "inline",
+          "show_icons": false,
+          "enable_transparent_header": true,
+          "enable_transparent_header_collection": false,
+          "show_transparent_header_border": false,
+          "transparent_text_color": "#ffffff"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-2": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter",
+              "content": "<p>Subscribe to receive news about our limited releases and general musings by The Gospel staff.<\/p>"
+            }
+          },
+          "96224069-af55-4ac7-80c8-693cb7abba82": {
+            "type": "text",
+            "settings": {
+              "title": "Acknowledgement",
+              "content": "<p>We acknowledge the Wurundjeri people of the Kulin Nation, the Traditional Custodians of the land on which The Gospel stands. We pay our respects to their Elders past, present and emerging.<\/p>",
+              "show_social_media": true
+            }
+          },
+          "cdd654b9-3ae4-43e4-b033-a148579a636f": {
+            "type": "links",
+            "settings": {
+              "menu": "new-menu"
+            }
+          },
+          "d1dd1bbc-a963-4864-803d-5feedbc50c47": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "title": "",
+              "content": "",
+              "show_social_media": true
+            }
+          }
+        },
+        "block_order": [
+          "footer-2",
+          "96224069-af55-4ac7-80c8-693cb7abba82",
+          "cdd654b9-3ae4-43e4-b033-a148579a636f",
+          "d1dd1bbc-a963-4864-803d-5feedbc50c47"
+        ],
+        "settings": {
+          "show_payment_methods": true,
+          "show_currency_selector": true,
+          "show_locale_selector": true
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "slide-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/main_static_banner.jpg",
+              "desktop_video": "",
+              "mobile_video": "",
+              "apply_overlay": false,
+              "content_position": "middleCenter",
+              "subheading": "",
+              "title": "<div class=\"gw-splash-logo\">         <svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewbox=\"0 0 718 66\" style=\"enable-background:new 0 0 718 66;\" xml:space=\"preserve\">           <path class=\"st0\" d=\"M36.5,1.3H0.4v14h0.5l7.2-2.1c2.1-0.6,3.8-0.8,6.2-0.8h4.8v41.7c0,1.2-0.2,2-0.6,2.9l-3.6,8.4V66h22.2v-0.8           \tl-3.6-8.4c-0.4-0.9-0.6-1.7-0.6-2.9V12.3h4.8c2.4,0,4,0.2,6.2,0.8l7.2,2.1h0.5v-15C46.2,1,41.1,1.3,36.5,1.3z M130.5,10.5l3.6-8.4           \tV1.3h-22.2V2l3.6,8.4c0.4,0.9,0.6,1.7,0.6,2.9v14.4H90.6V13.4c0-1.2,0.2-2,0.6-2.9L94.8,2V1.3H72.7V2l3.6,8.4           \tc0.4,0.9,0.6,1.7,0.6,2.9v40.6c0,1.2-0.2,2-0.6,2.9l-3.6,8.4V66h22.2v-0.8l-3.6-8.4c-0.4-0.9-0.6-1.7-0.6-2.9V38.7h25.5v15.2           \tc0,1.2-0.2,2-0.6,2.9l-3.6,8.4V66h22.2v-0.8l-3.6-8.4c-0.4-0.9-0.6-1.7-0.6-2.9V13.4C129.9,12.1,130.1,11.4,130.5,10.5z M204,51.1           \tl-7.2,2.9c-2.1,0.8-3.8,1-6.2,1h-16.3V38.5h9.8c2.4,0,4,0.1,6.2,0.5l6.8,1.3h0.5V25.8H197l-6.8,1.3c-2.1,0.4-3.8,0.5-6.2,0.5h-9.8           \tV12.3h15.3c2.4,0,4,0.2,6.2,0.8l7.2,2.1h0.5v-15C198,1,192.9,1.3,188.4,1.3h-32.1V2l3.6,8.4c0.4,0.9,0.6,1.7,0.6,2.9v40.6           \tc0,1.2-0.2,2-0.6,2.9l-3.6,8.4V66h48.2V51.1H204z M311.4,66h29.3c6.4,0,9.6-3.6,9.6-9v-23H332v0.8l4.8,8.4c0.5,0.9,0.6,1.7,0.6,2.9           \tV55h-21.9V12.3h21.1v10.7l0.3,0.3l13.3-3.4v-9.6c0-5.4-3.2-9-9.6-9h-29.3c-6.4,0-9.6,3.6-9.6,9V57C301.8,62.4,305,66,311.4,66z           \t M386.8,66h30.1c6.4,0,9.6-3.6,9.6-9V10.2c0-5.4-3.2-9-9.6-9h-30.1c-6.4,0-9.6,3.6-9.6,9V57C377.2,62.4,380.4,66,386.8,66z           \t M390.9,55V12.3h21.9V55H390.9z M463,66h28.8c6.4,0,9.6-3.6,9.6-9V44.5c0-7.2-1.6-9.8-9.5-12.6L467.4,23V12.3h20.4v10.7l0.3,0.3           \tl13.3-3.4v-9.6c0-5.4-3.2-9-9.6-9h-28.5c-6.4,0-9.6,3.6-9.6,9V22c0,7.2,1.6,9.8,9.2,12.5l24.8,9V55h-20.6V44.3l-0.3-0.3l-13.3,3.4           \tV57C453.4,62.4,456.6,66,463,66z M567.1,1.3H526V2l3.6,8.4c0.4,0.9,0.6,1.7,0.6,2.9v40.6c0,1.2-0.2,2-0.6,2.9l-3.6,8.4V66h22.2v-0.8           \tl-3.6-8.4c-0.4-0.9-0.6-1.7-0.6-2.9V43.5h23.2c6.4,0,9.6-3.6,9.6-9V10.2C576.7,4.8,573.5,1.3,567.1,1.3z M563,32.6h-19.1V12.3H563           \tV32.6z M648.2,51.1L641,54c-2.1,0.8-3.8,1-6.2,1h-16.3V38.5h9.8c2.4,0,4,0.1,6.2,0.5l6.8,1.3h0.5V25.8h-0.5l-6.8,1.3           \tc-2.1,0.4-3.8,0.5-6.2,0.5h-9.8V12.3h15.3c2.4,0,4,0.2,6.2,0.8l7.2,2.1h0.5v-15c-5.4,0.8-10.5,1.1-15.1,1.1h-32.1V2l3.6,8.4           \tc0.4,0.9,0.6,1.7,0.6,2.9v40.6c0,1.2-0.2,2-0.6,2.9l-3.6,8.4V66h48.2V51.1H648.2z M717.3,51.1l-7.2,2.9c-2.1,0.8-3.8,1-6.2,1h-14           \tV13.4c0-1.2,0.2-2,0.6-2.9l3.6-8.4V1.3H672V2l3.6,8.4c0.4,0.9,0.6,1.7,0.6,2.9v40.6c0,1.2-0.2,2-0.6,2.9l-3.6,8.4V66h45.9V51.1           \tH717.3z\"><\/path>         <\/svg>       <\/div>",
+              "title_mobile": "<div class=\"gw-splash-logo\">         <svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewbox=\"0 0 584 213\" style=\"enable-background:new 0 0 584 213;\" xml:space=\"preserve\">         <path class=\"st0\" d=\"M191.5,2h-40.8v15.8h0.6l8.1-2.4c2.4-0.7,4.3-0.9,7-0.9h5.4v47c0,1.4-0.3,2.2-0.7,3.3l-4,9.5V75h25v-0.9l-4-9.5         \tc-0.4-1-0.7-1.9-0.7-3.3v-47h5.5c2.7,0,4.5,0.2,7,0.9l8.1,2.4h0.6V0.8C202.4,1.7,196.6,2,191.5,2z M320.4,12.3l4-9.5V2h-25v0.9         \tl4,9.5c0.4,1,0.7,1.9,0.7,3.3v16.2h-28.8V15.6c0-1.4,0.3-2.2,0.7-3.3l4-9.5V2h-25v0.9l4,9.5c0.4,1,0.7,1.9,0.7,3.3v45.8         \tc0,1.4-0.3,2.2-0.7,3.3l-4,9.5V75h25v-0.9l-4-9.5c-0.4-1-0.7-1.9-0.7-3.3V44.2h28.8v17.1c0,1.4-0.3,2.2-0.7,3.3l-4,9.5V75h25v-0.9         \tl-4-9.5c-0.4-1-0.7-1.9-0.7-3.3V15.6C319.7,14.2,320,13.4,320.4,12.3z M426.2,58.1l-8.1,3.3c-2.3,0.9-4.3,1.1-7,1.1h-18.4V43.9h11         \tc2.7,0,4.5,0.1,7,0.6l7.7,1.5h0.6V29.6h-0.6l-7.7,1.5c-2.4,0.5-4.3,0.6-7,0.6h-11V14.4h17.2c2.7,0,4.5,0.2,7,0.9l8.1,2.4h0.6V0.8         \tc-6.1,0.9-11.9,1.2-17,1.2h-36.2v0.9l4,9.5c0.4,1,0.7,1.9,0.7,3.3v45.8c0,1.4-0.3,2.2-0.7,3.3l-4,9.5V75h54.4V58.1H426.2z M11.1,213         \th33c7.2,0,10.8-4,10.8-10.1V177H34.3v0.9l5.4,9.5c0.5,1,0.7,1.9,0.7,3.3v10H15.7v-48.2h23.8v12.1l0.4,0.4l15-3.9v-10.8         \tc0-6.1-3.6-10.1-10.8-10.1h-33c-7.2,0-10.8,4-10.8,10.1v52.8C0.2,209,3.8,213,11.1,213z M119,213h34c7.2,0,10.8-4,10.8-10.1v-52.8         \tc0-6.1-3.6-10.1-10.8-10.1h-34c-7.2,0-10.8,4-10.8,10.1v52.8C108.2,209,111.8,213,119,213z M123.7,200.6v-48.2h24.7v48.2H123.7z         \t M227.9,213h32.5c7.2,0,10.8-4,10.8-10.1v-14.2c0-8.1-1.8-11-10.7-14.3l-27.6-10v-12.1h23v12.1l0.4,0.4l15-3.9v-10.8         \tc0-6.1-3.6-10.1-10.8-10.1h-32.2c-7.2,0-10.8,4-10.8,10.1v13.3c0,8.1,1.8,11,10.3,14.1l28,10.2v12.9h-23.2v-12.1l-0.4-0.4l-15,3.9         \tv10.8C217.1,209,220.7,213,227.9,213z M368.2,140h-46.5v0.9l4,9.5c0.4,1,0.7,1.9,0.7,3.3v45.8c0,1.4-0.3,2.2-0.7,3.3l-4,9.5v0.9h25         \tv-0.9l-4-9.5c-0.4-1-0.7-1.9-0.7-3.3v-11.8h26.2c7.2,0,10.8-4,10.8-10.1v-27.4C379,144,375.4,140,368.2,140z M363.6,175.3H342v-23         \th21.6V175.3z M482.5,196.1l-8.1,3.3c-2.3,0.9-4.3,1.1-7,1.1H449v-18.7h11c2.7,0,4.5,0.1,7,0.6l7.7,1.5h0.6v-16.5h-0.6l-7.7,1.5         \tc-2.4,0.5-4.3,0.6-7,0.6h-11v-17.3h17.2c2.7,0,4.5,0.2,7,0.9l8.1,2.4h0.6v-16.9c-6.1,0.9-11.9,1.2-17,1.2h-36.2v0.9l4,9.5         \tc0.4,1,0.7,1.9,0.7,3.3v45.8c0,1.4-0.3,2.2-0.7,3.3l-4,9.5v0.9h54.4v-16.9H482.5z M583.4,196.1l-8.1,3.3c-2.3,0.9-4.3,1.1-7,1.1         \th-15.8v-47c0-1.4,0.3-2.2,0.7-3.3l4-9.5V140h-25v0.9l4,9.5c0.4,1,0.7,1.9,0.7,3.3v45.8c0,1.4-0.3,2.2-0.7,3.3l-4,9.5v0.9H584v-16.9         \tH583.4z\"><\/path>         <\/svg>       <\/div>",
+              "content": "",
+              "button_1_text": "",
+              "button_1_link": "",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          },
+          "15d796c6-19d7-4aeb-945b-c316d1fbc765": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/The_Gospel_Straight_Rye_Whiskey.png",
+              "desktop_video": "",
+              "mobile_video": "",
+              "apply_overlay": true,
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "STRAIGHT RYE WHISKEY",
+              "title_mobile": "",
+              "content": "<p>Our answer to a bold and rich American style whiskey, <em>The Gospel Straight Rye Whiskey <\/em>is made in Australia using single-sourced grain and Melbourne’s dynamic climate to produce a unique rye whiskey unlike any other.<\/p>",
+              "button_1_text": "SHOP NOW",
+              "button_1_link": "shopify:\/\/products\/straight-rye-whiskey",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          },
+          "e69add4e-c459-4c90-8c01-e26792f60c46": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/The_Dispensary_Set_1948x1500_d123b86e-4907-4d80-9b7e-9daccdbe2cb0.jpg",
+              "desktop_video": "",
+              "mobile_video": "",
+              "apply_overlay": true,
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "THE DISPENSARY SET",
+              "title_mobile": "",
+              "content": "<p>Fancy yourself a cocktail maker?<br\/>The Dispensary Set will stock your bar with the right ingredients. Then head over to our recipes or try your own.<\/p>",
+              "button_1_text": "SHOP NOW",
+              "button_1_link": "shopify:\/\/products\/the-dispensary-set",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "slide-1",
+          "15d796c6-19d7-4aeb-945b-c316d1fbc765",
+          "e69add4e-c459-4c90-8c01-e26792f60c46"
+        ],
+        "settings": {
+          "show_fullscreen": true,
+          "show_arrow": false,
+          "autoplay": true,
+          "cycle_speed": 5,
+          "text_color": "#ffffff",
+          "text_size": 78,
+          "button_color": "#ffffff",
+          "button_background": "rgba(0,0,0,0)"
+        }
+      },
+      "featured-collections": {
+        "type": "featured-collections",
+        "blocks": {
+          "featured-collection-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "frontpage",
+              "title": "OUR WHISKEY",
+              "grid_items_count": 9,
+              "button_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "featured-collection-0"
+        ],
+        "settings": {
+          "title": "Locally made whiskey that are made for your mouth and not your display cabinet.",
+          "button_text": "View all products",
+          "button_link": "shopify:\/\/collections\/all",
+          "layout_mode": "carousel",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 3
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "blocks": {
+          "collection-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Collection name",
+              "button_text": "View products",
+              "button_link": "",
+              "apply_overlay": true
+            }
+          },
+          "collection-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Collection name",
+              "button_text": "View products",
+              "button_link": "",
+              "apply_overlay": true
+            }
+          },
+          "collection-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Collection name",
+              "button_text": "View products",
+              "button_link": "",
+              "apply_overlay": true
+            }
+          }
+        },
+        "block_order": [
+          "collection-0",
+          "collection-1",
+          "collection-2"
+        ],
+        "settings": {
+          "image_size": "normal",
+          "add_spacing": true,
+          "expand_collection": false,
+          "stack_on_mobile": true,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "featured-product": {
+        "type": "featured-product",
+        "settings": {
+          "subheading": "",
+          "title": "Featured product",
+          "show_headings_on_mobile": true,
+          "product": "",
+          "show_vendor": true,
+          "show_sku": false,
+          "show_description": true,
+          "description_below_add_to_cart": false,
+          "selector_mode": "dropdown",
+          "show_color_swatch": false,
+          "show_color_carousel": false,
+          "show_quantity_selector": true,
+          "show_inventory_quantity": false,
+          "inventory_quantity_threshold": 3,
+          "show_price_in_button": false,
+          "show_payment_button": true,
+          "show_pickup_availability": false
+        }
+      },
+      "timeline": {
+        "type": "timeline",
+        "blocks": {
+          "item-0": {
+            "type": "item",
+            "settings": {
+              "apply_overlay": true,
+              "title": "2000",
+              "subheading": "Sub-heading",
+              "heading": "Heading",
+              "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+            }
+          },
+          "item-1": {
+            "type": "item",
+            "settings": {
+              "apply_overlay": true,
+              "title": "2001",
+              "subheading": "Sub-heading",
+              "heading": "Heading",
+              "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+            }
+          },
+          "item-2": {
+            "type": "item",
+            "settings": {
+              "apply_overlay": true,
+              "title": "2002",
+              "subheading": "Sub-heading",
+              "heading": "Heading",
+              "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "item-0",
+          "item-1",
+          "item-2"
+        ],
+        "settings": {
+          "text_color": "#ffffff"
+        }
+      },
+      "blog-posts": {
+        "type": "blog-posts",
+        "blocks": {
+          "blog-0": {
+            "type": "blog",
+            "settings": {
+              "blog": "journal"
+            }
+          }
+        },
+        "block_order": [
+          "blog-0"
+        ],
+        "settings": {
+          "subheading": "",
+          "title": "Featured article",
+          "show_category": false,
+          "button_link": "",
+          "button_text": "View all articles"
+        }
+      },
+      "shop-the-look": {
+        "type": "shop-the-look",
+        "blocks": {
+          "look-0": {
+            "type": "look",
+            "settings": {
+              "dot_style": "light",
+              "product_1": "",
+              "product_1_horizontal_position": 30,
+              "product_1_vertical_position": 40,
+              "product_2": "",
+              "product_2_horizontal_position": 45,
+              "product_2_vertical_position": 65,
+              "product_3": "",
+              "product_3_horizontal_position": 70,
+              "product_3_vertical_position": 50
+            }
+          },
+          "look-1": {
+            "type": "look",
+            "settings": {
+              "dot_style": "light",
+              "product_1": "",
+              "product_1_horizontal_position": 25,
+              "product_1_vertical_position": 45,
+              "product_2": "",
+              "product_2_horizontal_position": 55,
+              "product_2_vertical_position": 30,
+              "product_3": "",
+              "product_3_horizontal_position": 65,
+              "product_3_vertical_position": 60
+            }
+          }
+        },
+        "block_order": [
+          "look-0",
+          "look-1"
+        ],
+        "settings": {
+          "subheading": "Shop",
+          "title": "Our looks",
+          "show_mobile_product_info": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "blocks": {
+          "c351d72f-26bb-449f-9819-35f7fa4268bf": {
+            "type": "collection",
+            "settings": {
+              "collection": "shopify:\/\/collections\/all",
+              "title": "All"
+            }
+          },
+          "2a0eec9d-264e-494b-95d8-d63505269a06": {
+            "type": "collection",
+            "settings": {
+              "collection": "shopify:\/\/collections\/whiskey",
+              "title": "Whiskey"
+            }
+          },
+          "b2a09ce6-2eb2-4d42-8d48-61b4c8e746ef": {
+            "type": "collection",
+            "settings": {
+              "collection": "shopify:\/\/collections\/the-dispensary",
+              "title": "The Dispensary"
+            }
+          },
+          "a64d6d6d-16a9-4b58-8ffc-ec136868f8d4": {
+            "type": "collection",
+            "settings": {
+              "collection": "shopify:\/\/collections\/cocktails-1",
+              "title": "Cocktails"
+            }
+          },
+          "fd930b2b-9363-49e1-8976-56fdf5c1baa7": {
+            "type": "collection",
+            "settings": {
+              "collection": "shopify:\/\/collections\/made-from-whiskey",
+              "title": "Made From Whiskey"
+            }
+          },
+          "7d3aff30-6514-490c-baec-9afec3c47e45": {
+            "type": "collection",
+            "settings": {
+              "collection": "shopify:\/\/collections\/merch",
+              "title": "Merch"
+            }
+          }
+        },
+        "block_order": [
+          "c351d72f-26bb-449f-9819-35f7fa4268bf",
+          "2a0eec9d-264e-494b-95d8-d63505269a06",
+          "b2a09ce6-2eb2-4d42-8d48-61b4c8e746ef",
+          "a64d6d6d-16a9-4b58-8ffc-ec136868f8d4",
+          "fd930b2b-9363-49e1-8976-56fdf5c1baa7",
+          "7d3aff30-6514-490c-baec-9afec3c47e45"
+        ],
+        "settings": {
+          "show_collection_info": true,
+          "show_collection_image": true,
+          "apply_overlay": true,
+          "show_color_swatch": false,
+          "show_vendor": false,
+          "collection_image_size": "small",
+          "show_sort_by": true,
+          "show_layout_switch": false,
+          "toolbar_position": "top",
+          "filter_position": "drawer",
+          "filter_mode": "hidden",
+          "show_filter_color_swatch": false,
+          "filter_menu": "",
+          "grid_items_per_page": 16,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
+      },
+      "collection-footer": {
+        "type": "collection-footer",
+        "settings": {
+          "show_section": true,
+          "image": "shopify:\/\/shop_images\/Cocktails.jpg",
+          "text_color": "#ffffff",
+          "apply_overlay": true,
+          "title": "GOSPEL RECIPES",
+          "content": "<p>Try our whiskey in one of these delicious recipes.  <\/p>"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "show_product_info": true
+        }
+      },
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "show_popup": false,
+          "show_only_on_index": true,
+          "show_only_for_visitors": true,
+          "show_only_once": true,
+          "title": "Popup",
+          "content": "<p>You can use this popup to display some useful information to your customers.<\/p>",
+          "show_newsletter": true,
+          "apparition_delay": 5
+        }
+      },
+      "162693642824a2a9c7": {
+        "type": "logo-list",
+        "blocks": {
+          "180c03ed-fc79-49c2-9ad1-5d2b26eabd1d": {
+            "type": "Image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/New-York-Times-Logo_cae8e271-df2b-40a4-a6ff-5eee80c0b6ce.png",
+              "review_stars": "0",
+              "title": "",
+              "quote": ""
+            }
+          },
+          "d382a821-6554-4c48-a663-044c71779366": {
+            "type": "Image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Financial-Times-London-UK-Logo.png",
+              "review_stars": "0",
+              "title": "",
+              "quote": ""
+            }
+          },
+          "902521cc-4d59-434e-8215-ac72101db92b": {
+            "type": "Image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Good-Food-Magazine-Newspaper-Logo_f1643152-c48d-432b-b2d5-37f343ce6ae3.png",
+              "review_stars": "0",
+              "title": "",
+              "quote": ""
+            }
+          },
+          "8b512563-8df5-4c87-b91f-89b479eddc36": {
+            "type": "Image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/The-Age-Newspaper-Logo_0699e2eb-6052-43ca-9e42-3b1e1545cd1c.png",
+              "review_stars": "0",
+              "title": "",
+              "quote": ""
+            }
+          }
+        },
+        "block_order": [
+          "180c03ed-fc79-49c2-9ad1-5d2b26eabd1d",
+          "d382a821-6554-4c48-a663-044c71779366",
+          "902521cc-4d59-434e-8215-ac72101db92b",
+          "8b512563-8df5-4c87-b91f-89b479eddc36"
+        ],
+        "settings": {
+          "subheading": "",
+          "title": "",
+          "content": "",
+          "link_text": "",
+          "link_url": "",
+          "size": "200px",
+          "size_m": "150px",
+          "spacing": "10px"
+        }
+      },
+      "1626936490f7ac1d6c": {
+        "type": "image-with-text-overlay",
+        "settings": {
+          "center_all": true,
+          "section_link": "",
+          "section_size": "large",
+          "image": "shopify:\/\/shop_images\/Journal_Rye_Production_BW.jpg",
+          "video": "",
+          "text_color": "#ffffff",
+          "overlay_color": "#000000",
+          "overlay_opacity": 10,
+          "text_size": 40,
+          "subheading": "",
+          "title": "MADE WITH 100% AUSTRALIAN RYE",
+          "content": "",
+          "button_1_text": "How its made",
+          "button_1_link": "shopify:\/\/blogs\/journal",
+          "button_2_text": "",
+          "button_2_link": ""
+        }
+      },
+      "16269374621f9d3b31": {
+        "type": "custom-html",
+        "disabled": true,
+        "settings": {
+          "subheading": "",
+          "title": "THE RYE REVOLUTION",
+          "html": "<style>\n#shopify-section-16269374621f9d3b31{\nbackground:#5A5B30;\ncolor:white;\n}\n#section-16269374621f9d3b31{\npadding:30px !important;\nmargin:0;\n}\n#section-16269374621f9d3b31 > div > header{\nmargin:0;\n}\n#section-16269374621f9d3b31 > div > header > h2{\ncolor:white;\n}\n<\/style>"
+        }
+      },
+      "1626937808dbbd053f": {
+        "type": "logo-list",
+        "blocks": {
+          "d0394b29-247d-4b33-8c9a-82644c866845": {
+            "type": "Image",
+            "settings": {
+              "review_stars": "5",
+              "title": "HUGH ROBERTSON",
+              "quote": "<p>The Solera Rye is superb. Truly one of the most beautiful things I have ever had. <\/p>"
+            }
+          },
+          "5c59ff63-4c52-411c-99da-d5d22f2ee198": {
+            "type": "Image",
+            "settings": {
+              "review_stars": "5",
+              "title": "CAM BROWN",
+              "quote": "<p>The Gospel is so unique. Both Solera Rye and Straight Rye Whiskey taste like nothing else available.<\/p>"
+            }
+          },
+          "43c5b32f-13a5-498b-8e1a-de9b99fc1278": {
+            "type": "Image",
+            "settings": {
+              "review_stars": "5",
+              "title": "DEAN SMITH",
+              "quote": "<p>The exceptional quality of the product is what will keep me coming back again and again.<\/p>"
+            }
+          },
+          "049a0674-9fb3-4ebe-80b4-5992d08ec496": {
+            "type": "Image",
+            "settings": {
+              "review_stars": "4",
+              "title": "SHIRLEY MOORE",
+              "quote": "<p>A smooth home grown whiskey.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "d0394b29-247d-4b33-8c9a-82644c866845",
+          "5c59ff63-4c52-411c-99da-d5d22f2ee198",
+          "43c5b32f-13a5-498b-8e1a-de9b99fc1278",
+          "049a0674-9fb3-4ebe-80b4-5992d08ec496"
+        ],
+        "settings": {
+          "subheading": "",
+          "title": "",
+          "content": "",
+          "link_text": "",
+          "link_url": "",
+          "size": "200px",
+          "size_m": "120px",
+          "spacing": "60px"
+        }
+      },
+      "16269378793cc5438e": {
+        "type": "text-with-image",
+        "settings": {
+          "subheading": "",
+          "title": "The good word",
+          "image": "shopify:\/\/shop_images\/sazerac_cocktail-1280x975.jpg",
+          "image_position": "right",
+          "bg_colour": "#fde9cf",
+          "content": "<p>Sign up to The Gospel newsletter and follow us into the light.<\/p>",
+          "title2": "",
+          "link_text": "",
+          "link_url": "",
+          "enable_email": true
+        }
+      },
+      "1626938031535fb114": {
+        "type": "blog-posts",
+        "blocks": {
+          "1626938031535fb114-0": {
+            "type": "blog",
+            "settings": {
+              "blog": "journal"
+            }
+          }
+        },
+        "block_order": [
+          "1626938031535fb114-0"
+        ],
+        "settings": {
+          "subheading": "Exploring whiskey, culture, fanatics, and obsession.",
+          "title": "Journal",
+          "show_category": false,
+          "button_link": "",
+          "button_text": ""
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "show_rss": false,
+          "show_tags": true,
+          "show_featured_article": false,
+          "show_category": false
+        }
+      },
+      "shop-now": {
+        "type": "shop-now",
+        "settings": {
+          "show_section": false,
+          "title": "Shop now",
+          "collection": "",
+          "grid_items_count": 6,
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "show_article_image": true,
+          "show_date": false,
+          "show_category": false,
+          "show_author": true,
+          "show_share_buttons": true
+        }
+      },
+      "age-gate": {
+        "type": "age-gate",
+        "settings": {
+          "title": "YOU MUST BE OF LEGAL DRINKING AGE TO ENTER THIS SITE",
+          "body": "ARE YOU OF LEGAL DRINKING AGE?",
+          "license": "32809785",
+          "exit_link": ""
+        }
+      },
+      "1629179219e5d85c88": {
+        "type": "about-us",
+        "settings": {
+          "subheading": "RYE IS THE GOSPEL",
+          "title": "WHISKEY IS RELIGION",
+          "html": "<p>It is widely believed that whiskey was first distilled for medicinal use by monks and apothecaries in Scotland and Ireland. The distillation of whiskey evolved as it moved from monastic to secular, as it did with the path of migration over hundreds of years. Early Scotch-Irish settlers in the USA used rye to make whiskey because barley didn’t adapt to the North American climate. These conditions are also true for the dry climate of Australia, where we set out to reimagine this original American spirit using 100% Australian rye.<\/p>"
+        }
+      },
+      "1635680933a4492f11": {
+        "type": "image-with-text-overlay",
+        "disabled": true,
+        "settings": {
+          "center_all": true,
+          "section_link": "",
+          "section_size": "large",
+          "video": "",
+          "text_color": "#ffffff",
+          "overlay_color": "#000000",
+          "overlay_opacity": 30,
+          "text_size": 40,
+          "subheading": "",
+          "title": "Tell your story",
+          "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>",
+          "button_1_text": "",
+          "button_1_link": "",
+          "button_2_text": "",
+          "button_2_link": ""
+        }
+      }
+    },
+    "content_for_index": [
+      "slideshow",
+      "1629179219e5d85c88",
+      "featured-collections",
+      "162693642824a2a9c7",
+      "1626936490f7ac1d6c",
+      "1635680933a4492f11",
+      "16269374621f9d3b31",
+      "1626937808dbbd053f",
+      "1626938031535fb114",
+      "16269378793cc5438e"
+    ]
+  }
+}
