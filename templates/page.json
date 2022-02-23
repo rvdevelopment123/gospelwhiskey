@@ -1,11 +1,30 @@
 {
-    "name": "Page",
-    "sections": {
-      "main": {
-        "type": "mainpage"
+  "sections": {
+    "main": {
+      "type": "mainpage",
+      "settings": {
       }
     },
-    "order": [
-      "main"
-    ]
-  }
+    "164559574550c2db10": {
+      "type": "faq-header-section",
+      "settings": {
+        "pageTitle": "FAQ",
+        "inputTitle": "Search",
+        "content": ""
+      }
+    },
+    "16455957335f63effd": {
+      "type": "faq-accordion-section",
+      "settings": {
+        "sec_title": "Section Title",
+        "active": true,
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "164559574550c2db10",
+    "16455957335f63effd"
+  ]
+}
