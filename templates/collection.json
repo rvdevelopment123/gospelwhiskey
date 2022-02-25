@@ -51,13 +51,6 @@
             "collection": "shopify:\/\/products\/the-gospel-whiskey-gift-card",
             "title": "Gift Card"
           }
-        },
-        "a668f97e-a1e8-4be3-80dc-b752b96b394d": {
-          "type": "collection",
-          "settings": {
-            "collection": "shopify:\/\/collections\/beer",
-            "title": "Beer test"
-          }
         }
       },
       "block_order": [
@@ -67,8 +60,7 @@
         "7cf90138-6016-475e-b56f-d002a08b831e",
         "c327137a-2c2a-4be3-b8e9-62ecce6c2cd7",
         "a9dda98f-0f6e-47dd-986c-d61223475433",
-        "05b6d1ce-1e7f-4554-b9c3-ae4d9dc4ed95",
-        "a668f97e-a1e8-4be3-80dc-b752b96b394d"
+        "05b6d1ce-1e7f-4554-b9c3-ae4d9dc4ed95"
       ],
       "settings": {
         "show_collection_info": true,
