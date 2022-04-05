@@ -7,6 +7,7 @@
     },
     "164559574550c2db10": {
       "type": "faq-header-section",
+      "disabled": true,
       "settings": {
         "pageTitle": "FAQ",
         "inputTitle": "Search",
@@ -15,6 +16,7 @@
     },
     "16455957335f63effd": {
       "type": "faq-accordion-section",
+      "disabled": true,
       "settings": {
         "sec_title": "Section Title",
         "active": true,
