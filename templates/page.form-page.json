@@ -1,1 +1,41 @@
-{"sections":{"main":{"type":"link-list","disabled":true,"blocks":{"8b5942e0-a8ea-47a7-aca8-25b941404fe4":{"type":"link","settings":{"collection":"shopify:\/\/pages\/discover-the-gospel-our-story","title":"Our Story","active":true}},"7c9a4720-acf9-47fa-8a57-fd67d696ac12":{"type":"link","settings":{"collection":"shopify:\/\/pages\/discover-the-gospel","title":"Our Community","active":false}}},"block_order":["8b5942e0-a8ea-47a7-aca8-25b941404fe4","7c9a4720-acf9-47fa-8a57-fd67d696ac12"],"settings":{}},"1642591196ec631012":{"type":"general-form-section","settings":{}}},"order":["main","1642591196ec631012"]}
+{
+  "sections": {
+    "main": {
+      "type": "link-list",
+      "disabled": true,
+      "blocks": {
+        "8b5942e0-a8ea-47a7-aca8-25b941404fe4": {
+          "type": "link",
+          "settings": {
+            "collection": "shopify:\/\/pages\/discover-the-gospel-our-story",
+            "title": "Our Story",
+            "active": true
+          }
+        },
+        "7c9a4720-acf9-47fa-8a57-fd67d696ac12": {
+          "type": "link",
+          "settings": {
+            "collection": "shopify:\/\/pages\/discover-the-gospel-our-community",
+            "title": "Our Community",
+            "active": false
+          }
+        }
+      },
+      "block_order": [
+        "8b5942e0-a8ea-47a7-aca8-25b941404fe4",
+        "7c9a4720-acf9-47fa-8a57-fd67d696ac12"
+      ],
+      "settings": {
+      }
+    },
+    "1642591196ec631012": {
+      "type": "general-form-section",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1642591196ec631012"
+  ]
+}
