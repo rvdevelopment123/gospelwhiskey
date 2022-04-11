@@ -537,15 +537,6 @@
               "quote": ""
             }
           },
-          "d382a821-6554-4c48-a663-044c71779366": {
-            "type": "Image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Financial-Times-London-UK-Logo.png",
-              "review_stars": "0",
-              "title": "",
-              "quote": ""
-            }
-          },
           "902521cc-4d59-434e-8215-ac72101db92b": {
             "type": "Image",
             "settings": {
@@ -555,10 +546,10 @@
               "quote": ""
             }
           },
-          "8b512563-8df5-4c87-b91f-89b479eddc36": {
+          "d382a821-6554-4c48-a663-044c71779366": {
             "type": "Image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/The-Age-Newspaper-Logo_0699e2eb-6052-43ca-9e42-3b1e1545cd1c.png",
+              "image": "shopify:\/\/shop_images\/Financial-Times-London-UK-Logo.png",
               "review_stars": "0",
               "title": "",
               "quote": ""
@@ -568,6 +559,15 @@
             "type": "Image",
             "settings": {
               "image": "shopify:\/\/shop_images\/Broadsheet-Logo.png",
+              "review_stars": "0",
+              "title": "",
+              "quote": ""
+            }
+          },
+          "8b512563-8df5-4c87-b91f-89b479eddc36": {
+            "type": "Image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/The-Age-Newspaper-Logo_0699e2eb-6052-43ca-9e42-3b1e1545cd1c.png",
               "review_stars": "0",
               "title": "",
               "quote": ""
@@ -585,10 +585,10 @@
         },
         "block_order": [
           "180c03ed-fc79-49c2-9ad1-5d2b26eabd1d",
-          "d382a821-6554-4c48-a663-044c71779366",
           "902521cc-4d59-434e-8215-ac72101db92b",
-          "8b512563-8df5-4c87-b91f-89b479eddc36",
+          "d382a821-6554-4c48-a663-044c71779366",
           "76c85bac-5e3f-4c1f-ae89-dc31204a868d",
+          "8b512563-8df5-4c87-b91f-89b479eddc36",
           "4b2a22fb-4aac-42ca-9d32-9086d66e6da6"
         ],
         "settings": {
