@@ -1,38 +1,38 @@
 {
-    "sections": {
-        "16292213225539598e": {
-            "type": "image-with-text-overlay",
-            "settings": {
-                "center_all": false,
-                "section_link": "",
-                "section_size": "small",
-                "image": "shopify://shop_images/Journal_Rye_Celebrate_Rye_July_Hero_copy.jpg",
-                "video": "",
-                "text_color": "#ffffff",
-                "overlay_color": "#000000",
-                "overlay_opacity": 51,
-                "text_size": 25,
-                "subheading": "",
-                "title": "%%blog.title%%",
-                "content": "<p>We are inquisitive, always seeking to find the truth through discovery and exploration of the unknown. Through our journal, we seek to shine a light on topics that inspire us.</p>",
-                "button_1_text": "",
-                "button_1_link": "",
-                "button_2_text": "",
-                "button_2_link": ""
-            }
-        },
-        "main": {
-            "type": "blog-template",
-            "settings": {
-                "show_rss": false,
-                "show_tags": true,
-                "show_featured_article": false,
-                "show_category": false
-            }
-        }
+  "sections": {
+    "16292213225539598e": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "center_all": false,
+        "section_link": "",
+        "section_size": "small",
+        "image": "shopify:\/\/shop_images\/Journal_Rye_Celebrate_Rye_July_Hero_copy.jpg",
+        "video": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 51,
+        "text_size": 25,
+        "subheading": "",
+        "title": "%%blog.title%%",
+        "content": "<p>We are inquisitive and always seeking to find the truth through discovery and exploration of the unknown. Our journal aims to shine a light on topics that inspire us.<\/p>",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_2_text": "",
+        "button_2_link": ""
+      }
     },
-    "order": [
-        "16292213225539598e",
-        "main"
-    ]
+    "main": {
+      "type": "blog-template",
+      "settings": {
+        "show_rss": false,
+        "show_tags": true,
+        "show_featured_article": false,
+        "show_category": false
+      }
+    }
+  },
+  "order": [
+    "16292213225539598e",
+    "main"
+  ]
 }
