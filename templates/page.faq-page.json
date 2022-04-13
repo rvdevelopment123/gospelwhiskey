@@ -30,6 +30,7 @@
     },
     "1642175241bb7a152a": {
       "type": "faq-header-section",
+      "disabled": true,
       "settings": {
         "pageTitle": "FREQUENTLY ASKED QUESTIONS",
         "inputTitle": "Search",
@@ -40,7 +41,7 @@
       "type": "custom-html",
       "settings": {
         "subheading": "",
-        "title": "",
+        "title": "FREQUENTLY ASKED QUESTIONS",
         "html": ""
       }
     },
