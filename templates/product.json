@@ -139,6 +139,7 @@
     },
     "16300245211dcbbf77": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "center_all": true,
         "section_link": "shopify:\/\/blogs\/cocktail-recipes",
