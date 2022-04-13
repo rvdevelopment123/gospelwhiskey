@@ -174,6 +174,7 @@
           "990a9324-94d4-49bb-97dc-7780d27d895d": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Journal_Whisky_History_in_Australia_Corio_Distillery_Geelong_Melbourne_BW.jpg",
               "desktop_video": "",
               "mobile_video": "",
               "apply_overlay": true,
@@ -182,7 +183,7 @@
               "title": "HISTORY OF WHISK(E)Y IN AUSTRALIA",
               "title_mobile": "",
               "content": "<p>Head to our journal to discover a brief history of whisk(e)y in Australia, filled with historical nuggets that have mostly been forgotten to the past. <\/p>",
-              "button_1_text": "",
+              "button_1_text": "READ NOW",
               "button_1_link": "",
               "button_2_text": "",
               "button_2_link": ""
