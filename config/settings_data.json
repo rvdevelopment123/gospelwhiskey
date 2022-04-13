@@ -654,20 +654,20 @@
       "1626937808dbbd053f": {
         "type": "logo-list",
         "blocks": {
-          "d0394b29-247d-4b33-8c9a-82644c866845": {
-            "type": "Image",
-            "settings": {
-              "review_stars": "4",
-              "title": "LUKE MCCARTHY",
-              "quote": "<p>One of the most impressive Australian whiskies to be released in recent years.<\/p>"
-            }
-          },
           "5c59ff63-4c52-411c-99da-d5d22f2ee198": {
             "type": "Image",
             "settings": {
               "review_stars": "5",
               "title": "DAVID BROOM",
               "quote": "<p>A different angle of attack for rye and a welcome one.<\/p>"
+            }
+          },
+          "d0394b29-247d-4b33-8c9a-82644c866845": {
+            "type": "Image",
+            "settings": {
+              "review_stars": "4",
+              "title": "LUKE MCCARTHY",
+              "quote": "<p>One of the most impressive Australian whiskies to be released in recent years.<\/p>"
             }
           },
           "43c5b32f-13a5-498b-8e1a-de9b99fc1278": {
@@ -688,8 +688,8 @@
           }
         },
         "block_order": [
-          "d0394b29-247d-4b33-8c9a-82644c866845",
           "5c59ff63-4c52-411c-99da-d5d22f2ee198",
+          "d0394b29-247d-4b33-8c9a-82644c866845",
           "43c5b32f-13a5-498b-8e1a-de9b99fc1278",
           "049a0674-9fb3-4ebe-80b4-5992d08ec496"
         ],
