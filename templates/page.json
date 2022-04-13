@@ -1,5 +1,14 @@
 {
   "sections": {
+    "1649839348a1016bb0": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Terms And Conditions",
+        "html": ""
+      }
+    },
     "main": {
       "type": "mainpage",
       "settings": {
@@ -33,6 +42,7 @@
     }
   },
   "order": [
+    "1649839348a1016bb0",
     "main",
     "164559574550c2db10",
     "16455957335f63effd",
