@@ -36,6 +36,14 @@
         "content": "<p>Hi friends, if you can't find what you need in our FAQs, please get in touch as we'd love to hear from you.<\/p>"
       }
     },
+    "1649834719e8824378": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": ""
+      }
+    },
     "16421767232c9a7bf2": {
       "type": "faq-accordion-section",
       "blocks": {
@@ -298,6 +306,7 @@
   "order": [
     "main",
     "1642175241bb7a152a",
+    "1649834719e8824378",
     "16421767232c9a7bf2",
     "1649823865c8a939cf",
     "16421818200a0eb6b7",
