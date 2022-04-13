@@ -31,9 +31,9 @@
     "1642175241bb7a152a": {
       "type": "faq-header-section",
       "settings": {
-        "pageTitle": "FAQ",
+        "pageTitle": "",
         "inputTitle": "Search",
-        "content": "<p>Hi Friends! If you can't find what you need in our FAQs, please get in touch as we'd love to hear from you.<\/p>"
+        "content": "<p>Hi friends,<br\/><br\/>If you can't find what you need in our FAQs, please get in touch as we'd love to hear from you.<br\/><br\/>-TG Team<\/p>"
       }
     },
     "16421767232c9a7bf2": {
