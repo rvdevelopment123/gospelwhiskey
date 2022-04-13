@@ -156,7 +156,7 @@
       "type": "image-with-text-overlay",
       "settings": {
         "center_all": true,
-        "section_link": "shopify:\/\/blogs\/cocktail-recipes",
+        "section_link": "shopify:\/\/collections\/all",
         "section_size": "large",
         "image": "shopify:\/\/shop_images\/Gospel_shop_all.jpg",
         "video": "",
@@ -167,7 +167,7 @@
         "subheading": "",
         "title": "EXPLORE MORE PRODUCTS",
         "content": "<p>Whether it's whiskey, liqueurs, ready-made cocktails or just even something a little more exclusive.<\/p><p><br\/>We've got something that'll spice up your weekend get together. <\/p>",
-        "button_1_text": "",
+        "button_1_text": "shop ALL",
         "button_1_link": "",
         "button_2_text": "",
         "button_2_link": ""
