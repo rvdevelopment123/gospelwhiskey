@@ -108,7 +108,6 @@
     },
     "16424364363b177b3d": {
       "type": "text-and-images",
-      "disabled": true,
       "settings": {
         "metaid": "fourth_meta",
         "image": "shopify:\/\/shop_images\/Journal_Rye_Production_Truck_C.jpg",
@@ -128,7 +127,6 @@
     },
     "16425007469c02a26b": {
       "type": "text-and-images",
-      "disabled": true,
       "settings": {
         "metaid": "fifth_meta",
         "image": "shopify:\/\/shop_images\/Wood-14_1.jpg",
@@ -148,7 +146,6 @@
     },
     "1630303724839a8b57": {
       "type": "custom-html",
-      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "",
