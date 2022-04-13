@@ -22,11 +22,20 @@
         "active": true,
         "margin_bottom": 0
       }
+    },
+    "164983490095b03a6e": {
+      "type": "faq-accordion-section",
+      "settings": {
+        "sec_title": "test",
+        "active": true,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "164559574550c2db10",
-    "16455957335f63effd"
+    "16455957335f63effd",
+    "164983490095b03a6e"
   ]
 }
