@@ -158,7 +158,7 @@
       "settings": {
         "center_all": true,
         "section_link": "shopify:\/\/collections\/all",
-        "section_size": "large",
+        "section_size": "normal",
         "image": "shopify:\/\/shop_images\/Gospel_shop_all.jpg",
         "video": "",
         "text_color": "#ffffff",
