@@ -8,7 +8,7 @@
           "settings": {
             "collection": "shopify:\/\/pages\/discover-the-gospel-our-story",
             "title": "Our Story",
-            "active": false
+            "active": true
           }
         },
         "7c9a4720-acf9-47fa-8a57-fd67d696ac12": {
