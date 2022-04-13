@@ -245,7 +245,7 @@
           "title": "Distilled locally in Melbourne, our whiskey is made for your mouth and not your display cabinet.",
           "button_text": "View all products",
           "button_link": "shopify:\/\/collections\/all",
-          "layout_mode": "grid",
+          "layout_mode": "carousel",
           "show_product_info": true,
           "show_vendor": false,
           "show_color_swatch": false,
