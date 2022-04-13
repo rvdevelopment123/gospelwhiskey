@@ -41,7 +41,7 @@
         "text_size": 25,
         "subheading": "",
         "title": "Our Story",
-        "content": "<p>Inspired by the divine music that shares its name<em>The Gospel<\/em>was founded on the belief in bringing a distinct Australian approach on a traditional American whiskey to the world. <br\/><br\/>Truth and authenticity is woven into everything we say and do, and we are driven by our passion to shine a light on the unknown and uncover the true spirit of rye.<br\/><br\/>Thank you for following us into the light. <\/p>",
+        "content": "<p>Discover <em>The Gospel<\/em>. Whether you drink it neat, on the rocks or in an Old Fashioned cocktail, be sure to sip slow and savour each drop.<\/p>",
         "button_1_text": "",
         "button_1_link": "",
         "button_2_text": "",
@@ -60,24 +60,93 @@
       "type": "text-with-image",
       "settings": {
         "subheading": "",
-        "title": "LOCALLY MADE",
+        "title": "DISCOVER THE GOSPEL",
         "image": "shopify:\/\/shop_images\/Journal_Rye_Production_BW.jpg",
         "image_position": "left",
         "bg_colour": "rgba(0,0,0,0)",
-        "content": "<p><em>The Gospel<\/em>is distilled and bottled in Brunswick, Melbourne by fanatics, all of whom have a fierce love for deliciously unpretentious rye whiskey. Our small, dedicated team produces everything by hand under the guidance of<em>Master Distiller<\/em>, Ian Thorn. Ian is the boss of all things booze – he is the first and only distiller to hold the esteemed ‘Master Distiller’ accreditation in Australia. Learn more about his story here.<\/p>",
+        "content": "<p>Inspired by the divine music that shares its name <em>The Gospel<\/em> was founded on the belief in bringing a distinct Australian approach to a traditional American whiskey to the world.<\/p><p>Truth and authenticity is woven into everything we say and do, and we are driven by our passion to shine a light on the unknown and uncover the true spirit of rye.<\/p><p>Thank you for following us into the light. <\/p>",
         "title2": "",
         "link_text": "",
         "link_url": "",
         "enable_email": false
       }
     },
-    "1630024833ec9bbc7d": {
-      "type": "about-us",
+    "162922446868bb256d": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "LOCALLY MADE",
+        "image": "shopify:\/\/shop_images\/unnamed-4.jpg",
+        "image_position": "right",
+        "bg_colour": "rgba(0,0,0,0)",
+        "content": "<p><em>The Gospel<\/em> is distilled and bottled by fanatics in Brunswick, Melbourne, all of whom have a fierce love for deliciously unpretentious rye whiskey. Our small, dedicated team produce everything by hand under the guidance of <em>Master Distiller<\/em>, Ian Thorn. <\/p><p>Ian is the boss of all things booze – he is the first and only distiller to hold the esteemed ‘Master Distiller’ accreditation in Australia. Learn more about his story <a href=\"https:\/\/shop.thegospelwhiskey.com\/blogs\/journal\/our-people-master-distiller-ian-thorn\"><span style=\"text-decoration:underline\">here<\/span><\/a>.<\/p>",
+        "title2": "",
+        "link_text": "",
+        "link_url": "",
+        "enable_email": false
+      }
+    },
+    "1629224474d4a0d99e": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "DEDICATION TO RYE",
+        "image": "shopify:\/\/shop_images\/Journal_Community_Hand_Sanitiser2.jpg",
+        "image_position": "left",
+        "bg_colour": "rgba(0,0,0,0)",
+        "content": "<p>We are Australia’s only dedicated rye whiskey distillery. <em>The Gospel<\/em> is crafted and distilled from 100% Australian unmalted rye, which has been cultivated and nurtured by a single farmer in the Murray Mallee region of South Australia. Specifically chosen for its harsh climate, the rye from this area is small and dense – renowned for its distinct, extraordinary flavour and is unmatched by rye from other areas. Rye whiskey may be the hardest of all whiskeys to distil, but our obsession and dedication makes a damn good drink.<br\/><br\/><\/p>",
+        "title2": "",
+        "link_text": "",
+        "link_url": "",
+        "enable_email": false
+      }
+    },
+    "162922448038a251fb": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "A NEW TASTE IN WHISKEY",
+        "image": "shopify:\/\/shop_images\/About_us_placeholder.jpg",
+        "image_position": "right",
+        "bg_colour": "rgba(0,0,0,0)",
+        "content": "<p>We use proven techniques of the world’s most famous distilleries, coupled with Melbourne’s dynamic climate to create rye whiskey with passion, integrity and belief.<br\/><br\/><em>The Gospel<\/em> embodies the characteristics of traditional American rye whiskey with a flavour nuance that is distinctly Australian. Our unmalted rye grain imparts deep, spicy flavours of vanilla, cinnamon and dried fruit, with developing notes of pepper, grass and grain. We may taste different to the whisk(e)y you're used to drinking but you will discover a quality, premium, New Age whiskey that perfectly balances sweet and savour - as good neat as it is in whiskey-forward cocktails.<br\/><br\/><\/p>",
+        "title2": "",
+        "link_text": "",
+        "link_url": "",
+        "enable_email": false
+      }
+    },
+    "1649836500be9b70d5": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "THERE’S MERIT IN A DRINK",
+        "image": "shopify:\/\/shop_images\/Cocktail_group_1_6faa7673-a93b-4b13-9360-0afc123ac07d.jpg",
+        "image_position": "left",
+        "bg_colour": "#f2eee6",
+        "content": "<p>At <em>The Gospel<\/em>, we are not just fanatical about rye. We are also passionate about standing up for what we believe in and supporting our community. We recognise our responsibility to operate in a responsible manner and to be conscious of our social impact and environmental footprint. As a growing young business, we continue to learn and evolve, finding more sustainable and socially considered ways of doing things.<br\/><br\/>That’s why we use 100% recyclable packaging, divert our spent waste from landfill and donate 2.5% of net profit to our partner charities. Learn more about the incredible folk we’ve partnered with <a href=\"https:\/\/shop.thegospelwhiskey.com\/pages\/discover-the-gospel-our-community\"><span style=\"text-decoration:underline\">here<\/span><\/a>.<br\/><\/p>",
+        "title2": "",
+        "link_text": "",
+        "link_url": "",
+        "enable_email": false
+      }
+    },
+    "163056458012c76196": {
+      "type": "custom-html",
       "disabled": true,
       "settings": {
-        "subheading": "RYE IS THE GOSPEL",
-        "title": "WHISKEY IS RELIGION",
-        "html": "<p>It is widely believed that whiskey was first distilled for medicinal use by monks and apothecaries in Scotland and Ireland. The distillation of whiskey evolved as it moved from monastic to secular, as it did with the path of migration over hundreds of years. Early Scotch-Irish settlers in the USA used rye to make whiskey because barley didn’t adapt to the North American climate. These conditions are also true for the dry climate of Australia, where we set out to reimagine this original American spirit using 100% Australian rye.<\/p>"
+        "subheading": "",
+        "title": "",
+        "html": ""
+      }
+    },
+    "163002516665a1e199": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": ""
       }
     },
     "163002479889ffe581": {
@@ -95,69 +164,6 @@
         "show_parallax": true
       }
     },
-    "162922446868bb256d": {
-      "type": "text-with-image",
-      "settings": {
-        "subheading": "",
-        "title": "DEDICATION TO RYE",
-        "image": "shopify:\/\/shop_images\/unnamed-4.jpg",
-        "image_position": "right",
-        "bg_colour": "rgba(0,0,0,0)",
-        "content": "<p>We are Australia’s only dedicated rye whiskey distillery.<em>The Gospel<\/em>is crafted and distilled from 100% Australian unmalted rye, which has been cultivated and nurtured by a single farmer in the Murray Mallee region in South Australia. Specifically chosen for its harsh climate, the rye from this area is small and dense – renowned for its distinct, extraordinary flavour and is unmatched by rye from other areas. Rye whiskey may be the hardest of all whiskeys to distil, but our obsession and dedication makes a damn good drink.<\/p>",
-        "title2": "",
-        "link_text": "",
-        "link_url": "",
-        "enable_email": false
-      }
-    },
-    "163002516665a1e199": {
-      "type": "custom-html",
-      "disabled": true,
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "html": ""
-      }
-    },
-    "1629224474d4a0d99e": {
-      "type": "text-with-image",
-      "settings": {
-        "subheading": "",
-        "title": "A NEW TASTE IN WHISKEY",
-        "image": "shopify:\/\/shop_images\/Journal_Community_Hand_Sanitiser2.jpg",
-        "image_position": "left",
-        "bg_colour": "rgba(0,0,0,0)",
-        "content": "<p>We use proven techniques of the world’s most famous distilleries, coupled with Melbourne’s dynamic climate, to create rye whiskey with passion, integrity and belief.<br\/><br\/><em>The Gospel<\/em>embodies the characteristics of traditional American rye whiskey with a flavour nuance that is distinctly Australian. Our unmalted rye grain imparts deep, spicy flavours of vanilla, cinnamon and dried fruit, with developing notes of pepper, grass and grain. We may not be a whiskey that your grandpa would like but you may discover a quality, premium, New Age whiskey that perfectly balances sweet and savoury.<\/p>",
-        "title2": "",
-        "link_text": "",
-        "link_url": "",
-        "enable_email": false
-      }
-    },
-    "163056458012c76196": {
-      "type": "custom-html",
-      "disabled": true,
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "html": ""
-      }
-    },
-    "162922448038a251fb": {
-      "type": "text-with-image",
-      "settings": {
-        "subheading": "",
-        "title": "THERE’S MERIT IN A DRINK",
-        "image": "shopify:\/\/shop_images\/About_us_placeholder.jpg",
-        "image_position": "right",
-        "bg_colour": "rgba(0,0,0,0)",
-        "content": "<p>At<em>The Gospel<\/em>, we are not just fanatical about rye. We are also passionate about standing up for what we believe in and supporting our community. We recognise our responsibility to operate in a responsible manner and to be conscious of our social impact and our environmental footprint. As a growing young business, we continue to learn and evolve, finding more sustainable and socially considered ways of doing things.<br\/><br\/>That’s why we use 100% recyclable packaging, divert our spent waste from landfill,<em>Pay the Rent<\/em>to the Traditional Custodians for the land on which work, and donate X% of profit to our partner charities. Learn more about the incredible folk we’ve partnered with here.<\/p><p><\/p><p>Discover<em>The Gospel<\/em>. Whether you drink it neat, on the rocks or in an Old Fashioned cocktail, be sure to sip slow and savour each drop.<\/p>",
-        "title2": "",
-        "link_text": "",
-        "link_url": "",
-        "enable_email": false
-      }
-    },
     "16305647752cd9b3e8": {
       "type": "custom-html",
       "disabled": true,
@@ -165,6 +171,15 @@
         "subheading": "",
         "title": "",
         "html": ""
+      }
+    },
+    "1630024833ec9bbc7d": {
+      "type": "about-us",
+      "disabled": true,
+      "settings": {
+        "subheading": "RYE IS THE GOSPEL",
+        "title": "WHISKEY IS RELIGION",
+        "html": "<p>It is widely believed that whiskey was first distilled for medicinal use by monks and apothecaries in Scotland and Ireland. The distillation of whiskey evolved as it moved from monastic to secular, as it did with the path of migration over hundreds of years. Early Scotch-Irish settlers in the USA used rye to make whiskey because barley didn’t adapt to the North American climate. These conditions are also true for the dry climate of Australia, where we set out to reimagine this original American spirit using 100% Australian rye.<\/p>"
       }
     },
     "1629224529014cc825": {
@@ -306,14 +321,15 @@
     "1630024779d99869da",
     "1633923516b2c5bd24",
     "162922451101adad1f",
-    "1630024833ec9bbc7d",
-    "163002479889ffe581",
     "162922446868bb256d",
-    "163002516665a1e199",
     "1629224474d4a0d99e",
-    "163056458012c76196",
     "162922448038a251fb",
+    "1649836500be9b70d5",
+    "163056458012c76196",
+    "163002516665a1e199",
+    "163002479889ffe581",
     "16305647752cd9b3e8",
+    "1630024833ec9bbc7d",
     "1629224529014cc825",
     "163002519537707cde",
     "163002481216eb2ab4"
