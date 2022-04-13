@@ -138,7 +138,7 @@
           "slide-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/main_static_banner.jpg",
+              "image": "shopify:\/\/shop_images\/tHE_gOSPEL_wHISKEY_BANNER_1.jpg",
               "desktop_video": "",
               "mobile_video": "",
               "apply_overlay": false,
@@ -182,7 +182,7 @@
               "title": "HISTORY OF WHISK(E)Y IN AUSTRALIA",
               "title_mobile": "",
               "content": "<p>Head to our journal to discover a brief history of whisk(e)y in Australia, filled with historical nuggets that have mostly been forgotten to the past. <\/p>",
-              "button_1_text": "READ NOW",
+              "button_1_text": "",
               "button_1_link": "",
               "button_2_text": "",
               "button_2_link": ""
