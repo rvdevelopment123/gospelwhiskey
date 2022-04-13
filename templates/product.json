@@ -3,7 +3,7 @@
     "main": {
       "type": "main-product",
       "settings": {
-        "show_share_buttons": true,
+        "show_share_buttons": false,
         "show_vendor": false,
         "show_sku": false,
         "show_taxes_included": false,
