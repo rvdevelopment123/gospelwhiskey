@@ -138,7 +138,7 @@
           "slide-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/tHE_gOSPEL_wHISKEY_BANNER_1.jpg",
+              "image": "shopify:\/\/shop_images\/main_static_banner.jpg",
               "desktop_video": "",
               "mobile_video": "",
               "apply_overlay": false,
@@ -171,6 +171,23 @@
               "button_2_link": ""
             }
           },
+          "990a9324-94d4-49bb-97dc-7780d27d895d": {
+            "type": "image",
+            "settings": {
+              "desktop_video": "",
+              "mobile_video": "",
+              "apply_overlay": true,
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "HISTORY OF WHISK(E)Y IN AUSTRALIA",
+              "title_mobile": "",
+              "content": "<p>Head to our journal to discover a brief history of whisk(e)y in Australia, filled with historical nuggets that have mostly been forgotten to the past. <\/p>",
+              "button_1_text": "",
+              "button_1_link": "",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          },
           "e69add4e-c459-4c90-8c01-e26792f60c46": {
             "type": "image",
             "settings": {
@@ -193,6 +210,7 @@
         "block_order": [
           "slide-1",
           "15d796c6-19d7-4aeb-945b-c316d1fbc765",
+          "990a9324-94d4-49bb-97dc-7780d27d895d",
           "e69add4e-c459-4c90-8c01-e26792f60c46"
         ],
         "settings": {
