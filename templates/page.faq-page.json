@@ -52,16 +52,128 @@
             "title": "What whisk(e)y is made from?",
             "content": "<p>Whisk(e)y is distilled from three simple ingredients: water, yeast and grain. It can be made from a variety of cereal grains, the most common being wheat, corn, barley and rye, all producing distinct flavour characteristics. At <em>The Gospel<\/em> we use 100% Australian grown, unmalted rye grain.<\/p>"
           }
+        },
+        "657c2a3a-81d7-4c73-9b76-59a7ec4f1d81": {
+          "type": "block",
+          "settings": {
+            "title": "What are the different types of whisk(e)y?",
+            "content": "<p><span style=\"text-decoration:underline\">Rye whiskey<\/span> contains at least 51% rye in its mash bill and aged in newly charred oak barrels if producing to the legal definition in the United States. Rye whiskey is distinguishable by its unique dry spiciness. <\/p><p><span style=\"text-decoration:underline\">Bourbon whiskey<\/span> is American whiskey, often (though not exclusively) produced in Kentucky. It contains at least 51% corn in its mash bill and aged in newly charred oak barrels if producing to the legal definition in the United States. Bourbon typically has a nutty flavour profile and a mellow, caramelised sweetness. <\/p><p><span style=\"text-decoration:underline\">Tennessee whiskey<\/span> is a subcategory of bourbon, which is filtered through charcoal before it is aged. This filtering method is known as the <em>Lincoln County Process<\/em> and is what gives Tennessee whiskey its own unique flavour. <\/p><p><span style=\"text-decoration:underline\">Irish whiskey<\/span> is spirit produced from malt, cereal grain, and barley which is distilled, aged, and bottled in Ireland. It must be aged in wooden casks for a minimum of three years.  <\/p><p><span style=\"text-decoration:underline\">Scotch whisky<\/span> must be distilled, aged, and bottled in Scotland. Scottish law mandates that scotch be aged in oak casks for a minimum of three years. It obtains its smoky character from peat, a dense moss that is lit on fire to dry out the malted barley used in distillation.<\/p><p><span style=\"text-decoration:underline\">Canadian whisky<\/span> must be produced and aged in Canada, have a minimum of 40% ABV, and be aged for at least three years in wooden barrels no larger than 700 litres. It can contain caramel and other flavourings or additives, leading to diverse tastes between brands. <\/p><p><span style=\"text-decoration:underline\">Japanese whisky<\/span> is bottled in Japan, but it isn’t necessarily distilled or aged there. Some Japanese whisky draws immediate comparisons to Scotch whisky, while other producers are continually evolving, harnessing the unique qualities of indigenous Japanese oak. <\/p><p><span style=\"text-decoration:underline\">Single-malt whiskey<\/span> comes from a single distillery and only contains one type of malted grain. A single-malt whiskey may include whiskey from several different casks, unless it’s a ‘single cask whiskey’. <\/p><p><span style=\"text-decoration:underline\">Blended whiskey<\/span> is a mixture of different whiskeys, potentially produced by different distilleries.<\/p>"
+          }
+        },
+        "f70f8c35-110f-430a-b991-bbd4438ce4bb": {
+          "type": "block",
+          "settings": {
+            "title": "What is the history of rye whiskey?",
+            "content": "<p>The history of American whiskey is tied closely to the history of US prohibition. Here is a quick snapshot of events:<\/p><p><span style=\"text-decoration:underline\">1700-1800s<\/span>: Rye is the most prevalent crop in colonial America and early Scotch-Irish settlers in the USA used rye to make whiskey because barley didn’t adapt to the North American climate. Rye whiskey is the main whiskey produced and consumed. Founding Father and First President of the United States George Washington had his own Rye distillery in Mount Vernon.<\/p><p><span style=\"text-decoration:underline\">Early 1900s-Early 2000s<\/span>: Prohibition begins in 1920 and officially lasts until 1933, during which time the production of whiskey is banned. Unfortunately, a lot of good whiskey is wasted and when prohibition is finally lifted there is little well-aged whiskey left. During the same period, the US government introduces subsidies on corn, making it a far more enticing crop for farmers. Corn became cheaper and more readily available, allowing the production of bourbon to thrive, while making rye harder and more expensive to make. After prohibition, American tastes changed and scotch and blended whiskies became popular and the tradition of drinking rye is lost and falls out of favour. There’s a saying: ‘they spill more bourbon on the floor every year than they make rye whiskey’.    <\/p><p><span style=\"text-decoration:underline\">2006 onwards<\/span>: The cocktail culture rise in the USA encourages bartenders to look back at drinking history and rediscover the joys of rye. Alongside the craft food movement, the craft booze movement starts to focus on quality and flavour. Rye begins its rise from the ashes.<\/p>"
+          }
+        },
+        "926ac634-00f3-4dda-8eb0-64e38b197326": {
+          "type": "block",
+          "settings": {
+            "title": "Whisky or whiskey: what is the difference?",
+            "content": "<p>‘Whisky’ derives from the Gaelic term <em>usquebaugh<\/em> which translates as ‘water of life’ (<em>Uisge<\/em> meaning water and <em>Beatha<\/em> meaning life). The difference in spelling reflects the geography of where the spirit is produced and can indicate the type of cereal grain used in the distilling process.<\/p><p>Long story short: the Irish spell whiskey with an e, while the Scottish spell whisky without. The USA, for the most part, uses the Irish spelling: whiskey. Everywhere else, including major whisky producing countries like Canada, India and Japan, drop the e.<\/p><p>At The Gospel we use ‘whiskey’ as we make our rye in the traditional American style.<\/p><p>The distinction offers important insights into the evolution and history of whisk(e)y. Culture, the law, branding and preference have all influenced how the different whisk(e)y producing regions spell the word and don’t necessarily correspond to the liquid in the bottle.<\/p>"
+          }
+        },
+        "c68f6e01-8fd7-4353-96f0-626c67d829d6": {
+          "type": "block",
+          "settings": {
+            "title": "Who invented whisk(e)y?",
+            "content": "<p>Both the Irish and the Scottish lay claim to being the first to distil whiskey. One theory is missionaries and monks that returned to Ireland from travels across Europe and Northern Africa, brought with them distilling techniques which were first used for medicinal purposes.<\/p><p>When King Henry II’s armies invaded Ireland, they discovered an elixir loved by the locals. They themselves took to liking it as well, but as the Celtic language name <em>usquebaugh<\/em> (meaning ‘Water of Life’) was too hard for the English to pronounce, over the centuries it evolved into what we call it now - whiskey.<\/p>"
+          }
+        },
+        "8f27e3ab-11ae-4835-8693-9039bf313be3": {
+          "type": "block",
+          "settings": {
+            "title": "What is the history of whisk(e)y in Australia?",
+            "content": "<p>It is widely believed that whisk(e)y arrived in Australia with the Scottish and Irish settlers, who brought their love for spirits with them, but the first legal distillery wasn’t opened until 1822 with <em>Sorell Distillery<\/em> in Hobart, Tasmania.<\/p><p>Victoria was once the centre of Australian distilling, home to many large distilleries including <em>Warrenheip Distillery<\/em> (1863) near Ballarat, <em>Federal Distillery<\/em> (1888) in Port Melbourne, and later, <em>Corio<\/em> (1928) near Geelong was one of the largest distilleries to operate in Australia.       <\/p><p>Nowadays there are close to 330 Australian distilleries – most are making gin, however, a lot are aging whisk(e)y.<\/p><p><em>Want to discover more? Read our journal article <\/em><a href=\"https:\/\/www.thegospelwhiskey.com\/archive\/history-of-whisky-in-australia\"><span style=\"text-decoration:underline\"><em>here<\/em><\/span><\/a><em>. <\/em><\/p>"
+          }
+        },
+        "96c964df-c6c5-4006-a7f4-a7985ddd850b": {
+          "type": "block",
+          "settings": {
+            "title": "Does whiskey expire?",
+            "content": "<p>If a whisky bottle is unopened it won’t go bad, but if you are planning to keep it for a while there are a couple of things you should do to keep it safe. You should store it out of the sun and away from direct heat, and you should store it upright. There’s no benefit to keeping whiskey - all of the ageing is done in barrels and it won’t change flavour in glass - but it also doesn’t hurt it.<\/p><p>If you want to keep an opened bottle of whiskey for more than a month or two, the key is to store it with as little oxygen as possible to avoid the flavour changing. So if you have a third or less of the whiskey left in the bottle, one trick is to decant it into a smaller bottle (with a good seal) for storage.<\/p>"
+          }
+        },
+        "aa78fc15-9e86-4d4a-87d4-d4850acc58cf": {
+          "type": "block",
+          "settings": {
+            "title": "Is scotch, bourbon and rye whiskey the same thing?",
+            "content": "<p>Scotch is a whisky that gets its distinct smoky flavour from the process in which it is made: the grain, primarily barley, is malted and then heated over a peat fire. <a href=\"http:\/\/www.legislation.gov.uk\/uksi\/2009\/2890\/contents\/made\"><span style=\"text-decoration:underline\">Laws in the United Kingdom<\/span><\/a> govern the definition of Scotch whisky, dictating production regulations and specifying that whisky cannot be called Scotch unless it is entirely produced and bottled in Scotland.<\/p><p>Bourbon, first produced in Kentucky USA, contains at least 51% mash from corn and uses a sour mash. <a href=\"http:\/\/www.ecfr.gov\/cgi-bin\/text-idx?c=ecfr;sid=5ea7acdd54dff93dbce97e668013dfd8;rgn=div8;view=text;node=27%3A1.0.1.1.3.3.25.2;idno=27;cc=ecfr\"><span style=\"text-decoration:underline\">U.S. regulations<\/span><\/a> specify that in order for a whiskey to be called bourbon, it must be made in the United States. There are also regulations prescribing the ingredients and production methods of the spirit.<\/p><p>Rye whiskey is a whiskey that uses rye grain in the mash bill. In the United States, <a href=\"http:\/\/www.ecfr.gov\/cgi-bin\/text-idx?c=ecfr;sid=5ea7acdd54dff93dbce97e668013dfd8;rgn=div8;view=text;node=27%3A1.0.1.1.3.3.25.2;idno=27;cc=ecfr\"><span style=\"text-decoration:underline\">regulations<\/span><\/a> stipulate that the mash must be at least 51% rye, whereas in Canada, the <a href=\"http:\/\/laws-lois.justice.gc.ca\/eng\/regulations\/C.R.C.,_c._870\/section-B.02.020.html\"><span style=\"text-decoration:underline\">regulations<\/span><\/a> are more relaxed as they do not specify a minimum percentage of rye.<\/p><p>In terms of the taste, the barley in scotch imparts roasted, nutty, toffee cereal flavours; corn gives bourbon its sweeter, vanilla and maple syrup character; and rye brings spicy, fruity characters with more complexity.<\/p><p>You can also think of the flavour profiles of rye and bourbon a little bit like bread. Cornbread is rich, full and sweet, whereas rye bread is dry, spicy and savoury.<\/p>"
+          }
+        },
+        "0c8621c6-a4cb-4f12-a45f-407a26735c20": {
+          "type": "block",
+          "settings": {
+            "title": "What is ‘Straight Rye Whiskey’?",
+            "content": "<p>To be legally labelled as ‘Straight’ whiskey must meet the strict distillation and maturation process required typical of American whiskeys. Straight rye whiskey must have 51% or more rye grain in the mash bill and be aged in new, charred oak for at least two years. It can’t include any additives in terms of flavour or caramel colouring.<\/p><p><em>Want to discover more? Read our journal article <\/em><a href=\"https:\/\/www.thegospelwhiskey.com\/archive\/what-is-straight-rye-whiskey\"><span style=\"text-decoration:underline\"><em>here<\/em><\/span><\/a>.<\/p>"
+          }
+        },
+        "23b988da-0378-479a-9583-b50f242be3da": {
+          "type": "block",
+          "settings": {
+            "title": "What does ‘unmalted rye’ mean?",
+            "content": "<p>Malting is a process that involves soaking grain to kickstart the germination process, and stopping it just before it germinates. Malting makes the grain easier to work with and results in a different flavour and texture of whisk(e)y.<\/p><p>We use 100% unmalted rye as we like its dry, spicy, peppery, earthy characteristics.<\/p>"
+          }
+        },
+        "a99b006b-fb7c-4b0e-ae01-c2ec7fb65ce7": {
+          "type": "block",
+          "settings": {
+            "title": "How long is whisk(e)y usually aged for?",
+            "content": "<p>In Australia, whisk(e)y must legally be aged for a minimum of 2 years. Our <em>Straight Rye Whiskey<\/em> is aged for 2-3 years in new American oak barrels with a heavy toast and light char, a unique formula we landed on after years of testing.<\/p><p><em>Want to discover more? Read our journal article <\/em><a href=\"https:\/\/www.thegospelwhiskey.com\/archive\/wood-and-maturation\"><span style=\"text-decoration:underline\"><em>here<\/em><\/span><\/a><em>.<\/em><\/p>"
+          }
+        },
+        "7626a6e2-e407-4ef7-9ef1-1f32bb8f5272": {
+          "type": "block",
+          "settings": {
+            "title": "How should I drink whisk(e)y?",
+            "content": "<p>There is no right way to drink whiskey, we believe any way is a good way so long as you are enjoying it. Whisk(e)y is often served neat or on the rocks. In summer, we like to serve ours as a Highball, with either soda water or dry ginger ale and a fresh orange wedge. All year round, you’ll find us adding it to whiskey-forward cocktails such as an Old Fashioned or Boulevardier, where the spice of the rye adds a beautiful complexity to these classic recipes.<\/p><p><em>Want to discover more? See our cocktail recipes <\/em><a href=\"https:\/\/www.thegospelwhiskey.com\/cocktails\"><span style=\"text-decoration:underline\"><em>here<\/em><\/span><\/a><em>. <\/em><\/p>"
+          }
+        },
+        "606cd6d1-0c70-415e-9720-659acd5e21d2": {
+          "type": "block",
+          "settings": {
+            "title": "Is whisk(e)y gluten free?",
+            "content": "<p>While we can’t legally claim whisk(e)y is gluten free in Australia (due to it being made from a grain containing gluten), Coeliac Australia says whiskey is A-OK! This is due to the distilling process which naturally removes the gluten proteins.<\/p><p>While the risk is low, please note that our whiskey is made in a distillery which uses rye grain, and occasionally wheat, so there may be cross-contamination in the air post distillation.<\/p>"
+          }
+        },
+        "32e58096-6ab0-457a-85c6-80585a99b2ce": {
+          "type": "block",
+          "settings": {
+            "title": "Is whisk(e)y vegan, dairy-free and soy-free?",
+            "content": "<p>The Gospel is vegan friendly, as well as dairy- and soy-free.<\/p>"
+          }
         }
       },
       "block_order": [
         "abd22357-8a65-4104-8274-2e387ba099dc",
-        "55ce2a0b-554c-4a87-be75-b9212bc29339"
+        "55ce2a0b-554c-4a87-be75-b9212bc29339",
+        "657c2a3a-81d7-4c73-9b76-59a7ec4f1d81",
+        "f70f8c35-110f-430a-b991-bbd4438ce4bb",
+        "926ac634-00f3-4dda-8eb0-64e38b197326",
+        "c68f6e01-8fd7-4353-96f0-626c67d829d6",
+        "8f27e3ab-11ae-4835-8693-9039bf313be3",
+        "96c964df-c6c5-4006-a7f4-a7985ddd850b",
+        "aa78fc15-9e86-4d4a-87d4-d4850acc58cf",
+        "0c8621c6-a4cb-4f12-a45f-407a26735c20",
+        "23b988da-0378-479a-9583-b50f242be3da",
+        "a99b006b-fb7c-4b0e-ae01-c2ec7fb65ce7",
+        "7626a6e2-e407-4ef7-9ef1-1f32bb8f5272",
+        "606cd6d1-0c70-415e-9720-659acd5e21d2",
+        "32e58096-6ab0-457a-85c6-80585a99b2ce"
       ],
       "settings": {
         "sec_title": "WHISKEY",
         "active": true,
         "margin_bottom": 20
+      }
+    },
+    "1649823865c8a939cf": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": ""
       }
     },
     "16421818200a0eb6b7": {
@@ -70,22 +182,55 @@
         "0993cb24-0d78-4a12-a177-3ca37619ffa4": {
           "type": "block",
           "settings": {
-            "title": "Title",
-            "content": "<p>Content<\/p>"
+            "title": "How do I change or cancel my order?",
+            "content": "<p>Should you make an error when ordering online, please email us at hello@thegospelwhiskey.com as soon as possible. We can change or cancel an order, provided it has not been shipped from our distillery.<\/p>"
+          }
+        },
+        "0e4af752-5c99-42d9-a882-11b6fa708cf3": {
+          "type": "block",
+          "settings": {
+            "title": "What is your return policy?",
+            "content": "<p>Should you make an error when ordering online, The Gospel will refund your item up to 30 days from the date of purchase. The returned item must be unopened and in its original saleable condition. Please email us at hello@thegospelwhiskey.com. You are responsible for the additional postage charges. When your return is received, we will send you an email to notify you that we have received your returned item. We will also notify you of the approval or rejection of your refund. If you are approved, then we will process your refund back on the card you paid with. Refund may take up to 2 business days.<\/p>"
+          }
+        },
+        "54cb1fb9-00e3-46ee-b5be-ed2ac840b1d8": {
+          "type": "block",
+          "settings": {
+            "title": "What is the cost of shipping?",
+            "content": "<p>Shipping is complimentary on all orders over $100 placed within Australia via <a href=\"https:\/\/www.thegospelwhiskey.com\/\"><span style=\"text-decoration:underline\">thegospelwhiskey.com<\/span><\/a>. For orders under $100, a flat rate of $5 shipping applies.<\/p>"
+          }
+        },
+        "33b922a4-a942-4e5c-9436-a388076f9148": {
+          "type": "block",
+          "settings": {
+            "title": "Can I click and collect?",
+            "content": "<p>Yes, pick up from our Brunswick distillery is available next business day. You will receive a confirmation email when your order is ready to collect. Our pick up hours are 8am-3pm on weekdays only. <\/p>"
+          }
+        },
+        "1d7a6b28-5ffc-42b3-89cb-d1eebb6e6b8a": {
+          "type": "block",
+          "settings": {
+            "title": "I missed out on a limited release, are there more bottles hidden away?",
+            "content": "<p>We sell all available stock online, which tend to sell out fast. Unfortunately, we don’t have any hidden away for subsequent purchases. We recommend you sign up to our newsletter to be across all our limited releases, and avoid missing out. Sign up <a href=\"https:\/\/manage.kmail-lists.com\/subscriptions\/subscribe?g=YvknLf&%24fields=%24consent&%24list_fields=%24consent&email=\"><span style=\"text-decoration:underline\">here<\/span><\/a>.<\/p>"
           }
         }
       },
       "block_order": [
-        "0993cb24-0d78-4a12-a177-3ca37619ffa4"
+        "0993cb24-0d78-4a12-a177-3ca37619ffa4",
+        "0e4af752-5c99-42d9-a882-11b6fa708cf3",
+        "54cb1fb9-00e3-46ee-b5be-ed2ac840b1d8",
+        "33b922a4-a942-4e5c-9436-a388076f9148",
+        "1d7a6b28-5ffc-42b3-89cb-d1eebb6e6b8a"
       ],
       "settings": {
-        "sec_title": "Section Title",
+        "sec_title": "ORDERS",
         "active": true,
         "margin_bottom": 120
       }
     },
     "1642497073660882ed": {
       "type": "text-image-overlay",
+      "disabled": true,
       "settings": {
         "section_link": "",
         "section_size": "large",
@@ -118,6 +263,7 @@
     },
     "16425254456c37b8dd": {
       "type": "column-image-overlay",
+      "disabled": true,
       "settings": {
         "section_size": "large",
         "text_alignment": "center",
@@ -153,6 +299,7 @@
     "main",
     "1642175241bb7a152a",
     "16421767232c9a7bf2",
+    "1649823865c8a939cf",
     "16421818200a0eb6b7",
     "1642497073660882ed",
     "16425254456c37b8dd"
