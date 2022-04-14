@@ -63,6 +63,10 @@
           </noscript>
         </div>
       </div>
+  {% if product.metafields.my_fields.zero_icon != blank %}
+  {{ product.metafields.my_fields.zero_icon | img_tag }}
+{% endif %}
+  
   {%- endcapture -%}
 
   <div class="FeatureText {% if section.settings.image != blank %}FeatureText--withImage FeatureText--image{{ section.settings.image_position | capitalize }}{% endif %}" id="desktop_discover__content">
@@ -211,6 +215,3 @@
 }
 {% endschema %}
 
-{% if product.metafields.my_fields.zero_icon != blank %}
-  {{ product.metafields.my_fields.zero_icon | img_tag }}
-{% endif %}
