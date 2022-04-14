@@ -1,39 +1,39 @@
 {
-    "sections": {
-        "main": {
-            "type": "article-template",
-            "settings": {
-                "show_article_image": true,
-                "show_date": true,
-                "show_category": false,
-                "show_author": true,
-                "show_share_buttons": false
-            }
-        },
-        "1633564089d4c383ab": {
-            "type": "blog-posts",
-            "blocks": {
-                "1633564089d4c383ab-0": {
-                    "type": "blog",
-                    "settings": {
-                        "blog": "journal"
-                    }
-                }
-            },
-            "block_order": [
-                "1633564089d4c383ab-0"
-            ],
-            "settings": {
-                "subheading": "",
-                "title": "Explore the journal",
-                "show_category": false,
-                "button_link": "",
-                "button_text": "View all articles"
-            }
-        }
+  "sections": {
+    "main": {
+      "type": "article-template",
+      "settings": {
+        "show_article_image": true,
+        "show_date": true,
+        "show_category": false,
+        "show_author": false,
+        "show_share_buttons": false
+      }
     },
-    "order": [
-        "main",
-        "1633564089d4c383ab"
-    ]
+    "1633564089d4c383ab": {
+      "type": "blog-posts",
+      "blocks": {
+        "1633564089d4c383ab-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "journal"
+          }
+        }
+      },
+      "block_order": [
+        "1633564089d4c383ab-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Explore the journal",
+        "show_category": false,
+        "button_link": "",
+        "button_text": "View all articles"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1633564089d4c383ab"
+  ]
 }
