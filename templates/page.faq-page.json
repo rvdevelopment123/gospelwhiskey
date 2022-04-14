@@ -150,7 +150,7 @@
           "type": "block",
           "settings": {
             "title": "Is whisk(e)y vegan, dairy-free and soy-free?",
-            "content": "<p>The Gospel is vegan friendly, as well as dairy- and soy-free.<\/p>"
+            "content": "<p><em>The Gospel<\/em> is vegan friendly, as well as dairy- and soy-free.<\/p>"
           }
         }
       },
