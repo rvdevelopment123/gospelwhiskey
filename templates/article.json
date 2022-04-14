@@ -6,7 +6,7 @@
         "show_article_image": true,
         "show_date": true,
         "show_category": false,
-        "show_author": false,
+        "show_author": true,
         "show_share_buttons": false
       }
     },
