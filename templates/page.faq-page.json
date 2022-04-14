@@ -143,7 +143,7 @@
           "type": "block",
           "settings": {
             "title": "Is whisk(e)y gluten free?",
-            "content": "<p>While we can’t legally claim whisk(e)y is gluten free in Australia (due to it being made from a grain containing gluten), Coeliac Australia says whiskey is A-OK! This is due to the distilling process which naturally removes the gluten proteins.<\/p><p>While the risk is low, please note that our whiskey is made in a distillery which uses rye grain, and occasionally wheat, so there may be cross-contamination in the air post distillation.<\/p>"
+            "content": "<p>While we can’t legally claim whisk(e)y is gluten free in Australia (due to it being made from a grain containing gluten), <em>Coeliac Australia<\/em> says whiskey is A-OK! This is due to the distilling process which naturally removes the gluten proteins.<br\/><br\/>While the risk is low, please note that our whiskey is made in a distillery which uses rye grain, and occasionally wheat, so there may be cross-contamination in the air post distillation.<\/p>"
           }
         },
         "32e58096-6ab0-457a-85c6-80585a99b2ce": {
