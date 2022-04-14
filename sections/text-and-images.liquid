@@ -210,3 +210,7 @@
   ]
 }
 {% endschema %}
+
+{% if product.metafields.my_fields.zero_icon != blank %}
+  {{ product.metafields.my_fields.zero_icon | img_tag }}
+{% endif %}
