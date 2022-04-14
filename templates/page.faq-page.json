@@ -199,14 +199,14 @@
           "type": "block",
           "settings": {
             "title": "What is your return policy?",
-            "content": "<p>Should you make an error when ordering online, The Gospel will refund your item up to 30 days from the date of purchase. The returned item must be unopened and in its original saleable condition. Please email us at hello@thegospelwhiskey.com. You are responsible for the additional postage charges. When your return is received, we will send you an email to notify you that we have received your returned item. We will also notify you of the approval or rejection of your refund. If you are approved, then we will process your refund back on the card you paid with. Refund may take up to 2 business days.<\/p>"
+            "content": "<p>Should you make an error when ordering online, <em>The Gospel<\/em> will refund your item up to 30 days from the date of purchase. The returned item must be unopened and in its original saleable condition.Please email us at hello@thegospelwhiskey.com. <br\/><br\/>You are responsible for the additional postage charges. When your return is received, we will send you an email to notify you that we have received your returned item. We will also notify you of the approval or rejection of your refund. If you are approved, then we will process your refund back on the card you paid with. Refund may take up to 2 business days.<\/p>"
           }
         },
         "54cb1fb9-00e3-46ee-b5be-ed2ac840b1d8": {
           "type": "block",
           "settings": {
             "title": "What is the cost of shipping?",
-            "content": "<p>Shipping is complimentary on all orders over $100 placed within Australia via <a href=\"https:\/\/www.thegospelwhiskey.com\/\"><span style=\"text-decoration:underline\">thegospelwhiskey.com<\/span><\/a>. For orders under $100, a flat rate of $5 shipping applies.<\/p>"
+            "content": "<p>Shipping is complimentary on all orders over $100 placed within Australia via <a href=\"https:\/\/www.thegospelwhiskey.com\/\"><span style=\"text-decoration:underline\">thegospelwhiskey.com<\/span><\/a>. <br\/><br\/>For orders under $100, a flat rate of $5 shipping applies.<\/p>"
           }
         },
         "33b922a4-a942-4e5c-9436-a388076f9148": {
