@@ -6825,6 +6825,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .ProductItem {
   text-align: center;
   white-space: normal;
+      padding: 0px 10px;
 }
 
 .js .features--show-element-staggering .ProductList--grid .ProductItem {
