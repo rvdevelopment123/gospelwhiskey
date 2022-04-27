@@ -22,7 +22,7 @@
     
     <span class="abv">{{ product.selected_or_first_available_variant.option1}}</span>
 
-  {% assign batch_number = product.metafields.my_fields.third_text | split:"0011" %}
+  {% assign batch_number = product.metafields.my_fields.third_text | split:" " %}
   {%- if batch_number contains 'Batch' -%}
     <span class="abv">{{ product.metafields.my_fields.third_text}}</span>
   {%- endif -%}
