@@ -1283,6 +1283,9 @@ a.Drawer__Title.Heading.u-h4 {
     padding: 0px 25px;
     margin: 50px 0px;
 }
+.Article__Body strong {
+    font-family: 'MagdaBold';
+}
 @media screen and (max-width: 1500px) {
     .link-list-bg {
         top: 58px;
