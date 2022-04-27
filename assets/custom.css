@@ -940,16 +940,11 @@ article .ProductList.ProductList--shopNow {
     margin-bottom: 20px;
 }
 
-.donation-wrapper select {
+.donation-wrapper select, .donation-wrapper-2nd select{
     background-color: unset;
     width: 100%;
     padding: 8px 3px;
-}
-
-.donation-wrapper-2nd select {
-    background-color: unset;
-    width: 100%;
-    padding: 8px 3px;
+    border: solid 1px #505050;
 }
 
 .link-list-bg {
