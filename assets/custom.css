@@ -1276,6 +1276,9 @@ a.Drawer__Title.Heading.u-h4 {
 .magda-light {
     font-family: 'MagdaLight'!important;
 }
+.mysearchTitle {
+    text-align: left;
+}
 @media screen and (max-width: 1500px) {
     .link-list-bg {
         top: 58px;
