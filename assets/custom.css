@@ -1278,6 +1278,7 @@ a.Drawer__Title.Heading.u-h4 {
 }
 .mysearchTitle {
     text-align: left;
+    max-width: 88%;
 }
 @media screen and (max-width: 1500px) {
     .link-list-bg {
