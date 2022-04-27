@@ -432,8 +432,7 @@
     }
 
     #SectionHeader-AlignBottomLeft {
-        position: relative;
-        padding: 40px 20px !important;
+        padding: 20px!important;
     }
 
 
