@@ -1300,10 +1300,11 @@ a.Drawer__Title.Heading.u-h4 {
   color: #fff;
   text-align: center;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px 5px;
   position: absolute;
   z-index: 1;
   font-size: 12px;
+  max-width: 250px;
 }
 .charity--tooltip:hover .charity--tooltiptext {
   visibility: visible;
