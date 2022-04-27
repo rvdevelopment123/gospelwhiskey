@@ -1280,6 +1280,7 @@ a.Drawer__Title.Heading.u-h4 {
     text-align: left;
     max-width: 88%;
 }
+
 @media screen and (max-width: 1500px) {
     .link-list-bg {
         top: 58px;
