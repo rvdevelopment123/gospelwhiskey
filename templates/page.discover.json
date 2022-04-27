@@ -50,6 +50,7 @@
     },
     "164982216489357b83": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "",
@@ -73,6 +74,7 @@
     },
     "164982181452a119a3": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "",
@@ -96,6 +98,7 @@
     },
     "1649822108beb107fe": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "",
@@ -119,6 +122,7 @@
     },
     "16498219365f62f675": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "",
