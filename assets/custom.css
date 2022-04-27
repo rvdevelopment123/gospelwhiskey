@@ -1284,8 +1284,15 @@ a.Drawer__Title.Heading.u-h4 {
 /* Tooltip CSS */
 
 .charity--tooltip {
+    display: inline-block;
 }
-
+.charity--tooltip i {
+    background: #ece2d2;
+    border-radius: 100%;
+    line-height: 1;
+    padding: 3px 8px 2px 5px;
+    border: solid 1px #d7c8b0;
+}
 .charity--tooltip .charity--tooltiptext {
   visibility: hidden;
   width: 120px;
