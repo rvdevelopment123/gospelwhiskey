@@ -1281,6 +1281,27 @@ a.Drawer__Title.Heading.u-h4 {
 .Article__Body strong {
     font-family: 'MagdaRegular';
 }
+/* Tooltip CSS */
+
+.charity--tooltip {
+}
+
+.charity--tooltip .charity--tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.charity--tooltip:hover .charity--tooltiptext {
+  visibility: visible;
+}
 @media screen and (max-width: 1500px) {
     .link-list-bg {
         top: 58px;
