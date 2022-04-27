@@ -1285,6 +1285,8 @@ a.Drawer__Title.Heading.u-h4 {
 
 .charity--tooltip {
     display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 2px;
 }
 .charity--tooltip i {
     background: #ece2d2;
