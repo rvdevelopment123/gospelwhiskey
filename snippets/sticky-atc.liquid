@@ -1,6 +1,6 @@
 <!-- sticky-atc.liquid -->
 {%- assign selected_variant = product.selected_or_first_available_variant -%}
-{% if template contains 'product' %}
+{% if template contains 'product'  and selected_variant.available %}
 <div id="huratips-addtocart-sticky">
   <form class="flex" action="/cart/add" method="post">
     <select {{product.options.size}} name="id" {% if product.options.size < 3 %}style="display:none;"{%endif%}>
