@@ -13,6 +13,7 @@
             {%- assign mydescription = section.settings.metaid | append: "_description" -%}
             {%- assign myimageid = section.settings.metaid | append: "_image" -%}
             {%- assign myimage = product.metafields.my_fields[myimageid] | file_url  -%}
+            {%- assign myimagetest = product.metafields.my_fields[myimageid]  -%}
             
     	  	<h2 class="Heading u-h1">{{product.metafields.my_fields[mytitle] }}</h2>
             
@@ -51,18 +52,19 @@
   {%- endcapture -%}
 
   {%- capture section_image -%}
+  {% if myimagetest %}
       <div class="FeatureText__ImageWrapper">
         {%- capture supported_sizes -%}{%- render 'image-size', sizes: '400,600,700,800,900,1000,1200', image: section.settings.image -%}{%- endcapture -%}
 
         <div class="productImage_wrapper">
           {%- assign image_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-          <img class="Image--lazyLoad Image--slide{{ section.settings.image_position | capitalize }}" data-src="{{ myimage }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" >
-
+          <img  class="Image--lazyLoad Image--slide{{ section.settings.image_position | capitalize }}" data-src="{{ myimage }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" >
           <noscript>
             <img src="{{ myimage | img_url: '800x' }}" >
           </noscript>
         </div>
       </div>
+    {% endif %}
   {%- endcapture -%}
 
   <div class="FeatureText {% if section.settings.image != blank %}FeatureText--withImage FeatureText--image{{ section.settings.image_position | capitalize }}{% endif %}" id="desktop_discover__content">
