@@ -32,6 +32,7 @@
         {%- comment -%}
         IMPLEMENTATION NOTE: The alternate image (not visible by default) should be the first in the DOM, as the spinner (Image__Loader element) is
         displayed based on the immediately previously shown image.
+        
         <form action="/cart/add" method="post" enctype="multipart/form-data" class="quick-add-form">
               {% if product.variants.size > 1 %}
                   <select id="product-select-{{ product.id }}" name='id' class="text-center">
@@ -71,17 +72,18 @@
         {% endif %}
         </div>
         
-<a data-test="2222" href="{{ product.url | within: collection }}">
         {%- if has_alternate_image -%}
         {%- capture supported_sizes -%}{%- render 'image-size', sizes: '200,300,400,600,800,900,1000,1200', image: product.media[1] -%}{%- endcapture -%}
+
         {%- assign image_url = product.media[1] | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
         <img class="ProductItem__Image ProductItem__Image--alternate Image--lazyLoad Image--fadeIn" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ product.media[1].alt | escape }}" data-media-id="{{ product.media[1].id }}">
         {%- endif -%}
         {%- capture supported_sizes -%}{%- render 'image-size', sizes: '200,400,600,700,800,900,1000,1200', image: product.featured_media -%}{%- endcapture -%}
         {%- assign image_url = product.featured_media | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
         <img class="ProductItem__Image hey Image--lazyLoad Image--fadeIn" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ product.featured_media.alt | escape }}" data-media-id="{{ product.featured_media.id }}">
         <span class="Image__Loader"></span>
-</a>
+
         <noscript>
           <img class="ProductItem__Image ProductItem__Image--alternate" src="{{ product.media[1] | img_url: '600x' }}" alt="{{ product.media[1].alt | escape }}">
           <img class="ProductItem__Image" src="{{ product.featured_media| img_url: '600x' }}" alt="{{ product.featured_media.alt | escape }}">
