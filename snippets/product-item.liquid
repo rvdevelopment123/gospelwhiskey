@@ -82,7 +82,7 @@
         {%- capture supported_sizes -%}{%- render 'image-size', sizes: '200,400,600,700,800,900,1000,1200', image: product.featured_media -%}{%- endcapture -%}
         {%- assign image_url = product.featured_media | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
-        <img onclick="window.location.href = '{{ product.url | within: collection }}'" style="pointer:cursor;" class="ProductItem__Image hey Image--lazyLoad Image--fadeIn" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ product.featured_media.alt | escape }}" data-media-id="{{ product.featured_media.id }}">
+        <img onclick="window.location.href = '{{ product.url | within: collection }}'" style="cursor:pointer;" class="ProductItem__Image hey Image--lazyLoad Image--fadeIn" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ product.featured_media.alt | escape }}" data-media-id="{{ product.featured_media.id }}">
 
         <span class="Image__Loader"></span>
 
