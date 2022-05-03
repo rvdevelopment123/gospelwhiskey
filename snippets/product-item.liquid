@@ -16,6 +16,7 @@
     {%- else -%}
       {%- assign has_alternate_image = false -%}
     {%- endif -%}
+    
 <div>
     <a href="{{ product.url | within: collection }}" class="ProductItem__ImageWrapper {% if has_alternate_image %}ProductItem__ImageWrapper--withAlternateImage{% endif %}">
 
@@ -92,6 +93,7 @@
       </div>
     </a>
 </div>
+    
     {%- if show_labels -%}
       {%- capture product_labels -%}
         {%- for tag in product.tags -%}
