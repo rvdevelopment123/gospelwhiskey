@@ -59,7 +59,7 @@
           </form>
         {%- endcomment -%}
  
-        <div class="quick-add-form">
+        <div data-test="1111" class="quick-add-form">
         {% if product.available %}
             {% if product.variants.size < 2 %}
                 {%- assign selected_variant = product.selected_or_first_available_variant -%}
