@@ -642,15 +642,6 @@
           "button_2_link": ""
         }
       },
-      "16269374621f9d3b31": {
-        "type": "custom-html",
-        "disabled": true,
-        "settings": {
-          "subheading": "",
-          "title": "THE RYE REVOLUTION",
-          "html": "<style>\n#shopify-section-16269374621f9d3b31{\nbackground:#5A5B30;\ncolor:white;\n}\n#section-16269374621f9d3b31{\npadding:30px !important;\nmargin:0;\n}\n#section-16269374621f9d3b31 > div > header{\nmargin:0;\n}\n#section-16269374621f9d3b31 > div > header > h2{\ncolor:white;\n}\n<\/style>"
-        }
-      },
       "1626937808dbbd053f": {
         "type": "logo-list",
         "blocks": {
@@ -787,27 +778,6 @@
           "title": "WHISKEY IS RELIGION",
           "html": "<p>It is widely believed that whiskey was first distilled for medicinal use by monks and apothecaries in Scotland and Ireland. The distillation of whiskey evolved as it moved from monastic to secular, as it did with the path of migration over hundreds of years. Early Scotch-Irish settlers in the USA used rye to make whiskey because barley didn’t adapt to the North American climate. These conditions are also true for the dry climate of Australia, where we set out to reimagine this original American spirit using 100% Australian rye.<\/p>"
         }
-      },
-      "1635680933a4492f11": {
-        "type": "image-with-text-overlay",
-        "disabled": true,
-        "settings": {
-          "center_all": true,
-          "section_link": "",
-          "section_size": "large",
-          "video": "",
-          "text_color": "#ffffff",
-          "overlay_color": "#000000",
-          "overlay_opacity": 30,
-          "text_size": 40,
-          "subheading": "",
-          "title": "Tell your story",
-          "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>",
-          "button_1_text": "",
-          "button_1_link": "",
-          "button_2_text": "",
-          "button_2_link": ""
-        }
       }
     },
     "content_for_index": [
@@ -816,8 +786,6 @@
       "featured-collections",
       "162693642824a2a9c7",
       "1626936490f7ac1d6c",
-      "1635680933a4492f11",
-      "16269374621f9d3b31",
       "1626937808dbbd053f",
       "1626938031535fb114",
       "16269378793cc5438e"

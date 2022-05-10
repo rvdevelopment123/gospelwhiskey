@@ -1,51 +1,12 @@
 {
   "sections": {
-    "1649839348a1016bb0": {
-      "type": "custom-html",
-      "disabled": true,
-      "settings": {
-        "subheading": "",
-        "title": "Terms And Conditions",
-        "html": ""
-      }
-    },
     "main": {
       "type": "mainpage",
       "settings": {
       }
-    },
-    "164559574550c2db10": {
-      "type": "faq-header-section",
-      "disabled": true,
-      "settings": {
-        "pageTitle": "FAQ",
-        "inputTitle": "Search",
-        "content": ""
-      }
-    },
-    "16455957335f63effd": {
-      "type": "faq-accordion-section",
-      "disabled": true,
-      "settings": {
-        "sec_title": "Section Title",
-        "active": true,
-        "margin_bottom": 0
-      }
-    },
-    "164983490095b03a6e": {
-      "type": "faq-accordion-section",
-      "settings": {
-        "sec_title": "",
-        "active": true,
-        "margin_bottom": 0
-      }
     }
   },
   "order": [
-    "1649839348a1016bb0",
-    "main",
-    "164559574550c2db10",
-    "16455957335f63effd",
-    "164983490095b03a6e"
+    "main"
   ]
 }
