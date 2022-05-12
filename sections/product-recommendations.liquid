@@ -41,18 +41,19 @@
             {%- endcomment -%}
 
             {%- if product.metafields.sf_related_products.enabled == 1 -%}
+
               {%- for i in (1..4) -%}
                 {%- assign related_product_option = 'product_' | append: i -%}
-                {%- assign related_product = all_products[product.metafields.sf_related_products[related_product_option]] -%}
+                {%- assign related_product = all_products[product.collection] -%}
 
                 {%- unless related_product.empty? -%}
-                  <div class="Carousel__Cell" id="22222">
+                  <div class="Carousel__Cell" id="carousel222">
                     {% render 'product-item', product: related_product, show_product_info: section.settings.show_product_info, show_vendor: section.settings.show_vendor, show_color_swatch: section.settings.show_color_swatch, show_labels: true %}
                   </div>
                 {%- endunless -%}
               {%- endfor -%}
             {%- else -%}
-              {%- for product in recommendations.products -%}
+              {%- for product in collections.all.products limit: 4 -%}
             {% if product.id == 5664532693155 %}
             {% else %}
                 <div class="Carousel__Cell" id="333333">
