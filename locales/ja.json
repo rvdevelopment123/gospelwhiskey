@@ -4,24 +4,20 @@
       "tags": "「\"{{ tags }}\"」タグによる絞り込み",
       "page": "{{ page }}ページ目"
     },
-
     "accessibility": {
       "scroll_to_content": "コンテンツへスクロール",
       "previous": "前へ",
       "next": "次へ"
     },
-
     "announcement_bar": {
       "close": "閉じる"
     },
-
     "popup": {
       "close": "閉じる",
       "email_placeholder": "あなたのメールアドレス",
       "submit": "申し込む",
       "success": "ニュースレターにご購読ありがとうございます"
     },
-
     "password": {
       "enter_password": "パスワードでログインする",
       "password_input": "パスワード",
@@ -33,20 +29,17 @@
       "login_title": "ストア運営者の方",
       "login_link": "ログインはこちら"
     },
-
     "pagination": {
       "previous_page": "前へ",
       "next_page": "次へ",
       "go_to_page": "{{page}}ページへ"
     }
   },
-
   "header": {
     "general": {
       "locale": "言語",
       "currency": "通貨"
     },
-
     "navigation": {
       "title": "メインメニュー",
       "sidebar_title": "サイドメニュー",
@@ -62,20 +55,17 @@
       "currency_selector": "通貨選択"
     }
   },
-
   "footer": {
     "general": {
       "locale": "言語",
       "currency": "通貨"
     },
-
     "newsletter": {
       "success": "ニュースレターのご購読ありがとうございます。",
       "input": "メールアドレス",
       "submit": "申し込む"
     }
   },
-
   "search": {
     "general": {
       "title": "検索する",
@@ -99,7 +89,6 @@
       }
     }
   },
-
   "404": {
     "general": {
       "title": "404",
@@ -107,7 +96,6 @@
       "button": "ホームページへ戻る"
     }
   },
-
   "home_page": {
     "onboarding": {
       "vendor_title": "ブランド名",
@@ -118,28 +106,23 @@
       "article_category": "カテゴリー",
       "article_excerpt": "ストアはまだブログ投稿を公開していません。 ブログを使用して、新商品の発売、ヒント、またはお客様と共有したいその他のニュースについて話すことができます。 Shopifyのeコマースブログで、自分の店やブログのインスピレーションとアドバイスを確認できます。"
     },
-
     "featured_product": {
       "view_product": "商品の詳細を見る"
     },
-
     "shop_the_look": {
       "view_product": "この商品を見る",
       "view_products": "商品を見る",
       "popover_title": "Shop the look"
     },
-
     "featured_video": {
       "play": "動画を再生します"
     },
-
     "newsletter": {
       "input": "メールアドレス",
       "submit": "申し込む",
       "success": "ご購読ありがとうございます。"
     }
   },
-
   "collection_list": {
     "general": {
       "title": "すべてのコレクション",
@@ -147,7 +130,6 @@
       "empty_button": "ホームページに戻る"
     }
   },
-
   "collection": {
     "general": {
       "all_products": "すべての商品",
@@ -157,7 +139,6 @@
       "reset": "フィルターをリセット",
       "view_products": "商品を見る"
     },
-
     "filter": {
       "title": "フィルター",
       "show_filter": "フィルターを表示",
@@ -165,24 +146,20 @@
       "reset": "リセット",
       "apply": "適用"
     },
-
     "sorting": {
       "title": "並べ替え",
       "show_sort": "並べ替えを表示"
     },
-
     "layout": {
       "show_one_per_row": "行ごとに1つの商品を表示する",
       "show_two_per_row": "行ごとに2つの商品を表示する",
       "show_four_per_row": "行ごとに4つの商品を表示する"
     },
-
     "product": {
       "from_price_html": "{{min_price}}から",
       "view_product": "商品を見る"
     }
   },
-
   "customer": {
     "account": {
       "title": "マイアカウント",
@@ -197,7 +174,6 @@
       "edit_addresses": "住所を編集する",
       "manage_addresses": "住所を管理する"
     },
-
     "login": {
       "title": "ログイン",
       "description": "メールとパスワードを入力してください",
@@ -208,7 +184,6 @@
       "register_label": "アカウントをお持ちでない方",
       "register_link": "アカウントを作成する"
     },
-
     "orders": {
       "order_number": "注文",
       "date": "日付",
@@ -216,14 +191,13 @@
       "fulfillment_status": "処理状況",
       "total": "合計"
     },
-
     "order": {
       "title": "注文 {{order_number}}",
       "back_to_account": "アカウントに戻る",
       "cancelled_at": "注文がキャンセルされた日付 {{ date }}",
       "placed_at": "{{date}}の注文",
-      "fulfillment_html": "注文が送信されました。 番号{{tracking_number}}で荷物を追跡するか、ここをクリックしてください： <a href=\"{{tracking_url}}\" class=\"Link Link--underlineNative\" target=\"_blank\">{{tracking_url}}</a>",
-      "line_fulfillment_html": "製品 \"{{product_title}}\" が送信されました。番号　{{tracking_number}}で貨物を追跡するか、ここをクリックしてください： <a href=\"{{tracking_url}}\" class=\"Link Link--underlineNative\" target=\"_blank\">{{tracking_url}}</a>",
+      "fulfillment_html": "注文が送信されました。 番号{{tracking_number}}で荷物を追跡するか、ここをクリックしてください： <a href=\"{{tracking_url}}\" class=\"Link Link--underlineNative\" target=\"_blank\">{{tracking_url}}<\/a>",
+      "line_fulfillment_html": "製品 \"{{product_title}}\" が送信されました。番号　{{tracking_number}}で貨物を追跡するか、ここをクリックしてください： <a href=\"{{tracking_url}}\" class=\"Link Link--underlineNative\" target=\"_blank\">{{tracking_url}}<\/a>",
       "product": "商品",
       "quantity": "量",
       "line_price": "合計",
@@ -236,7 +210,6 @@
       "billing_address": "請求先住所",
       "no_shipping_address": "この注文は配送先住所を必要としません"
     },
-
     "activate_account": {
       "title": "アカウントを有効にする",
       "description": "アカウントを有効にするためにパスワードを作成してください：",
@@ -245,7 +218,6 @@
       "submit": "アカウントを有効にする",
       "decline": "招待を断る"
     },
-
     "recover_password": {
       "title": "パスワードをリセットする",
       "description": "メールアドレスを入力してください：",
@@ -255,7 +227,6 @@
       "login_label": "パスワードを覚えていますか？",
       "login_link": "ログインに戻る"
     },
-
     "reset_password": {
       "title": "アカウントのパスワードをリセットする",
       "description": "新しいパスワードを入力してください：",
@@ -263,7 +234,6 @@
       "password_confirmation": "パスワードの確認",
       "submit": "パスワードをリセットする"
     },
-
     "addresses": {
       "title": "私のアドレス",
       "empty": "住所はまだ保存されていません",
@@ -286,7 +256,6 @@
       "phone": "電話番号",
       "set_default": "この住所をデフォルトとして設定する"
     },
-
     "register": {
       "title": "新規登録",
       "description": "以下の情報を入力してください：",
@@ -297,7 +266,6 @@
       "submit": "登録"
     }
   },
-
   "cart": {
     "general": {
       "title": "カート",
@@ -314,7 +282,6 @@
       "total": "合計",
       "checkout": "ご購入手続きへ"
     },
-
     "items": {
       "product": "商品",
       "quantity": "個数",
@@ -322,7 +289,6 @@
       "set_quantity": "数量を{{new_quantity}}に設定します",
       "remove": "削除"
     },
-
     "shipping_estimator": {
       "title": "発送予定",
       "country": "国",
@@ -334,19 +300,16 @@
       "no_results_title": "配送が見つかりませんでした"
     }
   },
-
   "product": {
     "general": {
       "view_in_space": "あなたの空間で見る",
       "include_taxes": "税込み",
       "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">送料計算済み<\/a> チェックアウト時"
     },
-
     "labels": {
       "sold_out": "売り切れ",
       "on_sale": "セール"
     },
-
     "slideshow": {
       "zoom": "拡大する",
       "go_to_image": "{{i}}画像へ",
@@ -355,7 +318,6 @@
       "next": "次へ（right arrow）",
       "image_loading_error": "この画像を読み込めませんでした。 ページをリロードしてください。"
     },
-
     "form": {
       "variant_label": "バリアント",
       "sku": "商品番号",
@@ -380,27 +342,23 @@
       "view_info": "詳細情報",
       "view_images": "画像を見る"
     },
-
     "tabs": {
       "reviews": "レビュー"
     },
-
     "buy_it_with": {
       "title": "と購入"
     }
   },
-
   "store_availability": {
     "general": {
       "view_store_info": "ストア情報を表示する",
       "check_other_stores": "別のストアでの出品状況を確認する",
       "pick_up_available": "受取が可能です",
       "pick_up_currently_unavailable": "受取は現在できません",
-      "pick_up_available_at_html": "<strong>{{ location_name }}</strong>での受取が可能です",
-      "pick_up_unavailable_at_html": "<strong>{{ location_name }}</strong>での受取は現在できません"
+      "pick_up_available_at_html": "<strong>{{ location_name }}<\/strong>での受取が可能です",
+      "pick_up_unavailable_at_html": "<strong>{{ location_name }}<\/strong>での受取は現在できません"
     }
   },
-
   "gift_card": {
     "issued": {
       "subtext": "あなたのギフトカード",
@@ -416,14 +374,12 @@
       "add_to_apple_wallet": "Apple Walletに追加する"
     }
   },
-
   "blog": {
     "general": {
       "no_articles": "ブログ{{blog_title}}は空です",
       "empty_button": "ホームページに戻る",
       "all_tag": "全てのブログ"
     },
-
     "article": {
       "read_more": "もっと読む",
       "written_by": "{{author}}によって書かれた",
@@ -437,7 +393,6 @@
         "other": "{{count}}件のコメント"
       }
     },
-
     "comments": {
       "form_title": "コメントを残す",
       "name_placeholder": "名前",
@@ -449,7 +404,6 @@
       "success_moderated": "コメントが投稿されました。コメントはすぐに表示されるようになります。"
     }
   },
-
   "contact": {
     "form": {
       "name": "氏名",
@@ -459,7 +413,6 @@
       "successfully_sent": "メッセージは送信されました。"
     }
   },
-
   "date_formats": {
     "month_day_year": "%Y年 %B %d日",
     "month_day_year_short": "%Y\/%m\/%d",

@@ -4,24 +4,20 @@
       "tags": "Etiquetas \"{{ tags }}\"",
       "page": "Página {{ page }}"
     },
-
     "accessibility": {
       "scroll_to_content": "Deslizar para ver",
       "previous": "Anterior",
       "next": "Siguiente"
     },
-
     "announcement_bar": {
       "close": "Cerrar"
     },
-    
     "popup": {
       "close": "Cerrar",
       "email_placeholder": "Introduzca su email",
       "submit": "inscribirse",
       "success": "Se ha inscrito a la newsletter"
     },
-
     "password": {
       "enter_password": "Introduzca contraseña",
       "password_input": "Su contraseña",
@@ -33,20 +29,17 @@
       "login_link": "Iniciar sesión",
       "login_title": "¿Es usted el propietario de la página?"
     },
-
     "pagination": {
       "previous_page": "Página anterior",
       "next_page": "Página siguiente",
       "go_to_page": "Ir a página {{page}}"
     }
   },
-
   "header": {
     "general": {
       "locale": "Idioma",
       "currency": "Moneda"
     },
-
     "navigation": {
       "account": "Cuenta",
       "search": "Buscar",
@@ -62,20 +55,17 @@
       "sidebar_title": "Barra navegación lateral"
     }
   },
-
   "footer": {
     "general": {
       "locale": "Idioma",
       "currency": "Moneda"
     },
-
     "newsletter": {
       "success": "Se ha registrado en nuestra newsltetter",
       "input": "Introduzca su email",
       "submit": "Inscribirse"
     }
   },
-
   "search": {
     "general": {
       "title": "Buscar",
@@ -99,7 +89,6 @@
       "articles": "Diario"
     }
   },
-
   "404": {
     "general": {
       "title": "404",
@@ -107,7 +96,6 @@
       "button": "Volver a la Página de Inicio"
     }
   },
-
   "home_page": {
     "onboarding": {
       "vendor_title": "Nombre de la marca",
@@ -118,28 +106,23 @@
       "article_category": "Categoría",
       "article_excerpt": "Su tienda no ha publicado ninguna entrada todavía. Un blog puede usarse para comentar nuevos lanzamientos de productos, consejos u otras noticias que quiera compartir con los clientes. Puede revisar el blog de Shopify ecommerce para obtener inspiración y consejo para su propia tienda y blog"
     },
-
     "featured_product": {
       "view_product": "Ver los detalles del producto"
     },
-
     "shop_the_look": {
       "view_product": "Ver este producto",
       "view_products": "Ver Productos",
       "popover_title": "Ver este estilismo"
     },
-
     "featured_video": {
       "play": "Reproducir video"
     },
-
     "newsletter": {
       "input": "Introduzca su email",
       "submit": "Inscribirse",
       "success": "Se ha inscrito a la newsletter"
     }
   },
-
   "collection_list": {
     "general": {
       "title": "Todas las colecciones",
@@ -147,7 +130,6 @@
       "empty_button": "Volver al Inicio"
     }
   },
-
   "collection": {
     "general": {
       "all_products": "Todos los productos",
@@ -157,7 +139,6 @@
       "reset": "Borrar filtros",
       "view_products": "Ver productos"
     },
-
     "filter": {
       "title": "Filtro",
       "show_filter": "Ver Filtros",
@@ -165,24 +146,20 @@
       "reset": "Resetear",
       "apply": "Aplicar"
     },
-
     "sorting": {
       "title": "Tipo",
       "show_sort": "Ordenar por"
     },
-
     "layout": {
       "show_one_per_row": "Mostrar un producto por línea",
       "show_two_per_row": "Mostrar dos productos por línea",
       "show_four_per_row": "Mostrar cuatro productos por línea"
     },
-
     "product": {
       "from_price_html": "Desde {{min_price}}",
       "view_product": "Ver producto"
     }
   },
-
   "customer": {
     "account": {
       "title": "Mi cuenta",
@@ -197,7 +174,6 @@
       "edit_addresses": "Editar direcciones",
       "manage_addresses": "Administrar direcciones"
     },
-
     "login": {
       "title": "Iniciar sesión",
       "description": "Por favor introduzca su email y contraseña:",
@@ -208,7 +184,6 @@
       "register_label": "¿no tiene una cuenta?",
       "register_link": "Crear cuenta"
     },
-
     "orders": {
       "order_number": "Pedido",
       "date": "Fecha",
@@ -216,7 +191,6 @@
       "total": "Total",
       "fulfillment_status": "Estado"
     },
-
     "order": {
       "title": "Pedido {{order_number}}",
       "back_to_account": "Volver a la cuenta",
@@ -236,7 +210,6 @@
       "billing_address": "Dirección de facturación",
       "no_shipping_address": "No se requiere una dirección de envío para este pedido."
     },
-
     "activate_account": {
       "title": "Activar cuenta",
       "description": "Por favor introduzca una contraseña para crear una cuenta",
@@ -245,7 +218,6 @@
       "submit": "Activar",
       "decline": "Declinar"
     },
-
     "recover_password": {
       "title": "Recuperar contraseña",
       "description": "Por favor introduzca su email:",
@@ -255,7 +227,6 @@
       "login_label": "¿Recordar su contraseña?",
       "login_link": "Volver a Inicio de sesión"
     },
-
     "reset_password": {
       "title": "Resetear contraseña",
       "description": "Por favor introduzca una nueva contraseña",
@@ -263,7 +234,6 @@
       "password_confirmation": "Confirmar contraseña",
       "submit": "Resetear"
     },
-
     "addresses": {
       "title": "Mis direcciones",
       "empty": "No se han guardado direcciones todavía",
@@ -286,7 +256,6 @@
       "phone": "Teléfono",
       "set_default": "Establecer como dirección predeterminada"
     },
-
     "register": {
       "title": "Registrar",
       "description": "Por favor complete la siguiente información:",
@@ -297,7 +266,6 @@
       "submit": "Crear una cuenta"
     }
   },
-
   "cart": {
     "general": {
       "title": "Carrito",
@@ -314,7 +282,6 @@
       "total": "Total",
       "checkout": "Pasar por caja"
     },
-
     "items": {
       "product": "Producto",
       "quantity": "Cantidad",
@@ -322,7 +289,6 @@
       "set_quantity": "Establecer la cantidad en {{new_quantity}} ",
       "remove": "Eliminar"
     },
-
     "shipping_estimator": {
       "title": "Envío estimado",
       "country": "País",
@@ -334,19 +300,16 @@
       "no_results_title": "No se pudo encontrar ningún envío"
     }
   },
-
   "product": {
     "general": {
       "include_taxes": "Impuestos incluídos",
       "view_in_space": "Ver en tu espacio",
       "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\"> Envío calculado <\/a> al finalizar la compra."
     },
-
     "labels": {
       "sold_out": "Agotado",
       "on_sale": "En oferta"
     },
-
     "slideshow": {
       "zoom": "Zoom",
       "go_to_image": "Navegar a la imagen {{i}}",
@@ -355,7 +318,6 @@
       "next": "Siguiente (flecha derecha)",
       "image_loading_error": "Esta imagen no pudo ser cargada. Intente volver a cargar la página."
     },
-
     "form": {
       "variant_label": "Variante",
       "sku": "SKU",
@@ -380,16 +342,13 @@
       "view_info": "Más información",
       "view_images": "Ver imagenes"
     },
-
     "tabs": {
       "reviews": "Opiniones"
     },
-
     "buy_it_with": {
       "title": "Cómpralo con"
     }
   },
-
   "store_availability": {
     "general": {
       "view_store_info": "Ver información de la tienda",
@@ -400,7 +359,6 @@
       "pick_up_unavailable_at_html": "Recogida no disponible actualmente en <strong> {{location_name}} <\/strong>"
     }
   },
-
   "gift_card": {
     "issued": {
       "subtext": "¡Aquí tienes tu tarjeta regalo!",
@@ -416,14 +374,12 @@
       "add_to_apple_wallet": "Agregar a Apple Wallet"
     }
   },
-
   "blog": {
     "general": {
       "no_articles": "El blog {{blog_title}} está vacío",
       "empty_button": "Volver al Inicio",
       "all_tag": "Todo"
     },
-
     "article": {
       "read_more": "Leer más",
       "written_by": "Escrito por {{author}}",
@@ -437,7 +393,6 @@
         "other": "{{count}} comentarios"
       }
     },
-
     "comments": {
       "form_title": "Dejar un comentario",
       "name_placeholder": "Nombre",
@@ -449,7 +404,6 @@
       "success_moderated": "Tu comentario ha sido enviado. ¡Será visible una vez que Coloretas lo haya aceptado!"
     }
   },
-
   "contact": {
     "form": {
       "name": "Su nombre",
@@ -459,7 +413,6 @@
       "successfully_sent": "Su mensaje ha sido enviado con éxito."
     }
   },
-
   "date_formats": {
     "month_day_year": "%d %B, %Y",
     "month_day_year_short": "%d\/%m\/%Y",

@@ -1,27 +1,23 @@
 {
   "general": {
     "meta": {
-      "tags": "Etichettato \"{{ tags }}\"", 
+      "tags": "Etichettato \"{{ tags }}\"",
       "page": "Pagina {{ page }}"
     },
-
     "accessibility": {
       "scroll_to_content": "Vai al contenuto",
       "previous": "Precedente",
       "next": "Successivo"
     },
-
     "announcement_bar": {
       "close": "Chiudi"
     },
-
     "popup": {
       "close": "Chiudi",
       "email_placeholder": "Inserisci la tua email",
       "submit": "Iscriviti",
       "success": "Ti sei iscritto alla nostra newsletter."
     },
-
     "password": {
       "enter_password": "Inserisci la tua password",
       "password_input": "La tua password",
@@ -33,20 +29,17 @@
       "login_title": "Sei il proprietario del negozio?",
       "login_link": "Accedi qui"
     },
-
     "pagination": {
       "previous_page": "Pagina precedente",
       "next_page": "Pagina successiva",
       "go_to_page": "Vai a pagina {{page}}"
     }
   },
-
   "header": {
     "general": {
       "locale": "Lingua",
       "currency": "Valuta"
     },
-
     "navigation": {
       "title": "Navigazione principale",
       "sidebar_title": "Navigazione laterale",
@@ -62,20 +55,17 @@
       "currency_selector": "Selettore di valuta"
     }
   },
-
   "footer": {
     "general": {
       "locale": "Lingua",
       "currency": "Valuta"
     },
-
     "newsletter": {
       "success": "Ti sei iscritto alla nostra newsletter.",
       "input": "Inserisci il tuo indirizzo email",
       "submit": "Iscriviti"
     }
   },
-
   "search": {
     "general": {
       "title": "Ricerca",
@@ -99,7 +89,6 @@
       }
     }
   },
-
   "404": {
     "general": {
       "title": "404",
@@ -107,7 +96,6 @@
       "button": "Torna alla home"
     }
   },
-
   "home_page": {
     "onboarding": {
       "vendor_title": "Nome del marchio",
@@ -118,28 +106,23 @@
       "article_category": "Categoria",
       "article_excerpt": "Il tuo negozio non ha pubblicato ancora nessun post. Un blog può essere usato per parlare di new product launches, consigli, o altre novità che vuoi condividere con i tuoi clienti. Puoi dare un'occhiata al blog e-commerce di Shopify per ispirazione e consigli su come vendere i tuoi prodotti."
     },
-
     "featured_product": {
       "view_product": "Visualizza i dettagli del prodotto"
     },
-
     "shop_the_look": {
       "view_product": "Visualizza questo prodotto",
       "view_products": "Visualizza prodotti",
       "popover_title": "Acquista la vetrina"
     },
-
     "featured_video": {
       "play": "Avvia video"
     },
-
     "newsletter": {
       "input": "Inserisci la tua email",
       "submit": "Iscriviti",
       "success": "Ti sei iscritto alla nostra newsletter."
     }
   },
-
   "collection_list": {
     "general": {
       "title": "Tutte le collezioni",
@@ -147,7 +130,6 @@
       "empty_button": "Torna alla home"
     }
   },
-
   "collection": {
     "general": {
       "all_products": "Tutti i prodotti",
@@ -157,7 +139,6 @@
       "reset": "Reimposta i filtri",
       "view_products": "Visualizza i prodotti"
     },
-
     "filter": {
       "title": "Filtro",
       "show_filter": "Mostra i filtri",
@@ -165,24 +146,20 @@
       "reset": "Reimposta",
       "apply": "Applica"
     },
-
     "sorting": {
       "title": "Ordina",
       "show_sort": "Ordina per"
     },
-
     "layout": {
       "show_one_per_row": "Mostra un prodotto per riga",
       "show_two_per_row": "Mostra due prodotti per riga",
       "show_four_per_row": "Mostra quattro prodotti per riga"
     },
-
     "product": {
       "from_price_html": "Da {{min_price}}",
       "view_product": "Visualizza prodotto"
     }
   },
-
   "customer": {
     "account": {
       "title": "Il mio account",
@@ -197,7 +174,6 @@
       "edit_addresses": "Modifica indirizzi",
       "manage_addresses": "Gestisci indirizzi"
     },
-
     "login": {
       "title": "Accedi",
       "description": "Inserisci la tua e-mail e password",
@@ -208,7 +184,6 @@
       "register_label": "Non hai un account?",
       "register_link": "Creane uno"
     },
-
     "orders": {
       "order_number": "Ordine",
       "date": "Data",
@@ -216,14 +191,13 @@
       "fulfillment_status": "Stato di esecuzione",
       "total": "Totale"
     },
-
     "order": {
       "title": "Ordine {{order_number}}",
       "back_to_account": "Torna all'account",
       "cancelled_at": "Ordine cancellato il {{ date }}",
       "placed_at": "Ordine effettuato il {{ date }}",
-      "fulfillment_html": "Il tuo ordine è stato spedito. Traccia la spedizione con il numero {{tracking_number}} o cliccando qui: <a href=\"{{tracking_url}}\" class=\"Link Link--underlineNative\" target=\"_blank\">{{tracking_url}}</a>",
-      "line_fulfillment_html": "Il tuo prodotto \"{{product_title}}\" è stato spedito. Traccia la spedizione con il numero {{tracking_number}} o cliccando qui: <a href=\"{{tracking_url}}\" class=\"Link Link--underlineNative\" target=\"_blank\">{{tracking_url}}</a>",
+      "fulfillment_html": "Il tuo ordine è stato spedito. Traccia la spedizione con il numero {{tracking_number}} o cliccando qui: <a href=\"{{tracking_url}}\" class=\"Link Link--underlineNative\" target=\"_blank\">{{tracking_url}}<\/a>",
+      "line_fulfillment_html": "Il tuo prodotto \"{{product_title}}\" è stato spedito. Traccia la spedizione con il numero {{tracking_number}} o cliccando qui: <a href=\"{{tracking_url}}\" class=\"Link Link--underlineNative\" target=\"_blank\">{{tracking_url}}<\/a>",
       "product": "Prodotto",
       "quantity": "Quantità",
       "line_price": "Totale",
@@ -236,7 +210,6 @@
       "billing_address": "Indirizzo di fatturazione",
       "no_shipping_address": "L'indirizzo di spedizione non è necessario per questo ordine."
     },
-
     "activate_account": {
       "title": "Attiva account",
       "description": "Inserisci una password per creare il tuo account:",
@@ -245,7 +218,6 @@
       "submit": "Attiva",
       "decline": "Rifiuta"
     },
-
     "recover_password": {
       "title": "Recupera password",
       "description": "Inserisci la tua email:",
@@ -255,7 +227,6 @@
       "login_label": "Ricordi la tua password?",
       "login_link": "Torna al login"
     },
-
     "reset_password": {
       "title": "Reimposta password",
       "description": "Inserisci una nuova password:",
@@ -263,7 +234,6 @@
       "password_confirmation": "Conferma password",
       "submit": "Reimposta"
     },
-
     "addresses": {
       "title": "I miei indirizzi",
       "empty": "Non ci sono ancora indirizzi salvati",
@@ -286,7 +256,6 @@
       "phone": "Telefono",
       "set_default": "Imposta come indirizzo predefinito"
     },
-
     "register": {
       "title": "Registrati",
       "description": "Si prega di inserire le seguenti informazioni:",
@@ -297,7 +266,6 @@
       "submit": "Crea il mio account"
     }
   },
-
   "cart": {
     "general": {
       "title": "Carrello",
@@ -314,7 +282,6 @@
       "total": "Totale",
       "checkout": "Checkout"
     },
-
     "items": {
       "product": "Prodotto",
       "quantity": "Quantità",
@@ -322,7 +289,6 @@
       "set_quantity": "Imposta quantità pari a {{new_quantity}}",
       "remove": "Rimuovi"
     },
-
     "shipping_estimator": {
       "title": "Calcola spedizione",
       "country": "Nazione",
@@ -334,19 +300,16 @@
       "no_results_title": "Non sono state trovate spedizioni"
     }
   },
-
   "product": {
     "general": {
       "view_in_space": "Visualizza nel tuo spazio",
       "include_taxes": "Tasse incluse.",
       "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">Spedizione calcolata<\/a> al checkout."
     },
-
     "labels": {
       "sold_out": "Esaurito",
       "on_sale": "In vendita"
     },
-
     "slideshow": {
       "zoom": "Zoom",
       "go_to_image": "Mostra immagine {{i}}",
@@ -355,7 +318,6 @@
       "next": "Successivo (right arrow)",
       "image_loading_error": "Questa immagine non è stata caricata. Prova a ricaricare la pagina."
     },
-
     "form": {
       "variant_label": "Variante",
       "sku": "SKU",
@@ -380,27 +342,23 @@
       "view_info": "Più informazioni",
       "view_images": "Vedi immagini"
     },
-
     "tabs": {
       "reviews": "Recensioni"
     },
-
     "buy_it_with": {
       "title": "Compra insieme a"
     }
   },
-
   "store_availability": {
     "general": {
       "view_store_info": "Visualizza i dettagli del negozio",
       "check_other_stores": "Verifica la disponibilità in altri negozi",
       "pick_up_available": "Ritiro disponibile",
       "pick_up_currently_unavailable": "Ritiro attualmente non disponibile",
-      "pick_up_available_at_html": "Ritiro disponibile presso <strong>{{ location_name }}</strong>",
-      "pick_up_unavailable_at_html": "Ritiro presso <strong>{{ location_name }}</strong> attualmente non disponibile"
+      "pick_up_available_at_html": "Ritiro disponibile presso <strong>{{ location_name }}<\/strong>",
+      "pick_up_unavailable_at_html": "Ritiro presso <strong>{{ location_name }}<\/strong> attualmente non disponibile"
     }
   },
-
   "gift_card": {
     "issued": {
       "subtext": "Ecco il tuo buono regalo!",
@@ -416,14 +374,12 @@
       "add_to_apple_wallet": "Aggiungi all'Apple Wallet"
     }
   },
-
   "blog": {
     "general": {
       "no_articles": "Il blog {{blog_title}} è vuoto",
       "empty_button": "Torna alla home",
       "all_tag": "Tutti"
     },
-
     "article": {
       "read_more": "Leggi di più",
       "written_by": "Scritto da {{author}}",
@@ -437,7 +393,6 @@
         "other": "{{count}} commenti"
       }
     },
-
     "comments": {
       "form_title": "lascia un commento",
       "name_placeholder": "Nome",
@@ -449,7 +404,6 @@
       "success_moderated": "Il tuo commento è stato inviato. Sarà visibile dopo che il proprietario del negozio l'ha approvato."
     }
   },
-
   "contact": {
     "form": {
       "name": "Il tuo nome",
@@ -459,10 +413,9 @@
       "successfully_sent": "Il tuo messaggio è stato inviato con successo."
     }
   },
-
   "date_formats": {
     "month_day_year": "%B %d, %Y",
-    "month_day_year_short": "%m/%d/%Y",
+    "month_day_year_short": "%m\/%d\/%Y",
     "month_day_year_time": "%B %d, %Y at %I:%M%p"
   }
 }
