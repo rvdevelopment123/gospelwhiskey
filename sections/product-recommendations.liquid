@@ -53,11 +53,21 @@
                 {%- endunless -%}
               {%- endfor -%}
             {%- else -%}
-              {%- for product in collections.all.products limit: 4 -%}
+            {% assign min = 1 %}
+            {% assign max = 20 %}
+            {% assign diff = max | minus: min %}
+            
+           
+            {%- for i in (1..4) -%}
+            {% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
+              {%- assign productGen = collections.all.products[randomNumber] -%}
+
+            
+
             {% if product.id == 5664532693155 %}
             {% else %}
                 <div class="Carousel__Cell" id="333333">
-                  {% render 'product-item', product: product, show_product_info: section.settings.show_product_info, show_vendor: section.settings.show_vendor, show_color_swatch: section.settings.show_color_swatch, show_labels: true %}
+                  {% render 'product-item', product: productGen, show_product_info: section.settings.show_product_info, show_vendor: section.settings.show_vendor, show_color_swatch: section.settings.show_color_swatch, show_labels: true %}
                 </div>
               {%- else -%}
                 {%- comment -%}Hide the section if there is no recommendations to show{%- endcomment -%}
