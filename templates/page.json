@@ -7,6 +7,27 @@
     },
     "1652694753db09588d": {
       "type": "map",
+      "blocks": {
+        "a2c2e619-7595-4c9d-8ad7-ef56deee3668": {
+          "type": "text",
+          "settings": {
+            "category": "barresto",
+            "outletName": "1800 Lasagne \/ THORNBURY",
+            "storeCity": "THORNBURY",
+            "address": "653 High Street",
+            "suburb": "THORNBURY",
+            "postcode": "3071",
+            "rep": "Ella Neilson",
+            "onpremise": "On Premise",
+            "state": "VIC",
+            "lat": "43.6475",
+            "lng": "-79.3994267"
+          }
+        }
+      },
+      "block_order": [
+        "a2c2e619-7595-4c9d-8ad7-ef56deee3668"
+      ],
       "settings": {
         "title": "FIND US AT YOUR FAVOURITE BAR OR BOTTLE SHOP",
         "address": "<p>123 Fake St. Toronto, Canada<\/p>",
