@@ -1,0 +1,71 @@
+<section id="faq-bg">
+  <div id="app" data-aos="fade-up">
+    This is for Stockist Put Map
+    <div id="map"></div>
+  </div>
+</section>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer
+    ></script>
+
+{% schema %}
+  {
+    "name": "Stockist Section",
+    "settings": [	
+					{
+						"type" : "text",
+						"label" : "Section Title",
+						"id" : "sec_title",
+						"default" : "Section Title"
+					},
+                    {
+                      "id": "active",
+                      "type": "checkbox",
+                      "label": "Active Section Title",
+                      "default": true
+                    },
+					{
+						"type" : "number",
+						"label" : "Margin Bottom",
+						"id" : "margin_bottom",
+						"default" : 0
+					}
+				],
+  
+  "blocks": [
+        {
+           "type": "block",
+           "name": "Accordion",
+           "settings": [
+              {
+                 "type": "text",
+                 "id": "title",
+                 "label": "Accordion title",
+                 "default" : "Title"
+              },
+              {
+                 "type": "richtext",
+                 "id": "content",
+                 "label": "Accordion content",
+				 "default" : "<p>Content</p>"
+              }
+           ]
+        }
+     ],
+  
+			"presets": [
+				{
+					"category" : "image",
+					"name" : "FAQ Accordion Section"
+				}
+			]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
