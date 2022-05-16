@@ -4,61 +4,9 @@
       "type": "mainpage",
       "settings": {
       }
-    },
-    "1652694753db09588d": {
-      "type": "map",
-      "blocks": {
-        "a2c2e619-7595-4c9d-8ad7-ef56deee3668": {
-          "type": "text",
-          "settings": {
-            "category": "barresto",
-            "outletName": "1800 Lasagne \/ THORNBURY",
-            "storeCity": "THORNBURY",
-            "address": "653 High Street",
-            "suburb": "THORNBURY",
-            "postcode": "3071",
-            "rep": "Ella Neilson",
-            "onpremise": "On Premise",
-            "state": "VIC",
-            "lat": "43.6475",
-            "lng": "-79.3994267"
-          }
-        },
-        "0d252f02-5719-4642-8987-c6469ed290b3": {
-          "type": "text",
-          "settings": {
-            "category": "barresto",
-            "outletName": "18th Amendment Bar \/ GEELONG",
-            "storeCity": "GEELONG",
-            "address": "Lvl 1, 82 Little Malop Street",
-            "suburb": "GEELONG",
-            "postcode": "313",
-            "rep": "Rey",
-            "onpremise": "On Premise",
-            "state": "Testse",
-            "lat": "43.646886",
-            "lng": "-79.396580"
-          }
-        }
-      },
-      "block_order": [
-        "a2c2e619-7595-4c9d-8ad7-ef56deee3668",
-        "0d252f02-5719-4642-8987-c6469ed290b3"
-      ],
-      "settings": {
-        "title": "FIND US AT YOUR FAVOURITE BAR OR BOTTLE SHOP",
-        "address": "<p>123 Fake St. Toronto, Canada<\/p>",
-        "hours": "",
-        "map_address": "80 Spadina Ave, Toronto",
-        "map_link_label": "Get directions",
-        "api_key": "AIzaSyBLIBBtbQoDlCdcnttMAA44AUHrVULrTDM",
-        "zoom": 14,
-        "map_style": "silver"
-      }
     }
   },
   "order": [
-    "main",
-    "1652694753db09588d"
+    "main"
   ]
 }
