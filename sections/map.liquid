@@ -1,13 +1,18 @@
+{% assign locations = section.blocks | map: 'settings' %}
 {% capture section_settings %}
+
 {
   "apiKey": {{ section.settings.api_key | json }},
   "mapAddress": {{ section.settings.map_address | json }},
   "zoom": {{ section.settings.zoom }},
+  "locations": {{ locations | json }},
   "markerColor": {% if section.settings.map_style == 'standard' or section.settings.map_style == 'silver' or section.settings.map_style == 'retro' %}"#000000"{% else %}"#ffffff"{% endif %}
 }
 {% endcapture %}
 
 <section class="Section Section--spacingNormal" id="section-{{ section.id }}" data-section-type="map" data-section-id="{{ section.id }}" data-section-settings='{{ section_settings | escape }}'>
+  
+  
   <div class="Container">
     <div class="FeaturedMap">
       <div class="FeaturedMap__Info">
@@ -649,6 +654,7 @@
       "type": "text",
       "id": "api_key",
       "label": "Google Maps API key",
+      "default": "AIzaSyBLIBBtbQoDlCdcnttMAA44AUHrVULrTDM",
       "info": "You’ll need to register a [Google Maps API Key](https://help.shopify.com/manual/using-themes/troubleshooting/map-section-api-key) to display the map."
     },
     {
@@ -697,6 +703,81 @@
       "id": "image",
       "label": "Image",
       "info": "Displayed if the map isn’t loaded"
+    }
+  ],
+  "blocks": 
+  [
+    {
+      "type": "text",
+      "name": "Location",
+      "settings": [
+        {
+          "type": "select",
+          "id": "category",
+          "label": "Venue Category",
+                "options": [
+                        {
+                          "value": "barresto",
+                          "label": "Bar or Restaurant"
+                        },
+                        {
+                          "value": "bottle",
+                          "label": "Bottle Shop"
+                        }
+                ]
+          },
+          {
+            "type": "text",
+            "id": "outletName",
+            "label": "Outlet Name"
+          },
+          {
+            "type": "text",
+            "id": "storeCity",
+            "label": "City"
+          },
+          {
+            "type": "text",
+            "id": "address",
+            "label": "Address"
+          },
+          {
+            "type": "text",
+            "id": "suburb",
+            "label": "Suburb"
+          },
+          {
+            "type": "text",
+            "id": "postcode",
+            "label": "Postcode"
+          },
+          {
+            "type": "text",
+            "id": "rep",
+            "label": "Representative"
+          },
+          {
+            "type": "text",
+            "id": "onpremise",
+            "label": "On/Off Premise",
+            "default": "On Premise"
+          },
+          {
+            "type": "text",
+            "id": "state",
+            "label": "Address State"
+          },
+          {
+            "type": "text",
+            "id": "lat",
+            "label": "Latitude"
+          },
+          {
+            "type": "text",
+            "id": "lng",
+            "label": "Longitude"
+          }
+      ]
     }
   ],
   "presets": [

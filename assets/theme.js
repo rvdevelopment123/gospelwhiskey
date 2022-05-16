@@ -5834,6 +5834,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               position: map.getCenter(),
               icon: icon
             });
+            
+
+            var locations = _this57.options['locations']
+            locations.forEach(function(item) {
+              console.log('Location')
+              console.info(item)
+              //var ite = JSON.parse(item)
+              new google.maps.Marker({
+                map: map,
+                position: {lat: Number(item.lat), lng: Number(item.lng)},
+                icon: icon
+              });
+            })
 
             var styledMapType = new google.maps.StyledMapType(JSON.parse(_this57.element.querySelector('[data-gmap-style]').innerHTML));
 
