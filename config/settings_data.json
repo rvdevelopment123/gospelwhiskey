@@ -206,13 +206,33 @@
               "button_2_text": "",
               "button_2_link": ""
             }
+          },
+          "7d2b232d-513d-4976-b9c6-d9a174e3c734": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/The_Gospel_Fortified_Cask_Whiskey_Label.jpg",
+              "desktop_video": "",
+              "mobile_video": "",
+              "apply_overlay": true,
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "New Project Release Coming Soon",
+              "title_mobile": "",
+              "content": "<p>Our next limited Project Release will be available soon. Sign up to our newsletter for first access. <br\/><br\/>More details to come.<\/p>",
+              "button_1_text": "",
+              "button_1_link": "",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
           }
         },
         "block_order": [
           "slide-1",
           "15d796c6-19d7-4aeb-945b-c316d1fbc765",
           "990a9324-94d4-49bb-97dc-7780d27d895d",
-          "e69add4e-c459-4c90-8c01-e26792f60c46"
+          "e69add4e-c459-4c90-8c01-e26792f60c46",
+          "7d2b232d-513d-4976-b9c6-d9a174e3c734"
         ],
         "settings": {
           "show_fullscreen": true,
