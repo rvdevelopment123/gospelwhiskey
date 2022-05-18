@@ -64,10 +64,10 @@
         "button_2_link": "",
         "spacing_top": 45,
         "additional_text": 20,
-        "info_one": "",
-        "info_two": "",
-        "info_three": "",
-        "info_four": ""
+        "info_one": "Info 1",
+        "info_two": "Info 2",
+        "info_three": "Info 3",
+        "info_four": "Info 4"
       }
     }
   },
