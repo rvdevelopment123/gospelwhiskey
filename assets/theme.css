@@ -61,7 +61,15 @@ audio:not([controls]) {
   display: none;
   height: 0;
 }
-
+.stock_list li {
+  cursor: pointer;
+}
+.stock_list li:hover {
+  background-color: red;
+}
+.activeMe {
+  background-color: blue;
+}
 /**
  * Text-level semantic
  */

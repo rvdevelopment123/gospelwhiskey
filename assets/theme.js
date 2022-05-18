@@ -5800,7 +5800,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         var _this57 = this;
 
         var geocoder = new google.maps.Geocoder();
-
+var activeCategory = 'allCategory';
         geocoder.geocode({ address: this.options['mapAddress'] }, function (results, status) {
           if (status !== google.maps.GeocoderStatus.OK) {
             if (Shopify.designMode) {}
@@ -5817,7 +5817,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
             var map = new google.maps.Map(_this57.element.querySelector('.FeaturedMap__GMap'), mapOptions),
                 center = map.getCenter();
-
+                console.log('Center')
+                console.info(center)
             map.setCenter(center);
 
             var icon = {
@@ -5836,17 +5837,155 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             });
             
 
-            var locations = _this57.options['locations']
-            locations.forEach(function(item) {
-              console.log('Location')
-              console.info(item)
-              //var ite = JSON.parse(item)
-              new google.maps.Marker({
-                map: map,
-                position: {lat: Number(item.lat), lng: Number(item.lng)},
-                icon: icon
+            // var locations = _this57.options['locations']
+            // locations.forEach(function(item) {
+            //   console.log('Location')
+            //   console.info(item)
+            //   //var ite = JSON.parse(item)
+            //   new google.maps.Marker({
+            //     map: map,
+            //     position: {lat: Number(item.lat), lng: Number(item.lng)},
+            //     icon: icon
+            //   });
+            // })
+
+            function initialize() {
+
+              // two dimensional array
+              var array = [[]];
+          
+              // load maps.csv as data
+              $("#stock_list").html('')
+              var markers = []
+              var items = []
+              d3.csv('https://cdn.shopify.com/s/files/1/0428/4556/9187/files/Gospe_Converted1_cac6ff53-3bf6-47f5-ae22-fb43a860e1fc.csv?v=1652835464', function(e2, two) {
+                console.log('STart of CSV')
+                // console.info(two)
+                two.forEach(function(item, index) {
+                  console.info(item)
+                  const marker = new google.maps.Marker({
+                    map: map,
+                    position: {lat: Number(item.Lat), lng: Number(item.Long)},
+                    icon: icon
+                  });
+                  markers.push(marker)
+                  items.push(item)
+                  renderMap(item, index)
+                })
+
+                function renderMap(item, index){
+                  var subName = '<br />'+item.Address+', ' +item.Address_State + ', ' + item.Postcode
+                  var myItem = '<li id="item_'+index+'" data-category="'+item.Venue_Category+'" data-lat="'+item.Lat+'" data-lng="'+item.Long+'" class="" ><p>'+item.Outlet_Name+subName +'</p></li>';
+                  $("#stock_list").append(myItem)
+                  $("#item_"+index).click(function(e) {
+                    var lat = Number($("#item_"+index).attr('data-lat'))
+                    var lng = Number($("#item_"+index).attr('data-lng'))
+                    $(".activeMe").removeClass('activeMe')
+                    // map.setCenter(lat,lng, 12);
+                    map.setCenter(new google.maps.LatLng(lat,lng));
+                    $("#item_"+index).addClass('activeMe')
+                    console.log('Lat ' + lat)
+                    console.log('Lng ' + lng)
+                    //alert('I am clicked')
+                  })
+                }
+
+                function displayAllMap(filterItems){
+                  deleteMarkers()
+                  $("#stock_list").html('')
+                  filterItems.forEach(function(item, index) {
+                    console.info(item)
+                    const marker = new google.maps.Marker({
+                      map: map,
+                      position: {lat: Number(item.Lat), lng: Number(item.Long)},
+                      icon: icon
+                    });
+                    markers.push(marker)
+                    renderMap(item, index)
+                  })
+                }
+
+                // Sets the map on all markers in the array.
+                function setMapOnAll(map) {
+                  for (let i = 0; i < markers.length; i++) {
+                    markers[i].setMap(map);
+                  }
+                }
+
+                // Removes the markers from the map, but keeps them in the array.
+                function hideMarkers() {
+                  setMapOnAll(null);
+                }
+
+                // Shows any markers currently in the array.
+                function showMarkers() {
+                  setMapOnAll(map);
+                }
+
+                // Deletes all markers in the array by removing references to them.
+                function deleteMarkers() {
+                  hideMarkers();
+                  markers = [];
+                }
+
+                $("#submitBtn").click(function() {
+                  console.log('Submit Clicked')
+                  var txtSearch = $("#filterStockist").val()
+                  console.log('Text Search')
+                  console.info(txtSearch)
+                  var filteredItems = items.filter(function(item) {
+                    // console.info(item)
+                    var isReturn = false
+                    for (const property in item) {
+                      var indexSearch = item[property].indexOf(txtSearch)
+                      if(indexSearch >= 0)
+                        return true
+                    }
+                    return isReturn
+                    // return item.map(function(item2) {
+                    //   return item2.toLowerCase().indexOf(txtSearch.toLowerCase())
+                    // })
+                  })
+                  console.log('filteredItems')
+                  console.info(filteredItems)
+                  displayAllMap(filteredItems)
+                  //console.info(e)
+                })
+                $("#allCategory").click(function() {
+                  activeCategory = "allCategory"
+                  $("li[data-category='Bar or Restaurant']").show()
+                  $("li[data-category='Bottle Shop']").show()
+                })
+
+                $("#barCategory").click(function() {
+                  activeCategory = "barCategory"
+                  $("li[data-category='Bar or Restaurant']").show()
+                  $("li[data-category='Bottle Shop']").hide()
+                })
+
+                $("#bottleCategory").click(function() {
+                  activeCategory = "bottleCategory"
+                  $("li[data-category='Bar or Restaurant']").hide()
+                  $("li[data-category='Bottle Shop']").show()
+                })
+             
+                // var aveMap = {};
+        
+                // one.concat(two).map((d) => {
+                //   if (!aveMap[d.String]) aveMap[d.String] = {
+                //     values: []
+                //   };
+                //   aveMap[d.String].values.push(+d.Integer);
+                // });
+        
+                // Object.keys(aveMap).map((k) => {
+                //   aveMap[k].mean = d3.mean(aveMap[k].values);
+                // });
+                
+                // console.log(aveMap);
               });
-            })
+          }
+          google.maps.event.addDomListener(window, 'load', initialize);
 
             var styledMapType = new google.maps.StyledMapType(JSON.parse(_this57.element.querySelector('[data-gmap-style]').innerHTML));
 

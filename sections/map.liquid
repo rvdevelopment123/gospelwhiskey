@@ -19,24 +19,26 @@
         {% if section.settings.title != blank %}
           <p class="FeaturedMap__Store Heading u-h1">{{ section.settings.title | escape }}</p>
         {% endif %}
-
         {% if section.settings.address != blank %}
-          <div class="FeaturedMap__Address Rte">
-            {{ section.settings.address }}
-          </div>
-        {% endif %}
+        <div class="FeaturedMap__Address Rte">
+          {{ section.settings.address }}
+        </div>
+      {% endif %}
+<p id="allCategory">All</p>
+<p id="barCategory">BARS</p>
+<p id="bottleCategory">BOTTLE SHOP</p>
+      <input type="text" id="filterStockist" value="Lasagne"  />
+        <button id="submitBtn"> SUMBIT</button>
+          <br/>
+        <ul id="stock_list" class="stock_list">
+        </ul>
 
-        {% if section.settings.hours != blank %}
-          <div class="FeaturedMap__Hours Rte">
-            {{ section.settings.hours }}
-          </div>
-        {% endif %}
 
-        {% if section.settings.map_link_label != blank and section.settings.map_address != blank %}
-          <a href="https://maps.google.com?daddr={{ section.settings.map_address | escape }}" target="_blank" rel="nofollow" class="FeaturedMap__Location Button Button--primary">
-            {{- section.settings.map_link_label | escape -}}
-          </a>
-        {% endif %}
+
+
+       
+
+        
       </div>
 
       <div class="FeaturedMap__MapContainer Image--lazyLoad Image--fadeIn" {% if section.settings.image %}data-bg="{{ section.settings.image | img_url: '1500x' }}"{% endif %}>
