@@ -1420,7 +1420,9 @@ a.Drawer__Title.Heading.u-h4 {
   .CollectionMain .ProductItem {
   	padding: 0px 16px
   }
-
+  .Article__Wrapper {
+      padding: 24px 16px 
+  }
 }
 @media screen and (max-width: 600px) {
     .age-verification-main {
