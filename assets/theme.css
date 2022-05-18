@@ -3352,10 +3352,8 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   }
 
   .FeaturedMap__Info {
-    flex: none;
-    min-width: 370px;
-    width: 370px;
-    padding: 50px 60px;
+        width: 480px;
+    padding: 30px 35px;
   }
 }
 /**
