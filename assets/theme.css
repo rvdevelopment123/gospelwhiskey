@@ -3368,7 +3368,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 }
 #stock_list {
   overflow-y: auto;
-  max-height: 327px;
+  max-height: 325px;
 }
 .stock_list li {
   margin-bottom: 8px;
