@@ -1,0 +1,64 @@
+<section class="form-page-section">
+  <div class="row">
+    <div class="col-md-4">
+      <!--   Start of Image   -->
+      <div class="">
+        <div class="" data-optimumx="1.4" data-expand="-150">
+          {%- capture mobile_size -%}750x{% if section.settings.image_one.height >= 960 %}960{% else %}{{ section.settings.image_one.height }}{% endif %}{%- endcapture -%}
+          <img {% if section.settings.image_one %}src="{{ section.settings.image_one | img_url: mobile_size, crop: 'center' }} 750w, {{ section.settings.image_one | img_url: '1000x' }} 1000w, {{ section.settings.image_one | img_url: '1500x' }} 1500w"{% endif %} />
+        </div>
+      </div>
+      <!--   End of Image   -->
+    </div>
+    
+    <div class="col-md-8">
+      <div>
+        <h1>{{section.settings.section_main_title}}</h1>
+        <div>
+          {{section.settings.section_content}}
+        </div>
+        <div id="klaviyo-form-custom" class="klaviyo-form-TAZh26"></div>
+        <div>
+          {{section.settings.section_note}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Form Page Section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image_one",
+      "label": "First Column Image",
+      "info": "1500px x 800px .jpg recommended"
+    },
+    {
+      "type": "text",
+      "id": "section_main_title",
+      "label": "Section Main Title",
+      "default": "WIN TICKETS TO THE MELBOURNE INTERNATIONAL COMEDY FESTIVAL"
+    },
+    {
+      "type": "richtext",
+      "id": "section_content",
+      "label": "Section Content"
+    },
+    {
+      "type": "richtext",
+      "id": "section_note",
+      "label": "Section Note"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Section",
+      "name": "Form Page Section",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
