@@ -1317,9 +1317,9 @@ a.Drawer__Title.Heading.u-h4 {
     }
 }
 
-@media screen and (max-width: 1298px) {
+@media screen and (max-width: 1255px) {
     .link-list-bg {
-        top: 55px;
+        top: 97px;
     }
 }
 @media screen and (max-width: 1139px) {
