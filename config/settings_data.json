@@ -662,59 +662,6 @@
           "button_2_link": ""
         }
       },
-      "1626937808dbbd053f": {
-        "type": "logo-list",
-        "blocks": {
-          "5c59ff63-4c52-411c-99da-d5d22f2ee198": {
-            "type": "Image",
-            "settings": {
-              "review_stars": "5",
-              "title": "DAVID BROOM",
-              "quote": "<p>A different angle of attack for rye and a welcome one.<\/p>"
-            }
-          },
-          "d0394b29-247d-4b33-8c9a-82644c866845": {
-            "type": "Image",
-            "settings": {
-              "review_stars": "4",
-              "title": "LUKE MCCARTHY",
-              "quote": "<p>One of the most impressive Australian whiskies to be released in recent years.<\/p>"
-            }
-          },
-          "43c5b32f-13a5-498b-8e1a-de9b99fc1278": {
-            "type": "Image",
-            "settings": {
-              "review_stars": "5",
-              "title": "JAMES BLUNT",
-              "quote": "<p>This is a ripper rye - locally made that can hold its head up to any rye whiskey line up. <\/p>"
-            }
-          },
-          "049a0674-9fb3-4ebe-80b4-5992d08ec496": {
-            "type": "Image",
-            "settings": {
-              "review_stars": "5",
-              "title": "JEDIDIAH EVANS",
-              "quote": "<p>I’ve travelled the whiskey trail and <em>The Gospel<\/em> is as good as what you find over in the US. <\/p>"
-            }
-          }
-        },
-        "block_order": [
-          "5c59ff63-4c52-411c-99da-d5d22f2ee198",
-          "d0394b29-247d-4b33-8c9a-82644c866845",
-          "43c5b32f-13a5-498b-8e1a-de9b99fc1278",
-          "049a0674-9fb3-4ebe-80b4-5992d08ec496"
-        ],
-        "settings": {
-          "subheading": "",
-          "title": "",
-          "content": "",
-          "link_text": "",
-          "link_url": "",
-          "size": "200px",
-          "size_m": "120px",
-          "spacing": "60px"
-        }
-      },
       "16269378793cc5438e": {
         "type": "text-with-image",
         "settings": {
@@ -853,7 +800,6 @@
       "162693642824a2a9c7",
       "1626936490f7ac1d6c",
       "16528684183c34e679",
-      "1626937808dbbd053f",
       "1626938031535fb114",
       "16269378793cc5438e"
     ]
