@@ -3317,9 +3317,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 }
 
 .FeaturedMap__Info {
-  position: relative;
   margin: 0 auto;
-  background: var(--light-background);
   text-align: left;
   z-index: 1;
   padding: 25px;
