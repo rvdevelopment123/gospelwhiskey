@@ -17,28 +17,23 @@
     <div class="FeaturedMap">
       <div class="FeaturedMap__Info">
         {% if section.settings.title != blank %}
-          <p class="FeaturedMap__Store Heading u-h1">{{ section.settings.title | escape }}</p>
+        <p class="FeaturedMap__Store Heading u-h1">{{ section.settings.title | escape }}</p>
         {% endif %}
         {% if section.settings.address != blank %}
         <div class="FeaturedMap__Address Rte">
           {{ section.settings.address }}
         </div>
-      {% endif %}
-<p id="allCategory">All</p>
-<p id="barCategory">BARS</p>
-<p id="bottleCategory">BOTTLE SHOP</p>
-      <input type="text" id="filterStockist" value="Lasagne"  />
-        <button id="submitBtn"> SUMBIT</button>
-          <br/>
+        {% endif %}
+          <p id="allCategory">All</p>
+          <p id="barCategory">BARS</p>
+          <p id="bottleCategory">BOTTLE SHOP</p>
+        <div class="d-flex">
+          <input type="text" id="filterStockist" value="Lasagne"  />
+          <button id="submitBtn"> SUMBIT</button>
+        </div>
+        <br/>
         <ul id="stock_list" class="stock_list">
         </ul>
-
-
-
-
-       
-
-        
       </div>
 
       <div class="FeaturedMap__MapContainer Image--lazyLoad Image--fadeIn" {% if section.settings.image %}data-bg="{{ section.settings.image | img_url: '1500x' }}"{% endif %}>
