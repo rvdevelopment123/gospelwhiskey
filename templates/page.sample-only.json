@@ -37,10 +37,43 @@
         "button_second_column_text": "Learn More",
         "button_second_column_link": ""
       }
+    },
+    "16528697460ba11d34": {
+      "type": "text-image-overlay",
+      "settings": {
+        "section_link": "",
+        "section_size": "large",
+        "image": "shopify:\/\/shop_images\/The_Gospel_Straight_Rye_Whiskey_Farm_Rye.jpg",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "padding_top": 20,
+        "padding_right": 20,
+        "padding_bottom": 20,
+        "padding_left": 20,
+        "text_alignment": "center",
+        "text_color": "#ffffff",
+        "sub_text": 28,
+        "subheading": "",
+        "title_text": 40,
+        "title": "Tell your story",
+        "description_text": 21,
+        "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>",
+        "button_1_text": "Button 1",
+        "button_1_link": "",
+        "button_2_text": "",
+        "button_2_link": "",
+        "spacing_top": 45,
+        "additional_text": 20,
+        "info_one": "",
+        "info_two": "",
+        "info_three": "",
+        "info_four": ""
+      }
     }
   },
   "order": [
     "main",
-    "16528679260a069f97"
+    "16528679260a069f97",
+    "16528697460ba11d34"
   ]
 }
