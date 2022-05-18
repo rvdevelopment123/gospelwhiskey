@@ -30,7 +30,10 @@
     },
     "1642591196ec631012": {
       "type": "general-form-section",
+      "disabled": true,
       "settings": {
+        "form_title": "Title Here",
+        "form_description": "Description Here"
       }
     }
   },
