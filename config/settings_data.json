@@ -814,24 +814,24 @@
             "type": "Text",
             "settings": {
               "review_stars": "5",
-              "text_name": "Title Here",
-              "text_info": "<p>Info Here<\/p>"
+              "text_name": "LUKE MCCARTHY",
+              "text_info": "<p>One of the most impressive Australian whiskies to be released in recent years.<\/p>"
             }
           },
           "e46143e1-d2cf-4773-8c09-55d72094fc77": {
             "type": "Text",
             "settings": {
               "review_stars": "5",
-              "text_name": "Title Here",
-              "text_info": "<p>Info Here<\/p>"
+              "text_name": "JAMES BLUNT",
+              "text_info": "<p>This is a ripper rye - locally made that can hold its head up to any rye whiskey line up.<\/p>"
             }
           },
           "f1b342e8-421c-406a-81fe-03a111206ce0": {
             "type": "Text",
             "settings": {
               "review_stars": "5",
-              "text_name": "Title Here",
-              "text_info": "<p>Info Here<\/p>"
+              "text_name": "JEDIDIAH EVANS",
+              "text_info": "<p>I’ve travelled the whiskey trail and<em>The Gospel<\/em>is as good as what you find over in the US. <\/p>"
             }
           }
         },
