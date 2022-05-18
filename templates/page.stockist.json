@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "mainpage",
+      "disabled": true,
       "settings": {
       }
     },
@@ -10,7 +11,7 @@
       "settings": {
         "title": "Store name",
         "address": "<p>123 Fake St. Toronto, Canada<\/p>",
-        "hours": "<p>Mon - Fri, 10am - 9pm<br>Saturday, 11am - 9pm<br>Sunday, 11am - 5pm<\/p>",
+        "hours": "<p>Mon - Fri, 10am - 9pm<br\/>Saturday, 11am - 9pm<br\/>Sunday, 11am - 5pm<\/p>",
         "map_address": "80 Spadina Ave, Toronto",
         "map_link_label": "Get directions",
         "api_key": "AIzaSyBLIBBtbQoDlCdcnttMAA44AUHrVULrTDM",
