@@ -677,9 +677,6 @@
         display: none !important;
     }
 
-    .text-img-wrapper {
-        padding: 25px 20px;
-    }
 }
 
 .whiskeyIsReligion {
@@ -1502,5 +1499,9 @@ a.Drawer__Title.Heading.u-h4 {
     }
     .ProductList--carousel .Carousel__Cell {
         padding: 0px!important;
+    }
+  
+    .text-img-wrapper {
+        padding: 25px 16px;
     }
 }
