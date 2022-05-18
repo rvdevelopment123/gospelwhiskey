@@ -3364,6 +3364,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
     padding: 10px 6px;
     border: 1px solid;
 }
+.mapSearch-container button {
+    border: 1px solid;
+}
 
 
 @media screen and (min-width: 641px) {
