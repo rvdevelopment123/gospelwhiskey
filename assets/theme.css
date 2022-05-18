@@ -3341,12 +3341,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   margin-top: 2.7em;
 }
 #navMap {
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-    list-style: unset;
-    align-items: center;
-    gap: 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 
