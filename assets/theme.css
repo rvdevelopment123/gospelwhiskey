@@ -3370,6 +3370,13 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
     overflow-y: auto;
     max-height: 327px;
 }
+.stock_list li {
+	margin-bottom: 10px
+}
+
+.stock_list li.activeMe {
+	
+}
 
 @media screen and (min-width: 641px) {
   .FeaturedMap {
