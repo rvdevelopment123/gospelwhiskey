@@ -3353,8 +3353,11 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 #navMap li.active-nav {
   text-decoration: underline;
 }
-.mapSearch-container{
-  display: flex
+.mapSearch-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 0px;
+    gap: 10px;
 }
 
 
