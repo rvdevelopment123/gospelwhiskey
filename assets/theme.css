@@ -3346,7 +3346,8 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   gap: 40px;
 }
 #navMap li:hover {
-  
+  border-bottom: 1px solid black;
+  cursor: pointer;
 }
 #navMap li.active {
   
