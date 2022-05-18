@@ -3347,11 +3347,11 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   margin-bottom: 10px
 }
 #navMap li:hover {
-  border-bottom: 1px solid black;
+  text-decoration: underline;
   cursor: pointer;
 }
-#navMap li.active {
-  
+#navMap li.active-nav {
+  text-decoration: underline;
 }
 
 
