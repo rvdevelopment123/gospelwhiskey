@@ -3296,7 +3296,11 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   max-width: 1150px;
   margin: 0 auto;
 }
-
+.FeaturedMap ul, .FeaturedMap li {
+  display: block;
+  padding: 0px;
+  list-style: unset;
+}
 .FeaturedMap__MapContainer {
   position: relative;
   height: 240px;
@@ -3336,6 +3340,16 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 .FeaturedMap__Location {
   margin-top: 2.7em;
 }
+#navMap {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style: unset;
+    align-items: center;
+    gap: 40px;
+}
+
+
 
 @media screen and (min-width: 641px) {
   .FeaturedMap {
@@ -3356,6 +3370,8 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
     padding: 30px 35px;
   }
 }
+
+
 /**
  * --------------------------------------------------------------------
  * MEDIA API
