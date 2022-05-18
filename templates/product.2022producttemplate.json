@@ -56,7 +56,7 @@
         "image": "shopify:\/\/shop_images\/1.jpg",
         "image_position": "right",
         "bg_colour": "#f2eee6",
-        "margin_top": 10,
+        "margin_top": 50,
         "margin_bottom": 50,
         "text_vertical_alignment": "middle",
         "subheading": "",
