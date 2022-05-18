@@ -3374,8 +3374,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   margin-bottom: 8px;
   padding: 4px 8px
 }
-
-.activeMe {
+.stock_list li.activeMe, .stock_list li:hover {
     background-color: #ece2d2;
 }
 
