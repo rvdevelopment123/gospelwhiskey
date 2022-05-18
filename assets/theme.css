@@ -3359,7 +3359,11 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
     margin: 20px 0px 0px;
     gap: 10px;
 }
-
+.mapSearch-container input {
+    width: 100%;
+    padding: 10px 6px;
+    border: 1px solid;
+}
 
 
 @media screen and (min-width: 641px) {
