@@ -3352,7 +3352,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   }
 
   .FeaturedMap__Info {
-        width: 480px;
+    width: 480px;
     padding: 30px 35px;
   }
 }
