@@ -3345,6 +3345,12 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   align-items: center;
   gap: 40px;
 }
+#navMap li:hover {
+  
+}
+#navMap li.active {
+  
+}
 
 
 
