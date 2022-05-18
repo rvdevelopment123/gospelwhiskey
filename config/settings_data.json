@@ -798,6 +798,52 @@
           "title": "WHISKEY IS RELIGION",
           "html": "<p>It is widely believed that whiskey was first distilled for medicinal use by monks and apothecaries in Scotland and Ireland. The distillation of whiskey evolved as it moved from monastic to secular, as it did with the path of migration over hundreds of years. Early Scotch-Irish settlers in the USA used rye to make whiskey because barley didn’t adapt to the North American climate. These conditions are also true for the dry climate of Australia, where we set out to reimagine this original American spirit using 100% Australian rye.<\/p>"
         }
+      },
+      "16528684183c34e679": {
+        "type": "reviews-section",
+        "blocks": {
+          "ec07b513-3b67-461e-a255-0a06f48ae14c": {
+            "type": "Text",
+            "settings": {
+              "review_stars": "5",
+              "text_name": "Title Here",
+              "text_info": "<p>Info Here<\/p>"
+            }
+          },
+          "793f6493-2491-40d7-b686-21e132c0ce59": {
+            "type": "Text",
+            "settings": {
+              "review_stars": "5",
+              "text_name": "Title Here",
+              "text_info": "<p>Info Here<\/p>"
+            }
+          },
+          "e46143e1-d2cf-4773-8c09-55d72094fc77": {
+            "type": "Text",
+            "settings": {
+              "review_stars": "5",
+              "text_name": "Title Here",
+              "text_info": "<p>Info Here<\/p>"
+            }
+          },
+          "f1b342e8-421c-406a-81fe-03a111206ce0": {
+            "type": "Text",
+            "settings": {
+              "review_stars": "5",
+              "text_name": "Title Here",
+              "text_info": "<p>Info Here<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "ec07b513-3b67-461e-a255-0a06f48ae14c",
+          "793f6493-2491-40d7-b686-21e132c0ce59",
+          "e46143e1-d2cf-4773-8c09-55d72094fc77",
+          "f1b342e8-421c-406a-81fe-03a111206ce0"
+        ],
+        "settings": {
+          "column": 4
+        }
       }
     },
     "content_for_index": [
@@ -806,6 +852,7 @@
       "featured-collections",
       "162693642824a2a9c7",
       "1626936490f7ac1d6c",
+      "16528684183c34e679",
       "1626937808dbbd053f",
       "1626938031535fb114",
       "16269378793cc5438e"
