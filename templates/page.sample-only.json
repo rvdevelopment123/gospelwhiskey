@@ -2,11 +2,45 @@
   "sections": {
     "main": {
       "type": "mainpage",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "16528679260a069f97": {
+      "type": "column-image-overlay",
+      "settings": {
+        "section_size": "large",
+        "text_alignment": "center",
+        "text_color": "#ffffff",
+        "title_text": 40,
+        "description_text": 21,
+        "col_one_image": "shopify:\/\/shop_images\/The_Gospel_Fortified_Cask_Whiskey_ABV_Selection-v2.jpg",
+        "overlay_color": "#000000",
+        "col_one_overlay_opacity": 30,
+        "padding_top_col_one": 20,
+        "padding_right_col_one": 20,
+        "padding_bottom_col_one": 20,
+        "padding_left_col_one": 20,
+        "col_one_title": "Tell your story",
+        "col_one_content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>",
+        "button_first_column_text": "Learn More",
+        "button_first_column_link": "",
+        "col_two_image": "shopify:\/\/shop_images\/Journal_Community_Ceramic_Whiskey_Cups_Enan_Kaneenan_Ceramics_1.jpg",
+        "col_two_overlay_color": "#000000",
+        "col_two_overlay_opacity": 30,
+        "padding_top_col_two": 20,
+        "padding_right_col_two": 20,
+        "padding_bottom_col_two": 20,
+        "padding_left_col_two": 20,
+        "col_two_title": "Tell your story",
+        "col_two_content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>",
+        "button_second_column_text": "Learn More",
+        "button_second_column_link": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16528679260a069f97"
   ]
 }
