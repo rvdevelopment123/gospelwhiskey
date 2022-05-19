@@ -1360,6 +1360,19 @@ a.Drawer__Title.Heading.u-h4 {
   right: 0px;
   background: #f2eee6;
   list-style: unset;
+  cursor: pointer
+}
+.custom-dropdown:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #fff;
+  position: absolute;
+  right: 0px;
+  transform: translateY(-50%);
+  top: 50%;
 }
 .custom-dropdown li {
   padding: 10px 15px;
