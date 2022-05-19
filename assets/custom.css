@@ -1307,6 +1307,22 @@ a.Drawer__Title.Heading.u-h4 {
 .charity--tooltip:hover .charity--tooltiptext {
   visibility: visible;
 }
+/* referral form css */
+#referral-code-form {
+    margin-top: 15px;
+}
+#referral-code-form .code-container {
+    display: flex;
+    align-items: stretch;
+    gap: 10px;
+}
+#referral-code-form .code-container input {
+    flex: 1 1 0;
+    border: solid 1px black;
+    background: unset;
+    padding: 10px 4px;
+}
+
 @media screen and (max-width: 1500px) {
     .link-list-bg {
         top: 58px;
