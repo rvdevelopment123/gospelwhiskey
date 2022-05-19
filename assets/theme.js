@@ -4314,6 +4314,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             _this36._rerenderCart(elementToAnimate);
 
             document.dispatchEvent(new CustomEvent('theme:loading:end'));
+            window.location.reload()
           });
         });
 
