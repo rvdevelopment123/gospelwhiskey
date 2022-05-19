@@ -1322,16 +1322,13 @@ a.Drawer__Title.Heading.u-h4 {
     background: unset;
     padding: 10px 4px;
 }
-#referral-code-form .code-container .copy-btn {
+#referral-code-form button {
   border: 1px solid black;
   display: block;
   padding: 0px 30px;
   background: unset;
 }
-
-
-
-#referral-code-form button {
+#referral-code-form button:hover {
   background: black;
   color: white
 }
