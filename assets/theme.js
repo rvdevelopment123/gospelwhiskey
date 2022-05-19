@@ -5858,7 +5858,7 @@ var activeCategory = 'allCategory';
               $("#stock_list").html('')
               var markers = []
               var items = []
-              d3.csv('https://cdn.shopify.com/s/files/1/0428/4556/9187/files/Gospe_Converted1_cac6ff53-3bf6-47f5-ae22-fb43a860e1fc.csv?v=1652835464', function(e2, two) {
+              d3.csv(_this57.options['csvlink'], function(e2, two) {
                 console.log('STart of CSV')
                 // console.info(two)
                 two.forEach(function(item, index) {
