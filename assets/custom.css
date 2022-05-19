@@ -1353,6 +1353,7 @@ a.Drawer__Title.Heading.u-h4 {
   width: fit-content;
   padding-right: 30px;
   position: relative;
+  cursor: pointer
 }
 .custom-dropdown ul {
   display: none;
