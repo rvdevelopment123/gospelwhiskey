@@ -15,7 +15,6 @@
         $('.wrapper-message').show('slow');
     }
     addMessage = function () {
-        alert('Add Message')
         var message = $('textarea[name="gift-message"]').val();
         $('.gift-input-options').append('<input type="hidden" name="gift-message" value="' + message + '">');
         $('.wrapper-message').hide('slow');
