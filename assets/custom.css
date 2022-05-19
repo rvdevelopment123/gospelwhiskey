@@ -1367,7 +1367,7 @@ a.Drawer__Title.Heading.u-h4 {
   color: black;
 }
 
-.custom-dropdown li, .custom-dropdown li.active {
+.custom-dropdown li:hover, .custom-dropdown li.active {
   background: #FDE9CF
 }
 
