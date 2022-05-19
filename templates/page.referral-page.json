@@ -44,11 +44,21 @@
         "section_content": "<p>Give $10, Get $10. For every friend you refer, they'll get $10 off their first purchase and you'll get @10 off your next purchase. Salute!<\/p>",
         "section_note": "<p>Terms & Conditions: Our Spread the Good Word $10 off promotion is valid for orders over $80.<\/p>"
       }
+    },
+    "16529578892e90dc2f": {
+      "type": "referral-form-section",
+      "settings": {
+        "image_one": "shopify:\/\/shop_images\/The_Gospel_Old_Fashioned_Kit_Straight_Rye_Whiskey_b0f0876f-38a6-4a3c-9ae9-b53a2f77988e.jpg",
+        "section_main_title": "HELP US SPREAD THE GOOD WORD AND RECIEVE $10",
+        "section_content": "<p>Give $10, Get $10. For every friend you refer, they'll get $10 off their first purchase and you'll get @10 off your next purchase. Salute!<\/p>",
+        "section_note": "<p>Terms & Conditions: Our Spread the Good Word $10 off promotion is valid for orders over $80.<\/p>"
+      }
     }
   },
   "order": [
     "1642591196ec631012",
     "main",
-    "165289393264cadb65"
+    "165289393264cadb65",
+    "16529578892e90dc2f"
   ]
 }
