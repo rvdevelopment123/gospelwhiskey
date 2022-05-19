@@ -1339,6 +1339,14 @@ a.Drawer__Title.Heading.u-h4 {
   background: black;
   color: white
 }
+#referral-code-form textarea {
+    display: block;
+    width: 100%;
+    background: unset;
+    min-height: 80px;
+    margin: 15px 0px;
+    border: solid 1px black;
+}
 @media screen and (max-width: 1500px) {
     .link-list-bg {
         top: 58px;
