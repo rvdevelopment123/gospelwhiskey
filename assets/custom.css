@@ -1322,6 +1322,13 @@ a.Drawer__Title.Heading.u-h4 {
     background: unset;
     padding: 10px 4px;
 }
+#referral-code-form .email-address {
+    display: block;
+    width: 100%;
+    margin: 15px 0px;
+    padding: 10px 4px;
+    background: unset;
+}
 #referral-code-form button {
   border: 1px solid black;
   display: block;
