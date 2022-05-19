@@ -62,7 +62,7 @@
 .ProductItem__Title.Heading {
   flex: 1;
   font-family: var(--heading-font-family);
-    }
+}
 
 .ProductItem__Price.Price.Text--subdued {
   font-family: MagdaRegular!important;
