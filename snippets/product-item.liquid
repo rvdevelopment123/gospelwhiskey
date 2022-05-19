@@ -1,4 +1,4 @@
-<div class="ProductItem {% if use_horizontal %}ProductItem--horizontal{% endif %}">
+<div class="ProductItem {% for tag in product.tags %} {{ tag }} {% endfor %} {% if use_horizontal %}ProductItem--horizontal{% endif %}">
   <div class="ProductItem__Wrapper">
     {%- comment -%}
     We are using LazySizes to efficiently choose the most appropriate image in the set. However, because internally LazySizes uses srcset, we need to make
@@ -18,6 +18,8 @@
     {%- endif -%}
     
 <div>
+  
+
     <a data-test="2222" href="{{ product.url | within: collection }}" class="ProductItem__ImageWrapper {% if has_alternate_image %}ProductItem__ImageWrapper--withAlternateImage{% endif %}">
 
       {%- if use_horizontal -%}

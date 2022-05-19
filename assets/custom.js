@@ -74,6 +74,13 @@ $(".AspectRatio.AspectRatio--withFallback").hover(function () {
    $this.text('Added!');
  }
 
+ var currentCountry = 'AUSTRALIA';
+ if(currentCountry != 'AUSTRALIA'){
+    $('.ProductItem').hide()
+    // $('.ProductItem').remove()
+    $('.'+currentCountry).show()
+ }
+ 
 function addItemToCart(variant_id, qty) {
   
   data = {
