@@ -440,9 +440,9 @@ HEADER CONTENT
               <a href="{{ routes.search_url }}" class="Header__Icon Icon-Wrapper Icon-Wrapper--clickable {% unless section.settings.show_icons or use_sidebar_menu %}search-desk-visible{% endunless %}" data-action="toggle-search" aria-label="{{ 'header.navigation.search' | t }}">
                 <span class="hidden-phone">{%- render 'icon' with 'search-desktop' -%}</span>
               </a>
+              </li>
             <li class="HorizontalList__Item">
               <a href="{{ routes.cart_url }}" id="cart_a" class="Heading u-h6" {% unless template == 'cart' or settings.cart_type == 'page' %}data-action="open-drawer" data-drawer-id="sidebar-cart" aria-label="{{ 'header.navigation.open_cart' | t }}"{% endunless %}>{{ 'header.navigation.cart' | t }} (<span class="Header__CartCount">{{ cart.item_count }}</span>)</a>
-            </li>
             </li>
           </ul>
         </nav>
