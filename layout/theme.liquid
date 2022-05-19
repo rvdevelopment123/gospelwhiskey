@@ -214,15 +214,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css" integrity="sha512-C8Movfk6DU/H5PzarG0+Dv9MA9IZzvmQpO/3cIlGIflmtY3vIud07myMu4M/NTPJl8jmZtt/4mC9bAioMZBBdA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<script type="text/javascript">
      console.log('Start of Testing') 
-     const queryString = window.location.search;
-console.log(queryString);
- 
-     const urlParams = new URLSearchParams(queryString);
- 
-var     entries = urlParams.entries();
-     for(const entry of entries) {
-  console.log(`${entry[0]}: ${entry[1]}`);
-}
+	var stringUrl = window.location.href
+	var arrUrl = stringUrl.split('/')
+   console.info(arrUrl) 
     </script>
   </body>
 </html>
