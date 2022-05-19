@@ -74,6 +74,11 @@ $(".AspectRatio.AspectRatio--withFallback").hover(function () {
    $this.text('Added!');
  }
 
+ $.get("https://ipinfo.io", function(response) {
+    console.log(response.city, response.country);
+}, "jsonp");
+
+
  var currentCountry = 'AUSTRALIA';
  if(currentCountry != 'AUSTRALIA'){
     $('.ProductItem').hide()
