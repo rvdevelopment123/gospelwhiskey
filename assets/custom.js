@@ -75,12 +75,31 @@ $(".AspectRatio.AspectRatio--withFallback").hover(function () {
  }
 
  $.get("https://ipinfo.io", function(response) {
+  console.log('User Info')
     console.log(response.city, response.country);
 }, "jsonp");
 
+$("#AUS").click(function(item) {
+  document.cookie = "country=AUS";
+  window.location.reload()
+  console.info(getCookie('country'))
 
- var currentCountry = 'AUSTRALIA';
- if(currentCountry != 'AUSTRALIA'){
+})
+$("#USA").click(function(item) {
+  document.cookie = "country=USA";
+  window.location.reload()
+  console.info(getCookie('country'))
+})
+
+
+ var currentCountry = 'AUS';
+ var country = getCookie('country')
+ if(country != ''){
+   currentCountry = country
+   $("#displayCountry").html(country)
+ }
+ console.log('Current Country ' + currentCountry)
+ if(currentCountry != 'AUS'){
     $('.ProductItem').hide()
     // $('.ProductItem').remove()
     $('.'+currentCountry).show()
