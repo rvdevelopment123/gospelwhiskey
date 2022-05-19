@@ -1322,7 +1322,19 @@ a.Drawer__Title.Heading.u-h4 {
     background: unset;
     padding: 10px 4px;
 }
+#referral-code-form .code-container .copy-btn {
+  border: 1px solid black;
+  display: block;
+  padding: 0px 30px;
+  background: unset;
+}
 
+
+
+#referral-code-form button {
+  background: black;
+  color: white
+}
 @media screen and (max-width: 1500px) {
     .link-list-bg {
         top: 58px;
