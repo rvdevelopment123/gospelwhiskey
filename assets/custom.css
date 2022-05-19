@@ -1348,6 +1348,24 @@ a.Drawer__Title.Heading.u-h4 {
   margin: 15px 0px;
   border: solid 1px black;
 }
+/* Custom Dropdown*/
+.custom-dropdown {
+  margin: 2em auto;
+  width: fit-content;
+  border: .1em solid #c0cdd1;
+  position: relative
+}
+.custom-dropdown ul {
+  display: none;
+  border: .1em solid #c0cdd1;
+  position: absolute;
+  right: 0px
+}
+.custom-dropdown li {
+  padding: .5em;
+  cursor: pointer;
+}
+
 
 @media screen and (max-width: 1500px) {
   .link-list-bg {
