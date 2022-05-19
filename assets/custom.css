@@ -1367,6 +1367,11 @@ a.Drawer__Title.Heading.u-h4 {
   color: black;
 }
 
+.custom-dropdown li, .custom-dropdown li.active {
+  background: #FDE9CF
+}
+
+
 
 @media screen and (max-width: 1500px) {
   .link-list-bg {
