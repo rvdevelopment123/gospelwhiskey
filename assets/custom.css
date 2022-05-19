@@ -1309,7 +1309,8 @@ a.Drawer__Title.Heading.u-h4 {
 }
 /* referral form css */
 #referral-code-form {
-    margin: 15px 0px;
+    margin-top: 15px;
+  	margin-bottom: 50px
 }
 #referral-code-form .code-container {
     display: flex;
