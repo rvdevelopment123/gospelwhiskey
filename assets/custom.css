@@ -1356,13 +1356,15 @@ a.Drawer__Title.Heading.u-h4 {
 }
 .custom-dropdown ul {
   display: none;
-  border: .1em solid #c0cdd1;
   position: absolute;
-  right: 0px
+  right: 0px;
+  background: #f2eee6;
+  list-style: unset;
 }
 .custom-dropdown li {
-  padding: .5em;
+  padding: 10px 15px;
   cursor: pointer;
+  color: black;
 }
 
 
