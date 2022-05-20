@@ -3,8 +3,8 @@
     <span class="age-title">{{section.settings.title}}</span>
     <span class="age-main-text">{{section.settings.body}}</span>
     <div class="age-verification-btn">
-      <button class="age-button age-yes" onclick="ageVerificationConfirm()"><span>|<br>|</span>YES<span>|<br>|</span></button>
-      <button class="age-button age-no" onclick="ageVerificationFailed()"><span>|<br>|</span>NO<span>|<br>|</span></button>
+      <button id="yesAge" class="age-button age-yes" onclick="ageVerificationConfirm()"><span>|<br>|</span>YES<span>|<br>|</span></button>
+      <button id="noAge" class="age-button age-no" onclick="ageVerificationFailed()"><span>|<br>|</span>NO<span>|<br>|</span></button>
     </div>
     <span class="age-main-text">WHERE ARE YOU?</span>
     <div class="age-verification-btn">
@@ -277,8 +277,11 @@
     catch(err) {
       ageVerificationShow();
     }
+    // ageVerificationShow();
   }
   function ageVerificationConfirm() {
+    $("#yesAge").addClass('activeAge')
+    $("#noAge").removeClass('activeAge')
     ageSetCookie(ageCookieName, "verified", 365);
     tempAccepted = true;
     if(isUsa){
@@ -289,6 +292,8 @@
     }
   }
   function ageVerificationFailed() {
+    $("#yesAge").removeClass('activeAge')
+    $("#noAge").addClass('activeAge')
     tempDenied = true;
     if(isUsa){
       window.location.href = 'https://www.niaaa.nih.gov/alcohols-effects-health/alcohol-policy';

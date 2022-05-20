@@ -101,8 +101,12 @@ $("#USA").click(function(item) {
  console.log('Current Country ' + currentCountry)
  if(currentCountry != 'AUS'){
     $('.ProductItem').hide()
-    // $('.ProductItem').remove()
     $('.'+currentCountry).show()
+    // $('.ProductItem').remove()
+    $(".CollectionToolbar__Item").hide()
+    $("button[destination='/collections/all']").show()
+    $("a[href='/pages/discover-the-gospel-our-community']").attr('href', '/pages/discover-the-gospel-our-community-usa')
+    
  }
  
 function addItemToCart(variant_id, qty) {
