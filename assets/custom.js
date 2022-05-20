@@ -86,9 +86,10 @@ $("#AUS").click(function(item) {
 
 })
 $("#USA").click(function(item) {
-  document.cookie = "country=USA";
-  window.location.reload()
-  console.info(getCookie('country'))
+  window.location.href = "https://usa.thegospelwhiskey.com/"
+  // document.cookie = "country=USA";
+  // window.location.reload()
+  // console.info(getCookie('country'))
 })
 
 
