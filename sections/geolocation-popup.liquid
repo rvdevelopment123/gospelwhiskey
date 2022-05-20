@@ -4,10 +4,10 @@
     
     <span class="age-main-text">{{section.settings.body}}</span>
     <div class="geoLocation-btn-group">
-      <button class="age-button age-yes">
+      <button class="geoLocation-button age-yes">
         <span>|<br>|</span>AUS<span>|<br>|</span>
       </button>
-      <button class="age-button age-no">
+      <button class="geoLocation-button age-no">
         <span>|<br>|</span>USA<span>|<br>|</span>
       </button>
     </div>
@@ -44,14 +44,14 @@
     -moz-box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
     box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
   }
-  .geoLocation-btn-group {
+  #geoLocation-popup .geoLocation-btn-group {
     width: 100%;
     padding: 0px 40px;
     display: flex;
     flex-wrap: wrap;
     gap: 15px
   }
-  #geoLocation-popup .age-button {
+  #geoLocation-popup .geoLocation-button {
     border: none;
     font-size: 16pt;
     color: black;
@@ -64,11 +64,10 @@
     flex-wrap: wrap;
     align-items: center;
   }
-  .age-button:before, .age-button:after {
+  #geoLocation-popup .geoLocation-button:before, #geoLocation-popup .geoLocation-button:after {
     content: "----------------------------------------------";
     font-family: var(--text-font-family);
     font-size: 16px;
-    line-height: 1.2;
     color: #000;
     text-transform: none;
     letter-spacing: 0;
@@ -79,7 +78,7 @@
     white-space: nowrap;
     position: relative;
  }
-  #geoLocation-popup .age-button:hover {
+  #geoLocation-popup .geoLocation-button:hover {
     background: black;
     color:white
   }
