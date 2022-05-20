@@ -3,7 +3,7 @@
     <span class="age-title">{{section.settings.title}}</span>
     
     <span class="age-main-text">{{section.settings.body}}</span>
-    <div class="age-verification-btn">
+    <div class="geoLocation-btn-group">
       <button class="age-button age-yes">
         <span>|<br>|</span>AUS<span>|<br>|</span>
       </button>
@@ -43,6 +43,13 @@
     -webkit-box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
     -moz-box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
     box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
+  }
+  .geoLocation-btn-group {
+    width: 100%;
+    padding: 0px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px
   }
   #geoLocation-popup .age-button {
     border: none;
