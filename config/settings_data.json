@@ -793,6 +793,7 @@
       },
       "1653073082df52d0e1": {
         "type": "geolocation-popup",
+        "disabled": true,
         "settings": {
           "title": "IT LOOKS LIKE YOU ARE IN THE UNITED STATES",
           "body": "WANT TO SWITCH TO OUR USA SHOP?"
