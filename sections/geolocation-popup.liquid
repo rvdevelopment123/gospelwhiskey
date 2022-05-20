@@ -1,8 +1,8 @@
 <div id="geoLocation-popup" >
   <div class="geoLocation-main">
-    <span class="age-title">{{section.settings.title}}</span>
+    <span class="geoLocation-title">{{section.settings.title}}</span>
     
-    <span class="age-main-text">{{section.settings.body}}</span>
+    <span class="geoLocation-main-text">{{section.settings.body}}</span>
     <div class="geoLocation-btn-group">
       <button class="geoLocation-button age-yes">
         <span>|<br>|</span>AUS<span>|<br>|</span>
@@ -12,9 +12,6 @@
       </button>
     </div>
     <span class="age-main-text"></span>
-    <div class="age-legal">
-      You must be of legal drinking age in your respective country for entry. By entering you accept our terms and conditions & our privacy & cookie policy. We encourage drinking responsibly. 
-    </div>
   </div>
 </div>
 
@@ -76,10 +73,40 @@
     white-space: nowrap;
     position: relative;
  }
-  
   #geoLocation-popup .geoLocation-button:hover {
     background: black;
     color:white
+  }
+  #geoLocation-popup .geoLocation-title {
+    font-family: var(--heading-font-family);
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #000;
+    line-height: 1.4;
+    letter-spacing: 1.8px;
+  }
+  #geoLocation-popup .geoLocation-title, #geoLocation-popup .geoLocation-main-text {
+    width: 100%;
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #geoLocation-popup .geoLocation-main-text:before {
+    content: "******************************************************************************************************************************************************************";
+    font-size: 16px;
+    line-height: 1.2;
+    color: #000;
+    text-transform: none;
+    letter-spacing: 0;
+    line-height: 0.5;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: calc(100% - 80px);
   }
 </style>
 
