@@ -5887,6 +5887,7 @@ var activeCategory = 'allCategory';
                     var lng = Number($("#item_"+index).attr('data-lng'))
                     $(".activeMe").removeClass('activeMe')
                     // map.setCenter(lat,lng, 12);
+                    map.setZoom(12);
                     map.setCenter(new google.maps.LatLng(lat,lng));
                     $("#item_"+index).addClass('activeMe')
                     console.log('Lat ' + lat)
@@ -5898,6 +5899,7 @@ var activeCategory = 'allCategory';
                 function displayAllMap(filterItems){
                   deleteMarkers()
                   $("#stock_list").html('')
+                  map.setZoom(12);
                   filterItems.forEach(function(item, index) {
                     console.info(item)
                     const marker = new google.maps.Marker({
@@ -5963,6 +5965,22 @@ var activeCategory = 'allCategory';
                   $("#allCategory").addClass('active-nav')
                   $("li[data-category='Bar or Restaurant']").show()
                   $("li[data-category='Bottle Shop']").show()
+
+                  var filteredItems = items.filter(function(item) {
+                    // console.info(item)
+                    var isReturn = false
+                    if(item['Venue_Category'] == 'Bar or Restaurant' || item['Venue_Category'] == 'Bottle Shop'){
+                      isReturn = true
+                    }
+                    return isReturn
+                    // return item.map(function(item2) {
+                    //   return item2.toLowerCase().indexOf(txtSearch.toLowerCase())
+                    // })
+                  })
+                  console.log('filteredItems')
+                  console.info(filteredItems)
+                  displayAllMap(filteredItems)
+
                 })
 
                 $("#barCategory").click(function() {
@@ -5973,6 +5991,21 @@ var activeCategory = 'allCategory';
 
                   $("li[data-category='Bar or Restaurant']").show()
                   $("li[data-category='Bottle Shop']").hide()
+                  var filteredItems = items.filter(function(item) {
+                    // console.info(item)
+                    var isReturn = false
+                    if(item['Venue_Category'] == 'Bar or Restaurant'){
+                      isReturn = true
+                    }
+                    return isReturn
+                    // return item.map(function(item2) {
+                    //   return item2.toLowerCase().indexOf(txtSearch.toLowerCase())
+                    // })
+                  })
+                  console.log('filteredItems')
+                  console.info(filteredItems)
+                  displayAllMap(filteredItems)
+                  
                 })
 
                 $("#bottleCategory").click(function() {
@@ -5982,6 +6015,20 @@ var activeCategory = 'allCategory';
                   $("#allCategory").removeClass('active-nav')
                   $("li[data-category='Bar or Restaurant']").hide()
                   $("li[data-category='Bottle Shop']").show()
+                  var filteredItems = items.filter(function(item) {
+                    // console.info(item)
+                    var isReturn = false
+                    if(item['Venue_Category'] == 'Bottle Shop'){
+                      isReturn = true
+                    }
+                    return isReturn
+                    // return item.map(function(item2) {
+                    //   return item2.toLowerCase().indexOf(txtSearch.toLowerCase())
+                    // })
+                  })
+                  console.log('filteredItems')
+                  console.info(filteredItems)
+                  displayAllMap(filteredItems)
                 })
              
                 // var aveMap = {};
