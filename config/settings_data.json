@@ -790,9 +790,19 @@
         "settings": {
           "column": 4
         }
+      },
+      "1653073082df52d0e1": {
+        "type": "geolocation-popup",
+        "settings": {
+          "title": "YOU MUST BE OF LEGAL DRINKING AGE TO ENTER THIS SITE",
+          "body": "ARE YOU OF LEGAL DRINKING AGE?",
+          "license": "32809785",
+          "exit_link": ""
+        }
       }
     },
     "content_for_index": [
+      "1653073082df52d0e1",
       "slideshow",
       "1629179219e5d85c88",
       "featured-collections",
