@@ -4,8 +4,12 @@
     
     <span class="age-main-text">{{section.settings.body}}</span>
     <div class="age-verification-btn">
-      <button class="age-button age-yes" onclick="ausPortal()"><span>|<br>|</span>AUS<span>|<br>|</span></button>
-      <button class="age-button age-no" onclick="usaPortal()"><span>|<br>|</span>USA<span>|<br>|</span></button>
+      <button class="age-button age-yes">
+        <span>|<br>|</span>AUS<span>|<br>|</span>
+      </button>
+      <button class="age-button age-no">
+        <span>|<br>|</span>USA<span>|<br>|</span>
+      </button>
     </div>
     <span class="age-main-text"></span>
     <div class="age-legal">
@@ -40,6 +44,34 @@
     -moz-box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
     box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
   }
+  #geoLocation-popup .age-button {
+    border: none;
+    font-size: 16pt;
+    color: black;
+    width: 150px;
+    padding: 10px 0px;
+    margin: 5px 0px;
+    box-shadow: unset;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .age-button:before, .age-button:after {
+    content: "----------------------------------------------";
+    font-family: var(--text-font-family);
+    font-size: 16px;
+    line-height: 1.2;
+    color: #000;
+    text-transform: none;
+    letter-spacing: 0;
+    line-height: 0.5;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    position: relative;
+ }
   #geoLocation-popup .age-button:hover {
     background: black;
     color:white
