@@ -15,6 +15,34 @@
   </div>
 </div>
 
+<style>
+  #geoLocation-popup {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+    background: rgb(0 0 0 / 50%);
+  }
+  #geoLocation-popup .geoLocation-main {
+    background-color: #fff6e6;
+    color: black;
+    font-size: 13pt;
+    padding: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 246, 230);
+    width: 100vw;
+    max-width: 520px;
+    -webkit-box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
+    box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
+  }
+</style>
+
 {% schema %}
   {
     "name": "Geolocation Popup",
