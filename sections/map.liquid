@@ -17,7 +17,7 @@
   <div class="container">
     
     <div class="row">
-      <div class="col-md-5 mx-auto order-md-2">
+      <div class="col-md-6 order-md-2">
         {% if section.settings.title != blank %}
         <p class="FeaturedMap__Store Heading u-h1">{{ section.settings.title | escape }}</p>
         {% endif %}
@@ -39,7 +39,7 @@
         <ul id="stock_list" class="stock_list">
         </ul>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-6">
         {% unless section.settings.image %}
           <div class="PlaceholderBackground PlaceholderSvg--dark">
             {{ 'lifestyle-1' | placeholder_svg_tag: 'PlaceholderBackground__Svg' }}
