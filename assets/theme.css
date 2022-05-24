@@ -3377,13 +3377,13 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   overflow-y: auto;
   max-height: 325px;
 }
-.stock_list li {
+#stock_list li {
   margin-bottom: 8px;
   padding: 4px 8px;
   display: block;
 }
 }
-.stock_list li.activeMe, .stock_list li:hover {
+#stock_list li.activeMe, #stock_list li:hover {
     background-color: #ece2d2;
 }
 
