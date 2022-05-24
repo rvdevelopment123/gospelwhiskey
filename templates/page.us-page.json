@@ -4,9 +4,67 @@
       "type": "mainpage",
       "settings": {
       }
+    },
+    "16533731993e4409a2": {
+      "type": "slideshow",
+      "blocks": {
+        "1653373199164ad37a-0": {
+          "type": "image",
+          "settings": {
+            "desktop_video": "",
+            "mobile_video": "",
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "Slide title",
+            "title": "Tell your story",
+            "title_mobile": "",
+            "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "countryClass": ""
+          }
+        },
+        "1653373199164ad37a-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Journal_Our_People_Ian_Image2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Journal_Our_People_Ian_Image2.jpg",
+            "desktop_video": "",
+            "mobile_video": "",
+            "apply_overlay": true,
+            "content_position": "bottomLeft",
+            "subheading": "Slide title",
+            "title": "Tell your story",
+            "title_mobile": "",
+            "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "countryClass": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653373199164ad37a-0",
+        "1653373199164ad37a-1"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "text_color": "#ffffff",
+        "text_size": 40,
+        "button_color": "#363636",
+        "button_background": "#ffffff"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16533731993e4409a2"
   ]
 }
