@@ -65,10 +65,10 @@ audio:not([controls]) {
   cursor: pointer;
 }
 .stock_list li:hover {
-  background-color: red;
+  background-color: #ece2d2;
 }
 .activeMe {
-  background-color: blue;
+  background-color: #ece2d2;
 }
 /**
  * Text-level semantic
