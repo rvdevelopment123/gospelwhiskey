@@ -790,18 +790,9 @@
         "settings": {
           "column": 4
         }
-      },
-      "1653073082df52d0e1": {
-        "type": "geolocation-popup",
-        "disabled": true,
-        "settings": {
-          "title": "IT LOOKS LIKE YOU ARE IN THE UNITED STATES",
-          "body": "WANT TO SWITCH TO OUR USA SHOP?"
-        }
       }
     },
     "content_for_index": [
-      "1653073082df52d0e1",
       "slideshow",
       "1629179219e5d85c88",
       "featured-collections",
