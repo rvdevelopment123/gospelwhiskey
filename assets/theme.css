@@ -3383,7 +3383,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   display: block;
 }
 }
-#stock_list li.activeMe, #stock_list li:hover {
+.stock_list li.activeMe, .stock_list li:hover {
     background-color: #ece2d2;
 }
 
