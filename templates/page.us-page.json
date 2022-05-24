@@ -244,6 +244,42 @@
       "settings": {
         "column": 4
       }
+    },
+    "1653376753104512b6": {
+      "type": "blog-posts",
+      "blocks": {
+        "1653376753bfe47953-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "journal"
+          }
+        }
+      },
+      "block_order": [
+        "1653376753bfe47953-0"
+      ],
+      "settings": {
+        "subheading": "Exploring whiskey, culture, fanatics, and obsession.",
+        "title": "Journal",
+        "show_category": false,
+        "button_link": "",
+        "button_text": "View all articles"
+      }
+    },
+    "16533770277d0da53e": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "The good word",
+        "image": "shopify:\/\/shop_images\/sazerac_cocktail-1280x975.jpg",
+        "image_position": "right",
+        "bg_colour": "#fde9cf",
+        "content": "<p>Sign up to The Gospel newsletter and follow us into the light.<\/p>",
+        "title2": "",
+        "link_text": "",
+        "link_url": "",
+        "enable_email": true
+      }
     }
   },
   "order": [
@@ -253,6 +289,8 @@
     "16533738576741c152",
     "1653374561607d7580",
     "165337576403569599",
-    "1653376273418bdfb2"
+    "1653376273418bdfb2",
+    "1653376753104512b6",
+    "16533770277d0da53e"
   ]
 }
