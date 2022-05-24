@@ -15,6 +15,39 @@
   
   
   <div class="Container">
+    <div class="row">
+      <div class="col-md-5 mx-auto order-md-2">
+        {% if section.settings.title != blank %}
+        <p class="FeaturedMap__Store Heading u-h1">{{ section.settings.title | escape }}</p>
+        {% endif %}
+        {% if section.settings.address != blank %}
+        <div class="FeaturedMap__Address Rte">
+          {{ section.settings.address }}
+        </div>
+        {% endif %}
+        <ul id="navMap">
+          <li id="allCategory" class="active-nav">All</li>
+          <li id="barCategory">BARS</li>
+          <li id="bottleCategory">BOTTLE SHOP</li>
+        </ul>
+        <div class="mapSearch-container">
+          <input type="text" id="filterStockist" value="Lasagne"  />
+          <button id="submitBtn"> SUMBIT</button>
+        </div>
+        
+        <ul id="stock_list" class="stock_list">
+        </ul>
+      </div>
+      <div class="col-md-5">
+        {% unless section.settings.image %}
+          <div class="PlaceholderBackground PlaceholderSvg--dark">
+            {{ 'lifestyle-1' | placeholder_svg_tag: 'PlaceholderBackground__Svg' }}
+          </div>
+        {% endunless %}
+
+        <div class="FeaturedMap__GMap"></div>
+      </div>
+    </div>
     <div class="FeaturedMap">
       <div class="FeaturedMap__Info">
         {% if section.settings.title != blank %}
