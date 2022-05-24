@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "mainpage",
+      "disabled": true,
       "settings": {
       }
     },
@@ -63,10 +64,48 @@
         "button_color": "#363636",
         "button_background": "#ffffff"
       }
+    },
+    "16533732284265d01c": {
+      "type": "about-us",
+      "settings": {
+        "subheading": "RYE IS THE GOSPEL",
+        "title": "WHISKEY IS RELIGION",
+        "html": "<p>It is widely believed that whiskey was first distilled for medicinal use by monks and apothecaries in Scotland and Ireland. The distillation of whiskey evolved as it moved from monastic to secular, as it did with the path of migration over hundreds of years. Early Scotch-Irish settlers in the USA used rye to make whiskey because barley didn’t adapt to the North American climate. These conditions are also true for the dry climate of Australia, where we set out to reimagine this original American spirit using 100% Australian rye.<\/p>"
+      }
+    },
+    "16533738576741c152": {
+      "type": "featured-collections",
+      "blocks": {
+        "1653373857ebc35aaa-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage",
+            "title": "OUR WHISKEY",
+            "grid_items_count": 9,
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653373857ebc35aaa-0"
+      ],
+      "settings": {
+        "title": "Distilled locally in Melbourne, our whiskey is made for your mouth and not your display cabinet.",
+        "button_text": "View all products",
+        "button_link": "shopify:\/\/collections\/all",
+        "layout_mode": "carousel",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 3
+      }
     }
   },
   "order": [
     "main",
-    "16533731993e4409a2"
+    "16533731993e4409a2",
+    "16533732284265d01c",
+    "16533738576741c152"
   ]
 }
