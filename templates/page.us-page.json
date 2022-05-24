@@ -177,6 +177,73 @@
         "size_m": "100px",
         "spacing": "60px"
       }
+    },
+    "165337576403569599": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "center_all": true,
+        "section_link": "",
+        "section_size": "large",
+        "image": "shopify:\/\/shop_images\/The_Gospel_Our_Story-Dedicated_to_Rye.jpg",
+        "video": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10,
+        "text_size": 40,
+        "subheading": "",
+        "title": "MADE WITH 100% AUSTRALIAN RYE",
+        "content": "",
+        "button_1_text": "How its made",
+        "button_1_link": "shopify:\/\/blogs\/journal\/rye-whiskey-production",
+        "button_2_text": "",
+        "button_2_link": ""
+      }
+    },
+    "1653376273418bdfb2": {
+      "type": "reviews-section",
+      "blocks": {
+        "8ca9d69f-5f45-4f15-b552-ca94015079a2": {
+          "type": "Text",
+          "settings": {
+            "review_stars": "5",
+            "text_name": "DAVID BROOM",
+            "text_info": "<p>A different angle of attack for rye and a welcome one.<\/p>"
+          }
+        },
+        "c2aa550e-16cf-4b61-80ee-ffc65b141fb6": {
+          "type": "Text",
+          "settings": {
+            "review_stars": "5",
+            "text_name": "LUKE MCCARTHY",
+            "text_info": "<p>One of the most impressive Australian whiskies to be released in recent years.<\/p>"
+          }
+        },
+        "ea508e13-17de-449b-924a-462b221fa2fd": {
+          "type": "Text",
+          "settings": {
+            "review_stars": "5",
+            "text_name": "JAMES BLUNT",
+            "text_info": "<p>This is a ripper rye - locally made that can hold its head up to any rye whiskey line up.<\/p>"
+          }
+        },
+        "3a4b7923-9065-4ff9-b7fe-997c2314d50b": {
+          "type": "Text",
+          "settings": {
+            "review_stars": "5",
+            "text_name": "JEDIDIAH EVANS",
+            "text_info": "<p>I’ve travelled the whiskey trail and<em>The Gospel<\/em>is as good as what you find over in the US. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8ca9d69f-5f45-4f15-b552-ca94015079a2",
+        "c2aa550e-16cf-4b61-80ee-ffc65b141fb6",
+        "ea508e13-17de-449b-924a-462b221fa2fd",
+        "3a4b7923-9065-4ff9-b7fe-997c2314d50b"
+      ],
+      "settings": {
+        "column": 4
+      }
     }
   },
   "order": [
@@ -184,6 +251,8 @@
     "16533731993e4409a2",
     "16533732284265d01c",
     "16533738576741c152",
-    "1653374561607d7580"
+    "1653374561607d7580",
+    "165337576403569599",
+    "1653376273418bdfb2"
   ]
 }
