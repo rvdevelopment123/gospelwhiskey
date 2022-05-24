@@ -100,12 +100,90 @@
         "grid_mobile_items_per_row": "2",
         "grid_desktop_items_per_row": 3
       }
+    },
+    "1653374561607d7580": {
+      "type": "logo-list",
+      "blocks": {
+        "2c3477fe-ae5a-41f4-81dd-0d08f68405bc": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/New-York-Times-Logo_cae8e271-df2b-40a4-a6ff-5eee80c0b6ce.png",
+            "review_stars": "0",
+            "title": "",
+            "quote": ""
+          }
+        },
+        "4c31b53e-3648-4601-8608-856b48216bbb": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Good-Food-Magazine-Newspaper-Logo_f1643152-c48d-432b-b2d5-37f343ce6ae3.png",
+            "review_stars": "0",
+            "title": "",
+            "quote": ""
+          }
+        },
+        "dc24f166-1e84-4a53-81fe-77bd41f5ec86": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Financial-Times-London-UK-Logo.png",
+            "review_stars": "0",
+            "title": "",
+            "quote": ""
+          }
+        },
+        "cdcb3927-5cde-47f7-8889-b534e9c5cf45": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Broadsheet-Logo.png",
+            "review_stars": "0",
+            "title": "",
+            "quote": ""
+          }
+        },
+        "a8ff5e3e-64bc-4083-a773-87054fa52531": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/The-Age-Newspaper-Logo_0699e2eb-6052-43ca-9e42-3b1e1545cd1c.png",
+            "review_stars": "0",
+            "title": "",
+            "quote": ""
+          }
+        },
+        "cb67381e-c42b-40f2-b51f-37e0b1f7dad4": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Man_of_Many_Logo.png",
+            "review_stars": "0",
+            "title": "",
+            "quote": ""
+          }
+        }
+      },
+      "block_order": [
+        "2c3477fe-ae5a-41f4-81dd-0d08f68405bc",
+        "4c31b53e-3648-4601-8608-856b48216bbb",
+        "dc24f166-1e84-4a53-81fe-77bd41f5ec86",
+        "cdcb3927-5cde-47f7-8889-b534e9c5cf45",
+        "a8ff5e3e-64bc-4083-a773-87054fa52531",
+        "cb67381e-c42b-40f2-b51f-37e0b1f7dad4"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_text": "",
+        "link_url": "",
+        "size": "200px",
+        "size_m": "100px",
+        "spacing": "60px"
+      }
     }
   },
   "order": [
     "main",
     "16533731993e4409a2",
     "16533732284265d01c",
-    "16533738576741c152"
+    "16533738576741c152",
+    "1653374561607d7580"
   ]
 }
