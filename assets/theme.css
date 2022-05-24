@@ -3349,6 +3349,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 #navMap li {
   padding: 0px;
   list-style: unset;
+  display: block;
 }
 #navMap li:hover {
   text-decoration: underline;
@@ -3378,7 +3379,9 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
 }
 .stock_list li {
   margin-bottom: 8px;
-  padding: 4px 8px
+  padding: 4px 8px;
+  display: block;
+}
 }
 .stock_list li.activeMe, .stock_list li:hover {
     background-color: #ece2d2;
