@@ -17,7 +17,9 @@
         <div>
           {{section.settings.section_content}}
         </div>
+        
         <div id="klaviyo-form-custom" class="klaviyo-form-TAZh26 my-4"></div>
+        
         <div>
           {{section.settings.section_note}}
         </div>
@@ -52,6 +54,22 @@
       "type": "richtext",
       "id": "section_note",
       "label": "Section Note"
+    },
+    {
+      "type": "select",
+      "id": "competition_status",
+      "label": "Competition Status",
+      "options": [
+        {
+          "value": "ongoing",
+          "label": "Competition Ongoing"
+        },
+        {
+          "value": "close",
+          "label": "Competition Closed"
+        }
+      ],
+      "default": "ongoing"
     }
   ],
   "presets": [
