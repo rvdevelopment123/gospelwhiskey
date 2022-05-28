@@ -1409,6 +1409,10 @@ a.Drawer__Title.Heading.u-h4 {
     width: 100%;
     display: block;
   }
+  #mobile_discover__content.FeatureText--withImage .FeatureText__ContentWrapper {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 900px) {
