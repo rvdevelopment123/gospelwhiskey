@@ -228,12 +228,6 @@ Add to make it look less templated
 
 @media screen and (min-width: 641px) {
 
-  .Newsletter__Inner {
-    display: flex;
-    gap: 10px;
-  }
-
-
   .Newsletter .Form__Input {
     font-family: 'MagdaRegular';
     min-width: 370px;
@@ -1379,7 +1373,10 @@ a.Drawer__Title.Heading.u-h4 {
 #mobile_discover__content {
   display: none
 }
-
+.Newsletter__Inner {
+  display: flex;
+  gap: 10px;
+}
 
 @media screen and (max-width: 1500px) {
   .link-list-bg {
@@ -1415,6 +1412,9 @@ a.Drawer__Title.Heading.u-h4 {
   }
   #mobile_discover__content.FeatureText--imageRight .FeatureText__Content{
   	max-width: unset
+  }
+  .Newsletter__Inner {
+    display: block;
   }
 }
 
