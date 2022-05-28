@@ -1376,6 +1376,9 @@ a.Drawer__Title.Heading.u-h4 {
   background: #FDE9CF
 }
 
+#mobile_discover__content {
+  display: none
+}
 
 
 @media screen and (max-width: 1500px) {
