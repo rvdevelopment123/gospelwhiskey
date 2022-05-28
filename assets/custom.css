@@ -241,7 +241,8 @@ Add to make it look less templated
 
   .Newsletter .Form__Submit {
     display: block;
-    margin: 0 0 0 20px;
+    margin: 0px;
+    width: fit-content;
   }
 }
 
