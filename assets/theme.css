@@ -7204,10 +7204,14 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   }
 
   .ProductList--carousel .Carousel__Cell:first-child {
-    margin-left: 19%;    /* This is (100% - 62%) / 2, where 62% is the width of a single cell */
+    /* margin-left: 19%; */
+    margin-left: 0;
+    /* This is (100% - 62%) / 2, where 62% is the width of a single cell */
   }
   .ProductList--carousel .Carousel__Cell:last-child {
-    margin-right: 19%; /* This is (100% - 62%) / 2, where 62% is the width of a single cell */
+    /* margin-left: 19%; */
+    margin-left: 0;
+    /* This is (100% - 62%) / 2, where 62% is the width of a single cell */
   }
 }
 
@@ -7218,10 +7222,14 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   }
 
   .ProductList--carousel .Carousel__Cell:first-child {
-    margin-left: 26%; /* This is (100% - 48%) / 2, where 48% is the width of a single cell */
+    margin-left: 0;
+    /* margin-left: 26%; */
+    /* This is (100% - 48%) / 2, where 48% is the width of a single cell */
   }
   .ProductList--carousel .Carousel__Cell:last-child {
-    margin-right: 26%; /* This is (100% - 48%) / 2, where 48% is the width of a single cell */
+    margin-left: 0;
+    /* margin-left: 26%; */
+    /* This is (100% - 48%) / 2, where 48% is the width of a single cell */
   }
 }
 
