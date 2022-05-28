@@ -1398,7 +1398,7 @@ a.Drawer__Title.Heading.u-h4 {
   }
 }
 
-@media screen and (max-width: 1008px) {
+@media screen and (max-width: 900px) {
   #desktop_discover__content {
     display: none;
   }
