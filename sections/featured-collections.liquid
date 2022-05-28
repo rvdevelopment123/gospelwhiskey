@@ -81,7 +81,7 @@
               {%- endfor -%}
             </div>
           {%- else -%}
-            <div class="ProductList ProductList--carousel Carousel" data-flickity-config='{{ flickity_options }}'>
+            <div class="ProductList ProductList--carousel Carousel hey" data-flickity-config='{{ flickity_options }}'>
               {%- for product in collection.products limit: block.settings.grid_items_count -%}
                 <div class="Carousel__Cell">
                   {%- render 'product-item', product: product, show_product_info: section.settings.show_product_info, show_vendor: section.settings.show_vendor, show_color_swatch: section.settings.show_color_swatch, show_labels: true -%}
