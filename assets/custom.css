@@ -725,10 +725,6 @@ Add to make it look less templated
     display: none;
   }
 
-  #desktop_discover__content {
-    display: none;
-  }
-
 }
 
 @media screen and (max-width: 900px) {
@@ -1407,6 +1403,11 @@ a.Drawer__Title.Heading.u-h4 {
   }
 }
 
+@media screen and (max-width: 1008px) {
+  #desktop_discover__content {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 900px) {
   #Sub__Heading {
