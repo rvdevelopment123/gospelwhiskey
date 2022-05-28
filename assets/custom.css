@@ -1405,6 +1405,10 @@ a.Drawer__Title.Heading.u-h4 {
   #mobile_discover__content {
   	display: block
   }
+  #mobile_discover__content.FeatureText--withImage .FeatureText__ImageWrapper {
+    width: 100%;
+    display: block;
+  }
 }
 
 @media screen and (max-width: 900px) {
