@@ -702,17 +702,9 @@ Add to make it look less templated
   #mobile_journal_nav {
     display: none;
   }
-
-  #mobile_discover__content {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 700px) {
-  #mobile_discover__content {
-    display: unset;
-  }
-
   #mobile_journal_nav {
     display: unset;
   }
@@ -1406,6 +1398,9 @@ a.Drawer__Title.Heading.u-h4 {
 @media screen and (max-width: 1008px) {
   #desktop_discover__content {
     display: none;
+  }
+  #mobile_discover__content {
+  	display: block
   }
 }
 
