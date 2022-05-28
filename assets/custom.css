@@ -230,7 +230,9 @@ Add to make it look less templated
 
   .Newsletter__Inner {
     display: flex;
+    gap: 10px;
   }
+
 
   .Newsletter .Form__Input {
     font-family: 'MagdaRegular';
