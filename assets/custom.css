@@ -1413,6 +1413,9 @@ a.Drawer__Title.Heading.u-h4 {
     padding-top: 50px;
     padding-bottom: 20px;
   }
+  #mobile_discover__content.FeatureText--imageRight .FeatureText__Content{
+  	max-width: unset
+  }
 }
 
 @media screen and (max-width: 900px) {
