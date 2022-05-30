@@ -795,10 +795,16 @@
         "settings": {
           "column": 4
         }
+      },
+      "165391495259c53fca": {
+        "type": "featured--section",
+        "settings": {
+        }
       }
     },
     "content_for_index": [
       "slideshow",
+      "165391495259c53fca",
       "1629179219e5d85c88",
       "featured-collections",
       "162693642824a2a9c7",
