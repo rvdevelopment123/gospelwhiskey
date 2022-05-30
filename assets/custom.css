@@ -1429,6 +1429,10 @@ a.Drawer__Title.Heading.u-h4 {
   #shopify-product-reviews {
     padding: 0px 20px;
   }
+  .ProductItem {
+    padding: 0px 16px;
+  }
+
 }
 
 @media screen and (max-width: 738px) {
