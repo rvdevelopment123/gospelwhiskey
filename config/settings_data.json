@@ -798,9 +798,30 @@
       },
       "165391495259c53fca": {
         "type": "featured--section",
+        "blocks": {
+          "8a95e5a1-e27d-4029-bed3-a1a568237fe6": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "title": "",
+              "grid_items_count": 8,
+              "button_text": "View all products"
+            }
+          }
+        },
+        "block_order": [
+          "8a95e5a1-e27d-4029-bed3-a1a568237fe6"
+        ],
         "settings": {
-          "text_name": "Title Here",
-          "text_info": "<p>Info Here<\/p>"
+          "title": "Featured collection",
+          "button_text": "View all products",
+          "button_link": "",
+          "layout_mode": "grid",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
         }
       }
     },
