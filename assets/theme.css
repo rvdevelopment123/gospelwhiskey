@@ -6886,6 +6886,13 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   padding: 0px 10px;
 }
 
+.ProductItem {
+    text-align: center;
+    white-space: normal;
+    padding: 0px 16px;
+}
+
+
 .js .features--show-element-staggering .ProductList--grid .ProductItem {
   visibility: hidden;
 }
