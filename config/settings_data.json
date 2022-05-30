@@ -799,14 +799,16 @@
       "165391495259c53fca": {
         "type": "featured--section",
         "settings": {
+          "text_name": "Title Here",
+          "text_info": "<p>Info Here<\/p>"
         }
       }
     },
     "content_for_index": [
       "slideshow",
-      "165391495259c53fca",
       "1629179219e5d85c88",
       "featured-collections",
+      "165391495259c53fca",
       "162693642824a2a9c7",
       "1626936490f7ac1d6c",
       "16528684183c34e679",
