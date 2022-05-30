@@ -1,18 +1,75 @@
 <section>
-  
+  <div class="row">
+    <div class="col-md-3">
+    </div>
+    <div class="col">
+      <div id="owl-example" class="owl-carousel">
+        <div class="reviews-container"> 
+                   
+          <h2 class="mb-2">{{ section.settings.text_name }}</h2>
+          {{ section.settings.text_info }}
+        </div>
+    </div>
+    </div>
+  </div>
 </section>
+
+<script>
+  var colums = {{ section.settings.column }}
+  $(document).ready(function () {
+
+    $("#owl-example").owlCarousel({
+      loop: true,
+      margin: 10,
+      navText: [
+        "<span class='material-icons'>chevron_left</span>",
+        "<span class='material-icons'>chevron_right</span>"
+      ],
+      autoplay: false,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1,
+          nav: true
+        },
+        600: {
+          items: 3,
+          nav: false
+        },
+        1000: {
+          items: 4,
+          nav: false
+        }
+      }
+    }
+    );
+
+  });
+</script>
 
 {% schema %}
 {
   "name": "Featured Section",
   "class": "shopify-section--bordered",
   "settings": [
+    {
+      "type": "text",
+      "id": "text_name",
+      "label": "Full Name",
+      "default": "Title Here"
+    },
+    {
+      "type": "richtext",
+      "id": "text_info",
+      "label": "Info",
+      "default": "<p>Info Here</p>"
+    }
   ],
   "presets": [
     {
-      "category": "Section",
-      "name": "Featured Section",
-      "settings": {}
+        "category": "Section",
+        "name": "Featured Section",
+        "settings": {}
     }
   ]
 }
