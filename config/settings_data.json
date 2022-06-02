@@ -135,25 +135,6 @@
       "slideshow": {
         "type": "slideshow",
         "blocks": {
-          "7d2b232d-513d-4976-b9c6-d9a174e3c734": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/The_Gospel_Fortified_Cask_Whiskey_2-EDM.jpg",
-              "desktop_video": "",
-              "mobile_video": "",
-              "apply_overlay": true,
-              "content_position": "bottomLeft",
-              "subheading": "",
-              "title": "New Project Release Fortified Cask",
-              "title_mobile": "",
-              "content": "<p>Mature Rye Whiskey rested for a further 6 months in three fortified casks - Apera, Chardonnay Tawny and Fortified Semillon – recoopered by Master Distiller Ian Thorn. <br\/><br\/>Absorbing the full force of Melbourne’s summer, the wine casks offer sweetness, richness and a lingering finish to our dry rye grain. An ideal winter companion.  <\/p>",
-              "button_1_text": "Shop Now",
-              "button_1_link": "shopify:\/\/products\/project-release-fortified-cask",
-              "button_2_text": "",
-              "button_2_link": "",
-              "countryClass": ""
-            }
-          },
           "slide-1": {
             "type": "image",
             "settings": {
@@ -229,14 +210,34 @@
               "button_2_link": "",
               "countryClass": ""
             }
+          },
+          "7d2b232d-513d-4976-b9c6-d9a174e3c734": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/The_Gospel_Fortified_Cask_Whiskey_2-EDM.jpg",
+              "desktop_video": "",
+              "mobile_video": "",
+              "apply_overlay": true,
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "New Project Release Fortified Cask",
+              "title_mobile": "",
+              "content": "<p>Mature Rye Whiskey rested for a further 6 months in three fortified casks - Apera, Chardonnay Tawny and Fortified Semillon – recoopered by Master Distiller Ian Thorn. <br\/><br\/>Absorbing the full force of Melbourne’s summer, the wine casks offer sweetness, richness and a lingering finish to our dry rye grain. An ideal winter companion.  <\/p>",
+              "button_1_text": "Shop Now",
+              "button_1_link": "shopify:\/\/products\/project-release-fortified-cask",
+              "button_2_text": "",
+              "button_2_link": "",
+              "countryClass": ""
+            }
           }
         },
         "block_order": [
-          "7d2b232d-513d-4976-b9c6-d9a174e3c734",
           "slide-1",
           "15d796c6-19d7-4aeb-945b-c316d1fbc765",
           "990a9324-94d4-49bb-97dc-7780d27d895d",
-          "e69add4e-c459-4c90-8c01-e26792f60c46"
+          "e69add4e-c459-4c90-8c01-e26792f60c46",
+          "7d2b232d-513d-4976-b9c6-d9a174e3c734"
         ],
         "settings": {
           "show_fullscreen": true,
