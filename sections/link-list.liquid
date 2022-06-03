@@ -1,7 +1,8 @@
 <div class="link-list-bg" >
 {% for block in section.blocks  %}
-	<a class="HorizontalList__Item Heading Link Link--primary Text--subdued {% if block.settings.active %}active-link{% endif %}"
-       href="{{block.settings.collection}}"><p>{{block.settings.title}}</p></a>
+	<a class="{{block.settings.linkClass}} HorizontalList__Item Heading Link Link--primary Text--subdued {% if block.settings.active %}active-link{% endif %}"
+       href="{{block.settings.collection}}"><p>{{block.settings.title}}</p>
+  </a>
 {% endfor %}
 </div>
 {% schema %}
@@ -26,6 +27,12 @@
           "id": "title",
           "label": "Heading",
           "info": "If none is set, collection title is used."
+        },
+        {
+          "type": "text",
+          "id": "linkClass",
+          "label": "Link Class",
+          "info": "If you want to hide this put AUCLASS then if you want to show put USACLASS"
         },
         {
           "id": "active",

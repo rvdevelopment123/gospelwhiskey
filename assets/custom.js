@@ -111,7 +111,8 @@ $("#USA").click(function(item) {
     $(".CollectionToolbar__Item").hide()
     $("button[destination='/collections/all']").show()
     $("a[href='/pages/discover-the-gospel-our-community']").attr('href', '/pages/discover-the-gospel-our-community-usa')
-    
+    $('.AUCLASS').hide()
+    $('.USACLASS').show()
  }
  
 function addItemToCart(variant_id, qty) {
