@@ -113,6 +113,8 @@ $("#USA").click(function(item) {
     $("a[href='/pages/discover-the-gospel-our-community']").attr('href', '/pages/discover-the-gospel-our-community-usa')
     $('.AUCLASS').hide()
     $('.USACLASS').show()
+    $("#desktop_nav").append('<button destination="/collections/all" onclick="window.location =\'/collections/all\'" class="CollectionToolbar__Item CollectionToolbar__Item--sort Heading Text--subdued u-h6" id="Sub__Heading" data-live-text-setting="section.template--15433363685567__main.block.adde7258-4822-4a47-b651-336a0257e745.title">All</button>')
+    // $("#mobile_nav").append('<button destination="/collections/all" onclick="window.location =\'/collections/all\'" class="CollectionToolbar__Item CollectionToolbar__Item--sort Heading Text--subdued u-h6" id="Sub__Heading" data-live-text-setting="section.template--15433363685567__main.block.adde7258-4822-4a47-b651-336a0257e745.title">All</button>')
  }
  
 function addItemToCart(variant_id, qty) {
