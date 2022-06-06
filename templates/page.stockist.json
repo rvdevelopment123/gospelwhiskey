@@ -11,8 +11,8 @@
       "settings": {
         "title": "FIND US AT YOUR FAVOURITE BAR OR BOTTLE SHOP",
         "csvlink": "https:\/\/cdn.shopify.com\/s\/files\/1\/0428\/4556\/9187\/files\/Active_Stockists_2022_Feb-Apr_v1.csv?v=1654223391",
-        "address": "<p>Help us spread the word<\/p>",
-        "map_address": "NSW Australia",
+        "address": "",
+        "map_address": "Alice Springs NT",
         "api_key": "AIzaSyBLIBBtbQoDlCdcnttMAA44AUHrVULrTDM",
         "zoom": 4,
         "map_style": "silver"
