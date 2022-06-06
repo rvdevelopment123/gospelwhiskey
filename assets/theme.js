@@ -5810,11 +5810,11 @@ var activeCategory = 'allCategory';
               zoom: _this57.options['zoom'],
               center: results[0].geometry.location,
               draggable: true,
-              clickableIcons: false,
+              clickableIcons: true,
               scrollwheel: true,
               disableDoubleClickZoom: false,
-              disableDefaultUI: true,
-              gestureHandling: "cooperative"
+              disableDefaultUI: false,
+              zoomControl: true
             };
 
             var map = new google.maps.Map(_this57.element.querySelector('.FeaturedMap__GMap'), mapOptions),
