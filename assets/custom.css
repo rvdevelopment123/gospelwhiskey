@@ -1555,6 +1555,10 @@ a.Drawer__Title.Heading.u-h4 {
     width: 130px !important;
   }
 
+  .age-button :hover {
+    width: 130px !important;
+  }
+
   .age-button.age-yes {
     margin-right: 25px !important;
   }
