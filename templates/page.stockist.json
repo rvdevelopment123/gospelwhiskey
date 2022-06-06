@@ -14,7 +14,7 @@
         "address": "<p>Help us spread the word<\/p>",
         "map_address": "80 Spadina Ave, Toronto",
         "api_key": "AIzaSyBLIBBtbQoDlCdcnttMAA44AUHrVULrTDM",
-        "zoom": 14,
+        "zoom": 3,
         "map_style": "silver"
       }
     }
