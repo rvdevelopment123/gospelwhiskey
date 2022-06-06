@@ -192,7 +192,12 @@
     <div class="PageContainer">
       
       {% section 'announcement' %}
+      {%- if template == 'page.us-page' -%}
+      {% section 'header-us' %}
+      {%- else -%}
       {% section 'header' %}
+    {%- endif -%}
+      
 
       <main id="main" role="main">
         {{ content_for_layout }}
