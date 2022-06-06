@@ -61,7 +61,7 @@
       "announcement": {
         "type": "announcement",
         "settings": {
-          "enable_bar": true,
+          "enable_bar": false,
           "home_page_only": true,
           "background": "#5a5b30",
           "text_color": "#ffffff",
