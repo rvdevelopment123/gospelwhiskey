@@ -193,6 +193,9 @@
       
       {% section 'announcement' %}
       {%- if template == 'page.us-page' -%}
+      <script type="text/javascript">
+        document.cookie = "country=USA";
+      </script>
       {% section 'header-us' %}
       {%- else -%}
       {% section 'header' %}

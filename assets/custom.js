@@ -107,7 +107,7 @@ $("#USA").click(function(item) {
  if(currentCountry != 'AUS'){
     $('.ProductItem').hide()
     $('.'+currentCountry).show()
-    // $('.ProductItem').remove()
+    //$('.ProductItem').remove()
     $(".CollectionToolbar__Item").hide()
     $("button[destination='/collections/all']").show()
     $("a[href='/pages/discover-the-gospel-our-community']").attr('href', '/pages/discover-the-gospel-our-community-usa')
