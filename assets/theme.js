@@ -5809,11 +5809,12 @@ var activeCategory = 'allCategory';
             var mapOptions = {
               zoom: _this57.options['zoom'],
               center: results[0].geometry.location,
-              draggable: false,
+              draggable: true,
               clickableIcons: false,
-              scrollwheel: false,
-              disableDoubleClickZoom: true,
-              disableDefaultUI: true
+              scrollwheel: true,
+              disableDoubleClickZoom: false,
+              disableDefaultUI: true,
+              gestureHandling: "cooperative"
             };
 
             var map = new google.maps.Map(_this57.element.querySelector('.FeaturedMap__GMap'), mapOptions),
@@ -5879,7 +5880,7 @@ var activeCategory = 'allCategory';
                 })
 
                 function renderMap(item, index){
-                  var subName = '<br />'+item.Address+', ' +item.Address_State + ', ' + item.Postcode
+                  var subName = '<br />'+item.Address+', ' +item.Suburb + ', ' + item.Postcode
                   var myItem = '<li id="item_'+index+'" data-category="'+item.Venue_Category+'" data-lat="'+item.Lat+'" data-lng="'+item.Long+'" class="" ><p>'+item.Outlet_Name+subName +'</p></li>';
                   $("#stock_list").append(myItem)
                   $("#item_"+index).click(function(e) {
@@ -5899,7 +5900,7 @@ var activeCategory = 'allCategory';
                 function displayAllMap(filterItems){
                   deleteMarkers()
                   $("#stock_list").html('')
-                  map.setZoom(12);
+                  map.setZoom(4);
                   filterItems.forEach(function(item, index) {
                     console.info(item)
                     const marker = new google.maps.Marker({
