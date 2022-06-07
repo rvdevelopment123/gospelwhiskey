@@ -1,10 +1,17 @@
 <div id="age-verification" >
   <div class="age-verification-main">
     <span class="age-title">{{section.settings.title}}</span>
-    <span class="age-main-text">{{section.settings.body}}</span>
     <div class="age-verification-btn">
-      <button id="yesAge" class="age-button age-yes" onclick="ageVerificationConfirm()"><span>|<br>|</span>YES<span>|<br>|</span></button>
-      <button id="noAge" class="age-button age-no" onclick="ageVerificationFailed()"><span>|<br>|</span>NO<span>|<br>|</span></button>
+      <button id="yesAge" class="age-button age-yes" onclick="ageVerificationConfirm()">
+        <span> |<br>| </span>
+        YES
+        <span> |<br>| </span>
+      </button>
+      <button id="noAge" class="age-button age-no" onclick="ageVerificationFailed()">
+        <span>|<br>|</span>
+        NO
+        <span>|<br>|</span>
+      </button>
     </div>
     <span class="age-main-text">WHERE ARE YOU?</span>
     <div class="age-verification-btn">
@@ -188,29 +195,6 @@
     width: 100%;
   }
   
-  /*.age-title, .age-main-text {
-    display: block;
-    margin-bottom: 1em;
-  }*/  
-  
-/*.age-title {
-    font-size: 24pt;
-    margin-bottom: 0.5em;
-    font-family: var(--heading-font-family);
-    letter-spacing: 1.4;
-    line-height: initial;
-}*/
-
-  /*.age-legal {
-  color: black;
-  display: block;
-  font-size: 12px;
-  text-decoration: normal;
-  text-align: right;
-  margin-top: 20px;
-  margin-bottom: -15px;
-}*/
-  
   .age-title {
     font-family: var(--heading-font-family);
     font-size: 24px;
@@ -220,11 +204,11 @@
     letter-spacing: 1.8px;
     width: 100%;
     padding: 40px 40px;
-}
+  }
 
-.age-credits a {
-  color: black;
-}
+  .age-credits a {
+    color: black;
+  }
 </style>
 {% schema %}
   {
