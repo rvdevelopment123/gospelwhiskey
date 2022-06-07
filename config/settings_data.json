@@ -828,11 +828,8 @@
       },
       "165458009571290197": {
         "type": "geo-location",
+        "disabled": true,
         "settings": {
-          "title": "YOU MUST BE OF LEGAL DRINKING AGE TO ENTER THIS SITE",
-          "body": "ARE YOU OF LEGAL DRINKING AGE?",
-          "license": "32809785",
-          "exit_link": ""
         }
       }
     },
