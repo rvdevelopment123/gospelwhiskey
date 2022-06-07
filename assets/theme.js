@@ -5821,7 +5821,7 @@ var activeCategory = 'allCategory';
                 center = map.getCenter();
                 console.log('Center')
                 console.info(center)
-            // map.setCenter(center);
+            map.setCenter(center);
 
             var icon = {
               path: "M32.7374478,5.617 C29.1154478,1.995 24.2994478,0 19.1774478,0 C14.0544478,0 9.23944778,1.995 5.61744778,5.617 C-1.08555222,12.319 -1.91855222,24.929 3.81344778,32.569 L19.1774478,54.757 L34.5184478,32.6 C40.2734478,24.929 39.4404478,12.319 32.7374478,5.617 Z M19.3544478,26 C15.4954478,26 12.3544478,22.859 12.3544478,19 C12.3544478,15.141 15.4954478,12 19.3544478,12 C23.2134478,12 26.3544478,15.141 26.3544478,19 C26.3544478,22.859 23.2134478,26 19.3544478,26 Z",
@@ -5832,24 +5832,6 @@ var activeCategory = 'allCategory';
               scale: 0.6
             };
 
-            // new google.maps.Marker({
-            //   map: map,
-            //   position: map.getCenter(),
-            //   icon: icon
-            // });
-            
-
-            // var locations = _this57.options['locations']
-            // locations.forEach(function(item) {
-            //   console.log('Location')
-            //   console.info(item)
-            //   //var ite = JSON.parse(item)
-            //   new google.maps.Marker({
-            //     map: map,
-            //     position: {lat: Number(item.lat), lng: Number(item.lng)},
-            //     icon: icon
-            //   });
-            // })
 
             function initialize() {
 
@@ -5860,6 +5842,7 @@ var activeCategory = 'allCategory';
               $("#stock_list").html('')
               var markers = []
               var items = []
+              var SearchfilteredItems = []
               d3.csv(_this57.options['csvlink'], function(e2, two) {
                 console.log('STart of CSV')
                 // console.info(two)
@@ -5871,13 +5854,14 @@ var activeCategory = 'allCategory';
                     icon: icon
                   });
                   if(index == 0){
-                    map.setCenter(new google.maps.LatLng(Number(item.Lat),Number(item.Long)));
+                    //map.setCenter(new google.maps.LatLng(Number(item.Lat),Number(item.Long)));
                   }
                   
                   markers.push(marker)
                   items.push(item)
                   renderMap(item, index)
                 })
+                SearchfilteredItems = items
 
                 function renderMap(item, index){
                   var subName = '<br />'+item.Address+', ' +item.Suburb + ', ' + item.Postcode
@@ -5887,8 +5871,8 @@ var activeCategory = 'allCategory';
                     var lat = Number($("#item_"+index).attr('data-lat'))
                     var lng = Number($("#item_"+index).attr('data-lng'))
                     $(".activeMe").removeClass('activeMe')
-                    // map.setCenter(lat,lng, 12);
-                    map.setZoom(12);
+                    // map.setCenter(lat,lng, 15);
+                    map.setZoom( _this57.options['zoomClick']);
                     map.setCenter(new google.maps.LatLng(lat,lng));
                     $("#item_"+index).addClass('activeMe')
                     console.log('Lat ' + lat)
@@ -5941,11 +5925,13 @@ var activeCategory = 'allCategory';
                   var txtSearch = $("#filterStockist").val()
                   console.log('Text Search')
                   console.info(txtSearch)
-                  var filteredItems = items.filter(function(item) {
+                  
+               
+                  SearchfilteredItems = items.filter(function(item) {
                     // console.info(item)
                     var isReturn = false
                     for (const property in item) {
-                      var indexSearch = item[property].indexOf(txtSearch)
+                      var indexSearch = item[property].toLowerCase().indexOf(txtSearch.toLowerCase())
                       if(indexSearch >= 0)
                         return true
                     }
@@ -5954,9 +5940,10 @@ var activeCategory = 'allCategory';
                     //   return item2.toLowerCase().indexOf(txtSearch.toLowerCase())
                     // })
                   })
-                  console.log('filteredItems')
-                  console.info(filteredItems)
-                  displayAllMap(filteredItems)
+                  if(txtSearch == ''){
+                    SearchfilteredItems = items
+                  }
+                  displayAllMap(SearchfilteredItems)
                   //console.info(e)
                 })
                 $("#allCategory").click(function() {
@@ -5966,8 +5953,12 @@ var activeCategory = 'allCategory';
                   $("#allCategory").addClass('active-nav')
                   $("li[data-category='Bar or Restaurant']").show()
                   $("li[data-category='Bottle Shop']").show()
-
-                  var filteredItems = items.filter(function(item) {
+                  var txtSearch = $("#filterStockist").val()
+                  var myItems = items
+                  if(txtSearch != ''){
+                    myItems = SearchfilteredItems
+                  }
+                  var filteredItems = myItems.filter(function(item) {
                     // console.info(item)
                     var isReturn = false
                     if(item['Venue_Category'] == 'Bar or Restaurant' || item['Venue_Category'] == 'Bottle Shop'){
@@ -5978,10 +5969,10 @@ var activeCategory = 'allCategory';
                     //   return item2.toLowerCase().indexOf(txtSearch.toLowerCase())
                     // })
                   })
+
                   console.log('filteredItems')
                   console.info(filteredItems)
                   displayAllMap(filteredItems)
-
                 })
 
                 $("#barCategory").click(function() {
@@ -5992,7 +5983,12 @@ var activeCategory = 'allCategory';
 
                   $("li[data-category='Bar or Restaurant']").show()
                   $("li[data-category='Bottle Shop']").hide()
-                  var filteredItems = items.filter(function(item) {
+                  var txtSearch = $("#filterStockist").val()
+                  var myItems = items
+                  if(txtSearch != ''){
+                    myItems = SearchfilteredItems
+                  }
+                  var filteredItems = myItems.filter(function(item) {
                     // console.info(item)
                     var isReturn = false
                     if(item['Venue_Category'] == 'Bar or Restaurant'){
@@ -6006,7 +6002,7 @@ var activeCategory = 'allCategory';
                   console.log('filteredItems')
                   console.info(filteredItems)
                   displayAllMap(filteredItems)
-                  
+                  $("#submitBtn").click(filteredItems)
                 })
 
                 $("#bottleCategory").click(function() {
@@ -6016,7 +6012,12 @@ var activeCategory = 'allCategory';
                   $("#allCategory").removeClass('active-nav')
                   $("li[data-category='Bar or Restaurant']").hide()
                   $("li[data-category='Bottle Shop']").show()
-                  var filteredItems = items.filter(function(item) {
+                  var txtSearch = $("#filterStockist").val()
+                  var myItems = items
+                  if(txtSearch != ''){
+                    myItems = SearchfilteredItems
+                  }
+                  var filteredItems = myItems.filter(function(item) {
                     // console.info(item)
                     var isReturn = false
                     if(item['Venue_Category'] == 'Bottle Shop'){
@@ -6030,6 +6031,7 @@ var activeCategory = 'allCategory';
                   console.log('filteredItems')
                   console.info(filteredItems)
                   displayAllMap(filteredItems)
+                  $("#submitBtn").click(filteredItems)
                 })
              
                 // var aveMap = {};
@@ -6049,16 +6051,30 @@ var activeCategory = 'allCategory';
               });
           }
           google.maps.event.addDomListener(window, 'load', initialize);
-
+          //_this57.element.querySelector('.FeaturedMap__GMap').style.display = 'block'
             var styledMapType = new google.maps.StyledMapType(JSON.parse(_this57.element.querySelector('[data-gmap-style]').innerHTML));
 
             map.mapTypes.set('styled_map', styledMapType);
             map.setMapTypeId('styled_map');
 
-            google.maps.event.addDomListener(window, 'resize', function () {
-              google.maps.event.trigger(map, 'resize');
-              map.setCenter(center);
+            var input = document.getElementById("filterStockist");
+
+            // Execute a function when the user presses a key on the keyboard
+            input.addEventListener("keypress", function(event) {
+              // If the user presses the "Enter" key on the keyboard
+              if (event.key === "Enter") {
+                // Cancel the default action, if needed
+                event.preventDefault();
+                // Trigger the button element with a click
+                $("#submitBtn").click()
+              }
             });
+
+
+            // google.maps.event.addDomListener(window, 'resize', function () {
+            //   google.maps.event.trigger(map, 'resize');
+            //   map.setCenter(center);
+            // });
           }
         });
       }

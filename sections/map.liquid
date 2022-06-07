@@ -5,6 +5,7 @@
   "apiKey": {{ section.settings.api_key | json }},
   "mapAddress": {{ section.settings.map_address | json }},
   "zoom": {{ section.settings.zoom }},
+  "zoomClick": {{ section.settings.zoomClick }},
   "csvlink": {{ section.settings.csvlink | json }},
   "locations": {{ locations | json }},
   "markerColor": {% if section.settings.map_style == 'standard' or section.settings.map_style == 'silver' or section.settings.map_style == 'retro' %}"#000000"{% else %}"#ffffff"{% endif %}
@@ -40,50 +41,11 @@
         </ul>
       </div>
       <div class="col-md-6">
-        {% unless section.settings.image %}
-          <div class="PlaceholderBackground PlaceholderSvg--dark">
-            {{ 'lifestyle-1' | placeholder_svg_tag: 'PlaceholderBackground__Svg' }}
-          </div>
-        {% endunless %}
+      
 
-        <div class="FeaturedMap__GMap"></div>
+        <div  class="FeaturedMap__GMap"></div>
       </div>
     </div>
-    
-<!--     <div class="FeaturedMap">
-      <div class="FeaturedMap__Info">
-        {% if section.settings.title != blank %}
-        <p class="FeaturedMap__Store Heading u-h1">{{ section.settings.title | escape }}</p>
-        {% endif %}
-        {% if section.settings.address != blank %}
-        <div class="FeaturedMap__Address Rte">
-          {{ section.settings.address }}
-        </div>
-        {% endif %}
-        <ul id="navMap">
-          <li id="allCategory" class="active-nav">All</li>
-          <li id="barCategory">BARS</li>
-          <li id="bottleCategory">BOTTLE SHOP</li>
-        </ul>
-        <div class="mapSearch-container">
-          <input type="text" id="filterStockist" value="Lasagne"  />
-          <button id="submitBtn"> SUMBIT</button>
-        </div>
-        
-        <ul id="stock_list" class="stock_list">
-        </ul>
-      </div>
-
-      <div class="FeaturedMap__MapContainer Image--lazyLoad Image--fadeIn" {% if section.settings.image %}data-bg="{{ section.settings.image | img_url: '1500x' }}"{% endif %}>
-        {% unless section.settings.image %}
-          <div class="PlaceholderBackground PlaceholderSvg--dark">
-            {{ 'lifestyle-1' | placeholder_svg_tag: 'PlaceholderBackground__Svg' }}
-          </div>
-        {% endunless %}
-
-        <div class="FeaturedMap__GMap"></div>
-      </div>
-    </div> -->
   </div>
 
   {%- if settings.light_background == settings.background -%}
@@ -698,6 +660,15 @@
       "step": 1,
       "label": "Map zoom",
       "default": 4
+    },
+    {
+      "type": "range",
+      "id": "zoomClick",
+      "min": 1,
+      "max": 20,
+      "step": 1,
+      "label": "Map zoom Click",
+      "default": 14
     },
     {
       "type": "select",
