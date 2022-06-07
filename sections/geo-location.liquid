@@ -1,12 +1,365 @@
+<div id="age-verification" >
+  <div class="age-verification-main">
+    <span class="age-title">{{section.settings.title}}</span>
+    <span class="age-main-text">{{section.settings.body}}</span>
+    <div class="age-verification-btn">
+      <button id="yesAge" class="age-button age-yes" onclick="ageVerificationConfirm()"><span>|<br>|</span>YES<span>|<br>|</span></button>
+      <button id="noAge" class="age-button age-no" onclick="ageVerificationFailed()"><span>|<br>|</span>NO<span>|<br>|</span></button>
+    </div>
+    <span class="age-main-text">WHERE ARE YOU?</span>
+    <div class="age-verification-btn">
+      <button class="age-button age-yes" onclick="ausPortal()"><span>|<br>|</span>AUS<span>|<br>|</span></button>
+      <button class="age-button age-no" onclick="usaPortal()"><span>|<br>|</span>USA<span>|<br>|</span></button>
+    </div>
+    <span class="age-main-text"></span>
+    <div class="age-legal">
+      You must be of legal drinking age in your respective country for entry. By entering you accept our terms and conditions & our privacy & cookie policy. We encourage drinking responsibly. 
+    </div>
+
+{% comment %}    <div class="gw-ag-form">
+      <div class="gw-ag-text">WHERE ARE YOU?</div>
+      <div class="gw-ag-button-box gw-ag-button-box--yes">
+        <div class="gw-button-side gw-button-side--left">|<br>|<br>|<br>|<br>|<br>|<br>|</div>
+        <button type="submit" class="gw-ag-button js-ag-dob-enter">AUS</button>
+        <div class="gw-ag-button-side gw-ag-button-side--right">|<br>|<br>|<br>|<br>|<br>|<br>|</div>
+      </div>
+      <div class="gw-ag-button-box gw-ag-button-box--no">
+        <div class="gw-button-side gw-button-side--left">|<br>|<br>|<br>|<br>|<br>|<br>|</div>
+        <button type="submit" class="gw-ag-button">USA</button>
+        <div class="gw-ag-button-side gw-ag-button-side--right">|<br>|<br>|<br>|<br>|<br>|<br>|</div>
+      </div>
+    </div>{% endcomment %}
+  </div>
+</div>
+<style>
+  
+#age-verification {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00000054;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  z-index: 90000001;
+  display: none;
+}
+
+.age-verification-main {
+  background-color: #fff6e6;
+  color: black;
+  font-size: 13pt;
+  padding: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 246, 230);
+  width: 100vw;
+  max-width: 520px;
+  -webkit-box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
+  box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
+}
+.age-verification-btn {
+    width: 100%;
+    padding: 0px 40px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .age-main-text:before{
+    content: "******************************************************************************************************************************************************************";
+    font-size: 16px; 
+    line-height: 1.2; 
+    color: #000; 
+    text-transform: none; 
+    letter-spacing: 0;
+    line-height: 0.5;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: calc(100% - 80px);
+  }
+  
+  .age-title, .age-main-text {
+    width: 100%;
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+  .age-main-text{
+    padding-bottom: unset;
+  }
+  
+  .age-button:before {
+  content: "----------------------------------------------";
+  font-family: var(--text-font-family);
+  font-size: 16px;
+  line-height: 1.2;
+  color: #000;
+  text-transform: none;
+  letter-spacing: 0;
+  line-height: 0.5;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  position: relative;
+  top: 5px;
+  left: 0;
+}  
+  
+.age-button:after {
+  content: "----------------------------------------------";
+  font-family: var(--text-font-family);
+  font-size: 16px;
+  line-height: 1.2;
+  color: #000;
+  text-transform: none;
+  letter-spacing: 0;
+  line-height: 0.5;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  position: relative;
+  bottom: 10px;
+  left: 0;
+}  
+  
+  
+.age-button {
+  -webkit-box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
+  box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
+}
+
+  .age-button {
+    border: none;
+    font-size: 16pt;
+    color: black;
+    width: 150px;
+    padding: 10px 0px;
+    margin: 5px 0px;
+    box-shadow: unset;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .age-button.age-yes {
+    margin-right: 30px;
+  }
+  
+  .age-legal:before{
+/*
+    content: "******************************************************************************************************************************************************************";
+*/
+    font-family: "MagdaPro";
+    font-size: 16px;
+    line-height: 1.2;
+    color: #000;
+    text-transform: none;
+    letter-spacing: 0;
+    line-height: 0.5;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    bottom: 0;
+    left: 40px;
+    width: calc(100% - 80px);
+  }
+
+  .age-legal {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #000;
+    text-transform: none;
+    letter-spacing: 0;
+    padding: 0px 30px 20px 30px;
+    width: 100%;
+  }
+  
+  /*.age-title, .age-main-text {
+    display: block;
+    margin-bottom: 1em;
+  }*/  
+  
+/*.age-title {
+    font-size: 24pt;
+    margin-bottom: 0.5em;
+    font-family: var(--heading-font-family);
+    letter-spacing: 1.4;
+    line-height: initial;
+}*/
+
+  /*.age-legal {
+  color: black;
+  display: block;
+  font-size: 12px;
+  text-decoration: normal;
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: -15px;
+}*/
+  
+  .age-title {
+    font-family: var(--heading-font-family);
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #000;
+    line-height: 1.4;
+    letter-spacing: 1.8px;
+    width: 100%;
+    padding: 40px 40px;
+}
+
+.age-credits a {
+  color: black;
+}
+</style>
+<script>
+    var ageCookieName = "age-verification-verified-gospel";
+    var tempAccepted = false;
+    var tempDenied = false;
+    var isUsa = false;
+    var isAus = false;
+
+  function ageSetCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+  }
+
+  function ageGetCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
+    return "";
+  }
+
+  function ageVerificationHide() {
+    var ageVerificationModel = document.getElementById('age-verification');
+    ageVerificationModel.style.display = 'none';
+  }
+  function ageVerificationShow() {
+    var ageVerificationModel = document.getElementById('age-verification');
+    ageVerificationModel.style.display = 'block';
+  }
+  function ageVerificationLoad() {
+    try {
+      var agePass = ageGetCookie(ageCookieName);
+      if (agePass != "") {
+        ageVerificationHide();
+        return;
+      }
+      else {
+        ageVerificationShow();
+      }
+    }
+    catch(err) {
+      ageVerificationShow();
+    }
+    // ageVerificationShow();
+  }
+  function ageVerificationConfirm() {
+    $("#yesAge").addClass('activeAge')
+    $("#noAge").removeClass('activeAge')
+    ageSetCookie(ageCookieName, "verified", 365);
+    tempAccepted = true;
+    if(isUsa){
+      window.location.href = 'https://usa.thegospelwhiskey.com/';
+    }
+    else if(isAus){
+      ageVerificationHide();
+    }
+  }
+  function ageVerificationFailed() {
+    $("#yesAge").removeClass('activeAge')
+    $("#noAge").addClass('activeAge')
+    tempDenied = true;
+    if(isUsa){
+      window.location.href = 'https://www.niaaa.nih.gov/alcohols-effects-health/alcohol-policy';
+    }
+    else if(isAus){ //aus reject
+      window.location.href = 'https://www.health.gov.au/health-topics/alcohol/about-alcohol/alcohol-laws-in-australia#:~:text=Legal%20drinking%20age%20%E2%80%93%20you%20must,many%20standard%20drinks%20it%20contains';
+    }  
+  }
+
+    function ausPortal() {
+      if(tempAccepted){
+        ageVerificationHide();
+      }
+      else if(tempDenied){ //aus reject
+        window.location.href = 'https://www.health.gov.au/health-topics/alcohol/about-alcohol/alcohol-laws-in-australia#:~:text=Legal%20drinking%20age%20%E2%80%93%20you%20must,many%20standard%20drinks%20it%20contains';
+      }
+      else if(!tempAccepted){
+        isAus = true;
+      }
+    }
+
+    function usaPortal() {
+      if(tempAccepted){
+        window.location.href = 'https://usa.thegospelwhiskey.com/';
+      }
+      else if(tempDenied){ //usa reject
+        window.location.href = 'https://www.niaaa.nih.gov/alcohols-effects-health/alcohol-policy';
+      }
+      else if(!tempAccepted){
+        isUsa = true;
+      }
+    }
+  
+  
+  document.addEventListener("DOMContentLoaded", function(event) {
+    ageVerificationLoad();
+  });
+</script>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Geo Location",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "YOU MUST BE OF LEGAL DRINKING AGE TO ENTER THIS SITE"
+      },
+      {
+        "type": "text",
+        "id": "body",
+        "label": "Body",
+        "default": "ARE YOU OF LEGAL DRINKING AGE?"
+      },
+      {
+        "type": "text",
+        "id": "license",
+        "label": "License",
+        "default": "32809785"
+      },
+      {
+        "type": "text",
+        "id": "exit_link",
+        "label": "Exit Link (Leave blank for default action)"
+      }
+	]
   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
