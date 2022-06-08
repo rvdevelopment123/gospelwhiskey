@@ -1,6 +1,6 @@
 {%- if section.settings.layout_mode == 'carousel' -%}
   {%- capture flickity_options_one -%}
-    {
+  {
     "prevNextButtons": true,
     "pageDots": false,
     "wrapAround": false,
@@ -21,90 +21,127 @@
 {%- endcapture -%}
 
 <section class="Section Section--spacingNormal d-block d-md-flex" data-section-id="{{ section.id }}" data-section-type="featured-collections" data-settings='{{ section_settings }}'style="background:#F2EEE6;">
-  
   <header class="SectionHeader col-md-3">
     <div class="collection-half-text">
       {%- assign collection = collections[section.blocks.first.settings.collection] -%}
 
       {%- if collection != empty -%}
-      <h2 class="SectionHeader__Heading Heading u-h1">{{ section.blocks.first.settings.title | default: collection.title }}</h2>
+        <h2 class="SectionHeader__Heading Heading u-h1">{{ section.blocks.first.settings.title | default: collection.title }}</h2>
       {%- else -%}
-      <h2 class="SectionHeader__Heading Heading u-h1">{{ 'home_page.onboarding.collection_title' | t }}</h2>
+        <h2 class="SectionHeader__Heading Heading u-h1">{{ 'home_page.onboarding.collection_title' | t }}</h2>
       {%- endif -%}
-      {%- if section.settings.title != blank -%}
+    {%- if section.settings.title != blank -%}
       <span class="Rte">{{ section.settings.title }}</span>
-      {%- endif -%}
+    {%- endif -%}
 
-      {%- if section.blocks.size > 1 -%}
+    {%- if section.blocks.size > 1 -%}
       <div class="SectionHeader__TabList TabList" role="tablist">
         {%- for block in section.blocks -%}
-        {%- assign collection = collections[block.settings.collection] -%}
+          {%- assign collection = collections[block.settings.collection] -%}
 
-        <button class="Heading u-h1 TabList__Item {% if forloop.first %}is-active{% endif %}" data-action="toggle-tab" aria-controls="block-{{ block.id }}" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}" role="tab">
-          {%- if collection != empty -%}
-          {{- block.settings.title | default: collection.title -}}
-          {%- else -%}
-          {{- 'home_page.onboarding.collection_title' | t -}}
-          {%- endif -%}
-        </button>
+          <button class="Heading u-h1 TabList__Item {% if forloop.first %}is-active{% endif %}" data-action="toggle-tab" aria-controls="block-{{ block.id }}" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}" role="tab">
+            {%- if collection != empty -%}
+              {{- block.settings.title | default: collection.title -}}
+            {%- else -%}
+              {{- 'home_page.onboarding.collection_title' | t -}}
+            {%- endif -%}
+          </button>
         {%- endfor -%}
       </div>
-      {%- else -%}
-      {%- endif -%}
-    </div>
-
-    {%- if section.settings.button_text != blank -%}
-    <div class="SectionFooter">
-      <a href="{{ section.settings.button_link }}" class="Button Button--primary">{{ section.settings.button_text | escape }}</a>
-    </div>
+    {%- else -%}
     {%- endif -%}
+    </div>
+    
+          {%- if section.settings.button_text != blank -%}
+          <div class="SectionFooter">
+            <a href="{{ section.settings.button_link }}" class="Button Button--primary">{{ section.settings.button_text | escape }}</a>
+          </div>
+      {%- endif -%}
+    
   </header>
 
   {%- for block in section.blocks -%}
-  {%- assign collection = collections[block.settings.collection] -%}
+    {%- assign collection = collections[block.settings.collection] -%}
 
-  <div class="TabPanel" id="block-{{ block.id }}" aria-hidden="{% if forloop.first %}false{% else %}true{% endif %}" role="tabpanel" {{ block.shopify_attributes }} style=" width: 100%; ">
-            <div class="ProductListWrapper">
-              {%- if collection != empty -%}
-              {%- assign item_count = block.settings.grid_items_count -%}
+    <div class="TabPanel" id="block-{{ block.id }}" aria-hidden="{% if forloop.first %}false{% else %}true{% endif %}" role="tabpanel" {{ block.shopify_attributes }} style=" width: 100%; ">
+      <div class="ProductListWrapper">
+        {%- if collection != empty -%}
+          {%- assign item_count = block.settings.grid_items_count -%}
 
-              {%- if collection.products_count < block.settings.grid_items_count -%}
-              {%- assign item_count = collection.products_count -%}
-              {%- endif -%}
+          {%- if collection.products_count < block.settings.grid_items_count -%}
+            {%- assign item_count = collection.products_count -%}
+          {%- endif -%}
 
-              {%- if section.settings.layout_mode == 'grid' -%}
-          
-              {%- else -%}
-              {%- endif -%}
-              {%- else -%}
-
-              <div class="ProductList ProductList--carousel Carousel" data-flickity-config='{{ flickity_options_one }}'>
-                {%- for product in collection.products limit: block.settings.grid_items_count -%}
+          {%- if section.settings.layout_mode == 'grid' -%}
+            <div class="ProductList ProductList--grid ProductList--removeMargin Grid" >
+              {%- for product in collection.products limit: block.settings.grid_items_count -%}
+                <div class="Grid__Cell 1/{{ section.settings.grid_mobile_items_per_row }}--phone 1/2--tablet 1/{{ section.settings.grid_desktop_items_per_row }}--lap-and-up">
+                  {%- render 'product-item', product: product, show_product_info: section.settings.show_product_info, show_vendor: section.settings.show_vendor, show_color_swatch: section.settings.show_color_swatch, show_labels: true -%}
+                </div>
+              {%- endfor -%}
+            </div>
+          {%- else -%}
+            <div class="ProductList ProductList--carousel Carousel" data-flickity-config='{{ flickity_options_one }}'>
+              {%- for product in collection.products limit: block.settings.grid_items_count -%}
                 <div class="Carousel__Cell">
                   {%- render 'product-item', product: product, show_product_info: section.settings.show_product_info, show_vendor: section.settings.show_vendor, show_color_swatch: section.settings.show_color_swatch, show_labels: true -%}
                 </div>
-                {%- endfor -%}
-              </div>
-
-
-
-
-              <div class="ProductList ProductList--carousel Carousel" data-flickity-config='{{ flickity_options_one }}'>
-                {{ products_placeholder }}
-              </div>
-
-              {%- endif -%}
+              {%- endfor -%}
             </div>
+          {%- endif -%}
+        {%- else -%}
+          {%- comment -%}If collection is not set, we use placeholder content for all three layout mode{%- endcomment -%}
 
-            {%- if block.settings.button_text != blank -%}
-            <div class="Container">
-              <div class="SectionFooter">
-                <a href="{{ collection.url }}" class="Button Button--primary">{{ block.settings.button_text | escape }}</a>
+          {%- capture products_placeholder -%}
+            {%- for i in (1..block.settings.grid_items_count) -%}
+              <div class="{% if section.settings.layout_mode == 'grid' %}Grid__Cell 1/{{ section.settings.grid_mobile_items_per_row }}--phone 1/2--tablet-and-up 1/{{ section.settings.grid_desktop_items_per_row }}--lap-and-up{% else %}Carousel__Cell{% endif %}">
+                <div class="ProductItem">
+                  <div class="ProductItem__Wrapper">
+
+                    <a href="#" class="ProductItem__ImageWrapper">
+                      {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
+                      {{ 'product-' | append: current | placeholder_svg_tag: 'ProductItem__Image PlaceholderSvg PlaceholderSvg--dark' }}
+                    </a>
+
+                    {%- if section.settings.show_product_info -%}
+                      <div class="ProductItem__Info ProductItem__Info--{{ settings.product_info_alignment }}">
+                        {%- if section.settings.show_vendor -%}
+                          <p class="ProductItem__Vendor Heading">{{ 'home_page.onboarding.vendor_title' | t }}</p>
+                        {%- endif -%}
+
+                        <h2 class="ProductItem__Title Heading">{{ 'home_page.onboarding.product_title' | t }}</h2>
+
+                        <div class="ProductItem__PriceList Heading">
+                          <span class="ProductItem__Price Price Text--subdued">{{ 3000 | money_without_trailing_zeros }}</span>
+                        </div>
+                      </div>
+                    {%- endif -%}
+                  </div>
+                </div>
               </div>
+            {%- endfor -%}
+          {%- endcapture -%}
+
+          {%- if section.settings.layout_mode == 'grid' -%}
+            <div class="ProductList ProductList--grid ProductList--removeMargin Grid" data-mobile-count="{{ section.settings.grid_mobile_items_per_row }}" data-desktop-count="{{ section.settings.grid_desktop_items_per_row }}">
+              {{ products_placeholder }}
             </div>
-            {%- endif -%}
-    
-  </div>
+          {%- else -%}
+            <div class="ProductList ProductList--carousel Carousel" data-flickity-config='{{ flickity_options }}'>
+              {{ products_placeholder }}
+            </div>
+          {%- endif -%}
+        {%- endif -%}
+      </div>
+
+      {%- if block.settings.button_text != blank -%}
+        <div class="Container">
+          <div class="SectionFooter">
+            <a href="{{ collection.url }}" class="Button Button--primary">{{ block.settings.button_text | escape }}</a>
+          </div>
+        </div>
+      {%- endif -%}
+    </div>
   {%- endfor -%}
 </section>
 
