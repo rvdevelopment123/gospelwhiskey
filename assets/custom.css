@@ -1348,7 +1348,7 @@ a.Drawer__Title.Heading.u-h4 {
   display: none;
   position: absolute;
   right: 0px;
-  background: #f2eee6;
+  background: #e6d6b9;
   list-style: unset;
   cursor: pointer
 }
@@ -1371,7 +1371,7 @@ a.Drawer__Title.Heading.u-h4 {
 }
 
 .custom-dropdown li:hover, .custom-dropdown li.active {
-  background: #FDE9CF
+  background: #c7b595
 }
 #displayCountry {
     padding-right: 20px;
