@@ -6,12 +6,12 @@
     
     <span class="age-main-text">WANT TO SWITCH TO OUR USA SHOP?</span>
     <div class="age-verification-btn">
-      <button class="age-button age-yes">
+      <button class="geoLocation-button geoLocation-yes">
         <span>|<br>|</span>
         YES
         <span>|<br>|</span>
       </button>
-      <button class="age-button age-no">
+      <button class="geoLocation-button geoLocation-no">
         <span>|<br>|</span>
         NO
         <span>|<br>|</span>
@@ -91,7 +91,7 @@
     padding-bottom: unset;
   }
   
-  .age-button:before {
+  .geoLocation:before {
   content: "----------------------------------------------";
   font-family: var(--text-font-family);
   font-size: 16px;
@@ -109,7 +109,7 @@
   left: 0;
 }  
   
-.age-button:after {
+.geoLocation:after {
   content: "----------------------------------------------";
   font-family: var(--text-font-family);
   font-size: 16px;
@@ -127,14 +127,11 @@
   left: 0;
 }  
   
-  
-.age-button {
-  -webkit-box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
-  -moz-box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
-  box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
-}
 
-  .age-button {
+  .geoLocation {
+    -webkit-box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
+    box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
     border: none;
     font-size: 16pt;
     color: black;
@@ -148,7 +145,7 @@
     align-items: center;
   }
 
-  .age-button.age-yes {
+  .geoLocation-button.geoLocation-yes {
     margin-right: 30px;
   }
   
