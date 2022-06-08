@@ -798,35 +798,6 @@
           "column": 4
         }
       },
-      "165391495259c53fca": {
-        "type": "featured--section",
-        "disabled": true,
-        "blocks": {
-          "8a95e5a1-e27d-4029-bed3-a1a568237fe6": {
-            "type": "collection",
-            "settings": {
-              "collection": "frontpage",
-              "title": "OUR WHISKEY",
-              "grid_items_count": 8,
-              "button_text": ""
-            }
-          }
-        },
-        "block_order": [
-          "8a95e5a1-e27d-4029-bed3-a1a568237fe6"
-        ],
-        "settings": {
-          "title": "Featured collection",
-          "button_text": "View all products",
-          "button_link": "shopify:\/\/collections\/all",
-          "layout_mode": "carousel",
-          "show_product_info": true,
-          "show_vendor": false,
-          "show_color_swatch": false,
-          "grid_mobile_items_per_row": "2",
-          "grid_desktop_items_per_row": 3
-        }
-      },
       "165458009571290197": {
         "type": "geo-location",
         "disabled": true,
@@ -839,7 +810,6 @@
       "slideshow",
       "1629179219e5d85c88",
       "featured-collections",
-      "165391495259c53fca",
       "162693642824a2a9c7",
       "1626936490f7ac1d6c",
       "16528684183c34e679",
