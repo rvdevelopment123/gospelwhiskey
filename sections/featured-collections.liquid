@@ -1,6 +1,16 @@
 {%- if section.settings.layout_mode == 'carousel' -%}
   {%- capture flickity_options -%}
-
+  {
+    "prevNextButtons": true,
+    "pageDots": false,
+    "wrapAround": false,
+    "contain": true,
+    "cellAlign": "center",
+    "watchCSS": true,
+    "dragThreshold": 8,
+    "groupCells": true,
+    "arrowShape": {"x0": 20, "x1": 60, "y1": 40, "x2": 60, "y2": 35, "x3": 25}
+  }
   {%- endcapture -%}
 {%- endif -%}
 
@@ -71,7 +81,7 @@
               {%- endfor -%}
             </div>
           {%- else -%}
-            <div class="ProductList ProductList--carousel Carousel" data-flickity-config='{{ flickity_options }}'>
+            <div class="ProductList ProductList--carousel Carousel" data-flickity-config='{{ flickity_options_one }}'>
               {%- for product in collection.products limit: block.settings.grid_items_count -%}
                 <div class="Carousel__Cell">
                   {%- render 'product-item', product: product, show_product_info: section.settings.show_product_info, show_vendor: section.settings.show_vendor, show_color_swatch: section.settings.show_color_swatch, show_labels: true -%}
