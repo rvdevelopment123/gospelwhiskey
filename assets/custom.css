@@ -1555,12 +1555,14 @@ a.Drawer__Title.Heading.u-h4 {
     width: 130px !important;
   }
 
-  .age-button :hover {
+  .age-button:hover {
     width: 130px !important;
   }
-
+  .geoLocation-button.geoLocation-yes {
+    margin-right: 25px!important;
+  }
   .age-button.age-yes {
-    margin-right: 25px !important;
+    margin-right: 25px!important;
   }
   .faq-container {
     padding: 0 20px;
