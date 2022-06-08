@@ -13,10 +13,7 @@
 {% endcapture %}
 
 <section class="Section Section--spacingNormal" id="section-{{ section.id }}" data-section-type="map" data-section-id="{{ section.id }}" data-section-settings='{{ section_settings | escape }}'>
-  
-  
-  <div class="container">
-    
+
     <div class="row">
       <div class="col-md-5 mx-auto order-md-2">
         {% if section.settings.title != blank %}
@@ -46,7 +43,6 @@
         <div  class="FeaturedMap__GMap"></div>
       </div>
     </div>
-  </div>
 
   {%- if settings.light_background == settings.background -%}
     <style>
