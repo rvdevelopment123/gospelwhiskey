@@ -91,11 +91,11 @@
     padding-bottom: unset;
   }
 
-  .geoLocation-button:before {
-      content: "----------------------------------------------";
-      font-family: var(--text-font-family);
+  .geoLocation-button:before, .geoLocation-button:after {
+    content: "----------------------------------------------";
+    font-family: var(--text-font-family);
       font-size: 16px;
-      line-height: .5;
+      line-height: .4;
       color: #000;
       text-transform: none;
       letter-spacing: 0;
@@ -103,30 +103,10 @@
       display: block;
       width: 100%;
       white-space: nowrap;
-      top: -3px;
-      left: 0px;
-      position: absolute;
+      }
+  .geoLocation-button:hover:after, .geoLocation-button:hover:before{
+    color:white
   }
-
-  .geoLocation-button:after {
-      content: "----------------------------------------------";
-      font-family: var(--text-font-family);
-      font-size: 16px;
-      line-height: .5;
-      color: #000;
-      text-transform: none;
-      letter-spacing: 0;
-      overflow: hidden;
-      display: block;
-      width: 100%;
-      white-space: nowrap;
-      bottom: 0px;
-      left: 0px;
-      position: absolute;
-   }
-	.geoLocation-button:hover:after, .geoLocation-button:hover:before{
-    	color:white
-    }
 
   .geoLocation-button {
     -webkit-box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
