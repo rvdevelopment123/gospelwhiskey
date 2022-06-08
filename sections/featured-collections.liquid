@@ -11,43 +11,43 @@
 {%- endcapture -%}
 
 <section class="Section Section--spacingNormal d-block d-md-flex" data-section-id="{{ section.id }}" data-section-type="featured-collections" data-settings='{{ section_settings }}'style="background:#F2EEE6;">
+  
   <header class="SectionHeader col-md-3">
     <div class="collection-half-text">
       {%- assign collection = collections[section.blocks.first.settings.collection] -%}
 
       {%- if collection != empty -%}
-        <h2 class="SectionHeader__Heading Heading u-h1">{{ section.blocks.first.settings.title | default: collection.title }}</h2>
+      <h2 class="SectionHeader__Heading Heading u-h1">{{ section.blocks.first.settings.title | default: collection.title }}</h2>
       {%- else -%}
-        <h2 class="SectionHeader__Heading Heading u-h1">{{ 'home_page.onboarding.collection_title' | t }}</h2>
+      <h2 class="SectionHeader__Heading Heading u-h1">{{ 'home_page.onboarding.collection_title' | t }}</h2>
       {%- endif -%}
-    {%- if section.settings.title != blank -%}
+      {%- if section.settings.title != blank -%}
       <span class="Rte">{{ section.settings.title }}</span>
-    {%- endif -%}
+      {%- endif -%}
 
-    {%- if section.blocks.size > 1 -%}
+      {%- if section.blocks.size > 1 -%}
       <div class="SectionHeader__TabList TabList" role="tablist">
         {%- for block in section.blocks -%}
-          {%- assign collection = collections[block.settings.collection] -%}
+        {%- assign collection = collections[block.settings.collection] -%}
 
-          <button class="Heading u-h1 TabList__Item {% if forloop.first %}is-active{% endif %}" data-action="toggle-tab" aria-controls="block-{{ block.id }}" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}" role="tab">
-            {%- if collection != empty -%}
-              {{- block.settings.title | default: collection.title -}}
-            {%- else -%}
-              {{- 'home_page.onboarding.collection_title' | t -}}
-            {%- endif -%}
-          </button>
+        <button class="Heading u-h1 TabList__Item {% if forloop.first %}is-active{% endif %}" data-action="toggle-tab" aria-controls="block-{{ block.id }}" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}" role="tab">
+          {%- if collection != empty -%}
+          {{- block.settings.title | default: collection.title -}}
+          {%- else -%}
+          {{- 'home_page.onboarding.collection_title' | t -}}
+          {%- endif -%}
+        </button>
         {%- endfor -%}
       </div>
-    {%- else -%}
-    {%- endif -%}
-    </div>
-    
-          {%- if section.settings.button_text != blank -%}
-          <div class="SectionFooter">
-            <a href="{{ section.settings.button_link }}" class="Button Button--primary">{{ section.settings.button_text | escape }}</a>
-          </div>
+      {%- else -%}
       {%- endif -%}
-    
+    </div>
+
+    {%- if section.settings.button_text != blank -%}
+    <div class="SectionFooter">
+      <a href="{{ section.settings.button_link }}" class="Button Button--primary">{{ section.settings.button_text | escape }}</a>
+    </div>
+    {%- endif -%}
   </header>
 
   {%- for block in section.blocks -%}
@@ -111,6 +111,7 @@
               </div>
             {%- endfor -%}
           {%- endcapture -%}
+        
 
           {%- if section.settings.layout_mode == 'grid' -%}
             <div class="ProductList ProductList--grid ProductList--removeMargin Grid" data-mobile-count="{{ section.settings.grid_mobile_items_per_row }}" data-desktop-count="{{ section.settings.grid_desktop_items_per_row }}">
@@ -121,6 +122,8 @@
               {{ products_placeholder }}
             </div>
           {%- endif -%}
+        
+        
         {%- endif -%}
       </div>
 
