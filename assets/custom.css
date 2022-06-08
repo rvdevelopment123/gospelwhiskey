@@ -1350,7 +1350,8 @@ a.Drawer__Title.Heading.u-h4 {
   right: 0px;
   background: #e6d6b9;
   list-style: unset;
-  cursor: pointer
+  cursor: pointer;
+  min-width: 120px;
 }
 .custom-dropdown:after {
   content: '';
