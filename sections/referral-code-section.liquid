@@ -2,8 +2,8 @@
   <div class="row">
     <div class="col-md-6">
       <!--   Start of Image   -->
-      <div class="">
-        <div class="" data-optimumx="1.4" data-expand="-150">
+      <div class="square--image">
+        <div class="square--responsive" data-optimumx="1.4" data-expand="-150">
           {%- capture mobile_size -%}750x{% if section.settings.image_one.height >= 960 %}960{% else %}{{ section.settings.image_one.height }}{% endif %}{%- endcapture -%}
           <img {% if section.settings.image_one %}src="{{ section.settings.image_one | img_url: mobile_size, crop: 'center' }} 750w, {{ section.settings.image_one | img_url: '1000x' }} 1000w, {{ section.settings.image_one | img_url: '1500x' }} 1500w"{% endif %} />
         </div>
