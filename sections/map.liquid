@@ -12,7 +12,7 @@
 }
 {% endcapture %}
 
-<section class="Section Section--spacingNormal" id="section-{{ section.id }}" data-section-type="map" data-section-id="{{ section.id }}" data-section-settings='{{ section_settings | escape }}'>
+<section class="Section" id="section-{{ section.id }}" data-section-type="map" data-section-id="{{ section.id }}" data-section-settings='{{ section_settings | escape }}'>
 
     <div class="row no-gutters">
       <div class="col-md-5 mx-auto order-md-2">
@@ -37,9 +37,7 @@
         <ul id="stock_list" class="stock_list">
         </ul>
       </div>
-      <div class="col-md-6" style="height: 598px;">
-      
-
+      <div class="col-md-6"> 
         <div  class="FeaturedMap__GMap"></div>
       </div>
     </div>
