@@ -1,10 +1,10 @@
 <div id="geoLocation-verification" >
   <div class="geoLocation-main">
-    <span class="age-title">
+    <span class="geoLocation-title">
     	IT LOOK LIKE YOU ARE IN THE UNITED STATES
     </span>
     
-    <span class="age-main-text">WANT TO SWITCH TO OUR USA SHOP?</span>
+    <span class="geoLocation-main-text">WANT TO SWITCH TO OUR USA SHOP?</span>
     <div class="geoLocation-btn-group">
       <button class="geoLocation-button geoLocation-yes">
         <span>|<br>|</span>
@@ -17,10 +17,7 @@
         <span>|<br>|</span>
       </button>
     </div>
-    <span class="age-main-text"></span>
-    <div class="age-legal">
-      You must be of legal drinking age in your respective country for entry. By entering you accept our terms and conditions & our privacy & cookie policy. We encourage drinking responsibly. 
-    </div>
+    <span class="geoLocation-main-text"></span>
 
   </div>
 </div>
@@ -62,7 +59,7 @@
     flex-wrap: wrap;
   }
 
-  .age-main-text:before{
+  .geoLocation-main-text:before{
     content: "******************************************************************************************************************************************************************";
     font-size: 16px; 
     line-height: 1.2; 
@@ -78,7 +75,7 @@
     width: calc(100% - 80px);
   }
 
-  .age-title, .age-main-text {
+  .geoLocation-title, .geoLocation-main-text {
     width: 100%;
     padding: 40px;
     position: relative;
@@ -92,8 +89,8 @@
   }
 
   .geoLocation-button:before, .geoLocation-button:after {
-    content: "----------------------------------------------";
-    font-family: var(--text-font-family);
+      content: "----------------------------------------------";
+      font-family: var(--text-font-family);
       font-size: 16px;
       line-height: .4;
       color: #000;
@@ -103,7 +100,7 @@
       display: block;
       width: 100%;
       white-space: nowrap;
-      }
+   }
   .geoLocation-button:hover:after, .geoLocation-button:hover:before{
     color:white
   }
@@ -132,37 +129,8 @@
   .geoLocation-button.geoLocation-yes {
     margin-right: 30px;
   }
-  
-  .age-legal:before{
-/*
-    content: "******************************************************************************************************************************************************************";
-*/
-    font-family: "MagdaPro";
-    font-size: 16px;
-    line-height: 1.2;
-    color: #000;
-    text-transform: none;
-    letter-spacing: 0;
-    line-height: 0.5;
-    overflow: hidden;
-    display: block;
-    position: relative;
-    bottom: 0;
-    left: 40px;
-    width: calc(100% - 80px);
-  }
 
-  .age-legal {
-    font-size: 16px;
-    line-height: 1.2;
-    color: #000;
-    text-transform: none;
-    letter-spacing: 0;
-    padding: 0px 30px 20px 30px;
-    width: 100%;
-  }
-  
-  .age-title {
+  .geoLocation-title {
     font-family: var(--heading-font-family);
     font-size: 24px;
     text-transform: uppercase;
@@ -173,9 +141,6 @@
     padding: 40px 40px;
   }
 
-  .age-credits a {
-    color: black;
-  }
 </style>
 {% schema %}
   {
