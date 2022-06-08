@@ -1341,7 +1341,6 @@ a.Drawer__Title.Heading.u-h4 {
 /* Custom Dropdown*/
 .custom-dropdown {
   width: fit-content;
-  padding-right: 30px;
   position: relative;
   cursor: pointer
 }
@@ -1373,6 +1372,11 @@ a.Drawer__Title.Heading.u-h4 {
 
 .custom-dropdown li:hover, .custom-dropdown li.active {
   background: #FDE9CF
+}
+#displayCountry {
+    padding-right: 20px;
+    z-index: 3;
+    position: relative;
 }
 
 #mobile_discover__content {
