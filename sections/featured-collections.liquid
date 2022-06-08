@@ -14,12 +14,6 @@
   {%- endcapture -%}
 {%- endif -%}
 
-{%- capture section_settings -%}
-{
-  "layout": {{ section.settings.layout_mode | json }}
-}
-{%- endcapture -%}
-
 <section class="Section Section--spacingNormal d-block d-md-flex" data-section-id="{{ section.id }}" data-section-type="featured-collections" style="background:#F2EEE6;">
   <header class="SectionHeader col-md-3">
     <div class="collection-half-text">
