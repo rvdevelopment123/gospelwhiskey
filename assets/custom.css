@@ -1522,32 +1522,32 @@ a.Drawer__Title.Heading.u-h4 {
   }
 }
 @media screen and (max-width: 600px) {
-  .age-verification-main {
+  .age-verification-main, .geoLocation-main {
     width: 90vw !important;
     overflow: auto;
     max-height: 95%;
   }
 
-  .age-title,
-  .age-main-text {
+  .age-title, .age-main-text,
+  .geoLocation-title, .geoLocation-main-text {
     padding: 22px !important;
   }
 
-  .age-title {
+  .age-title, .geoLocation-title {
     font-size: 20px !important;
     padding: 24px 22px !important;
   }
 
-  .age-main-text {
+  .age-main-text, .geoLocation-main-text {
     padding-bottom: unset !important;
   }
 
-  .age-main-text:before {
+  .age-main-text:before, .geoLocation-main-text:before {
     left: 22px !important;
     width: calc(100% - 44px) !important;
   }
 
-  .age-verification-btn {
+  .age-verification-btn, .geoLocation-btn-group {
     padding: 0px 22px !important;
   }
 
@@ -1558,10 +1558,7 @@ a.Drawer__Title.Heading.u-h4 {
   .age-button:hover {
     width: 130px !important;
   }
-  .geoLocation-button.geoLocation-yes {
-    margin-right: 25px!important;
-  }
-  .age-button.age-yes {
+  .geoLocation-button.geoLocation-yes, .age-button.age-yes {
     margin-right: 25px!important;
   }
   .faq-container {
