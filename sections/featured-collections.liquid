@@ -113,16 +113,11 @@
           {%- endcapture -%}
         
 
-          {%- if section.settings.layout_mode == 'grid' -%}
-            <div class="ProductList ProductList--grid ProductList--removeMargin Grid" data-mobile-count="{{ section.settings.grid_mobile_items_per_row }}" data-desktop-count="{{ section.settings.grid_desktop_items_per_row }}">
-              {{ products_placeholder }}
-            </div>
-          {%- else -%}
+      
+        
             <div class="ProductList ProductList--carousel Carousel" data-flickity-config='{{ flickity_options_one }}'>
               {{ products_placeholder }}
             </div>
-          {%- endif -%}
-        
         
         {%- endif -%}
       </div>
