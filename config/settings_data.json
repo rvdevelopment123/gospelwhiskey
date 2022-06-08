@@ -756,6 +756,7 @@
         "blocks": {
           "ec07b513-3b67-461e-a255-0a06f48ae14c": {
             "type": "Text",
+            "disabled": true,
             "settings": {
               "review_stars": "5",
               "text_name": "DAVID BROOM",
@@ -799,7 +800,6 @@
       },
       "165391495259c53fca": {
         "type": "featured--section",
-        "disabled": true,
         "blocks": {
           "8a95e5a1-e27d-4029-bed3-a1a568237fe6": {
             "type": "collection",
