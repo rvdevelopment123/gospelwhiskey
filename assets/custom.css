@@ -397,7 +397,9 @@ Add to make it look less templated
 
 /* Lets fix custom modules for mobile devices aka revert them to basic view */
 @media only screen and (max-width: 500px) {
-
+  .featured-collections-btn{
+    width: 100%;
+  }
   #section-template--15241642705087__1633923516b2c5bd24 {
     padding-top: 25px;
   }
@@ -590,11 +592,6 @@ Add to make it look less templated
     padding: 0 25px;
   }
 
-  .Form__Submit.Button {
-    margin: auto;
-    margin-top: 20px;
-    width: 100%;
-  }
 
   .logo-svg {
     width: 140px;
@@ -908,7 +905,7 @@ a.icon.icon_collection svg {
 }
 
 article .ProductList.ProductList--shopNow {
-  padding: 0 50px;
+  padding: 0;
   overflow: hidden;
   display: flex;
 }
@@ -1319,6 +1316,7 @@ a.Drawer__Title.Heading.u-h4 {
   margin: 15px 0px;
   padding: 10px 4px;
   background: unset;
+  border: 1px solid black;
 }
 #referral-code-form button {
   border: 1px solid black;
@@ -1351,7 +1349,8 @@ a.Drawer__Title.Heading.u-h4 {
   background: #e6d6b9;
   list-style: unset;
   cursor: pointer;
-  min-width: 120px;
+  min-width: 100px;
+  top: 135%;
 }
 .custom-dropdown:after {
   content: '';
@@ -1400,7 +1399,48 @@ a.Drawer__Title.Heading.u-h4 {
     object-fit: cover;
 }
 
+#competion--closed--grp ul {
+  margin-bottom: 25px;
+}
+#competion--closed--grp li {
+  list-style: none; /* Remove list bullets */
+  padding: 0;
+  margin: 0;
+}
+#competion--closed--grp li:before {
+  content: '--';
+  margin-right: 10px;
+}
+#competion--closed--grp a {
+  text-decoration: underline;
+}
 
+#theGospelShop .btn--position {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  z-index: 10;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+#theGospelShop .btn--position.pull-left {
+  left: 0px;
+}
+#theGospelShop .btn--position.pull-right {
+  right: 0px;
+}
+#theGospelShop .btn--position.pull-left.slick-disabled, #theGospelShop .btn--position.pull-right.slick-disabled {
+  opacity: 0;
+}
+
+.is--active {
+  background: black!important;
+  color: white!important;
+}
+
+.is--active:after, .is--active:before{
+  color: white!important;
+}
 
 @media screen and (max-width: 1476px) {
   .link-list-bg {
@@ -1419,6 +1459,12 @@ a.Drawer__Title.Heading.u-h4 {
   }
 }
 
+@media screen and (max-width: 1007px) {
+  .ProductList--shopNow .Carousel__Cell {
+    width: 50%;
+    padding: 0 50px;
+  }
+}
 @media screen and (max-width: 900px) {
   #desktop_discover__content {
     display: none;
@@ -1454,7 +1500,23 @@ a.Drawer__Title.Heading.u-h4 {
   .ProductItem {
     padding: 0px 16px;
   }
-
+  #klaviyo-form-custom .needsclick.kl-private-reset-css-Xuajs1[data-testid="form-component"] {
+    padding: 0px!important;
+    margin-bottom: 15px;
+  }
+  #klaviyo-form-custom .needsclick.kl-private-reset-css-Xuajs1[data-testid="form-component"] button{
+    width: 100%;
+  }
+  #klaviyo-form-custom .needsclick.kl-private-reset-css-Xuajs1[data-testid="form-row"] {
+    width: 100%;
+    display: block!important;
+  }
+  #referral-code-form  .send--btn {
+    width: 100%;
+  }
+  #referral-code-form textarea {
+    min-height: 120px;
+  }
 }
 
 @media screen and (max-width: 738px) {
@@ -1542,6 +1604,20 @@ a.Drawer__Title.Heading.u-h4 {
     margin: 0px 0px 90px;
     max-width: 100%;
   }
+
+  .Form__Submit.Button {
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .Button--mb--full{
+    width: 100%;
+  }
+  
+  .ProductList--shopNow .Carousel__Cell {
+    width: 100%;
+    padding: 0px;
+  }
 }
 @media screen and (max-width: 600px) {
   .age-verification-main, .geoLocation-main {
@@ -1549,7 +1625,6 @@ a.Drawer__Title.Heading.u-h4 {
     overflow: auto;
     max-height: 95%;
   }
-
   .age-title, .age-main-text,
   .geoLocation-title, .geoLocation-main-text {
     padding: 22px !important;
@@ -1582,6 +1657,13 @@ a.Drawer__Title.Heading.u-h4 {
   .faq-container {
     padding: 0 20px;
   }
+  
+  .EmptyState__Action.search-full-width {
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    width: calc(100% - 30px)!important;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -1591,10 +1673,6 @@ a.Drawer__Title.Heading.u-h4 {
 
   .cocktail-header-section {
     padding: 50px 16px;
-  }
-
-  article .ProductList.ProductList--shopNow {
-    padding: 0px;
   }
 
   .ProductList--shopNow .Carousel__Cell {
@@ -1622,4 +1700,12 @@ a.Drawer__Title.Heading.u-h4 {
   .text-img-wrapper {
     padding: 25px 16px;
   }
+  #theGospelShop .ProductItem {
+    padding: 10px;
+  }
+  #theGospelShop {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
 }

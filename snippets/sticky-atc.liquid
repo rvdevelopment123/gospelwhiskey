@@ -2,7 +2,7 @@
 {%- assign selected_variant = product.selected_or_first_available_variant -%}
 {% if template contains 'product'  and selected_variant.available %}
 <div id="huratips-addtocart-sticky">
-  <form class="flex" action="/cart/add" method="post">
+  <form class="flex Button--mb--full" action="/cart/add" method="post">
     <select {{product.options.size}} name="id" {% if product.options.size < 3 %}style="display:none;"{%endif%}>
       {% for variant in product.variants %}
       <option value="{{variant.id}}">{{variant.title}}</option>
@@ -34,8 +34,9 @@
   #huratips-addtocart-sticky input,
   #huratips-addtocart-sticky button{
     height:40px;
-    margin:0 5px;
+    margin:0 15px;
     vertical-align: middle;
+    width: 100%;
   }
   #huratips-addtocart-sticky input{
     width: 60px;

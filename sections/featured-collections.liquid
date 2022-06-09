@@ -6,8 +6,7 @@
     "wrapAround": false,
     "contain": true,
     "cellAlign": "center",
-    "watchCSS": true,
-    "dragThreshold": 8,
+    "dragThreshold": 1,
     "groupCells": true,
     "arrowShape": {"x0": 20, "x1": 60, "y1": 40, "x2": 60, "y2": 35, "x3": 25}
   }
@@ -54,7 +53,7 @@
     
           {%- if section.settings.button_text != blank -%}
           <div class="SectionFooter">
-            <a href="{{ section.settings.button_link }}" class="Button Button--primary">{{ section.settings.button_text | escape }}</a>
+            <a href="{{ section.settings.button_link }}" class="Button featured-collections-btn Button--primary">{{ section.settings.button_text | escape }}</a>
           </div>
       {%- endif -%}
     
@@ -149,6 +148,21 @@
 {%- comment -%}This is just an ugly hack to make those variables appear as part of the theme editor in the General Settings{%- endcomment -%}
 {% if section.settings.layout_mode == 'grid' %}{{ settings.product_list_horizontal_spacing }},{{ settings.product_list_vertical_spacing }}{% endif %}
 {%- endcapture -%}
+<style>
+.ProductList--carousel .flickity-prev-next-button {
+    top: calc(50% - 45px);
+    width: 45px;
+    height: 45px;
+    stroke-width: 1px;
+}
+.ProductList--carousel .flickity-prev-next-button.previous {
+    left: 0;
+}
+.ProductList--carousel .flickity-prev-next-button.next {
+    right: 0;
+}
+</style>
+
 
 {% schema %}
 {

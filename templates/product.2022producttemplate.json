@@ -36,7 +36,7 @@
         "show_vendor": false,
         "show_sku": false,
         "show_taxes_included": false,
-        "description_below_add_to_cart": false,
+        "description_below_add_to_cart": true,
         "show_quantity_selector": true,
         "show_inventory_quantity": false,
         "inventory_quantity_threshold": 0,

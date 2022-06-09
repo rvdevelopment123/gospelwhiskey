@@ -10,7 +10,7 @@
       </div>
       <!--   End of Image   -->
     </div>
-    
+    {%- if section.settings.competition_status == 'ongoing' -%}
     <div class="col-md-6">
       <div class="col-md-9 mx-auto p-0 mt-4">
         <h1 class="Heading u-h2 mb-4">{{section.settings.section_main_title}}</h1>
@@ -25,6 +25,30 @@
         </div>
       </div>
     </div>
+
+    {%- else -%}
+
+    <div class="col-md-6">
+      <div id="competion--closed--grp" class="col-md-9 mx-auto p-0 mt-4">
+        <h1 class="Heading u-h2 mb-4">{{section.settings.section_main_title}}</h1>
+        <div>
+          {{section.settings.section_content_closed}}
+        </div>
+        <div class="my-2">
+          {{section.settings.announcement_title}}
+        </div>
+        <ul>
+          {% for block in section.blocks %}
+            <li>{{ block.settings.competion_winner }}</li>
+          {% endfor %}  
+        </ul>
+
+        <div>
+          {{section.settings.section_note_closed}}
+        </div>
+      </div>
+    </div>    
+    {%- endif -%}
   </div>
 </section>
 
@@ -46,14 +70,37 @@
       "default": "WIN TICKETS TO THE MELBOURNE INTERNATIONAL COMEDY FESTIVAL"
     },
     {
+      "type": "header",
+      "content": "Settings for Competion Closed"
+    },
+    {
       "type": "richtext",
       "id": "section_content",
-      "label": "Section Content"
+      "label": "Competion Content (On Going)"
     },
     {
       "type": "richtext",
       "id": "section_note",
-      "label": "Section Note"
+      "label": "Competion Note (On Going)"
+    },
+    {
+      "type": "header",
+      "content": "Settings for Competion Closed"
+    },
+    {
+      "type": "richtext",
+      "id": "section_content_closed",
+      "label": "Competion Content (Closed)"
+    },
+    {
+      "type": "richtext",
+      "id": "announcement_title",
+      "label": "Announcement Title"
+    },
+    {
+      "type": "richtext",
+      "id": "section_note_closed",
+      "label": "Competion Note (Closed)"
     },
     {
       "type": "select",
@@ -70,6 +117,20 @@
         }
       ],
       "default": "ongoing"
+    }
+  ],
+  "blocks": [
+    {
+        "type": "block",
+        "name": "Winner",
+        "settings": [
+          {
+              "type": "text",
+              "id": "competion_winner",
+              "label": "Winner's Name",
+              "default" : "Winner Here"
+          }
+        ]
     }
   ],
   "presets": [

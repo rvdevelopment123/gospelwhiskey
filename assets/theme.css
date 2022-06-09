@@ -7307,11 +7307,6 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   .ProductList--shopNow .flickity-viewport {
     overflow: visible;
   }
-
-  .ProductList--shopNow .Carousel__Cell {
-    width: 50%;
-    padding: 0 50px;
-  }
 }
 
 @media screen and (min-width: 1008px) {
