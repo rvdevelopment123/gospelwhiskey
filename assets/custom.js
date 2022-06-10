@@ -104,6 +104,7 @@ $("#USA").click(function(item) {
    $("#displayCountry").html(country)
  }
  console.log('Current Country ' + currentCountry)
+ 
  if(currentCountry != 'AUS'){
     $('.ProductItem').hide()
     $('.'+currentCountry).show()
@@ -116,7 +117,7 @@ $("#USA").click(function(item) {
     $("#desktop_nav").html('<button destination="/collections/all" onclick="window.location =\'/collections/all\'" class="CollectionToolbar__Item CollectionToolbar__Item--sort Heading Text--subdued u-h6" id="Sub__Heading" data-live-text-setting="section.template--15433363685567__main.block.adde7258-4822-4a47-b651-336a0257e745.title">All</button>')
     // $("#mobile_nav").append('<button destination="/collections/all" onclick="window.location =\'/collections/all\'" class="CollectionToolbar__Item CollectionToolbar__Item--sort Heading Text--subdued u-h6" id="Sub__Heading" data-live-text-setting="section.template--15433363685567__main.block.adde7258-4822-4a47-b651-336a0257e745.title">All</button>')
  }
- 
+ $("#displayCountry").html(currentCountry)
 function addItemToCart(variant_id, qty) {
   
   data = {
