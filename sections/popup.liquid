@@ -20,16 +20,6 @@
             {{ section.settings.content }}
           </div>
         {%- endif -%}
-        
-        <div class="Collapsible">          
-          <div class="custom-dropdown">
-            <div id="displayCountry" class="dropdown-link">USA</div>
-            <ul id="changeCountry" class="dropdown-list">
-              <li id="AUS">AUS</li>
-              <li id="USA">USA</li>
-            </ul>
-          </div>
-        </div>
 
         {%- if section.settings.show_newsletter -%}
           {%- form 'customer', id: 'newsletter-popup', class: 'NewsletterPopup__Form' -%}
@@ -43,7 +33,6 @@
             {%- endif -%}
           {%- endform -%}
         {%- endif -%}
-        
       </aside>
     {%- endunless -%}
   {%- endunless -%}
