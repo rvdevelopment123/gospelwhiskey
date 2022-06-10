@@ -1452,7 +1452,10 @@ a.Drawer__Title.Heading.u-h4 {
 .Collapsible .custom-dropdown li {
     color: #f2eee6;
 }
-
+.Collapsible .custom-dropdown li:hover, .Collapsible .custom-dropdown li.active {
+  background: unset;
+  color: #f2eee6
+}
 @media screen and (max-width: 1476px) {
   .link-list-bg {
     top: 97px;
