@@ -445,7 +445,6 @@ HEADER CONTENT
               <a href="{{ routes.cart_url }}" id="cart_a" class="Heading u-h6" {% unless template == 'cart' or settings.cart_type == 'page' %}data-action="open-drawer" data-drawer-id="sidebar-cart" aria-label="{{ 'header.navigation.open_cart' | t }}"{% endunless %}>{{ 'header.navigation.cart' | t }} (<span class="Header__CartCount">{{ cart.item_count }}</span>)</a>
             </li>
             <li class="HorizontalList__Item">
-              
               <div class="custom-dropdown">
                 <div id="displayCountry" class="dropdown-link">USA</div>
                 <ul id="changeCountry" class="dropdown-list">
@@ -453,7 +452,6 @@ HEADER CONTENT
                   <li id="USA">USA</li>
                 </ul>
               </div>
-              
             </li>
           </ul>
         </nav>
@@ -478,7 +476,11 @@ HEADER CONTENT
         <span class="hidden-phone">{%- render 'icon' with 'search-desktop' -%}</span>
       </a>
 
-      
+      <a href="{{ routes.cart_url }}" class="Header__Icon Icon-Wrapper Icon-Wrapper--clickable {% unless section.settings.show_icons or use_sidebar_menu %}hidden-desk{% endunless %}" {% if settings.cart_type == 'drawer' %}data-action="open-drawer" data-drawer-id="sidebar-cart" aria-expanded="false" aria-label="{{ 'header.navigation.open_cart' | t }}"{% endif %}>
+        <span class="hidden-tablet-and-up">{%- render 'icon' with 'cart' -%}</span>
+        <span class="hidden-phone">{%- render 'icon' with 'cart-desktop' -%}</span>
+        <span class="Header__CartDot {% if cart.item_count > 0 %}is-visible{% endif %}"></span>
+      </a>
     </div>
   </div>
 
