@@ -5884,7 +5884,7 @@ var activeCategory = 'allCategory';
                 function displayAllMap(filterItems){
                   deleteMarkers()
                   $("#stock_list").html('')
-                  map.setZoom(4);
+                 
                   filterItems.forEach(function(item, index) {
                     console.info(item)
                     const marker = new google.maps.Marker({
@@ -5894,7 +5894,10 @@ var activeCategory = 'allCategory';
                     });
                     markers.push(marker)
                     renderMap(item, index)
+                    map.setCenter({lat: Number(item.Lat), lng: Number(item.Long)});
                   })
+                  
+                  map.setZoom(_this57.options['zoomClickSearch']);
                 }
 
                 // Sets the map on all markers in the array.
