@@ -1352,7 +1352,7 @@ a.Drawer__Title.Heading.u-h4 {
   min-width: 100px;
   top: 135%;
 }
-.custom-dropdown:after {
+#displayCountry:after {
   content: '';
   width: 0;
   height: 0;
