@@ -23,46 +23,7 @@
 </div>
 <script>
   
-    var ageCookieName = "age-verification-verified-gospel";
-    var tempAccepted = false;
-    var tempDenied = false;
-    var isUsa = false;
-    var isAus = false;
-    function ageGetCookie(cname) {
-    var name = cname + "=";
-    var ca = document.cookie.split(';');
-    for(var i = 0; i < ca.length; i++) {
-      var c = ca[i];
-      while (c.charAt(0) == ' ') {
-        c = c.substring(1);
-      }
-      if (c.indexOf(name) == 0) {
-        return c.substring(name.length, c.length);
-      }
-    }
-    return "";
-  }
-
   
-  function ageVerificationLoad() {
-    try {
-      var agePass = ageGetCookie(ageCookieName);
-      if (agePass != "") {
-        ageVerificationHide();
-        return;
-      }
-      else {
-        ageVerificationShow();
-      }
-    }
-    catch(err) {
-      ageVerificationShow();
-    }
-    // ageVerificationShow();
-  }
-  document.addEventListener("DOMContentLoaded", function(event) {
-    ageVerificationLoad();
-  });
      $.get("https://ipinfo.io", function(response) {
   console.log('User Info')
     console.log(response.city, response.country);
