@@ -2,12 +2,14 @@
   "sections": {
     "main": {
       "type": "link-list",
+      "disabled": true,
       "blocks": {
         "8b5942e0-a8ea-47a7-aca8-25b941404fe4": {
           "type": "link",
           "settings": {
             "collection": "https:\/\/www.thegospelwhiskey.com\/pages\/discover-the-gospel-our-story",
             "title": "Our Story",
+            "linkClass": "",
             "active": false
           }
         },
@@ -16,6 +18,7 @@
           "settings": {
             "collection": "https:\/\/www.thegospelwhiskey.com\/pages\/discover-the-gospel-our-community",
             "title": "Our Community",
+            "linkClass": "",
             "active": true
           }
         }
@@ -40,8 +43,8 @@
         "overlay_opacity": 30,
         "text_size": 25,
         "subheading": "",
-        "title": "Our Community",
-        "content": "<p>At <em>The Gospel<\/em>, we are not just fanatical about rye. We are also passionate about standing up for what we believe in and supporting our community.<\/p>",
+        "title": "Rye July",
+        "content": "<p>Rye July is a month-long celebration shining a light on whiskey made from rye, the unsung hero of the whiskey world.<\/p>",
         "button_1_text": "",
         "button_1_link": "",
         "button_2_text": "",
