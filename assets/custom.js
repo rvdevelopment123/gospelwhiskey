@@ -74,14 +74,7 @@ $(".AspectRatio.AspectRatio--withFallback").hover(function () {
    $this.text('Added!');
  }
 
- $.get("https://ipinfo.io", function(response) {
-  console.log('User Info')
-    console.log(response.city, response.country);
-    if(response.country == "US"){
-      //TODO: Create Pop up later
-      window.location.href = "https://usa.thegospelwhiskey.com/"
-    }
-}, "jsonp");
+
 
 $("#AUS").click(function(item) {
   document.cookie = "country=AUS";
