@@ -55,7 +55,7 @@
       "type": "text-with-image",
       "settings": {
         "subheading": "",
-        "title": "Our Commitment",
+        "title": "What is Rye July?",
         "image": "shopify:\/\/shop_images\/Journal_Our_People_Ian_Image-hero-colour.jpg",
         "image_position": "left",
         "bg_colour": "rgba(0,0,0,0)",
@@ -70,7 +70,7 @@
       "type": "text-with-image",
       "settings": {
         "subheading": "",
-        "title": "Common Ground",
+        "title": "Go Dry This Rye July",
         "image": "shopify:\/\/shop_images\/The_Gospel_Community_Charity_Partners_Common_Ground_968022ff-1b69-4019-b518-ac20eedb5fe1.jpg",
         "image_position": "right",
         "bg_colour": "rgba(0,0,0,0)",
@@ -85,7 +85,7 @@
       "type": "text-with-image",
       "settings": {
         "subheading": "",
-        "title": "SmartMeals",
+        "title": "Win the Ultimate Melbourne Whiskey Weekend",
         "image": "shopify:\/\/shop_images\/The_Gospel_Community_Charity_Partners_SmartMeals.jpg",
         "image_position": "left",
         "bg_colour": "rgba(0,0,0,0)",
@@ -100,7 +100,7 @@
       "type": "text-with-image",
       "settings": {
         "subheading": "",
-        "title": "WIRE",
+        "title": "A Missing Ingredient",
         "image": "shopify:\/\/shop_images\/The_Gospel_Community_Charity_Partners_WIRE_copy.jpg",
         "image_position": "right",
         "bg_colour": "rgba(0,0,0,0)",
@@ -110,6 +110,14 @@
         "link_url": "",
         "enable_email": false
       }
+    },
+    "165524924147ccdc84": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "Rye July Events",
+        "html": "<p>Join us throughout the month of July and help us celebrate the hardy and determined rye grain.<\/p>\n-- 1 July – Rye July Launch party at Rooftop Bar, Melbourne – TBC \n<br>\n-- 2 July – Distillery Open Day 12pm-6pm 1 hour distillery tours (+ 3 July if Saturday sells out)\n<br>\n-- 6 July – Responsible Rye Non-Alc Whiskey Launch, National (available via our website with national ranging in Coles TBC)\n<br>\n-- 8 July – Broadsheet Xmas in July (internal event only)\n<br>\n-- 8 July – Responsible Rye Launch Party at Brunswick Aces – Date TBC with Co-Founder Ben Bowles \n<br>\n-- 9 July – JazzLab Masterclass – TBC \n<br>\n-- 11 July – Stomping Ground Dinner (rye & truffle dinner with beer and whiskey pairings, beer and whiskey cocktails) \n<br>\n-- 13 July – Sydney event, Sydney (Aria Restaurant) – TBC \n<br>\n-- 14 July – Sydney venue activation, Sydney (Bar Planet) – TBC \n<br>\n-- 15 & 16 July – Whisky Live, Sydney\n<br>\n-- 15 July – Wolf of the Willows – brewery tour masterclass with Co-Founder Andrew Fitzgerald\n<br>\n-- 16 July – 10 Saints Bar & Beer Garden 630pm-8pm tasting with matching snacks and masterclass by Co-Founder Andrew Fitzgerald \n<br>\n-- 17 July – Poor Tom’s Gin Whiskey Hall, Sydney – joint masterclass with gin and whiskey cocktails\n<br>\n-- 21 July – Inner North Brewing Co – boilermaker night \n<br>\n-- 22 July – Blackhearts & Sparrows Store Tasting, Geelong\n<br>\n-- 22 July – 18th  Amendment bar shout, Geelong – TBC\n<br>\n-- 24 July – Sleepy’s – guest chef pop-up with multiple course dinner paired with The Gospel drinks \n<br>\n-- 27 July – Pinot Noir Vermouth Launch, National (available via our website)\n<br>\n-- 27 July – Pinot Noir Vermouth Launch Party at Noisy Ritual - date TBC\n<br>\n-- 31 July – Co-Conspirators Boilermaker Event, Melbourne"
+      }
     }
   },
   "order": [
@@ -118,6 +126,7 @@
     "162922451101adad1f",
     "162922448038a251fb",
     "162922446868bb256d",
-    "1629224474d4a0d99e"
+    "1629224474d4a0d99e",
+    "165524924147ccdc84"
   ]
 }
