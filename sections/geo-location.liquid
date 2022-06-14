@@ -6,12 +6,12 @@
     
     <span class="geoLocation-main-text">WANT TO SWITCH TO OUR USA SHOP?</span>
     <div class="geoLocation-btn-group">
-      <button class="geoLocation-button is--active geoLocation-yes">
+      <button id="gotoAU" class="geoLocation-button geoLocation-yes">
         <span>|<br>|</span>
         YES
         <span>|<br>|</span>
       </button>
-      <button class="geoLocation-button geoLocation-no">
+      <button id="gotoUS" class="geoLocation-button geoLocation-no">
         <span>|<br>|</span>
         NO
         <span>|<br>|</span>
@@ -21,6 +21,26 @@
 
   </div>
 </div>
+<script>
+     $.get("https://ipinfo.io", function(response) {
+  console.log('User Info')
+    console.log(response.city, response.country);
+    if(response.country == "US"){
+
+      $("#geoLocation-verification").show()
+      //TODO: Create Pop up later
+      //window.location.href = "https://usa.thegospelwhiskey.com/"
+    }
+}, "jsonp");
+  
+  $("#gotoAU").click(function() {
+window.location.href = "https://the-gospel-whiskey-usa.myshopify.com/"
+  })
+  
+    $("#gotoUS").click(function() {
+$("#geoLocation-verification").hide()
+  })
+</script>
 <style>
 
   #geoLocation-verification {
