@@ -91,7 +91,9 @@ $("#USA").click(function(item) {
 
 
  var currentCountry = 'AUS';
+ $("#displayCountry").html(currentCountry)
  var country = getCookie('country')
+
  if(country != ''){
    currentCountry = country
    $("#displayCountry").html(country)
