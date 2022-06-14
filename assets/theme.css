@@ -3345,6 +3345,7 @@ body:not(.features--show-image-zooming) .Image--lazyLoaded.Image--zoomOut {
   margin-bottom: 15px;
   padding: 0px;
   list-style: unset;
+  margin-top: 20px;
 }
 #navMap li {
   padding: 0px;
