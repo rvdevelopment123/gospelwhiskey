@@ -8,6 +8,7 @@
           "settings": {
             "collection": "shopify:\/\/pages\/discover-the-gospel-our-story",
             "title": "Our Story",
+            "linkClass": "",
             "active": true
           }
         },
@@ -16,6 +17,7 @@
           "settings": {
             "collection": "shopify:\/\/pages\/discover-the-gospel-our-community",
             "title": "Our Community",
+            "linkClass": "",
             "active": false
           }
         }
@@ -128,7 +130,7 @@
       "settings": {
         "subheading": "",
         "title": "OUR PEOPLE",
-        "image": "shopify:\/\/shop_images\/The_Gospel_Co-Founders_Ben_Bowles_and_Andrew_Fitzgerald.jpg",
+        "image": "shopify:\/\/shop_images\/The_Gospel_Co-Founders_Ben_Bowles_and_Andrew_Fitzgerald_f46294e4-e634-41fb-8267-85b517bea7ba.jpg",
         "image_position": "right",
         "bg_colour": "#f2eee6",
         "content": "<p>Set in the backstreets of Melbourne’s eclectic Brunswick neighbourhood, Ben and Andrew designed and built a distillery big enough to match their dreams, but small enough to remain hands on where it matters. <br\/><br\/>With the help of family and friends, the distillery was built over an 18-month period. It features a six-metre-high continuous column still, designed and built in-house, as well as a bespoke Copper Pot still.  <br\/><br\/>The Gospel wider team are an experienced group of booze industry experts, all of whom have a fierce love for deliciously unpretentious rye whiskey.<\/p>",
