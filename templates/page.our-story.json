@@ -1,5 +1,26 @@
 {
   "sections": {
+    "1630024779d99869da": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "center_all": false,
+        "section_link": "",
+        "section_size": "normal",
+        "image": "shopify:\/\/shop_images\/The_Gospel_Our_Story-Our_Story_copy_677f35a1-844c-4cc6-b5cc-90cc57204ebc.jpg",
+        "video": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "text_size": 25,
+        "subheading": "",
+        "title": "Our Story",
+        "content": "<p>Inspired by the divine music that shares its name <em>The Gospel <\/em>was founded on the belief in bringing a distinct Australian approach to a traditional American whiskey to the world.<\/p>",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_2_text": "",
+        "button_2_link": ""
+      }
+    },
     "main": {
       "type": "link-list",
       "blocks": {
@@ -27,27 +48,6 @@
         "7c9a4720-acf9-47fa-8a57-fd67d696ac12"
       ],
       "settings": {
-      }
-    },
-    "1630024779d99869da": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "center_all": false,
-        "section_link": "",
-        "section_size": "normal",
-        "image": "shopify:\/\/shop_images\/The_Gospel_Our_Story-Our_Story_copy_677f35a1-844c-4cc6-b5cc-90cc57204ebc.jpg",
-        "video": "",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30,
-        "text_size": 25,
-        "subheading": "",
-        "title": "Our Story",
-        "content": "<p>Inspired by the divine music that shares its name <em>The Gospel <\/em>was founded on the belief in bringing a distinct Australian approach to a traditional American whiskey to the world.<\/p>",
-        "button_1_text": "",
-        "button_1_link": "",
-        "button_2_text": "",
-        "button_2_link": ""
       }
     },
     "162922451101adad1f": {
@@ -142,8 +142,8 @@
     }
   },
   "order": [
-    "main",
     "1630024779d99869da",
+    "main",
     "162922451101adad1f",
     "162922446868bb256d",
     "1629224474d4a0d99e",
