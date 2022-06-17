@@ -31,13 +31,6 @@
             "title": "Cocktails"
           }
         },
-        "c327137a-2c2a-4be3-b8e9-62ecce6c2cd7": {
-          "type": "collection",
-          "settings": {
-            "collection": "shopify:\/\/collections\/made-from-whiskey",
-            "title": "Made From Whiskey"
-          }
-        },
         "a9dda98f-0f6e-47dd-986c-d61223475433": {
           "type": "collection",
           "settings": {
@@ -51,6 +44,21 @@
             "collection": "shopify:\/\/products\/the-gospel-whiskey-gift-card",
             "title": "Gift Card"
           }
+        },
+        "c327137a-2c2a-4be3-b8e9-62ecce6c2cd7": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "shopify:\/\/collections\/made-from-whiskey",
+            "title": "Made From Whiskey"
+          }
+        },
+        "b4a57e69-c512-40de-93ed-136ca89c2b1d": {
+          "type": "collection",
+          "settings": {
+            "collection": "shopify:\/\/collections\/project-releases",
+            "title": "Limited Releases"
+          }
         }
       },
       "block_order": [
@@ -58,9 +66,10 @@
         "cbb7235b-eb1d-4e71-8cf4-57789f77ee6f",
         "ac79b57f-8e25-49bb-a48c-d023dcfd138c",
         "7cf90138-6016-475e-b56f-d002a08b831e",
-        "c327137a-2c2a-4be3-b8e9-62ecce6c2cd7",
         "a9dda98f-0f6e-47dd-986c-d61223475433",
-        "05b6d1ce-1e7f-4554-b9c3-ae4d9dc4ed95"
+        "05b6d1ce-1e7f-4554-b9c3-ae4d9dc4ed95",
+        "c327137a-2c2a-4be3-b8e9-62ecce6c2cd7",
+        "b4a57e69-c512-40de-93ed-136ca89c2b1d"
       ],
       "settings": {
         "show_collection_info": true,
