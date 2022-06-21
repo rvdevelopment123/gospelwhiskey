@@ -1259,8 +1259,7 @@ a.Drawer__Title.Heading.u-h4 {
   max-width: 88%;
 }
 .text-img-wrapper {
-  margin: 50px 0px;
-  padding: 25px
+  margin: 50px 25px;
 }
 .Article__Body strong {
   font-family: 'MagdaRegular';
