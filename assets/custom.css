@@ -1260,6 +1260,7 @@ a.Drawer__Title.Heading.u-h4 {
 }
 .text-img-wrapper {
   margin: 50px 0px;
+  padding: 25px
 }
 .Article__Body strong {
   font-family: 'MagdaRegular';
@@ -1713,9 +1714,6 @@ a.Drawer__Title.Heading.u-h4 {
 
   .text-img-wrapper {
     padding: 25px 16px;
-  }
-  .mobile--padding--none{
-  	padding: 25px 0px;
   }
   #theGospelShop .ProductItem {
     padding: 10px;
