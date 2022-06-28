@@ -81,13 +81,28 @@
         "enable_email": false
       }
     },
+    "162922446868bb256d": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "Win the Ultimate Whiskey Weekend in Melbourne",
+        "image": "shopify:\/\/shop_images\/The_Gospel_Our_Story-Made_Locally.jpg",
+        "image_position": "left",
+        "bg_colour": "rgba(0,0,0,0)",
+        "content": "<p>As part of Rye July, we are giving you the chance to win the Ultimate Whiskey Weekend in Melbourne for you and 3 friends!<br\/><br\/>Prize includes return flights to Melbourne from any major Australian city, 2 nights accommodation in Melbourne CBD, a distillery tour and a bottle of whiskey, plus an exclusive dinner and bar crawl with <em>The Gospel<\/em> staff. Valued at nearly $5k!<br\/><br\/>Enter <a href=\"\/blogs\/journal\/discover-our-community\" target=\"_blank\" title=\"Discover Our Community\">here<\/a>.<\/p>",
+        "title2": "",
+        "link_text": "",
+        "link_url": "",
+        "enable_email": false
+      }
+    },
     "162922448038a251fb": {
       "type": "text-with-image",
       "settings": {
         "subheading": "",
         "title": "Go Dry This Rye July",
         "image": "shopify:\/\/shop_images\/The_Gospel_Responsible_Rye.jpg",
-        "image_position": "left",
+        "image_position": "right",
         "bg_colour": "rgba(0,0,0,0)",
         "content": "<p>As Australia’s only dedicated rye whiskey distillery, we set out to create a non-alcoholic alternative that was inclusive of all.<br\/><br\/>Under the guidance of qualified Sommelier and R&D Distiller Ellie Ash, <em>Responsible Rye<\/em> spent over a year in development - a commitment to flavour and perfecting the recipe without compromise.<br\/><br\/><em>Responsible Rye<\/em> will be available to purchase from Wednesday 6 July 8:30am AEST. More details to come. <\/p>",
         "title2": "",
@@ -100,11 +115,11 @@
       "type": "text-with-image",
       "settings": {
         "subheading": "",
-        "title": "Rye July events in VIc",
+        "title": "Rye July events",
         "image": "shopify:\/\/shop_images\/The_Gospel_Fortified_Cask_Whiskey_Spirit_Selection.jpg",
-        "image_position": "right",
+        "image_position": "left",
         "bg_colour": "rgba(0,0,0,0)",
-        "content": "<p>Join us throughout the month of July and help us celebrate the hardy and determined rye grain.<br\/><br\/>-- 1 July – Rye July Launch party at Rooftop Bar – TBC <br\/>-- 2 July – Distillery Open Day <br\/>-- 8 July – Responsible Rye Launch Party at Brunswick Aces – Date TBC with Co-Founder Ben Bowles <br\/>-- 9 July – JazzLab Masterclass – TBC <br\/>-- 11 July – Stomping Ground x The Gospel Dinner (rye & truffle dinner with beer and whiskey pairings, beer and whiskey cocktails) <br\/>-- 15 July – Wolf of the Willows – brewery tour masterclass with Co-Founder Andrew Fitzgerald<br\/>-- 16 July – 10 Saints Bar & Beer Garden 630pm-8pm tasting with matching snacks and masterclass by Co-Founder Andrew Fitzgerald <br\/>-- 21 July – Inner North Brewing Co – boilermaker night <br\/>-- 22 July – Blackhearts & Sparrows Store Tasting, Geelong<br\/>-- 22 July – 18th  Amendment bar shout, Geelong – TBC<br\/>-- 24 July – Sleepy’s – guest chef pop-up with multiple course dinner paired with The Gospel drinks <br\/>-- 28 July – The Dispensary Launch Party - details to come -  TBC<br\/>-- 31 July – Co-Conspirators Boilermaker Event<\/p>",
+        "content": "<p>Join us throughout the month of July and help us celebrate the hardy and determined rye grain.<br\/><br\/><\/p>",
         "title2": "",
         "link_text": "",
         "link_url": "",
@@ -113,6 +128,7 @@
     },
     "165536062347b5cb8c": {
       "type": "text-with-image",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "Rye July events in NSW",
@@ -134,22 +150,7 @@
         "image": "shopify:\/\/shop_images\/The_Gospel_The_Dispensary_OG.jpg",
         "image_position": "right",
         "bg_colour": "rgba(0,0,0,0)",
-        "content": "<p>Keep your eyes peeled for the next product to be released under <em>The Dispensary<\/em> on Wednesday 27 July 8:30am AEST. It could be classified as an essential ingredient, if you will.<br\/><br\/>More details to come. <\/p>",
-        "title2": "",
-        "link_text": "",
-        "link_url": "",
-        "enable_email": false
-      }
-    },
-    "162922446868bb256d": {
-      "type": "text-with-image",
-      "settings": {
-        "subheading": "",
-        "title": "Win the Ultimate Whiskey Weekend in Melbourne",
-        "image": "shopify:\/\/shop_images\/The_Gospel_Our_Story-Made_Locally.jpg",
-        "image_position": "left",
-        "bg_colour": "rgba(0,0,0,0)",
-        "content": "<p>As part of Rye July, we are giving you the chance to win the Ultimate Whiskey Weekend in Melbourne for you and 3 friends!<br\/><br\/>Prize includes return flights to Melbourne from any major Australian city, 2 nights accommodation in Melbourne CBD, a distillery tour and a bottle of whiskey, plus an exclusive dinner and bar crawl with <em>The Gospel<\/em> staff. Valued at nearly $5k!<br\/><br\/>Enter <a href=\"\/blogs\/journal\/discover-our-community\" target=\"_blank\" title=\"Discover Our Community\">here<\/a>.<\/p>",
+        "content": "<p>Keep your eyes peeled for the next product to be released under <em>The Dispensary<\/em> on Wednesday 27 July 8:30am AEST. It could be classified as an essential ingredient, if you will. More details to come. <br\/><br\/>In the meantime, check out The Dispensary range's new look! <a href=\"\/collections\/the-dispensary\" target=\"_blank\" title=\"The Dispensary\">Shop now<\/a>.<\/p>",
         "title2": "",
         "link_text": "",
         "link_url": "",
@@ -162,10 +163,10 @@
     "1630024779d99869da",
     "162922451101adad1f",
     "16552508804e7f2c0f",
+    "162922446868bb256d",
     "162922448038a251fb",
     "16553608907759fb1c",
     "165536062347b5cb8c",
-    "1629224474d4a0d99e",
-    "162922446868bb256d"
+    "1629224474d4a0d99e"
   ]
 }
