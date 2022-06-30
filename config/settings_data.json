@@ -154,6 +154,26 @@
               "countryClass": ""
             }
           },
+          "e69add4e-c459-4c90-8c01-e26792f60c46": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/The_Gospel_Journal_Rye_Whiskey_Production.jpg",
+              "desktop_video": "",
+              "mobile_video": "",
+              "apply_overlay": true,
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "CELEBRATE RYE JULY",
+              "title_mobile": "",
+              "content": "<p>Join us throughout the month of July and help us celebrate the hardy and determined rye grain.<br\/><br\/>We've packed the month with innovative new releases and worked with collaborative partners and our friends behind the bar to craft some incredible rye whiskey experiences.<\/p>",
+              "button_1_text": "DISCOVER MORE",
+              "button_1_link": "shopify:\/\/pages\/rye-july",
+              "button_2_text": "",
+              "button_2_link": "",
+              "countryClass": ""
+            }
+          },
           "15d796c6-19d7-4aeb-945b-c316d1fbc765": {
             "type": "image",
             "settings": {
@@ -192,25 +212,6 @@
               "countryClass": ""
             }
           },
-          "e69add4e-c459-4c90-8c01-e26792f60c46": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/The_Dispensary_Set_1948x1500_d123b86e-4907-4d80-9b7e-9daccdbe2cb0.jpg",
-              "desktop_video": "",
-              "mobile_video": "",
-              "apply_overlay": true,
-              "content_position": "bottomLeft",
-              "subheading": "",
-              "title": "THE DISPENSARY SET",
-              "title_mobile": "",
-              "content": "<p>Fancy yourself a cocktail maker?<br\/>The Dispensary Set will stock your bar with the right ingredients. Then head over to our recipes or try your own.<\/p>",
-              "button_1_text": "SHOP NOW",
-              "button_1_link": "shopify:\/\/products\/the-dispensary-set",
-              "button_2_text": "",
-              "button_2_link": "",
-              "countryClass": ""
-            }
-          },
           "7d2b232d-513d-4976-b9c6-d9a174e3c734": {
             "type": "image",
             "disabled": true,
@@ -234,9 +235,9 @@
         },
         "block_order": [
           "slide-1",
+          "e69add4e-c459-4c90-8c01-e26792f60c46",
           "15d796c6-19d7-4aeb-945b-c316d1fbc765",
           "990a9324-94d4-49bb-97dc-7780d27d895d",
-          "e69add4e-c459-4c90-8c01-e26792f60c46",
           "7d2b232d-513d-4976-b9c6-d9a174e3c734"
         ],
         "settings": {
@@ -801,6 +802,11 @@
       "165458009571290197": {
         "type": "geo-location",
         "disabled": true,
+        "settings": {
+        }
+      },
+      "geo-location": {
+        "type": "geo-location",
         "settings": {
         }
       }
