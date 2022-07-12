@@ -31,6 +31,14 @@
             "title": "Cocktails"
           }
         },
+        "9a0ecc84-0731-4369-85dd-95d52e1a1b87": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "title": "Non-Alc"
+          }
+        },
         "a9dda98f-0f6e-47dd-986c-d61223475433": {
           "type": "collection",
           "settings": {
@@ -66,6 +74,7 @@
         "cbb7235b-eb1d-4e71-8cf4-57789f77ee6f",
         "ac79b57f-8e25-49bb-a48c-d023dcfd138c",
         "7cf90138-6016-475e-b56f-d002a08b831e",
+        "9a0ecc84-0731-4369-85dd-95d52e1a1b87",
         "a9dda98f-0f6e-47dd-986c-d61223475433",
         "05b6d1ce-1e7f-4554-b9c3-ae4d9dc4ed95",
         "c327137a-2c2a-4be3-b8e9-62ecce6c2cd7",
