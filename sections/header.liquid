@@ -552,8 +552,9 @@ HEADER CONTENT
   });
 
   list.find('li').click(function() {
-    alert('Choose one')
+    //alert('Choose one')
     var text = $(this).html();
+  console.log('-- ' + text)  
     link.html(text);
     list.slideToggle(200);
     if (text === 'AUS') {
