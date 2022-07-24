@@ -544,20 +544,25 @@ HEADER CONTENT
 <script>
   document.documentElement.style.setProperty('--header-height', document.getElementById('shopify-section-header').offsetHeight + 'px');
   $(function() {
-  var list = $('.dropdown-list');
-  var link = $('.dropdown-link');
-  link.click(function(e) {
-    e.preventDefault();
-    list.slideToggle(200);
-  });
-  list.find('li').click(function() {
-    var text = $(this).html();
-    link.html(text);
-    list.slideToggle(200);
-    if (text === 'AUS') {
-      link.html('AUS');
-    }
-  });
+  // var list = $('.dropdown-list');
+  // var link = $('.dropdown-link');
+  // link.click(function(e) {
+  //   e.preventDefault();
+  //   list.slideToggle(200);
+  // });
+    $("#USA").click(function() {
+      alert('USA')
+    })
+    
+  // list.find('li').click(function() {
+  //   alert('')
+  //   var text = $(this).html();
+  //   link.html(text);
+  //   list.slideToggle(200);
+  //   if (text === 'AUS') {
+  //     link.html('AUS');
+  //   }
+  // });
 });
 </script>
 
