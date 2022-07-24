@@ -318,7 +318,13 @@
   
   
   document.addEventListener("DOMContentLoaded", function(event) {
-    ageVerificationLoad();
+     const params = new URLSearchParams(window.location.search)
+    const origin = params.get('origin')
+    
+    if(origin != 'usa'){
+      ageVerificationLoad();
+    }
+    
   });
 </script>
 {% schema %}
