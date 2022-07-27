@@ -155,6 +155,7 @@
     },
     "1642439660407c2d02": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "center_all": true,
         "section_link": "shopify:\/\/collections\/all",
