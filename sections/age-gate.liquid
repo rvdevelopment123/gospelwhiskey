@@ -323,6 +323,9 @@
     
     if(origin != 'usa'){
       ageVerificationLoad();
+    }else{
+      ageSetCookie(ageCookieName, "verified", 365);
+      tempAccepted = true;
     }
     
   });
