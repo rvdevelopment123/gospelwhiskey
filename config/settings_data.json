@@ -156,6 +156,7 @@
           },
           "7d2b232d-513d-4976-b9c6-d9a174e3c734": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/The_Gospel_The_Dispensary_Set_Pinot_Noir_Vermouth.jpg",
               "desktop_video": "",
@@ -168,25 +169,6 @@
               "content": "<p><em>Pinot Noir Vermouth<\/em> is made in collaboration with local urban winery Noisy Ritual. A robust barrel-rested vermouth, it complements <em>The Gospel<\/em> Rye Whiskey while highlighting the purity of the <em>Noisy Ritual<\/em> Pinot Noir fruit. It’s aromatic with density of fruit and a balance of bitterness on the palate.<br\/><br\/>An essential ingredient for mixing with <em>The Gospel <\/em>rye whiskey in a Manhattan or simply enjoy on the rocks.<\/p>",
               "button_1_text": "Shop Now",
               "button_1_link": "shopify:\/\/products\/pinot-noir-vermouth",
-              "button_2_text": "",
-              "button_2_link": "",
-              "countryClass": ""
-            }
-          },
-          "e69add4e-c459-4c90-8c01-e26792f60c46": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/The_Gospel_Responsible_Rye.jpg",
-              "desktop_video": "",
-              "mobile_video": "",
-              "apply_overlay": true,
-              "content_position": "bottomLeft",
-              "subheading": "",
-              "title": "OUR NEW NON-ALCOHOLIC WHISKEY",
-              "title_mobile": "",
-              "content": "<p>As Australia’s only dedicated rye whiskey distillery, we set out to create a non-alcoholic rye whiskey alternative that was inclusive of all. <\/p><p>Under the guidance of qualified Sommelier and R&D Distiller Ellie Ash, <em>Responsible Rye<\/em> spent over a year in development - a commitment to flavour and perfecting the recipe without compromise.<\/p>",
-              "button_1_text": "DISCOVER MORE",
-              "button_1_link": "shopify:\/\/products\/responsible-rye",
               "button_2_text": "",
               "button_2_link": "",
               "countryClass": ""
@@ -206,6 +188,25 @@
               "content": "<p>Our <em>Straight Rye Whiskey<\/em> won gold at the 2022 San Francisco World Spirits Competition - the highest awarded Australian Rye Whiskey.<br\/><br\/>The award is a testament to our constant pursuit of excellence, which is driven by a dedication to making a unique spirit from the most stubborn of grains - 100% Australian Mallee grown rye.<\/p>",
               "button_1_text": "SHOP NOW",
               "button_1_link": "shopify:\/\/products\/straight-rye-whiskey",
+              "button_2_text": "",
+              "button_2_link": "",
+              "countryClass": ""
+            }
+          },
+          "e69add4e-c459-4c90-8c01-e26792f60c46": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/The_Gospel_Responsible_Rye.jpg",
+              "desktop_video": "",
+              "mobile_video": "",
+              "apply_overlay": true,
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "OUR NON-ALCOHOLIC WHISKEY",
+              "title_mobile": "",
+              "content": "<p>As Australia’s only dedicated rye whiskey distillery, we set out to create a non-alcoholic rye whiskey alternative that was inclusive of all. <\/p><p>Under the guidance of qualified Sommelier and R&D Distiller Ellie Ash, <em>Responsible Rye<\/em> spent over a year in development - a commitment to flavour and perfecting the recipe without compromise.<\/p>",
+              "button_1_text": "DISCOVER MORE",
+              "button_1_link": "shopify:\/\/products\/responsible-rye",
               "button_2_text": "",
               "button_2_link": "",
               "countryClass": ""
@@ -234,8 +235,8 @@
         "block_order": [
           "slide-1",
           "7d2b232d-513d-4976-b9c6-d9a174e3c734",
-          "e69add4e-c459-4c90-8c01-e26792f60c46",
           "15d796c6-19d7-4aeb-945b-c316d1fbc765",
+          "e69add4e-c459-4c90-8c01-e26792f60c46",
           "990a9324-94d4-49bb-97dc-7780d27d895d"
         ],
         "settings": {
