@@ -1,12 +1,6 @@
 {%- layout 'gift_card' -%}
 
-<header class="Header Header--sidebar Header--initialized">
-  <div class="Header__Wrapper Header__Wrapper--center">
-    <a href="{{ shop.url }}" class="Header__LogoLink">
-      <span class="Heading u-h4">{{ shop.name }}</span>
-    </a>
-  </div>
-</header>
+
 
 <div class="GiftCard {% if gift_card.expired or gift_card.enabled != true %}GiftCard--disabled{% endif %}" data-section-id="gift-card" data-section-type="gift-card">
   <div class="Container">
