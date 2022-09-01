@@ -7,6 +7,7 @@
     </a>
   </div>
 </header> -->
+ <script src="{{ 'vendor/qrcode.js' | shopify_asset_url }}"></script>
 
 <div class="GiftCard {% if gift_card.expired or gift_card.enabled != true %}GiftCard--disabled{% endif %}" data-section-id="gift-card" data-section-type="gift-card">
   <div class="Container">
