@@ -492,7 +492,7 @@
           "a64d6d6d-16a9-4b58-8ffc-ec136868f8d4": {
             "type": "collection",
             "settings": {
-              "collection": "shopify:\/\/collections\/cocktails-1",
+              "collection": "shopify:\/\/collections\/cocktails",
               "title": "Cocktails"
             }
           },

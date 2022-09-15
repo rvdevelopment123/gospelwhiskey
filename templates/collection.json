@@ -27,7 +27,7 @@
         "7cf90138-6016-475e-b56f-d002a08b831e": {
           "type": "collection",
           "settings": {
-            "collection": "shopify:\/\/collections\/cocktails-1",
+            "collection": "shopify:\/\/collections\/cocktails",
             "title": "Cocktails"
           }
         },
