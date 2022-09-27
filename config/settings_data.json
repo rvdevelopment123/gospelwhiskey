@@ -157,17 +157,17 @@
           "7d2b232d-513d-4976-b9c6-d9a174e3c734": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/unnamed.jpg",
+              "image": "shopify:\/\/shop_images\/The_Gospel_Single_Cask_Rum_Project_Release_4-EDM.jpg",
               "desktop_video": "",
               "mobile_video": "",
               "apply_overlay": true,
               "content_position": "bottomLeft",
               "subheading": "",
-              "title": "NEW PROJECT RELEASE COMING SOON",
+              "title": "NEW PROJECT RELEASE SINGLE CASK RUM",
               "title_mobile": "",
-              "content": "<p>An extremely limited number of bottles of our next project will be released via our website on Wednesday 28 September 2022 at 8:30am. More details to come.<\/p>",
-              "button_1_text": "",
-              "button_1_link": "",
+              "content": "<p>This Single Cask Rye Finished Rum is the very first barrel we filled - Cask #001. <br\/><br\/>Double distilled in direct fired pot stills from Australian sugar cane and aged for 7 years in a red wine cask before finally resting in an ex-Straight Rye Whiskey barrel. <br\/><br\/>Aromatic on the nose, salty and savoury on the palate with a warming rye spice to finish<\/p>",
+              "button_1_text": "Shop now",
+              "button_1_link": "shopify:\/\/products\/project-release-single-cask-rum",
               "button_2_text": "",
               "button_2_link": "",
               "countryClass": ""
