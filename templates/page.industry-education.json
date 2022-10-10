@@ -35,6 +35,7 @@
       "blocks": {
         "5fe55570-e156-45b5-a7bf-0a662450d20e": {
           "type": "block",
+          "disabled": true,
           "settings": {
             "competion_winner": "Sam Osborne"
           }
