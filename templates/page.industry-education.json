@@ -78,10 +78,27 @@
         "section_note_closed": "",
         "competition_status": "ongoing"
       }
+    },
+    "1665364914c47a7996": {
+      "type": "apps",
+      "blocks": {
+        "d54e8359-0029-4887-a0a4-12688de338aa": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-U9nrVd\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "d54e8359-0029-4887-a0a4-12688de338aa"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
-    "16528544474088c2bb"
+    "16528544474088c2bb",
+    "1665364914c47a7996"
   ]
 }
