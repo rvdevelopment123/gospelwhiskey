@@ -30,44 +30,8 @@
       "settings": {
       }
     },
-    "16528544474088c2bb": {
-      "type": "form--page--section",
-      "blocks": {
-        "5fe55570-e156-45b5-a7bf-0a662450d20e": {
-          "type": "block",
-          "disabled": true,
-          "settings": {
-            "competion_winner": "Sam Osborne"
-          }
-        },
-        "a7a1f2d0-46b8-4952-bb8d-e7d5e81be2f3": {
-          "type": "block",
-          "disabled": true,
-          "settings": {
-            "competion_winner": "John D"
-          }
-        },
-        "35d96107-b00f-49d1-ac92-eabfcb24674d": {
-          "type": "block",
-          "disabled": true,
-          "settings": {
-            "competion_winner": "Andrew E"
-          }
-        },
-        "4a426fec-af89-486c-9c01-cc44a26c84e7": {
-          "type": "block",
-          "disabled": true,
-          "settings": {
-            "competion_winner": "Sally M"
-          }
-        }
-      },
-      "block_order": [
-        "5fe55570-e156-45b5-a7bf-0a662450d20e",
-        "a7a1f2d0-46b8-4952-bb8d-e7d5e81be2f3",
-        "35d96107-b00f-49d1-ac92-eabfcb24674d",
-        "4a426fec-af89-486c-9c01-cc44a26c84e7"
-      ],
+    "3d700dcb-e256-4519-9196-57e81419bb96": {
+      "type": "industry-form-section",
       "settings": {
         "image_one": "shopify:\/\/shop_images\/The_Gospel_Master_Distiller_Ian_Thorn.jpg",
         "section_main_title": "WANT TO LEARN MORE ABOUT THE GOSPEL AND RYE WHISKEY?",
@@ -78,28 +42,10 @@
         "section_note_closed": "",
         "competition_status": "ongoing"
       }
-    },
-    "1665364914c47a7996": {
-      "type": "apps",
-      "disabled": true,
-      "blocks": {
-        "d54e8359-0029-4887-a0a4-12688de338aa": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
-          "settings": {
-            "formId": "<div class=\"klaviyo-form-U9nrVd\"><\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "d54e8359-0029-4887-a0a4-12688de338aa"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
     "main",
-    "16528544474088c2bb",
-    "1665364914c47a7996"
+    "3d700dcb-e256-4519-9196-57e81419bb96"
   ]
 }
