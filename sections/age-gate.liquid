@@ -209,6 +209,121 @@
   color: black;
 }
 </style>
+<script>
+    var ageCookieName = "age-verification-verified-gospel";
+    var tempAccepted = false;
+    var tempDenied = false;
+    var isUsa = false;
+    var isAus = false;
+
+  function ageSetCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+  }
+
+  function ageGetCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
+    return "";
+  }
+
+  function ageVerificationHide() {
+    var ageVerificationModel = document.getElementById('age-verification');
+    ageVerificationModel.style.display = 'none';
+  }
+  function ageVerificationShow() {
+    var ageVerificationModel = document.getElementById('age-verification');
+    ageVerificationModel.style.display = 'block';
+  }
+  function ageVerificationLoad() {
+    try {
+      var agePass = ageGetCookie(ageCookieName);
+      if (agePass != "") {
+        ageVerificationHide();
+        return;
+      }
+      else {
+        ageVerificationShow();
+      }
+    }
+    catch(err) {
+      ageVerificationShow();
+    }
+    // ageVerificationShow();
+  }
+  function ageVerificationConfirm() {
+    $("#yesAge").addClass('activeAge')
+    $("#noAge").removeClass('activeAge')
+    ageSetCookie(ageCookieName, "verified", 365);
+    tempAccepted = true;
+    if(isUsa){
+      window.location.href = 'https://usa.thegospelwhiskey.com/?origin=aus';
+    }
+    else if(isAus){
+      ageVerificationHide();
+    }
+  }
+  function ageVerificationFailed() {
+    $("#yesAge").removeClass('activeAge')
+    $("#noAge").addClass('activeAge')
+    tempDenied = true;
+    if(isUsa){
+      window.location.href = 'https://www.niaaa.nih.gov/alcohols-effects-health/alcohol-policy';
+    }
+    else if(isAus){ //aus reject
+      window.location.href = 'https://www.health.gov.au/health-topics/alcohol/about-alcohol/alcohol-laws-in-australia#:~:text=Legal%20drinking%20age%20%E2%80%93%20you%20must,many%20standard%20drinks%20it%20contains';
+    }  
+  }
+
+    function ausPortal() {
+      if(tempAccepted){
+        ageVerificationHide();
+      }
+      else if(tempDenied){ //aus reject
+        window.location.href = 'https://www.health.gov.au/health-topics/alcohol/about-alcohol/alcohol-laws-in-australia#:~:text=Legal%20drinking%20age%20%E2%80%93%20you%20must,many%20standard%20drinks%20it%20contains';
+      }
+      else if(!tempAccepted){
+        isAus = true;
+      }
+    }
+
+    function usaPortal() {
+      if(tempAccepted){
+        window.location.href = 'https://usa.thegospelwhiskey.com/?origin=aus';
+      }
+      else if(tempDenied){ //usa reject
+        window.location.href = 'https://www.niaaa.nih.gov/alcohols-effects-health/alcohol-policy';
+      }
+      else if(!tempAccepted){
+        isUsa = true;
+      }
+    }
+  
+  
+  document.addEventListener("DOMContentLoaded", function(event) {
+     const params = new URLSearchParams(window.location.search)
+    const origin = params.get('origin')
+    
+    if(origin != 'usa'){
+      ageVerificationLoad();
+    }else{
+      ageSetCookie(ageCookieName, "verified", 365);
+      tempAccepted = true;
+    }
+    
+  });
+</script>
 {% schema %}
   {
     "name": "Age Verification",
