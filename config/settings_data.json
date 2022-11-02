@@ -157,17 +157,17 @@
           "7d2b232d-513d-4976-b9c6-d9a174e3c734": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/The_Gospel_Single_Cask_Rum_Project_Release_4-EDM.jpg",
+              "image": "shopify:\/\/shop_images\/The_Gospel_Stout_Cask_1-Teaser_EDM.jpg",
               "desktop_video": "",
               "mobile_video": "",
               "apply_overlay": true,
               "content_position": "bottomLeft",
               "subheading": "",
-              "title": "PROJECT RELEASE SINGLE CASK RUM",
+              "title": "PROJECT RELEASE COMING SOON",
               "title_mobile": "",
-              "content": "<p>This Single Cask Rye Finished Rum is the very first barrel we filled - Cask #001. <br\/><br\/>Double distilled in direct fired pot stills from Australian sugar cane and aged for 7 years in a red wine cask before finally resting in an ex-Straight Rye Whiskey barrel. <br\/><br\/>Aromatic on the nose, salty and savoury on the palate with a warming rye spice to finish<\/p>",
-              "button_1_text": "Shop now",
-              "button_1_link": "shopify:\/\/products\/project-release-single-cask-rum",
+              "content": "<p>Born as a rye barrel and then bestowed to <em>Wolf of the Willows <\/em>to mature their <em>Persistence <\/em>imperial stout, it returned to its origins for its final resting place.<br\/><br\/><em>Stout Cask <\/em>will be released online at 8:30am AEST Wednesday 9 November 2022. More details to come.<\/p>",
+              "button_1_text": "Coming Soon",
+              "button_1_link": "",
               "button_2_text": "",
               "button_2_link": "",
               "countryClass": ""
