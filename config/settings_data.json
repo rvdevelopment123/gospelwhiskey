@@ -157,17 +157,17 @@
           "7d2b232d-513d-4976-b9c6-d9a174e3c734": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/The_Gospel_Stout_Cask_1-Teaser_EDM.jpg",
+              "image": "shopify:\/\/shop_images\/The_Gospel_Stout_Cask_4.jpg",
               "desktop_video": "",
               "mobile_video": "",
               "apply_overlay": true,
               "content_position": "bottomLeft",
               "subheading": "",
-              "title": "PROJECT RELEASE COMING SOON",
+              "title": "PROJECT RELEASE STOUT CASK",
               "title_mobile": "",
-              "content": "<p>Born as a rye barrel and then bestowed to <em>Wolf of the Willows <\/em>to mature their <em>Persistence <\/em>imperial stout, it returned to its origins for its final resting place.<br\/><br\/><em>Stout Cask <\/em>will be released online at 8:30am AEST Wednesday 9 November 2022. More details to come.<\/p>",
-              "button_1_text": "Coming Soon",
-              "button_1_link": "",
+              "content": "<p>This cask tells a story. <br\/><br\/>Born as a rye whiskey barrel and then bestowed to <em>Wolf of the Willows<\/em> to mature their <em>Persistence<\/em> imperial stout, it returned to its origins for its final resting place. <br\/><br\/><em>Stout Cask<\/em> is a 4-year-old rye whiskey imparting notes of dried plum, rhubarb, roasted coffee bean, dark chocolate, dulce de leche, cedar and walnut with a rich and creamy texture.<\/p>",
+              "button_1_text": "SHOP NOW",
+              "button_1_link": "shopify:\/\/products\/project-release-stout-cask",
               "button_2_text": "",
               "button_2_link": "",
               "countryClass": ""
