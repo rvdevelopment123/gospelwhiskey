@@ -563,8 +563,8 @@
           "show_only_on_index": true,
           "show_only_for_visitors": true,
           "show_only_once": true,
-          "title": "Popup",
-          "content": "<p>You can use this popup to display some useful information to your customers.<\/p>",
+          "title": "Follow us into the light",
+          "content": "<p>Free shipping on your first order if you agree to receive our musings from time to time.<\/p>",
           "show_newsletter": true,
           "apparition_delay": 5
         }
