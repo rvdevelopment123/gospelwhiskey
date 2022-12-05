@@ -61,11 +61,11 @@
       "announcement": {
         "type": "announcement",
         "settings": {
-          "enable_bar": false,
-          "home_page_only": true,
+          "enable_bar": true,
+          "home_page_only": false,
           "background": "#5a5b30",
           "text_color": "#ffffff",
-          "content": "FREE SHIPPING FOR ORDERS OVER $100",
+          "content": "ORDERS PLACED AFTER 14 DECEMBER WILL BE SHIPPED ON 9 JANUARY",
           "link": "shopify:\/\/pages\/terms-and-conditions"
         }
       },
