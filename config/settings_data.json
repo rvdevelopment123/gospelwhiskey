@@ -137,19 +137,18 @@
         "blocks": {
           "7d2b232d-513d-4976-b9c6-d9a174e3c734": {
             "type": "image",
-            "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/The_Gospel_Stout_Cask_4.jpg",
+              "image": "shopify:\/\/shop_images\/The_Gospel_The_Dispensary_Cacao_Husk_Liqueur_Mork.jpg",
               "desktop_video": "",
               "mobile_video": "",
               "apply_overlay": true,
               "content_position": "bottomLeft",
               "subheading": "",
-              "title": "PROJECT RELEASE STOUT CASK",
+              "title": "NEW DISPENSARY RELEASE COMING SOON",
               "title_mobile": "",
-              "content": "<p>This cask tells a story. Born as a rye whiskey barrel and then bestowed to <em>Wolf of the Willows<\/em> to mature their <em>Persistence<\/em> imperial stout, it returned to its origins for its final resting place. <br\/><br\/><em>Stout Cask<\/em> is a 4-year-old rye whiskey imparting notes of dried plum, rhubarb, roasted coffee bean, dark chocolate, dulce de leche, cedar and walnut with a rich and creamy texture.<\/p>",
-              "button_1_text": "SHOP NOW",
-              "button_1_link": "shopify:\/\/products\/project-release-stout-cask",
+              "content": "<p>For our latest release under <em>The Dispensary<\/em>, we have collaborated with local cacao artisans <em>Mörk Chocolate<\/em>, makers of speciality, ethically sourced chocolate using traceable ingredients.<br\/><br\/>The partnership was formed on our shared mission of producing small-batch, independently made products and our passion for sustainability, with an aim to repurpose and reimagine cacao husk 'waste' into a quality liqueur product.<br\/><br\/><em><strong>Cacao Husk Liqueur <\/strong><\/em><strong>will be released online at 8:30am AEST Wednesday 29 March 2023. More details to come.<\/strong><\/p>",
+              "button_1_text": "JOIN US FOR AN EXCLUSIVE PREVIEW",
+              "button_1_link": "https:\/\/www.morkchocolate.com.au\/product\/gospel-x-mork\/",
               "button_2_text": "",
               "button_2_link": "",
               "countryClass": ""
