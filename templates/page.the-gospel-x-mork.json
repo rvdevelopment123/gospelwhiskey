@@ -74,10 +74,24 @@
         "section_note_closed": "<p>Sign up to our <a href=\"\/\" target=\"_blank\" title=\"\/\">newsletter <\/a>or follow us on <a href=\"\/\" target=\"_blank\" title=\"\/\">Instagram <\/a>to keep abreast of upcoming news and competions.<\/p>",
         "competition_status": "ongoing"
       }
+    },
+    "cf866774-455d-4257-91cc-06f421c3310e": {
+      "type": "event-form-section",
+      "settings": {
+        "image_one": "shopify:\/\/shop_images\/The_Gospel_The_Dispensary_Cacao_Husk_Liqueur_Mork_On_the_Rocks2.jpg",
+        "section_main_title": "THE GOSPEL X MORK: CHOCOLATE & WHISKEY TASTING EVENT",
+        "section_content": "",
+        "section_note": "<p>Just in time for Easter, The Gospel and Mörk Chocolate will showcase how whiskey and chocolate come together like art and science. In an evening of perfect pairings, you will meet the makers behind both brands, guiding you through their process of creativity.<br\/><br\/>For their latest release under their limited edition line <em>The Dispensary<\/em>, The Gospel have collaborated with local cacao artisans <em>Mörk Chocolate<\/em>, makers of speciality, ethically sourced chocolate using traceable ingredients.<br\/><br\/>The partnership was formed on our shared passion for sustainability with an aim to repurpose and reimagine cacao husk into a quality liqueur product.<br\/><br\/>Cacao husk are the shells surrounding cacao beans, separated from cacao nibs during bean to bar chocolate process. Historically discarded as waste, cacao husk reserves incredible depth in flavour, and infuses beautifully when paired with rye whiskey in this exceptional liqueur.<br\/><br\/><span style=\"text-decoration:underline\">THE EVENT<\/span><br\/>Join us for this unique launch and meet the makers while tasting your way through The Gospel rye whiskey, paired with Easter inspired Mörk chocolate creations.<br\/><br\/>Tickets include a welcome drink and three incredible whiskey and chocolate pairings, the final of which is an exclusive taste of the <em>Cacao Husk Liqueur<\/em>.<br\/><br\/>Tuesday 28 March 2023 6:15 pm<br\/>Mörk Chocolate Brew House<br\/>150 Errol Street, North Melbourne<\/p>",
+        "section_content_closed": "",
+        "announcement_title": "",
+        "section_note_closed": "",
+        "competition_status": "ongoing"
+      }
     }
   },
   "order": [
     "main",
-    "16528544474088c2bb"
+    "16528544474088c2bb",
+    "cf866774-455d-4257-91cc-06f421c3310e"
   ]
 }
