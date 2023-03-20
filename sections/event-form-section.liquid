@@ -1,12 +1,144 @@
+<section class="event-form-section">
+  <div class="row no-gutters">
+    <div class="col-md-6">
+      <!--   Start of Image   -->
+      <div class="square--image">
+        <div class="square--responsive" data-optimumx="1.4" data-expand="-150">
+          {%- capture mobile_size -%}750x{% if section.settings.image_one.height >= 960 %}960{% else %}{{ section.settings.image_one.height }}{% endif %}{%- endcapture -%}
+          <img {% if section.settings.image_one %}src="{{ section.settings.image_one | img_url: mobile_size, crop: 'center' }} 750w, {{ section.settings.image_one | img_url: '1000x' }} 1000w, {{ section.settings.image_one | img_url: '1500x' }} 1500w"{% endif %} />
+        </div>
+      </div>
+      <!--   End of Image   -->
+    </div>
+    {%- if section.settings.competition_status == 'ongoing' -%}
+    <div class="col-md-6">
+      <div class="col-md-9 mx-auto p-0 mt-4">
+        <h1 class="Heading u-h2 mb-4">{{section.settings.section_main_title}}</h1>
+        <div>
+          {{section.settings.section_content}}
+        </div>
+        
+        <div id="klaviyo-form-custom" class="klaviyo-form-TVHELW my-4"></div>
+        
+        <div>
+          {{section.settings.section_note}}
+        </div>
+      </div>
+    </div>
+
+    {%- else -%}
+
+    <div class="col-md-6">
+      <div id="competion--closed--grp" class="col-md-9 mx-auto p-0 mt-4">
+        <h1 class="Heading u-h2 mb-4">{{section.settings.section_main_title}}</h1>
+        <div>
+          {{section.settings.section_content_closed}}
+        </div>
+        <div class="my-2">
+          {{section.settings.announcement_title}}
+        </div>
+        <ul>
+          {% for block in section.blocks %}
+            <li>{{ block.settings.competion_winner }}</li>
+          {% endfor %}  
+        </ul>
+
+        <div>
+          {{section.settings.section_note_closed}}
+        </div>
+      </div>
+    </div>    
+    {%- endif -%}
+  </div>
+</section>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Event Form Section",
+  "class": "shopify-section--bordered",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image_one",
+      "label": "First Column Image",
+      "info": "1500px x 800px .jpg recommended"
+    },
+    {
+      "type": "text",
+      "id": "section_main_title",
+      "label": "Section Main Title",
+      "default": "THE GOSPEL X MORK: CHOCOLATE & WHISKEY TASTING EVENT"
+    },
+    {
+      "type": "header",
+      "content": "Settings for Competion Closed"
+    },
+    {
+      "type": "richtext",
+      "id": "section_content",
+      "label": "Competion Content (On Going)"
+    },
+    {
+      "type": "richtext",
+      "id": "section_note",
+      "label": "Competion Note (On Going)"
+    },
+    {
+      "type": "header",
+      "content": "Settings for Competion Closed"
+    },
+    {
+      "type": "richtext",
+      "id": "section_content_closed",
+      "label": "Competion Content (Closed)"
+    },
+    {
+      "type": "richtext",
+      "id": "announcement_title",
+      "label": "Announcement Title"
+    },
+    {
+      "type": "richtext",
+      "id": "section_note_closed",
+      "label": "Competion Note (Closed)"
+    },
+    {
+      "type": "select",
+      "id": "competition_status",
+      "label": "Competition Status",
+      "options": [
+        {
+          "value": "ongoing",
+          "label": "Competition Ongoing"
+        },
+        {
+          "value": "close",
+          "label": "Competition Closed"
+        }
+      ],
+      "default": "ongoing"
+    }
+  ],
+  "blocks": [
+    {
+        "type": "block",
+        "name": "Winner",
+        "settings": [
+          {
+              "type": "text",
+              "id": "competion_winner",
+              "label": "Winner's Name",
+              "default" : "Winner Here"
+          }
+        ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Section",
+      "name": "Event Form Section",
+      "settings": {}
+    }
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
