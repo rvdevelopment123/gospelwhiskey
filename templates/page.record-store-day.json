@@ -1,0 +1,172 @@
+{
+  "sections": {
+    "main": {
+      "type": "link-list",
+      "disabled": true,
+      "blocks": {
+        "8b5942e0-a8ea-47a7-aca8-25b941404fe4": {
+          "type": "link",
+          "settings": {
+            "collection": "https:\/\/www.thegospelwhiskey.com\/pages\/discover-the-gospel-our-story",
+            "title": "Our Stories",
+            "linkClass": "",
+            "active": false
+          }
+        },
+        "7c9a4720-acf9-47fa-8a57-fd67d696ac12": {
+          "type": "link",
+          "settings": {
+            "collection": "https:\/\/www.thegospelwhiskey.com\/pages\/discover-the-gospel-our-community",
+            "title": "Our Community",
+            "linkClass": "",
+            "active": true
+          }
+        }
+      },
+      "block_order": [
+        "8b5942e0-a8ea-47a7-aca8-25b941404fe4",
+        "7c9a4720-acf9-47fa-8a57-fd67d696ac12"
+      ],
+      "settings": {
+      }
+    },
+    "1630024779d99869da": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "center_all": false,
+        "section_link": "",
+        "section_size": "normal",
+        "image": "shopify:\/\/shop_images\/The_Gospel_Our_Story-Our_Story_2.jpg",
+        "video": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "text_size": 25,
+        "subheading": "",
+        "title": "Rye July",
+        "content": "<p>A month-long celebration shining a light on whiskey made from rye, the unsung hero of the whiskey world.<\/p>",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_2_text": "",
+        "button_2_link": ""
+      }
+    },
+    "162922451101adad1f": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "What is Rye July?",
+        "image": "shopify:\/\/shop_images\/The_Gospel_Rye_Grain.jpg",
+        "image_position": "left",
+        "bg_colour": "rgba(0,0,0,0)",
+        "content": "<p>Talk to anyone about whiskey and the conversation is usually dominated by age or provenance, rather than the base ingredient from which it’s made. Just like the variety of grapes in wine, whiskey can be made from a variety of grains - rye, wheat, barley, corn - all of which produce distinct flavours and expressions.<br\/><br\/>Rye July is a month-long celebration shining a light on whiskey made from rye, the unsung hero of the whiskey world.<br\/><\/p>",
+        "title2": "",
+        "link_text": "",
+        "link_url": "",
+        "enable_email": false
+      }
+    },
+    "16552508804e7f2c0f": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "The beauty of Rye",
+        "image": "shopify:\/\/shop_images\/farm.jpg",
+        "image_position": "right",
+        "bg_colour": "rgba(0,0,0,0)",
+        "content": "<p><em>The Gospel <\/em>is crafted and distilled from 100% Australian unmalted rye, which has been cultivated and nurtured by a single farmer in the Murray Mallee region of South Australia. <br\/><br\/>Specifically chosen for its harsh climate, the rye from this area is small and dense – renowned for its distinct, extraordinary flavour and is unmatched by rye from other areas. <br\/><br\/>It imparts deep, spicy flavours of vanilla, cinnamon and dried fruit, with developing notes of pepper, grass and grain.<\/p>",
+        "title2": "",
+        "link_text": "",
+        "link_url": "",
+        "enable_email": false
+      }
+    },
+    "162922446868bb256d": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "Win the Ultimate Whiskey Weekend in Melbourne",
+        "image": "shopify:\/\/shop_images\/The_Gospel_Our_Story-Made_Locally.jpg",
+        "image_position": "left",
+        "bg_colour": "rgba(0,0,0,0)",
+        "content": "<p>As part of Rye July, we are giving you the chance to win the Ultimate Whiskey Weekend in Melbourne for you and 3 friends!<br\/><br\/>Prize includes return flights to Melbourne from any major Australian city, 2 nights accommodation in Melbourne CBD, a distillery tour and a bottle of whiskey, plus an exclusive dinner and bar crawl with <em>The Gospel<\/em> staff. Valued at nearly $5k!<br\/><br\/>Enter <a href=\"\/pages\/rye-july-competition\" target=\"_blank\" title=\"Rye July Competition\">here<\/a>.<\/p>",
+        "title2": "",
+        "link_text": "",
+        "link_url": "",
+        "enable_email": false
+      }
+    },
+    "162922448038a251fb": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "Go Dry This Rye July",
+        "image": "shopify:\/\/shop_images\/The_Gospel_Responsible_Rye.jpg",
+        "image_position": "right",
+        "bg_colour": "rgba(0,0,0,0)",
+        "content": "<p>As Australia’s only dedicated rye whiskey distillery, we set out to create a non-alcoholic alternative that was inclusive of all.<br\/><br\/>Under the guidance of qualified Sommelier and R&D Distiller Ellie Ash, <em>Responsible Rye<\/em> spent over a year in development - a commitment to flavour and perfecting the recipe without compromise.<br\/><br\/><em>Responsible Rye<\/em> is available to purchase <a href=\"\/products\/responsible-rye\" target=\"_blank\" title=\"Project Release Responsible Rye\">here<\/a>.<\/p>",
+        "title2": "",
+        "link_text": "",
+        "link_url": "",
+        "enable_email": false
+      }
+    },
+    "16553608907759fb1c": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "Rye July events",
+        "image": "shopify:\/\/shop_images\/The_Gospel_Fortified_Cask_Whiskey_Spirit_Selection.jpg",
+        "image_position": "left",
+        "bg_colour": "rgba(0,0,0,0)",
+        "content": "<p>Join us throughout the month of July and help us celebrate the hardy and determined rye grain.<br\/><br\/>We've packed the month with innovative new releases and worked with collaborative partners and our friends behind the bar to craft some incredible rye whiskey experiences.<br\/><br\/>Join a masterclass, a food & whiskey experience or take a distillery tour – there’s a curated event to suit everyone this Rye July.<br\/><br\/>Download the events calendar <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0428\/4556\/9187\/files\/The_Gospel_Rye_July_Events_Calendar.pdf?v=1656481856\" target=\"_blank\" title=\"The Gospel Whiskey Rye July Events Calendar\">here<\/a>. <br\/><\/p>",
+        "title2": "",
+        "link_text": "",
+        "link_url": "",
+        "enable_email": false
+      }
+    },
+    "165536062347b5cb8c": {
+      "type": "text-with-image",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Rye July events in NSW",
+        "image": "shopify:\/\/shop_images\/The_Gospel_Solera_Rye_Bottle_Details_BW.jpg",
+        "image_position": "left",
+        "bg_colour": "rgba(0,0,0,0)",
+        "content": "<p>We'll be heading to Sydney for some of our biggest events to date. <br\/><br\/>We'd love for our Northerner rye whiskey fanatics to join us in celebratating Rye July. You'll find us here:<br\/><br\/>-- 13 July – (Aria Restaurant) – TBC <br\/>-- 14 July – (Bar Planet) – TBC <br\/>-- 15 & 16 July – Whisky Live<br\/>-- 17 July – Poor Tom’s Whiskey Hall – joint masterclass with gin and whiskey cocktails<\/p>",
+        "title2": "",
+        "link_text": "",
+        "link_url": "",
+        "enable_email": false
+      }
+    },
+    "1629224474d4a0d99e": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "A Missing Ingredient",
+        "image": "shopify:\/\/shop_images\/The_Gospel_Rye_Manhattan_Kit_Pinot_Noir_Vermouth.jpg",
+        "image_position": "right",
+        "bg_colour": "rgba(0,0,0,0)",
+        "content": "<p><em>Pinot Noir Vermouth<\/em> is made in collaboration with local urban winery Noisy Ritual. A robust barrel-rested vermouth, it complements <em>The Gospel<\/em> Rye Whiskey while highlighting the purity of the <em>Noisy Ritual<\/em> Pinot Noir fruit. It’s aromatic with density of fruit and a balance of bitterness on the palate.<br\/><br\/>An essential ingredient for mixing with <em>The Gospel <\/em>rye whiskey in a Manhattan or simply enjoy on the rocks.<br\/><br\/><em>Pinot Noir Vermouth<\/em> is available to purchase <a href=\"\/products\/pinot-noir-vermouth\" target=\"_blank\" title=\"Pinot Noir Vermouth\">here<\/a>. <\/p>",
+        "title2": "",
+        "link_text": "",
+        "link_url": "",
+        "enable_email": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1630024779d99869da",
+    "162922451101adad1f",
+    "16552508804e7f2c0f",
+    "162922446868bb256d",
+    "162922448038a251fb",
+    "16553608907759fb1c",
+    "165536062347b5cb8c",
+    "1629224474d4a0d99e"
+  ]
+}
