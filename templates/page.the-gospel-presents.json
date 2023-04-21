@@ -1,0 +1,107 @@
+{
+  "sections": {
+    "main": {
+      "type": "link-list",
+      "disabled": true,
+      "blocks": {
+        "8b5942e0-a8ea-47a7-aca8-25b941404fe4": {
+          "type": "link",
+          "settings": {
+            "collection": "https:\/\/www.thegospelwhiskey.com\/pages\/discover-the-gospel-our-story",
+            "title": "Our Stories",
+            "linkClass": "",
+            "active": false
+          }
+        },
+        "7c9a4720-acf9-47fa-8a57-fd67d696ac12": {
+          "type": "link",
+          "settings": {
+            "collection": "https:\/\/www.thegospelwhiskey.com\/pages\/discover-the-gospel-our-community",
+            "title": "Our Community",
+            "linkClass": "",
+            "active": true
+          }
+        }
+      },
+      "block_order": [
+        "8b5942e0-a8ea-47a7-aca8-25b941404fe4",
+        "7c9a4720-acf9-47fa-8a57-fd67d696ac12"
+      ],
+      "settings": {
+      }
+    },
+    "1630024779d99869da": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "center_all": false,
+        "section_link": "",
+        "section_size": "normal",
+        "image": "shopify:\/\/shop_images\/Record_Store_Day1.jpg",
+        "video": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "text_size": 25,
+        "subheading": "",
+        "title": "Record Store Day",
+        "content": "<p><em>Record Store Day<\/em> is an annual event that celebrates the cultural importance of the independent record store, highlighting the role these stores play in the community and the music industry. <\/p>",
+        "button_1_text": "",
+        "button_1_link": "",
+        "button_2_text": "",
+        "button_2_link": ""
+      }
+    },
+    "162922451101adad1f": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "Record Store Day Walking Tour",
+        "image": "shopify:\/\/shop_images\/Record_Store_Day4_357bd4fc-2058-4e55-bd04-a45f772e223d.jpg",
+        "image_position": "left",
+        "bg_colour": "rgba(0,0,0,0)",
+        "content": "<p>Join us in supporting <a href=\"http:\/\/recordstoreday.com.au\" target=\"_blank\" title=\"http:\/\/recordstoreday.com.au\"><em>Record Store Day Australia<\/em><\/a> as their official whiskey sponsor and help celebrate local, independent record stores on Saturday 22 April.<br\/><br\/>We will be visiting a selection of independent record stores across Melbourne on rotation throughout the day, slinging whiskey highball tastings for record diggers.<br\/><br\/>Vinyl fanatics digging at these select stores will also have the chance to track down a ‘golden ticket’, tucked away on one of two albums in the store. Winners of the golden tickets will win a bottle of <em>The Gospel<\/em> (18+ only).<br\/><br\/>You'll find us roaming between:<br\/><br\/>-- <span style=\"text-decoration:underline\">FITZROY<\/span>: <em>Oh! Jean<\/em>, <em>Plug Seven<\/em>, <em>The Searchers<\/em><br\/>-- <span style=\"text-decoration:underline\">COLLINGWOOD<\/span>: <em>Skydiver<\/em>, <em>Licorice Pie<br\/><\/em>-- <span style=\"text-decoration:underline\">ABBOTSFORD<\/span>: <em>Dutch Vinyl<\/em> <br\/><br\/>--<br\/>For a list of all participating record stores across Australia, please see the official <em>Record Store Day<\/em> website <a href=\"https:\/\/www.recordstoreday.com.au\/\" target=\"_blank\" title=\"Record Store Day Australia 2023\">here<\/a><\/p>",
+        "title2": "",
+        "link_text": "",
+        "link_url": "",
+        "enable_email": false
+      }
+    },
+    "16552508804e7f2c0f": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "Vinyl After Party",
+        "image": "shopify:\/\/shop_images\/Record_Store_Day2.jpg",
+        "image_position": "right",
+        "bg_colour": "rgba(0,0,0,0)",
+        "content": "<p>We will also be partnering with <a href=\"https:\/\/www.paradisealley.com.au\" target=\"_blank\" title=\"https:\/\/www.paradisealley.com.au\"><em>Paradise Alley<\/em><\/a> in Collingwood for an after party, bringing a selection of vinyl DJs to play throughout the night. <br\/><br\/>From 2pm-12am, you'll find <em>The Gospel<\/em> drink specials alongside a curated schedule of vinyl DJ sets by <a href=\"https:\/\/www.instagram.com\/djmrlob\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/djmrlob\/\">Mr Lob<\/a>, who will close the night with the last set from 10pm-12am.<br\/><br\/><strong>Event details:<br\/><\/strong><em>Record Store Day Vinyl After Party<br\/><\/em>Paradise Alley, Collingwood<em><br\/><\/em>22 April  2pm-12am<\/p>",
+        "title2": "",
+        "link_text": "",
+        "link_url": "",
+        "enable_email": false
+      }
+    },
+    "162922446868bb256d": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "On the Journal: record collecting",
+        "image": "shopify:\/\/shop_images\/Record_Store_Day3.jpg",
+        "image_position": "left",
+        "bg_colour": "rgba(0,0,0,0)",
+        "content": "<p>As part of <em>Record Store Day<\/em>, we had a chat with Lachlan Stuckey of <a href=\"https:\/\/surprisechef.bandcamp.com\" target=\"_blank\" title=\"https:\/\/surprisechef.bandcamp.com\"><em>Surprise Chef<\/em><\/a> to uncover how his passion for collecting vinyl has influenced his music career. <br\/><br\/>\"Scott Towers from <em>Fat Freddy’s Drop <\/em>recommended a record store in this old, decrepit apartment building in Porto. We spent ages trying to find it. We went along all these hallways, getting lost. We finally saw this open door and a wall of records was inside. There was just this dude chain smoking cigars in this tiny little office that had records stacked up everywhere with no categorisation whatsoever. [...] it’s fun finding a place like that which is a total nightmare. It just makes it more of an adventure.”<\/p>",
+        "title2": "",
+        "link_text": "Continue Reading",
+        "link_url": "shopify:\/\/blogs\/journal\/fanatics-surprise-chef-s-lachlan-stuckey-on-turning-a-vinyl-obsession-into-fresh-soul-music",
+        "enable_email": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1630024779d99869da",
+    "162922451101adad1f",
+    "16552508804e7f2c0f",
+    "162922446868bb256d"
+  ]
+}
