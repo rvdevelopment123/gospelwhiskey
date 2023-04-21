@@ -83,9 +83,10 @@
     },
     "162922446868bb256d": {
       "type": "text-with-image",
+      "disabled": true,
       "settings": {
         "subheading": "",
-        "title": "On the Journal: record collecting",
+        "title": "On the Journal: GZA THE GENIUS",
         "image": "shopify:\/\/shop_images\/Record_Store_Day3.jpg",
         "image_position": "left",
         "bg_colour": "rgba(0,0,0,0)",
