@@ -53,6 +53,7 @@
     },
     "162922451101adad1f": {
       "type": "text-with-image",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "Chessboxing with GZA of Wu-Tang Clan",
@@ -68,6 +69,7 @@
     },
     "16552508804e7f2c0f": {
       "type": "text-with-image",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "Vinyl After Party",
