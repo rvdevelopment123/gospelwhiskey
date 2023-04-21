@@ -95,6 +95,14 @@
         "link_url": "shopify:\/\/blogs\/journal\/fanatics-surprise-chef-s-lachlan-stuckey-on-turning-a-vinyl-obsession-into-fresh-soul-music",
         "enable_email": false
       }
+    },
+    "c00e8921-bfea-4652-8350-63b4518131b6": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "Sub-heading",
+        "title": "Your HTML",
+        "html": "<div id=\"eventbrite-widget-container-622175051327\"><\/div>\n\n<script src=\"https:\/\/www.eventbrite.com.au\/static\/widgets\/eb_widgets.js\"><\/script>\n\n<script type=\"text\/javascript\">\n    var exampleCallback = function() {\n        console.log('Order complete!');\n    };\n\n    window.EBWidgets.createWidget({\n        \/\/ Required\n        widgetType: 'checkout',\n        eventId: '622175051327',\n        iframeContainerId: 'eventbrite-widget-container-622175051327',\n\n        \/\/ Optional\n        iframeContainerHeight: 425,  \/\/ Widget height in pixels. Defaults to a minimum of 425px if not provided\n        onOrderComplete: exampleCallback  \/\/ Method called when an order has successfully completed\n    });\n<\/script>"
+      }
     }
   },
   "order": [
@@ -102,6 +110,7 @@
     "1630024779d99869da",
     "162922451101adad1f",
     "16552508804e7f2c0f",
-    "162922446868bb256d"
+    "162922446868bb256d",
+    "c00e8921-bfea-4652-8350-63b4518131b6"
   ]
 }
