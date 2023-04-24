@@ -100,7 +100,7 @@
             "type": "text",
             "settings": {
               "title": "Acknowledgement",
-              "content": "<p>We acknowledge the Wurundjeri people of the Kulin Nation, the Traditional Custodians of the land on which The Gospel stands. We pay our respects to their Elders past, present and emerging.<\/p>",
+              "content": "<p>We acknowledge the Wurundjeri people of the Kulin Nation, the Traditional Custodians of the land on which The Gospel stands. We pay our respects to their Elders past and present.<\/p>",
               "show_social_media": true
             }
           },
