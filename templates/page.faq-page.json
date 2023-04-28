@@ -9,6 +9,7 @@
           "settings": {
             "collection": "shopify:\/\/pages\/discover-the-gospel-our-story",
             "title": "Our Story",
+            "linkClass": "",
             "active": true
           }
         },
@@ -17,6 +18,7 @@
           "settings": {
             "collection": "shopify:\/\/pages\/discover-the-gospel-our-community",
             "title": "Our Community",
+            "linkClass": "",
             "active": false
           }
         }
@@ -204,7 +206,7 @@
           "type": "block",
           "settings": {
             "title": "Can I click and collect?",
-            "content": "<p>Yes, pick up from our Brunswick distillery is available next business day. You will receive a confirmation email when your order is ready to collect. Our pick up hours are 8am-3pm on weekdays only. <\/p>"
+            "content": "<p>Click and collect is currently not available. <\/p>"
           }
         },
         "1d7a6b28-5ffc-42b3-89cb-d1eebb6e6b8a": {
