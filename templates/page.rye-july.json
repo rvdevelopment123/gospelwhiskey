@@ -51,21 +51,6 @@
         "button_2_link": ""
       }
     },
-    "162922451101adad1f": {
-      "type": "text-with-image",
-      "settings": {
-        "subheading": "",
-        "title": "What is Rye July?",
-        "image": "shopify:\/\/shop_images\/The_Gospel_Rye_Grain.jpg",
-        "image_position": "left",
-        "bg_colour": "rgba(0,0,0,0)",
-        "content": "<p>Talk to anyone about whiskey and the conversation is usually dominated by age or provenance, rather than the base ingredient from which it’s made. Just like the variety of grapes in wine, whiskey can be made from a variety of grains - rye, wheat, barley, corn - all of which produce distinct flavours and expressions.<br\/><br\/>Rye July is a month-long celebration shining a light on whiskey made from rye, the unsung hero of the whiskey world.<br\/><\/p>",
-        "title2": "",
-        "link_text": "",
-        "link_url": "",
-        "enable_email": false
-      }
-    },
     "16552508804e7f2c0f": {
       "type": "text-with-image",
       "settings": {
@@ -81,13 +66,28 @@
         "enable_email": false
       }
     },
+    "162922451101adad1f": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "What is Rye July?",
+        "image": "shopify:\/\/shop_images\/The_Gospel_Rye_Grain.jpg",
+        "image_position": "left",
+        "bg_colour": "rgba(0,0,0,0)",
+        "content": "<p>Talk to anyone about whiskey and the conversation is usually dominated by age or provenance, rather than the base ingredient from which it’s made. Just like the variety of grapes in wine, whiskey can be made from a variety of grains - rye, wheat, barley, corn - all of which produce distinct flavours and expressions.<br\/><br\/>Rye July is a month-long celebration shining a light on whiskey made from rye, the unsung hero of the whiskey world.<br\/><\/p>",
+        "title2": "",
+        "link_text": "",
+        "link_url": "",
+        "enable_email": false
+      }
+    },
     "16553608907759fb1c": {
       "type": "text-with-image",
       "settings": {
         "subheading": "",
         "title": "Rye July events",
         "image": "shopify:\/\/shop_images\/The_Gospel_Fortified_Cask_Whiskey_Spirit_Selection.jpg",
-        "image_position": "left",
+        "image_position": "right",
         "bg_colour": "rgba(0,0,0,0)",
         "content": "<p>Join us throughout the month of July and help us celebrate the hardy and determined rye grain.<br\/><br\/>We've packed the month with innovative new releases and worked with collaborative partners and our friends behind the bar to craft some incredible rye whiskey experiences.<br\/><br\/>We welcome you to join in on a range of curated whiskey events and experiences or a drink a Manhattan cocktail from a participating venue for your chance to win the ultimate Manhattan Experience in Melbourne for you and a friend. <br\/><br\/>Keep your eye out for the release of events.<\/p>",
         "title2": "",
@@ -102,7 +102,7 @@
         "subheading": "",
         "title": "Win the Ultimate Whiskey Weekend in Melbourne",
         "image": "shopify:\/\/shop_images\/The_Gospel_Our_Story-Made_Locally.jpg",
-        "image_position": "right",
+        "image_position": "left",
         "bg_colour": "rgba(0,0,0,0)",
         "content": "<p>To celebrate Rye July, we are giving you the chance to win 1 of 7 'Manhattan Experience in Melbourne' for you and a friend!<\/p><p> <br\/>Prize includes return flights to Melbourne from any major Australian city, 2 nights accommodation, welcome drinks with The Gospel Whiskey, dinner voucher, tickets to a ‘Broadway’ show, tickets to a comedy show, The Gospel Whiskey ‘Manhattan Kit’ for you and your friend to take home, plus an itinerary to help you make the most of your 'Manhattan Experience' weekend. Total prize pool valued at over $16k!<br\/><br\/>Entry will open on July 1st.<\/p>",
         "title2": "",
@@ -117,7 +117,7 @@
         "subheading": "",
         "title": "Go Dry This Rye July",
         "image": "shopify:\/\/shop_images\/The_Gospel_Responsible_Rye.jpg",
-        "image_position": "left",
+        "image_position": "right",
         "bg_colour": "rgba(0,0,0,0)",
         "content": "<p>As Australia’s only dedicated rye whiskey distillery, we set out to create a non-alcoholic alternative that was inclusive of all.<br\/><br\/>Under the guidance of qualified Sommelier and R&D Distiller Ellie Ash, <em>Responsible Rye<\/em> spent over a year in development - a commitment to flavour and perfecting the recipe without compromise.<br\/><br\/><em>Responsible Rye<\/em> is available to purchase <a href=\"\/products\/responsible-rye\" target=\"_blank\" title=\"Project Release Responsible Rye\">here<\/a>.<\/p>",
         "title2": "",
@@ -162,8 +162,8 @@
   "order": [
     "main",
     "1630024779d99869da",
-    "162922451101adad1f",
     "16552508804e7f2c0f",
+    "162922451101adad1f",
     "16553608907759fb1c",
     "162922446868bb256d",
     "162922448038a251fb",
