@@ -78,10 +78,19 @@
         "section_note_closed": "<p>Sign up to our <a href=\"\/\" target=\"_blank\" title=\"\/\">newsletter<\/a> or follow us on <a href=\"https:\/\/www.instagram.com\/thegospelwhiskey\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/thegospelwhiskey\/\">Instagram<\/a> to keep up to date on upcoming news, limited releases and competitions.<\/p>",
         "competition_status": "close"
       }
+    },
+    "a879a8e9-507a-4db7-a642-eac7df081058": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "Sub-heading",
+        "title": "Your HTML",
+        "html": "<div data-tf-widget=\"kxVkLMhZ\" data-tf-opacity=\"100\" data-tf-iframe-props=\"title=The Manhattan Experience Entry Form\" data-tf-transitive-search-params data-tf-medium=\"snippet\" style=\"width:100%;height:500px;\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>"
+      }
     }
   },
   "order": [
     "main",
-    "16528544474088c2bb"
+    "16528544474088c2bb",
+    "a879a8e9-507a-4db7-a642-eac7df081058"
   ]
 }
