@@ -81,13 +81,28 @@
         "enable_email": false
       }
     },
+    "162922448038a251fb": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "Go Dry This Rye July",
+        "image": "shopify:\/\/shop_images\/The_Gospel_Responsible_Rye.jpg",
+        "image_position": "right",
+        "bg_colour": "rgba(0,0,0,0)",
+        "content": "<p>As Australia’s only dedicated rye whiskey distillery, we set out to create a non-alcoholic alternative that was inclusive of all.<br\/><br\/>Under the guidance of qualified Sommelier and R&D Distiller Ellie Ash, <em>Responsible Rye<\/em> spent over a year in development - a commitment to flavour and perfecting the recipe without compromise.<br\/><br\/><em>Responsible Rye<\/em> is available to purchase <a href=\"\/products\/responsible-rye\" target=\"_blank\" title=\"Project Release Responsible Rye\">here<\/a>.<\/p>",
+        "title2": "",
+        "link_text": "",
+        "link_url": "",
+        "enable_email": false
+      }
+    },
     "16552508804e7f2c0f": {
       "type": "text-with-image",
       "settings": {
         "subheading": "",
         "title": "The beauty of Rye",
         "image": "shopify:\/\/shop_images\/farm.jpg",
-        "image_position": "right",
+        "image_position": "left",
         "bg_colour": "rgba(0,0,0,0)",
         "content": "<p>Talk to anyone about whiskey and the conversation is usually dominated by age or provenance, rather than the base ingredient from which it’s made. Just like the variety of grapes in wine, whiskey can be made from a variety of grains - rye, wheat, barley, corn - all of which produce distinct flavours and expressions.<br\/><em><br\/>The Gospel <\/em>is crafted and distilled from 100% Australian unmalted rye, which has been cultivated and nurtured by a single farmer in the Murray Mallee region of South Australia. <br\/><br\/>Specifically chosen for its harsh climate, the rye from this area is small and dense – renowned for its distinct, extraordinary flavour and is unmatched by rye from other areas. <br\/><br\/>Rye imparts deep, spicy flavours of vanilla, cinnamon and dried fruit, with developing notes of pepper, grass and grain.<\/p>",
         "title2": "",
@@ -106,21 +121,6 @@
         "image_position": "left",
         "bg_colour": "rgba(0,0,0,0)",
         "content": "<p>Talk to anyone about whiskey and the conversation is usually dominated by age or provenance, rather than the base ingredient from which it’s made. Just like the variety of grapes in wine, whiskey can be made from a variety of grains - rye, wheat, barley, corn - all of which produce distinct flavours and expressions.<br\/><br\/>Rye July is a month-long celebration shining a light on whiskey made from rye, the unsung hero of the whiskey world.<br\/><\/p>",
-        "title2": "",
-        "link_text": "",
-        "link_url": "",
-        "enable_email": false
-      }
-    },
-    "162922448038a251fb": {
-      "type": "text-with-image",
-      "settings": {
-        "subheading": "",
-        "title": "Go Dry This Rye July",
-        "image": "shopify:\/\/shop_images\/The_Gospel_Responsible_Rye.jpg",
-        "image_position": "left",
-        "bg_colour": "rgba(0,0,0,0)",
-        "content": "<p>As Australia’s only dedicated rye whiskey distillery, we set out to create a non-alcoholic alternative that was inclusive of all.<br\/><br\/>Under the guidance of qualified Sommelier and R&D Distiller Ellie Ash, <em>Responsible Rye<\/em> spent over a year in development - a commitment to flavour and perfecting the recipe without compromise.<br\/><br\/><em>Responsible Rye<\/em> is available to purchase <a href=\"\/products\/responsible-rye\" target=\"_blank\" title=\"Project Release Responsible Rye\">here<\/a>.<\/p>",
         "title2": "",
         "link_text": "",
         "link_url": "",
@@ -165,9 +165,9 @@
     "1630024779d99869da",
     "16553608907759fb1c",
     "162922446868bb256d",
+    "162922448038a251fb",
     "16552508804e7f2c0f",
     "162922451101adad1f",
-    "162922448038a251fb",
     "165536062347b5cb8c",
     "1629224474d4a0d99e"
   ]
