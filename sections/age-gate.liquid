@@ -275,10 +275,7 @@
     $("#yesAge").removeClass('activeAge')
     $("#noAge").addClass('activeAge')
     tempDenied = true;
-    if(isUsa){
-      window.location.href = 'https://www.niaaa.nih.gov/alcohols-effects-health/alcohol-policy';
-    }
-    else if(isAus){ //aus reject
+    if(noAge){
       window.location.href = 'https://www.health.gov.au/health-topics/alcohol/about-alcohol/alcohol-laws-in-australia#:~:text=Legal%20drinking%20age%20%E2%80%93%20you%20must,many%20standard%20drinks%20it%20contains';
     }  
   }
