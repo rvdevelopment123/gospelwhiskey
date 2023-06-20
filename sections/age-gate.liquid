@@ -6,11 +6,6 @@
       <button id="yesAge" class="age-button age-yes" onclick="ageVerificationConfirm()"><span>|<br>|</span>YES<span>|<br>|</span></button>
       <button id="noAge" class="age-button age-no" onclick="ageVerificationFailed()"><span>|<br>|</span>NO<span>|<br>|</span></button>
     </div>
-    <span class="age-main-text">WHERE ARE YOU?</span>
-    <div class="age-verification-btn">
-      <button class="age-button age-yes" onclick="ausPortal()"><span>|<br>|</span>AUS<span>|<br>|</span></button>
-      <button class="age-button age-no" onclick="usaPortal()"><span>|<br>|</span>USA<span>|<br>|</span></button>
-    </div>
     <span class="age-main-text"></span>
     <div class="age-legal">
       You must be of legal drinking age in your respective country for entry. By entering you accept our terms and conditions & our privacy & cookie policy. We encourage drinking responsibly. 
@@ -21,11 +16,6 @@
       <div class="gw-ag-button-box gw-ag-button-box--yes">
         <div class="gw-button-side gw-button-side--left">|<br>|<br>|<br>|<br>|<br>|<br>|</div>
         <button type="submit" class="gw-ag-button js-ag-dob-enter">Yes</button>
-        <div class="gw-ag-button-side gw-ag-button-side--right">|<br>|<br>|<br>|<br>|<br>|<br>|</div>
-      </div>
-      <div class="gw-ag-button-box gw-ag-button-box--no">
-        <div class="gw-button-side gw-button-side--left">|<br>|<br>|<br>|<br>|<br>|<br>|</div>
-        <button type="submit" class="gw-ag-button">USA</button>
         <div class="gw-ag-button-side gw-ag-button-side--right">|<br>|<br>|<br>|<br>|<br>|<br>|</div>
       </div>
     </div>{% endcomment %}
@@ -219,8 +209,6 @@
     var ageCookieName = "age-verification-verified-gospel";
     var tempAccepted = false;
     var tempDenied = false;
-    var isUsa = false;
-    var isAus = false;
 
   function ageSetCookie(cname, cvalue, exdays) {
     var d = new Date();
@@ -273,21 +261,13 @@
     $("#noAge").removeClass('activeAge')
     ageSetCookie(ageCookieName, "verified", 365);
     tempAccepted = true;
-    if(isUsa){
-      window.location.href = 'https://usa.thegospelwhiskey.com/?origin=aus';
-    }
-    else if(isAus){
-      ageVerificationHide();
+      window.location.href = 'https://thegospelwhiskey.com;
     }
   }
   function ageVerificationFailed() {
     $("#yesAge").removeClass('activeAge')
     $("#noAge").addClass('activeAge')
     tempDenied = true;
-    if(isUsa){
-      window.location.href = 'https://www.niaaa.nih.gov/alcohols-effects-health/alcohol-policy';
-    }
-    else if(isAus){ //aus reject
       window.location.href = 'https://www.health.gov.au/health-topics/alcohol/about-alcohol/alcohol-laws-in-australia#:~:text=Legal%20drinking%20age%20%E2%80%93%20you%20must,many%20standard%20drinks%20it%20contains';
     }  
   }
@@ -304,18 +284,6 @@
       }
     }
 
-    function usaPortal() {
-      if(tempAccepted){
-        window.location.href = 'https://usa.thegospelwhiskey.com/?origin=aus';
-      }
-      else if(tempDenied){ //usa reject
-        window.location.href = 'https://www.niaaa.nih.gov/alcohols-effects-health/alcohol-policy';
-      }
-      else if(!tempAccepted){
-        isUsa = true;
-      }
-    }
-  
   
   document.addEventListener("DOMContentLoaded", function(event) {
      const params = new URLSearchParams(window.location.search)
