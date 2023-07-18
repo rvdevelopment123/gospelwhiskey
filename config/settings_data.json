@@ -135,26 +135,6 @@
       "slideshow": {
         "type": "slideshow",
         "blocks": {
-          "7d2b232d-513d-4976-b9c6-d9a174e3c734": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Legacy-Rye-Filter.jpg",
-              "desktop_video": "",
-              "mobile_video": "",
-              "apply_overlay": true,
-              "content_position": "bottomLeft",
-              "subheading": "",
-              "title": "NEW PROJECT RELEASE LEGACY RYE",
-              "title_mobile": "",
-              "content": "<p>Our newest release, <em>Legacy Rye<\/em>, is a dedication to Andrew and Ben’s great love of American-style whiskeys and their collaborative journey to produce deliciously unpretentious whiskey. It is a nod to our early days and an appreciation of how far we have come.<\/p>",
-              "button_1_text": "SHOP NOW",
-              "button_1_link": "https:\/\/www.thegospelwhiskey.com\/products\/project-release-legacy-rye",
-              "button_2_text": "",
-              "button_2_link": "",
-              "countryClass": ""
-            }
-          },
           "slide-1": {
             "type": "image",
             "settings": {
@@ -169,6 +149,25 @@
               "content": "",
               "button_1_text": "",
               "button_1_link": "",
+              "button_2_text": "",
+              "button_2_link": "",
+              "countryClass": ""
+            }
+          },
+          "7d2b232d-513d-4976-b9c6-d9a174e3c734": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screen_Shot_2023-06-15_at_12.10.47_pm.png",
+              "desktop_video": "",
+              "mobile_video": "",
+              "apply_overlay": true,
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "TRY A MANHATTAN THIS RYE JULY",
+              "title_mobile": "",
+              "content": "<p>To celebrate Rye July, we are giving away 7 'Manhattan Experience in Melbourne' prizes. Simply purchase a Manhattan at a participating venue in July for a chance to win.<\/p>",
+              "button_1_text": "LEARN MORE",
+              "button_1_link": "shopify:\/\/pages\/rye-july-competition",
               "button_2_text": "",
               "button_2_link": "",
               "countryClass": ""
@@ -233,8 +232,8 @@
           }
         },
         "block_order": [
-          "7d2b232d-513d-4976-b9c6-d9a174e3c734",
           "slide-1",
+          "7d2b232d-513d-4976-b9c6-d9a174e3c734",
           "15d796c6-19d7-4aeb-945b-c316d1fbc765",
           "e69add4e-c459-4c90-8c01-e26792f60c46",
           "990a9324-94d4-49bb-97dc-7780d27d895d"
