@@ -156,6 +156,7 @@
           },
           "7d2b232d-513d-4976-b9c6-d9a174e3c734": {
             "type": "image",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Man-Hat-V1-Web-2_55ca0630-cec3-4155-b6dd-d6f99989a9e5.jpg",
               "desktop_video": "",
