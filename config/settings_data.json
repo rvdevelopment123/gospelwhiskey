@@ -135,6 +135,25 @@
       "slideshow": {
         "type": "slideshow",
         "blocks": {
+          "7d2b232d-513d-4976-b9c6-d9a174e3c734": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/unnamed_a1027427-d686-42ac-8390-9c7f2c5d8288.jpg",
+              "desktop_video": "",
+              "mobile_video": "",
+              "apply_overlay": true,
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "APOLLO INN X THE GOSPEL: A RYE WHISKEY",
+              "title_mobile": "",
+              "content": "<p>We partnered with the fine folk at Melbourne cocktail bar Apollo Inn for our next limited release, carefully selected by Apollo Inn Bar Manager Cameron Parish and The Gospel Co-Founder Ben Bowles. <br\/><br\/>High Wheat will be released online at 8:30am AEST Wednesday 9 August.<br\/><br\/>Sign up to our newsletter for first access.<\/p>",
+              "button_1_text": "SIGN UP",
+              "button_1_link": "https:\/\/manage.kmail-lists.com\/subscriptions\/subscribe?g=YvknLf&%24fields=%24consent&%24list_fields=%24consent&email=",
+              "button_2_text": "",
+              "button_2_link": "",
+              "countryClass": ""
+            }
+          },
           "slide-1": {
             "type": "image",
             "settings": {
@@ -149,26 +168,6 @@
               "content": "",
               "button_1_text": "",
               "button_1_link": "",
-              "button_2_text": "",
-              "button_2_link": "",
-              "countryClass": ""
-            }
-          },
-          "7d2b232d-513d-4976-b9c6-d9a174e3c734": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Man-Hat-V1-Web-2_55ca0630-cec3-4155-b6dd-d6f99989a9e5.jpg",
-              "desktop_video": "",
-              "mobile_video": "",
-              "apply_overlay": true,
-              "content_position": "bottomLeft",
-              "subheading": "",
-              "title": "TRY A MANHATTAN THIS RYE JULY",
-              "title_mobile": "",
-              "content": "<p>To celebrate Rye July, we are giving away 7 'Manhattan Experience in Melbourne' prizes. Simply purchase a Manhattan at a participating venue in July for a chance to win.<\/p>",
-              "button_1_text": "LEARN MORE",
-              "button_1_link": "shopify:\/\/pages\/rye-july-competition",
               "button_2_text": "",
               "button_2_link": "",
               "countryClass": ""
@@ -233,8 +232,8 @@
           }
         },
         "block_order": [
-          "slide-1",
           "7d2b232d-513d-4976-b9c6-d9a174e3c734",
+          "slide-1",
           "15d796c6-19d7-4aeb-945b-c316d1fbc765",
           "e69add4e-c459-4c90-8c01-e26792f60c46",
           "990a9324-94d4-49bb-97dc-7780d27d895d"
