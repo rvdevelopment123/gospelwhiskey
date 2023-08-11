@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "link-list",
-      "disabled": true,
       "blocks": {
         "8b5942e0-a8ea-47a7-aca8-25b941404fe4": {
           "type": "link",
@@ -27,6 +26,7 @@
         "8b5942e0-a8ea-47a7-aca8-25b941404fe4",
         "7c9a4720-acf9-47fa-8a57-fd67d696ac12"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -59,7 +59,7 @@
         "image": "shopify:\/\/shop_images\/The_Gospel_Rye_Grain.jpg",
         "image_position": "right",
         "bg_colour": "rgba(0,0,0,0)",
-        "content": "<p>Join us throughout the month of July and help us celebrate the hardy and determined rye grain.<br\/><br\/>We've packed the month with innovative new releases and worked with collaborative partners and our friends behind the bar to craft some incredible rye whiskey experiences.<br\/><br\/>We welcome you to join in on a range of curated whiskey events and experiences or a drink a Manhattan cocktail from a participating venue for your chance to win the ultimate Manhattan Experience in Melbourne for you and a friend. <br\/><br\/>See the current list of events <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0428\/4556\/9187\/files\/The_Gospel_Rye_July_Events.pdf?v=1689229134\" target=\"_blank\" title=\"The Gospel Rye July Events\">here<\/a>. <\/p>",
+        "content": "<p>Join us throughout the month of July and help us celebrate the hardy and determined rye grain.<br\/><br\/>We've packed the month with innovative new releases and worked with collaborative partners and our friends behind the bar to craft some incredible rye whiskey experiences.<br\/><br\/>We welcome you to join in on a range of curated whiskey events and experiences or a drink a Manhattan cocktail from a participating venue for your chance to win the ultimate Manhattan Experience in Melbourne for you and a friend. <br\/><br\/>Rye July events have officially completed.  <\/p>",
         "title2": "",
         "link_text": "",
         "link_url": "",
@@ -74,7 +74,7 @@
         "image": "shopify:\/\/shop_images\/The_Gospel_Cocktails_Manhattan_b33de1d0-685f-4a05-b6cc-0ed4a7d05ae9.jpg",
         "image_position": "left",
         "bg_colour": "rgba(0,0,0,0)",
-        "content": "<p>To celebrate Rye July, we are giving you the chance to win 1 of 7 'Manhattan Experience in Melbourne' for you and a friend!<br\/><br\/>Prize includes return flights to Melbourne from any major Australian city, 2 nights accommodation, welcome drinks with The Gospel Whiskey, dinner voucher, tickets to a ‘Broadway’ show, tickets to a comedy show, The Gospel Whiskey ‘Manhattan Kit’ for you and your friend to take home, plus an itinerary to help you make the most of your 'Manhattan Experience' weekend. Total prize pool valued at over $16k! See the list of participating venues <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0428\/4556\/9187\/files\/The_Gospel_Rye_July_Manhattan_Experience_Venues.pdf?v=1689229546\" target=\"_blank\" title=\"The Manhattan Experience Venues\">here<\/a>.<br\/><br\/>Entries have now closed.<\/p>",
+        "content": "<p>To celebrate Rye July, we are giving you the chance to win 1 of 7 'Manhattan Experience in Melbourne' for you and a friend!<br\/><br\/>Prize includes return flights to Melbourne from any major Australian city, 2 nights accommodation, welcome drinks with The Gospel Whiskey, dinner voucher, tickets to a ‘Broadway’ show, tickets to a comedy show, The Gospel Whiskey ‘Manhattan Kit’ for you and your friend to take home, plus an itinerary to help you make the most of your 'Manhattan Experience' weekend. Total prize pool valued at over $16k! See the list of participating venues <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0428\/4556\/9187\/files\/The_Gospel_Rye_July_Manhattan_Experience_Venues.pdf?v=1689229546\" target=\"_blank\" title=\"The Manhattan Experience Venues\">here<\/a>.<br\/><br\/>Entries have now closed. The prize winners are below - keep an eye out for our congratulations email!<br\/><br\/>-- NSW: Chris G.<br\/>-- QLD: Johnathan K. <br\/>-- SA: Kieran T. <br\/>-- TAS: Stella T. <br\/>-- VIC: Nikolas K. <br\/>-- WA: Natalie C. <br\/>-- ACT: null<\/p>",
         "title2": "",
         "link_text": "",
         "link_url": "",
