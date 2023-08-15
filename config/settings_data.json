@@ -820,5 +820,10 @@
       "1626938031535fb114",
       "16269378793cc5438e"
     ]
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".blog-header .bottompad-half img {margin-left: 0;}"
+    ]
   }
 }
