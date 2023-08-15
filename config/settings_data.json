@@ -735,6 +735,9 @@
       },
       "age-gate": {
         "type": "age-gate",
+        "custom_css": [
+
+        ],
         "settings": {
           "title": "YOU MUST BE OF LEGAL DRINKING AGE TO ENTER THIS SITE",
           "body": "ARE YOU OF LEGAL DRINKING AGE?",
@@ -823,7 +826,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".blog-header .bottompad-half img {margin-left: 0;}"
+      "article.grid__item.medium-up--two-thirds.medium-up--push-one-sixth.article {left: 0;}"
     ]
   }
 }
