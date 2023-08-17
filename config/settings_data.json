@@ -135,6 +135,25 @@
       "slideshow": {
         "type": "slideshow",
         "blocks": {
+          "e69add4e-c459-4c90-8c01-e26792f60c46": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_6073_80ad5ca8-8f19-4932-a406-563b213abf62.jpg",
+              "desktop_video": "",
+              "mobile_video": "",
+              "apply_overlay": true,
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "FATHER'S DAY: HOT SAUCE & PICKLE HIT",
+              "title_mobile": "",
+              "content": "<p>Honour this Father's Day by gifting your dad, brother, partner or fatherly figure our exclusive <em>Hot Sauce & Pickle Kit<\/em>.<\/p><p>Our new kit features a bottle of the new <em>Fancy Hank's x The Gospel Habanero & Carrot Whiskey Hot Sauce<\/em>, a jar of <em>Acide x The Gospel Rye Whiskey Bread & Butter Pickles<\/em>, and a choice of either a bottle of <em>The Gospel Solera Ry<\/em>e or <em>Straight Rye Whiskey<\/em>.<\/p>",
+              "button_1_text": "SHOP NOW",
+              "button_1_link": "shopify:\/\/products\/hot-sauce-pickle-kit-straight-rye-whiskey",
+              "button_2_text": "",
+              "button_2_link": "",
+              "countryClass": ""
+            }
+          },
           "7d2b232d-513d-4976-b9c6-d9a174e3c734": {
             "type": "image",
             "settings": {
@@ -192,25 +211,6 @@
               "countryClass": ""
             }
           },
-          "e69add4e-c459-4c90-8c01-e26792f60c46": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_6073_80ad5ca8-8f19-4932-a406-563b213abf62.jpg",
-              "desktop_video": "",
-              "mobile_video": "",
-              "apply_overlay": true,
-              "content_position": "bottomLeft",
-              "subheading": "",
-              "title": "FATHER'S DAY: HOT SAUCE & PICKLE KIT",
-              "title_mobile": "",
-              "content": "<p>Honour this Father's Day by gifting your dad, brother, partner or fatherly figure our exclusive <em>Hot Sauce & Pickle Kit<\/em>.<\/p><p>Our new kit features a bottle of the new <em>Fancy Hank's x The Gospel Habanero & Carrot Whiskey Hot Sauce<\/em>, a jar of <em>Acide x The Gospel Rye Whiskey Bread & Butter Pickles<\/em>, and a choice of either a bottle of <em>The Gospel Solera Ry<\/em>e or <em>Straight Rye Whiskey<\/em>.<\/p>",
-              "button_1_text": "SHOP NOW",
-              "button_1_link": "shopify:\/\/products\/hot-sauce-pickle-kit-straight-rye-whiskey",
-              "button_2_text": "",
-              "button_2_link": "",
-              "countryClass": ""
-            }
-          },
           "990a9324-94d4-49bb-97dc-7780d27d895d": {
             "type": "image",
             "settings": {
@@ -232,10 +232,10 @@
           }
         },
         "block_order": [
+          "e69add4e-c459-4c90-8c01-e26792f60c46",
           "7d2b232d-513d-4976-b9c6-d9a174e3c734",
           "slide-1",
           "15d796c6-19d7-4aeb-945b-c316d1fbc765",
-          "e69add4e-c459-4c90-8c01-e26792f60c46",
           "990a9324-94d4-49bb-97dc-7780d27d895d"
         ],
         "settings": {
