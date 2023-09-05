@@ -135,25 +135,6 @@
       "slideshow": {
         "type": "slideshow",
         "blocks": {
-          "7d2b232d-513d-4976-b9c6-d9a174e3c734": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/TG_High_Wheat_Rye.jpg",
-              "desktop_video": "",
-              "mobile_video": "",
-              "apply_overlay": true,
-              "content_position": "bottomLeft",
-              "subheading": "",
-              "title": "APOLLO INN x THE GOSPEL",
-              "title_mobile": "",
-              "content": "<p>For this limited release, we partnered with the fine folk at <em>Apollo Inn<\/em>, the sister venue to the well-respected <em>Gimlet<\/em> restaurant.<br\/><em><br\/>Gimlet<\/em> is renowned for its incredible level of hospitality and this was an opportunity to produce an equally refined whiskey. Together, <em>High Wheat<\/em> is our ode to Melbourne.<br\/><br\/>Aromas of toffee apple, toasted chestnut, salted caramel, Mirabelle plum and cherry wood.<\/p>",
-              "button_1_text": "SHOP NOW",
-              "button_1_link": "https:\/\/www.thegospelwhiskey.com\/products\/project-release-high-wheat",
-              "button_2_text": "",
-              "button_2_link": "",
-              "countryClass": ""
-            }
-          },
           "slide-1": {
             "type": "image",
             "settings": {
@@ -211,6 +192,26 @@
               "countryClass": ""
             }
           },
+          "7d2b232d-513d-4976-b9c6-d9a174e3c734": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/TG_High_Wheat_Rye.jpg",
+              "desktop_video": "",
+              "mobile_video": "",
+              "apply_overlay": true,
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "APOLLO INN x THE GOSPEL",
+              "title_mobile": "",
+              "content": "<p>For this limited release, we partnered with the fine folk at <em>Apollo Inn<\/em>, the sister venue to the well-respected <em>Gimlet<\/em> restaurant.<br\/><em><br\/>Gimlet<\/em> is renowned for its incredible level of hospitality and this was an opportunity to produce an equally refined whiskey. Together, <em>High Wheat<\/em> is our ode to Melbourne.<br\/><br\/>Aromas of toffee apple, toasted chestnut, salted caramel, Mirabelle plum and cherry wood.<\/p>",
+              "button_1_text": "SHOP NOW",
+              "button_1_link": "https:\/\/www.thegospelwhiskey.com\/products\/project-release-high-wheat",
+              "button_2_text": "",
+              "button_2_link": "",
+              "countryClass": ""
+            }
+          },
           "e69add4e-c459-4c90-8c01-e26792f60c46": {
             "type": "image",
             "disabled": true,
@@ -233,10 +234,10 @@
           }
         },
         "block_order": [
-          "7d2b232d-513d-4976-b9c6-d9a174e3c734",
           "slide-1",
           "15d796c6-19d7-4aeb-945b-c316d1fbc765",
           "990a9324-94d4-49bb-97dc-7780d27d895d",
+          "7d2b232d-513d-4976-b9c6-d9a174e3c734",
           "e69add4e-c459-4c90-8c01-e26792f60c46"
         ],
         "settings": {
