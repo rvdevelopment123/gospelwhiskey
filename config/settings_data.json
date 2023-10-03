@@ -42,6 +42,7 @@
     "social_facebook": "https:\/\/www.facebook.com\/thegospelwhiskey",
     "social_instagram": "https:\/\/instagram.com\/thegospelwhiskey",
     "favicon": "shopify:\/\/shop_images\/gospel-favicon_c4fba387-a769-47e5-b6cb-0f57c520ace6.png",
+    "checkout_header_image": "shopify:\/\/shop_images\/main_static_banner.jpg",
     "checkout_logo_image": "shopify:\/\/shop_images\/logo.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "small",
