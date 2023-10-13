@@ -1,131 +1,51 @@
-{
-  "sections": {
-    "main": {
-      "type": "collection-template",
-      "blocks": {
-        "adde7258-4822-4a47-b651-336a0257e745": {
-          "type": "collection",
-          "settings": {
-            "collection": "shopify:\/\/collections\/all",
-            "title": "All"
-          }
-        },
-        "cbb7235b-eb1d-4e71-8cf4-57789f77ee6f": {
-          "type": "collection",
-          "settings": {
-            "collection": "shopify:\/\/collections\/whiskey",
-            "title": "Whiskey"
-          }
-        },
-        "ac79b57f-8e25-49bb-a48c-d023dcfd138c": {
-          "type": "collection",
-          "settings": {
-            "collection": "shopify:\/\/collections\/the-dispensary",
-            "title": "The Dispensary"
-          }
-        },
-        "7cf90138-6016-475e-b56f-d002a08b831e": {
-          "type": "collection",
-          "settings": {
-            "collection": "shopify:\/\/collections\/cocktails",
-            "title": "Cocktails"
-          }
-        },
-        "9a0ecc84-0731-4369-85dd-95d52e1a1b87": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "",
-            "title": "Non-Alc"
-          }
-        },
-        "a9dda98f-0f6e-47dd-986c-d61223475433": {
-          "type": "collection",
-          "settings": {
-            "collection": "shopify:\/\/collections\/merch",
-            "title": "Merch"
-          }
-        },
-        "05b6d1ce-1e7f-4554-b9c3-ae4d9dc4ed95": {
-          "type": "collection",
-          "settings": {
-            "collection": "shopify:\/\/products\/the-gospel-whiskey-gift-card",
-            "title": "Gift Card"
-          }
-        },
-        "c327137a-2c2a-4be3-b8e9-62ecce6c2cd7": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "shopify:\/\/collections\/made-from-whiskey",
-            "title": "Made From Whiskey"
-          }
-        },
-        "b4a57e69-c512-40de-93ed-136ca89c2b1d": {
-          "type": "collection",
-          "settings": {
-            "collection": "shopify:\/\/collections\/project-releases",
-            "title": "Limited Releases"
-          }
-        }
-      },
-      "block_order": [
-        "adde7258-4822-4a47-b651-336a0257e745",
-        "cbb7235b-eb1d-4e71-8cf4-57789f77ee6f",
-        "ac79b57f-8e25-49bb-a48c-d023dcfd138c",
-        "7cf90138-6016-475e-b56f-d002a08b831e",
-        "9a0ecc84-0731-4369-85dd-95d52e1a1b87",
-        "a9dda98f-0f6e-47dd-986c-d61223475433",
-        "05b6d1ce-1e7f-4554-b9c3-ae4d9dc4ed95",
-        "c327137a-2c2a-4be3-b8e9-62ecce6c2cd7",
-        "b4a57e69-c512-40de-93ed-136ca89c2b1d"
-      ],
-      "settings": {
-        "show_collection_info": true,
-        "show_collection_image": true,
-        "apply_overlay": true,
-        "show_color_swatch": false,
-        "show_vendor": false,
-        "collection_image_size": "small",
-        "show_sort_by": true,
-        "show_layout_switch": false,
-        "toolbar_position": "top",
-        "filter_position": "drawer",
-        "filter_mode": "hidden",
-        "show_filter_color_swatch": false,
-        "filter_menu": "",
-        "grid_items_per_page": 16,
-        "grid_mobile_items_per_row": "1",
-        "grid_desktop_items_per_row": 4
-      }
-    },
-    "recently-viewed": {
-      "type": "search-recently-viewed-products",
-      "settings": {
-        "show_section": true,
-        "title": "Recently viewed",
-        "show_product_info": true,
-        "show_vendor": false,
-        "show_color_swatch": false
-      }
-    },
-    "footer": {
-      "type": "collection-footer",
-      "settings": {
-        "show_section": false,
-        "text_color": "#ffffff",
-        "apply_overlay": true,
-        "title": "Our story",
-        "content": "<p>Add your own custom content to explain your processes...<\/p>"
-      }
-    }
-  },
-  "order": [
-    "main",
-    "recently-viewed",
-    "footer"
-  ]
-}
+{%- assign collection_image = block.settings.image | default: collection.image | default: collection.products.first.featured_image -%}
+
+<a href="{{ block.settings.button_link | default: collection.url }}" {{ block.shopify_attributes }} class="CollectionItem {% if section.settings.expand_collection %}CollectionItem--expand{% endif %} {% if template == 'index' %}Carousel__Cell {% if forloop.first %}is-selected{% endif %}{% endif %}" data-slide-index="{{ forloop.index0 }}">
+  {%- capture mobile_size -%}750x{% if collection_image.height >= 960 %}960{% else %}{{ collection_image.height }}{% endif %}{%- endcapture -%}
+  {%- assign image_crop = block.settings.image_alignment | split: ' ' | last -%}
+
+  <div class="CollectionItem__Wrapper CollectionItem__Wrapper--{{ section.settings.image_size }}" {% if collection_image %}style="background-image: url({{ collection_image | img_url: '1x1' }})"{% endif %}>
+    <div class="CollectionItem__ImageWrapper">
+      <div class="CollectionItem__Image {% if apply_overlay %}Image--contrast{% endif %} Image--lazyLoad Image--zoomOut hide-no-js"
+           style="background-position: {{ block.settings.image_alignment }}"
+           data-optimumx="1.4"
+           data-expand="-150"
+           {% if collection_image %}data-bgset="{{ collection_image | img_url: mobile_size, crop: image_crop }} 750w, {{ collection_image | img_url: '1000x' }} 1000w, {{ collection_image | img_url: '1500x' }} 1500w"{% endif %}>
+        {%- if collection_image == nil -%}
+          <div class="PlaceholderBackground PlaceholderSvg--dark">
+            {%- capture image_name -%}lifestyle-{% cycle 'anchor': '1', '2' %}{%- endcapture -%}
+            {{ image_name | placeholder_svg_tag: 'PlaceholderBackground__Svg' }}
+          </div>
+        {%- endif -%}
+      </div>
+
+      {%- if collection_image -%}
+        <noscript>
+          <div class="CollectionItem__Image {% if apply_overlay %}Image--contrast{% endif %}" style="background-position: {{ block.settings.image_alignment }}; background-image: url({{ collection_image | img_url: '1000x' }})"></div>
+        </noscript>
+      {%- endif -%}
+    </div>
+
+    <div class="CollectionItem__Content CollectionItem__Content--{{ block.settings.content_position | default: 'bottomLeft' }}">
+      <header class="SectionHeader">
+        {%- if block.settings.subheading != blank -%}
+          <h3 class="SectionHeader__SubHeading Heading u-h6">{{ block.settings.subheading | escape }}</h3>
+        {%- endif -%}
+
+        <h2 class="SectionHeader__Heading SectionHeader__Heading--emphasize Heading u-h1">{{ block.settings.title | default: collection.title | escape }}</h2>
+
+        <div class="SectionHeader__ButtonWrapper">
+          {%- if block.settings.button_text != blank -%}
+            <span class="CollectionItem__Link Button">{{ block.settings.button_text | escape }}</span>
+          {%- else -%}
+            <span class="CollectionItem__Link Button">{{ 'collection.general.view_products' | t }}</span>
+          {%- endif -%}
+        </div>
+      </header>
+    </div>
+  </div>
+</a>
+
 {% if customer.tags contains "wholesale" %}
 {% section 'main-collection-product-grid' %}
 {% else %}
